@@ -40,7 +40,7 @@ jobs:
 
       - name: Commit changes to data file
         env:
-          GITHUB_TOKEN: ${{ secrets.API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SNAPCRAFTERS_BOT_COMMIT }}
         run: |
           set -euo pipefail
           git remote set-url origin https://x-access-token:"$GITHUB_TOKEN"@github.com/"$GITHUB_REPOSITORY".git
