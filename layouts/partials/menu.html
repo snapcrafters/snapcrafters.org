@@ -1,0 +1,44 @@
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+    <nav class="p-navigation__nav" aria-label="Main">
+        <ul class="p-navigation__items">
+            {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+        </ul>
+    </nav>
+{{- end }}
+
+{{- define "partials/inline/menu/walk.html" }}
+    {{- $page := .page }}
+    {{- range .menuEntries }}
+        {{- $attrs := dict "href" .URL }}
+        {{- if or ($page.IsMenuCurrent .Menu .) (.Page.Eq $page) }}
+            {{- $attrs = merge $attrs (dict "class" "p-navigation__link is-current" "aria-current" "page") }}
+        {{- else if $page.HasMenuCurrent .Menu . }}
+            {{- $attrs = merge $attrs (dict "class" "p-navigation__link ancestor" "aria-current" "true") }}
+        {{- else }}
+            {{- $attrs = merge $attrs (dict "class" "p-navigation__link") }}
+        {{- end }}
+        {{- $name := .Name }}
+        {{- with .Identifier }}
+            {{- with T . }}
+                    {{- $name = . }}
+            {{- end }}
+        {{- end }}
+        <li class="p-navigation__item{{- if or ($page.IsMenuCurrent .Menu .) (.Page.Eq $page) }} is-selected{{ end -}}">
+            <a
+                {{- range $k, $v := $attrs }}
+                {{- with $v }}
+                    {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+                {{- end }}
+                {{- end -}}
+            >{{ $name }}</a>
+            {{- with .Children }}
+                    <ul>
+                        {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+                    </ul>
+            {{- end }}
+        </li>
+    {{- end }}
+{{- end }}

@@ -1,0 +1,88 @@
+{{ define "main" }}
+    <div class="row">
+        <div class="col-12">
+            {{ .Content }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 u-vertically-center u-align--right" style="grid-auto-flow: column">
+            <div class="p-search-and-filter">
+                <div
+                class="p-search-and-filter__search-container"
+                aria-expanded="false"
+                data-active="true"
+                data-empty="true"
+                >
+                    <input
+                        autocomplete="off"
+                        class="p-search-and-filter__input"
+                        id="table-filter-textbox"
+                        placeholder="Filter repositories"
+                        type="search"
+                        value=""
+                    />
+                </div>
+            </div>
+            <span>&emsp;</span>
+            <label class="p-switch">
+                <input type="checkbox" class="p-switch__input" role="switch" id="toggle-all-rows" />
+                <span class="p-switch__slider"></span>
+                <span class="p-switch__label">Expand all</span>
+            </label>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <aside class="p-accordion u-hide--small">
+                    <ul class="p-accordion__list">
+                        <div role="heading" aria-level="3" class="p-accordion__heading">
+                            <button
+                                type="button"
+                                class="p-accordion__tab"
+                                id="accordion-help-tab"
+                                aria-controls="accordion-help"
+                                aria-expanded="false"
+                            >
+                                Need help getting your repository included here?
+                            </button>
+                        </div>
+                        <li class="p-accordion__group">
+                            <section
+                                class="p-accordion__panel"
+                                id="accordion-help"
+                                aria-hidden="true"
+                                aria-labelledby="accordion-help-tab"
+                            >
+                                <p class="u-no-max-width">
+                                    For a release to show here, it must be part of one of the `snapcrafters` GitHub
+                                    organisation. GitHub repositories must not be Archived. The latest three releases
+                                    are shown for each repository.
+                                </p>
+                                <p p class="u-no-max-width">
+                                    For GitHub badges to be shown for a repository, add them in the README;
+                                    similarly, to display the extra Snap Store release information in the expanding
+                                    table rows, add the Snap Store badge (
+                                    <code>![](https://snapcraft.io/*snap-name*/badge.svg)</code> ) to the snap's
+                                    README.
+                                </p>
+                            </section>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+        <div class="row p-strip is-shallow">
+            {{- range $team := .Site.Data.repos -}}
+                <div>
+                    {{- partial "team-table" (dict "team" $team ) -}}
+                </div>
+            {{- end -}}
+        </div>
+    </div>
+{{ end }}
+{{ define "scripts" }}
+    (() => {
+        {{- partial "js/sortable.js" . | safeJS -}}
+        {{- partial "js/expand.js" . | safeJS -}}
+        {{- partial "js/accordion.js" . | safeJS -}}
+    })();
+{{ end }}

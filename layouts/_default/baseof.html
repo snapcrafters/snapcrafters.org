@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    {{- partial "head.html" . -}}
+    <body class="l-site">
+        {{- partial "nav.html" . -}}
+
+        <div class="grid p-strip">
+            {{ block "main" . }}
+            {{ end }}
+        </div>
+
+        {{- partial "footer.html" . -}}
+
+        <script>
+            {{ block "scripts" . }}
+            {{ end }}
+        </script>
+    </body>
+</html>

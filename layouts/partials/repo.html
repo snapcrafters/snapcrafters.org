@@ -1,0 +1,86 @@
+<tr id="{{ .repo.name }}" class="repository-row">
+  <td class="u-align--center u-hide--small forge">
+      {{- $iconClass := "" -}}
+      {{- if strings.Contains .repo.url "github.com" -}}
+        {{ $iconClass = "repo-icon-gh" }}
+      {{- else if strings.Contains .repo.url "launchpad.net" -}}
+        {{ $iconClass = "repo-icon-lp" }}
+      {{- end -}}
+      <div class="repo-icon {{ $iconClass }}">
+    </div>
+  </td>
+  <td class="repository">
+    <a class="repository-link" target="_blank" href="{{ .repo.url }}">{{ .repo.name }}</a>
+  </td>
+  <td class="release">
+    {{- if not (not .repo.releases) -}}
+      {{- range $release := .repo.releases -}}
+        {{- $modal_id := printf "%s-%d" $.team.team (int $release.id) -}}
+        <p class="u-no-margin--bottom" aria-release-date="{{ $release.timestamp }}">
+        <small>
+          <a class="p-icon--show" aria-controls="{{ $modal_id }}" role="modal-open"></a>
+          <a target="_blank" href="{{ $release.url }}">{{ $release.version }}</a>
+          <time datetime="{{- int $release.timestamp }}">
+            <span class="u-hide--small">
+              on {{ (time (int $release.timestamp)).Format "Jan 2, 2006" }}
+            </span>
+          </time>
+        </small>
+        </p>
+        {{- partial "modal" (dict "title" $release.title "url" $release.url "body" $release.body "timestamp" $release.timestamp "repo" $.repo "team" $.team "id" $modal_id) -}}
+      {{- end -}}
+    {{- else if not (not .repo.commits) -}}
+      {{- range $commit := .repo.commits -}}
+        {{- $modal_id := printf "%s-%s" $.team.team $commit.sha -}}
+        <p class="u-no-margin--bottom" aria-release-date="{{ $commit.timestamp }}">
+        <small>
+          <a class="p-icon--show" aria-controls="{{ $modal_id }}" role="modal-open"></a>
+          <a target="_blank" href="{{ $commit.url }}">{{ substr $commit.sha 0 7 }}</a>
+          <time datetime="{{- int $commit.timestamp }}">
+            <span class="u-hide--small">
+              on {{ (time (int $commit.timestamp)).Format "Jan 2, 2006" }}
+            </span>
+          </time>
+        </small>
+        </p>
+        {{- partial "modal" (dict "title" (substr $commit.sha 0 7) "url" $commit.url "body" $commit.message "timestamp" $commit.timestamp "repo" $.repo "team" $.team "id" $modal_id) -}} 
+      {{- end -}}
+    {{- end -}}
+  </td>
+  <td class="u-align--center ciactions u-hide--small" {{- if eq (len (where .team.repos ".ciActions" nil)) (len .team.repos) -}}aria-hidden="true"{{- end -}}>
+    {{- if not (not .repo.ciActions) -}}
+      {{- range .repo.ciActions -}}
+        <a target="_blank" href="{{- . -}}"><img src="{{- . -}}/badge.svg"></a><br />
+      {{- end -}}
+    {{- else -}}
+    <img src="https://img.shields.io/badge/CI%20Status-Unknown-lightgrey"><br />
+    {{- end -}}
+  </td>
+  <td class="u-align--right status u-hide--small" aria-new-commits="{{- .repo.newCommits }}" style="max-width: 15%">
+    {{- $n := int .repo.newCommits -}} 
+    {{- if eq $n 0 -}}
+      <div class="p-status-label--positive">Up to date</div>
+    {{- else if lt $n 0 -}}
+      <div class="p-status-label">New commits</div>
+    {{- else }} 
+      <div class='p-status-label{{- (cond (and (ge $n 15) (le $n 50)) "--caution" (cond (ge $n 50) "--negative" "")) -}}'>
+        <a target="_blank" href="{{- (index (.repo.releases) 0).compareUrl }}">
+          {{ $n }} commit{{ cond (gt $n 1) "s" "" }}
+        </a>
+      </div>
+    {{- end -}}
+  </td>
+  {{- if .repo.charm -}}
+    <!-- Charmhub.io Expander Button and Table -->
+    {{- partial "artifact-detail" (dict "store" "Charmhub" "repo" .repo.name "artifact" .repo.charm) -}}
+  {{- else if .repo.snap -}}
+    <!-- Snapcraft.io Expander Button and Table -->
+    {{- partial "artifact-detail" (dict "store" "Snapcraft" "repo" .repo.name "artifact" .repo.snap) -}}
+  {{- else -}}
+    <!-- There was no snap/charm badge found, so just display the disabled down arrow to keep the column spacing correct. -->
+    <td class="u-align--right showmore" style="max-width: 5rem">
+      <button class="p-button--base u-toggle is-dense is-inline" disabled><i class="button-icon p-icon--chevron-down"></i></button>
+    </td>
+  {{- end -}}
+</tr>
+

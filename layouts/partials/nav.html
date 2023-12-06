@@ -1,0 +1,20 @@
+<header id="navigation" class="p-navigation is-dark">
+  <div class="p-navigation__row">
+    <div class="p-navigation__banner">
+      <div class="p-navigation__logo">
+        <a class="p-navigation__item" href="{{ absURL "" }}">
+          <img
+            class="p-navigation__logo-icon"
+            src="https://avatars.githubusercontent.com/u/29598503?s=128"
+          />
+          <span class="p-navigation__logo-title">{{ .Site.Title }}</span>
+        </a>
+      </div>
+      <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+      <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Close menu</a>
+    </div>
+  </div>
+  <div class="p-navigation__row">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </div>
+</header>
