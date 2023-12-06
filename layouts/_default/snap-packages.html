@@ -81,6 +81,7 @@
 {{ end }}
 {{ define "scripts" }}
     (() => {
+        {{- partial "js/modal.js" . | safeJS -}}
         {{- partial "js/sortable.js" . | safeJS -}}
         {{- partial "js/expand.js" . | safeJS -}}
         {{- partial "js/accordion.js" . | safeJS -}}
