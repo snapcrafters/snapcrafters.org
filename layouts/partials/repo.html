@@ -20,14 +20,20 @@
         <small>
           <a class="p-icon--show" aria-controls="{{ $modal_id }}" role="modal-open"></a>
           <a target="_blank" href="{{ $release.url }}">{{ $release.version }}</a>
-          <time datetime="{{- int $release.timestamp }}">
-            <span class="u-hide--small">
-              on {{ (time (int $release.timestamp)).Format "Jan 2, 2006" }}
-            </span>
-          </time>
         </small>
         </p>
         {{- partial "modal" (dict "title" $release.title "url" $release.url "body" $release.body "timestamp" $release.timestamp "repo" $.repo "team" $.team "id" $modal_id) -}}
+      {{- end -}}
+    {{- else if not (not .repo.tags) -}}
+      {{- range $tag := .repo.tags -}}
+        {{- $modal_id := printf "%s-%s" $.team.team $tag.sha -}}
+        <p class="u-no-margin--bottom" aria-release-date="{{ $tag.timestamp }}">
+        <small>
+          <a class="p-icon--show" aria-controls="{{ $modal_id }}" role="modal-open"></a>
+          <a target="_blank" href="{{ $tag.url }}">{{ $tag.name }}</a>
+        </small>
+        </p>
+        {{- partial "modal" (dict "title" $tag.name "url" $tag.url "body" $tag.body "timestamp" $tag.timestamp "repo" $.repo "team" $.team "id" $modal_id) -}} 
       {{- end -}}
     {{- else if not (not .repo.commits) -}}
       {{- range $commit := .repo.commits -}}
@@ -36,11 +42,6 @@
         <small>
           <a class="p-icon--show" aria-controls="{{ $modal_id }}" role="modal-open"></a>
           <a target="_blank" href="{{ $commit.url }}">{{ substr $commit.sha 0 7 }}</a>
-          <time datetime="{{- int $commit.timestamp }}">
-            <span class="u-hide--small">
-              on {{ (time (int $commit.timestamp)).Format "Jan 2, 2006" }}
-            </span>
-          </time>
         </small>
         </p>
         {{- partial "modal" (dict "title" (substr $commit.sha 0 7) "url" $commit.url "body" $commit.message "timestamp" $commit.timestamp "repo" $.repo "team" $.team "id" $modal_id) -}} 
