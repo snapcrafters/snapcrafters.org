@@ -48,6 +48,9 @@
       {{- end -}}
     {{- end -}}
   </td>
+  <td class="base">
+    {{- partial "base-detail" (dict "repo" .repo.name "artifact" .repo.snap) -}}
+  </td>
   <td class="u-align--center ciactions u-hide--small" {{- if eq (len (where .team.repos ".ciActions" nil)) (len .team.repos) -}}aria-hidden="true"{{- end -}}>
     {{- if not (not .repo.ciActions) -}}
       {{- range .repo.ciActions -}}

@@ -33,7 +33,9 @@
                 target="_blank"
                 href="{{- $.artifact.url -}}?channel={{- $track -}}/{{- $channel -}}"
                 >{{- $release.revision -}}</a
-              ><br /><sup>{{- (time (int $release.timestamp)).Format "Jan 2, 2006" -}}</sup>
+              >
+              <br /><sup>{{- $release.base -}}</sup>
+              <br /><sup>{{- (time (int $release.timestamp)).Format "Jan 2, 2006" -}}</sup>
             </td>
             {{- else -}}
             <td></td>

@@ -1,0 +1,9 @@
+{{- if not (not $.artifact) -}}
+    {{- $tracks := first 3 $.artifact.tracks -}}
+    {{- range $track := $tracks -}} 
+        {{- $releasesForTrack := where $.artifact.releases "track" $track -}}
+        <p class="u-no-margin--bottom">
+            <small><b>{{- $track -}}</b> - {{ (index $releasesForTrack 0).base }}</small>
+        </p>
+    {{- end -}}
+{{- end -}}

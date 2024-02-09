@@ -4,6 +4,7 @@
       <th aria-sort="" class="u-align--center u-hide--small forge">Repository</th>
       <th aria-sort="" class="repository"></th>
       <th aria-sort="" class="release">Latest Releases/Commit</th>
+      <th aria-sort="" class="base">Base</th>
       {{- if .team.repos -}}
       <th class="u-align--center ciactions u-hide--small" {{- if eq (len (where .team.repos ".ciActions" nil)) (len .team.repos) -}}aria-hidden="true"{{- end -}}>Status</th>
       {{- end -}}
