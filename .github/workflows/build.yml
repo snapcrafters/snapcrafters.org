@@ -21,6 +21,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.SNAPCRAFTERS_BOT_COMMIT }}
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -43,13 +44,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SNAPCRAFTERS_BOT_COMMIT }}
         run: |
           set -euo pipefail
-          git remote set-url origin https://x-access-token:"$GITHUB_TOKEN"@github.com/"$GITHUB_REPOSITORY".git
-          git config --global user.email "bot@snapcrafters.org"
-          git config --global user.name "snapcrafters-bot"
+          git config --global user.name 'Snapcrafters Bot'
+          git config --global user.email 'merlijn.sebrechts+snapcrafters-bot@gmail.com'
 
-          git checkout $GITHUB_REF_NAME
           git add data/repos.json
-          git commit -m "data: refresh release data" && git push --set-upstream origin $GITHUB_REF_NAME || true
+          git commit -m "data: refresh release data"
+          git push --set-upstream origin $GITHUB_REF_NAME
 
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
