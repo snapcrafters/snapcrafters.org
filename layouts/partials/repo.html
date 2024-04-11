@@ -68,7 +68,11 @@
       <div class="p-status-label">New commits</div>
     {{- else }} 
       <div class='p-status-label{{- (cond (and (ge $n 15) (le $n 50)) "--caution" (cond (ge $n 50) "--negative" "")) -}}'>
-        <a target="_blank" href="{{- (index (.repo.releases) 0).compareUrl }}">
+        {{- if not (not .repo.releases) -}}
+          <a target="_blank" href="{{- (index (.repo.releases) 0).compareUrl }}">
+        {{- else -}}
+          <a target="_blank" href="{{- (index (.repo.tags) 0).compareUrl }}">
+        {{- end -}}
           {{ $n }} commit{{ cond (gt $n 1) "s" "" }}
         </a>
       </div>
