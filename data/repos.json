@@ -638,6 +638,113 @@
             "snap": null
          },
          {
+            "name": "codespell",
+            "newCommits": 19,
+            "url": "https://github.com/snapcrafters/codespell",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "v2.2.6/rev94/armhf",
+                  "sha": "b8978d5faab6199d1f518a41b207e77c20974eeb",
+                  "body": "<p>ope</p>\n",
+                  "timestamp": 1706666523,
+                  "url": "https://github.com/snapcrafters/codespell/releases/tag/v2.2.6%2Frev94%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/codespell/compare/candidate...v2.2.6%2Frev94%2Farmhf"
+               },
+               {
+                  "name": "v2.2.6/rev93/arm64",
+                  "sha": "b8978d5faab6199d1f518a41b207e77c20974eeb",
+                  "body": "<p>ope</p>\n",
+                  "timestamp": 1706666523,
+                  "url": "https://github.com/snapcrafters/codespell/releases/tag/v2.2.6%2Frev93%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/codespell/compare/candidate...v2.2.6%2Frev93%2Farm64"
+               },
+               {
+                  "name": "v2.2.6/rev92/ppc64el",
+                  "sha": "b8978d5faab6199d1f518a41b207e77c20974eeb",
+                  "body": "<p>ope</p>\n",
+                  "timestamp": 1706666523,
+                  "url": "https://github.com/snapcrafters/codespell/releases/tag/v2.2.6%2Frev92%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/codespell/compare/candidate...v2.2.6%2Frev92%2Fppc64el"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/codespell/actions/workflows/release-to-candidate.yaml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "codespell",
+               "url": "https://snapcraft.io/codespell",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 25,
+                     "timestamp": 1713535247,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 19,
+                     "timestamp": 1713411122,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 18,
+                     "timestamp": 1713411063,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 27,
+                     "timestamp": 1713535457,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 20,
+                     "timestamp": 1713412366,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 26,
+                     "timestamp": 1713535368,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 2,
+                     "timestamp": 1512586274,
+                     "base": ""
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1,
+                     "timestamp": 1512585944,
+                     "base": ""
+                  }
+               ],
+               "channels": [
+                  "candidate",
+                  "beta",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
             "name": "corsixth",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/corsixth",
@@ -4026,6 +4133,153 @@
             }
          },
          {
+            "name": "ruff",
+            "newCommits": 31,
+            "url": "https://github.com/snapcrafters/ruff",
+            "releases": [
+               {
+                  "id": 140722782,
+                  "version": "0.2.0/rev964/riscv64",
+                  "timestamp": 1706840053,
+                  "title": "No longer releasing on GitHub",
+                  "body": "<p>Please view releases directly <a href=\"https://snapcraft.io/ruff\">on the ruff page on Snapcraft</a>.</p>\n",
+                  "url": "https://github.com/snapcrafters/ruff/releases/tag/0.2.0/rev964/riscv64",
+                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/0.2.0/rev964/riscv64...candidate"
+               },
+               {
+                  "id": 135635222,
+                  "version": "v0.1.11",
+                  "timestamp": 1704262640,
+                  "title": "Ruff v0.1.11",
+                  "body": "<p>See upstream release at <a href=\"https://github.com/charliermarsh/ruff/releases/tag/v0.1.11\">https://github.com/charliermarsh/ruff/releases/tag/v0.1.11</a></p>\n",
+                  "url": "https://github.com/snapcrafters/ruff/releases/tag/v0.1.11",
+                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/v0.1.11...candidate"
+               },
+               {
+                  "id": 135635217,
+                  "version": "v0.1.10",
+                  "timestamp": 1704262639,
+                  "title": "Ruff v0.1.10",
+                  "body": "<p>See upstream release at <a href=\"https://github.com/charliermarsh/ruff/releases/tag/v0.1.10\">https://github.com/charliermarsh/ruff/releases/tag/v0.1.10</a></p>\n",
+                  "url": "https://github.com/snapcrafters/ruff/releases/tag/v0.1.10",
+                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/v0.1.10...candidate"
+               }
+            ],
+            "tags": null,
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/ruff/actions/workflows/sync-version-with-upstream.yaml",
+               "https://github.com/snapcrafters/ruff/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/ruff/actions/workflows/promote-to-stable.yaml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "ruff",
+               "url": "https://snapcraft.io/ruff",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1028,
+                     "timestamp": 1709599828,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1013,
+                     "timestamp": 1708290401,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1014,
+                     "timestamp": 1708290402,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1029,
+                     "timestamp": 1709599831,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1016,
+                     "timestamp": 1708290402,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1030,
+                     "timestamp": 1709599832,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1035,
+                     "timestamp": 1713535738,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1024,
+                     "timestamp": 1708742644,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1025,
+                     "timestamp": 1708745096,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1034,
+                     "timestamp": 1713535018,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1026,
+                     "timestamp": 1708749590,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1033,
+                     "timestamp": 1713534958,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1027,
+                     "timestamp": 1708826873,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
             "name": "s4a",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/s4a",
@@ -4167,6 +4421,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.5.1/rev649/arm64",
+                  "sha": "c9329e01399d00718e0ff1641fadb38fa1b05ef4",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/282\">#282</a> from jnsgruk/fix-7.5.0</p>\n\n<p>fix: ensure that locales are generated per upstream package change</p>\n",
+                  "timestamp": 1713531187,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.5.1%2Frev649%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.5.1%2Frev649%2Farm64"
+               },
+               {
                   "name": "7.5.1/rev648/amd64",
                   "sha": "c9329e01399d00718e0ff1641fadb38fa1b05ef4",
                   "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/282\">#282</a> from jnsgruk/fix-7.5.0</p>\n\n<p>fix: ensure that locales are generated per upstream package change</p>\n",
@@ -4181,14 +4443,6 @@
                   "timestamp": 1713510851,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.5.1%2Frev647%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.5.1%2Frev647%2Farm64"
-               },
-               {
-                  "name": "7.5.1/rev646/amd64",
-                  "sha": "1c1cd0080ad9c400fcb814ab67b28daafa5bd971",
-                  "body": "<p>chore: bump signal-desktop to version 7.5.1</p>\n",
-                  "timestamp": 1713510851,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.5.1%2Frev646%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.5.1%2Frev646%2Famd64"
                }
             ],
             "commits": null,
@@ -4205,15 +4459,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 642,
-                     "timestamp": 1711709574,
+                     "revision": 648,
+                     "timestamp": 1713535270,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 643,
-                     "timestamp": 1711709577,
+                     "revision": 649,
+                     "timestamp": 1713535273,
                      "base": "core22"
                   },
                   {
@@ -4226,8 +4480,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 647,
-                     "timestamp": 1713514738,
+                     "revision": 649,
+                     "timestamp": 1713534759,
                      "base": "core22"
                   }
                ],
@@ -4999,72 +5253,6 @@
                   "timestamp": 1605226806,
                   "message": "<p>Trigger build of wethr on 2020-11-13-00:18:18</p>\n",
                   "url": "https://github.com/snapcrafters/wethr/commit/81c117a076234bc76b894cfd39010f8e152545db"
-               }
-            ],
-            "ciActions": [],
-            "charm": null,
-            "snap": null
-         },
-         {
-            "name": "wire",
-            "newCommits": 0,
-            "url": "https://github.com/snapcrafters/wire",
-            "releases": null,
-            "tags": null,
-            "commits": [
-               {
-                  "sha": "8bd95245f20201a1b0b86e703e10b0e8aba6b969",
-                  "author": "Alan Pope",
-                  "timestamp": 1613657462,
-                  "message": "<p>Update snapcraft.yaml</p>\n",
-                  "url": "https://github.com/snapcrafters/wire/commit/8bd95245f20201a1b0b86e703e10b0e8aba6b969"
-               },
-               {
-                  "sha": "92f9d5337320d25b0295f83ba3cf87b38d07f9a0",
-                  "author": "Ubuntu",
-                  "timestamp": 1607075542,
-                  "message": "<p>Trigger build of wire on 2020-12-04-09:52:05</p>\n",
-                  "url": "https://github.com/snapcrafters/wire/commit/92f9d5337320d25b0295f83ba3cf87b38d07f9a0"
-               },
-               {
-                  "sha": "d76e894bb5a0ebc4d3e90d7f6f9924982790d231",
-                  "author": "Ubuntu",
-                  "timestamp": 1605226777,
-                  "message": "<p>Trigger build of wire on 2020-11-13-00:18:18</p>\n",
-                  "url": "https://github.com/snapcrafters/wire/commit/d76e894bb5a0ebc4d3e90d7f6f9924982790d231"
-               }
-            ],
-            "ciActions": [],
-            "charm": null,
-            "snap": null
-         },
-         {
-            "name": "wordpress-desktop",
-            "newCommits": 0,
-            "url": "https://github.com/snapcrafters/wordpress-desktop",
-            "releases": null,
-            "tags": null,
-            "commits": [
-               {
-                  "sha": "2e974cce6450bc9ecb69843546dffb70fc93bc22",
-                  "author": "Ubuntu",
-                  "timestamp": 1614329617,
-                  "message": "<p>Trigger build of wordpress-desktop on 2021-02-26-08:47:58</p>\n",
-                  "url": "https://github.com/snapcrafters/wordpress-desktop/commit/2e974cce6450bc9ecb69843546dffb70fc93bc22"
-               },
-               {
-                  "sha": "5de16c4b4dd0e4d64a9de5f6c4250a894c7939ee",
-                  "author": "Ubuntu",
-                  "timestamp": 1607075559,
-                  "message": "<p>Trigger build of wordpress-desktop on 2020-12-04-09:52:05</p>\n",
-                  "url": "https://github.com/snapcrafters/wordpress-desktop/commit/5de16c4b4dd0e4d64a9de5f6c4250a894c7939ee"
-               },
-               {
-                  "sha": "0a61ea750fdbddf9a6568607c4ea1117a4f4423d",
-                  "author": "Ubuntu",
-                  "timestamp": 1605226821,
-                  "message": "<p>Trigger build of wordpress-desktop on 2020-11-13-00:18:18</p>\n",
-                  "url": "https://github.com/snapcrafters/wordpress-desktop/commit/0a61ea750fdbddf9a6568607c4ea1117a4f4423d"
                }
             ],
             "ciActions": [],
