@@ -3826,7 +3826,7 @@
          },
          {
             "name": "pyradio",
-            "newCommits": 4,
+            "newCommits": 5,
             "url": "https://github.com/snapcrafters/pyradio",
             "releases": null,
             "tags": [
@@ -4396,6 +4396,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2095/rev77/amd64",
+                  "sha": "3e350971a6a3394a10546d39963076b3ad9c3598",
+                  "body": "<p>chore: bump sublime-merge to version 2095</p>\n",
+                  "timestamp": 1713521232,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2095%2Frev77%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2095%2Frev77%2Famd64"
+               },
+               {
                   "name": "2094/rev76/arm64",
                   "sha": "d9b180199e7e9855f7e99ac53f80f9df587c76e6",
                   "body": "<p>chore: bump sublime-merge to version 2094</p>\n",
@@ -4410,14 +4418,6 @@
                   "timestamp": 1712830063,
                   "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2094%2Frev75%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2094%2Frev75%2Famd64"
-               },
-               {
-                  "name": "2093/rev74/arm64",
-                  "sha": "ac544f31228c3bcacbb7af434a4f2c76001198d9",
-                  "body": "<p>chore: bump sublime-merge to version 2093</p>\n",
-                  "timestamp": 1712743609,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2093%2Frev74%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2093%2Frev74%2Farm64"
                }
             ],
             "commits": null,
@@ -4504,8 +4504,8 @@
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 75,
-                     "timestamp": 1712830440,
+                     "revision": 77,
+                     "timestamp": 1713521591,
                      "base": "core18"
                   },
                   {
