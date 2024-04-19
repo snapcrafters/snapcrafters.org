@@ -4167,6 +4167,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.5.1/rev648/amd64",
+                  "sha": "c9329e01399d00718e0ff1641fadb38fa1b05ef4",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/282\">#282</a> from jnsgruk/fix-7.5.0</p>\n\n<p>fix: ensure that locales are generated per upstream package change</p>\n",
+                  "timestamp": 1713531187,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.5.1%2Frev648%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.5.1%2Frev648%2Famd64"
+               },
+               {
                   "name": "7.5.1/rev647/arm64",
                   "sha": "1c1cd0080ad9c400fcb814ab67b28daafa5bd971",
                   "body": "<p>chore: bump signal-desktop to version 7.5.1</p>\n",
@@ -4181,14 +4189,6 @@
                   "timestamp": 1713510851,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.5.1%2Frev646%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.5.1%2Frev646%2Famd64"
-               },
-               {
-                  "name": "7.5.0/rev645/amd64",
-                  "sha": "33705974ce7ad860b94a42b193dfa8c782724d65",
-                  "body": "<p>chore: bump signal-desktop to version 7.5.0</p>\n",
-                  "timestamp": 1713348484,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.5.0%2Frev645%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.5.0%2Frev645%2Famd64"
                }
             ],
             "commits": null,
@@ -4219,8 +4219,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 646,
-                     "timestamp": 1713511806,
+                     "revision": 648,
+                     "timestamp": 1713532147,
                      "base": "core22"
                   },
                   {
