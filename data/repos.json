@@ -4645,10 +4645,18 @@
          },
          {
             "name": "sublime-merge",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/sublime-merge",
             "releases": null,
             "tags": [
+               {
+                  "name": "2096/rev79/amd64",
+                  "sha": "56838a9fad878c0ff9664533fa942ed35b590ad7",
+                  "body": "<p>chore: bump sublime-merge to version 2096</p>\n",
+                  "timestamp": 1713780502,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2096%2Frev79%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2096%2Frev79%2Famd64"
+               },
                {
                   "name": "2095/rev78/arm64",
                   "sha": "3e350971a6a3394a10546d39963076b3ad9c3598",
@@ -4664,14 +4672,6 @@
                   "timestamp": 1713521232,
                   "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2095%2Frev77%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2095%2Frev77%2Famd64"
-               },
-               {
-                  "name": "2094/rev76/arm64",
-                  "sha": "d9b180199e7e9855f7e99ac53f80f9df587c76e6",
-                  "body": "<p>chore: bump sublime-merge to version 2094</p>\n",
-                  "timestamp": 1712830063,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2094%2Frev76%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2094%2Frev76%2Farm64"
                }
             ],
             "commits": null,
@@ -4702,8 +4702,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 69,
-                     "timestamp": 1708682779,
+                     "revision": 79,
+                     "timestamp": 1713781015,
                      "base": "core18"
                   },
                   {
