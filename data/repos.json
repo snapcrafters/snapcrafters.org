@@ -1403,30 +1403,17 @@
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/ffmpeg-sdk",
             "releases": null,
-            "tags": null,
-            "commits": [
+            "tags": [
                {
-                  "sha": "c457df3f633769e8c8f87dcc57e6518e1252a942",
-                  "author": "Jon Seager",
-                  "timestamp": 1713794270,
-                  "message": "<p>ci: add workflow automation to ffmpeg-sdk (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-sdk/pull/10\">#10</a>)</p>\n\n<p>Co-authored-by: soumyadghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n",
-                  "url": "https://github.com/snapcrafters/ffmpeg-sdk/commit/c457df3f633769e8c8f87dcc57e6518e1252a942"
-               },
-               {
-                  "sha": "3e8058ae9a119769044ded2079446ff64f5930ea",
-                  "author": "Merlijn Sebrechts",
-                  "timestamp": 1701951635,
-                  "message": "<p>update to fix api breakage</p>\n",
-                  "url": "https://github.com/snapcrafters/ffmpeg-sdk/commit/3e8058ae9a119769044ded2079446ff64f5930ea"
-               },
-               {
-                  "sha": "d5c22689d6a42b3cf92ad90110c892968b18534f",
-                  "author": "Snapcrafters Bot",
-                  "timestamp": 1701791453,
-                  "message": "<p>chore: bump ffmpeg-2204-sdk dependencies</p>\n",
-                  "url": "https://github.com/snapcrafters/ffmpeg-sdk/commit/d5c22689d6a42b3cf92ad90110c892968b18534f"
+                  "name": "7.0/rev105/arm64",
+                  "sha": "1692830ec7c5e861a1b89119f1df87c317c5c1b6",
+                  "body": "<p>ci: remove channel input on release workflows</p>\n\n<p>This should be <code>latest/candidate</code> which is the default\nanyway.</p>\n",
+                  "timestamp": 1713803718,
+                  "url": "https://github.com/snapcrafters/ffmpeg-sdk/releases/tag/7.0%2Frev105%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-sdk/compare/2204...7.0%2Frev105%2Farm64"
                }
             ],
+            "commits": null,
             "ciActions": null,
             "charm": null,
             "snap": null
