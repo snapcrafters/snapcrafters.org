@@ -1703,10 +1703,18 @@
          },
          {
             "name": "ghvmctl",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/ghvmctl",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.4.0/rev13/amd64",
+                  "sha": "20a49f97f58d74328831068cc3330c8c6930aab6",
+                  "body": "<p>fix: don&rsquo;t fail removing non-existent lxd remote</p>\n",
+                  "timestamp": 1715152076,
+                  "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.0%2Frev13%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.0%2Frev13%2Famd64"
+               },
                {
                   "name": "0.4.0/rev12/amd64",
                   "sha": "019ffff3ff9dd59086beed7884b3d87e64a026e2",
@@ -1722,14 +1730,6 @@
                   "timestamp": 1715150223,
                   "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.0%2Frev11%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.0%2Frev11%2Famd64"
-               },
-               {
-                  "name": "0.3.0/rev10/amd64",
-                  "sha": "1ac4a99dd1c6f78226b60eda205cd06c6ac20dfa",
-                  "body": "<p>ci: add repo-token to release workflow to enable tagged revisions (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ghvmctl/pull/9\">#9</a>)</p>\n",
-                  "timestamp": 1704296835,
-                  "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.3.0%2Frev10%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.3.0%2Frev10%2Famd64"
                }
             ],
             "commits": null,
@@ -1752,8 +1752,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 12,
-                     "timestamp": 1715151673,
+                     "revision": 13,
+                     "timestamp": 1715152551,
                      "base": "core22"
                   }
                ],
