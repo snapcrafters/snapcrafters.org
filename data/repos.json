@@ -1708,6 +1708,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "0.4.0/rev14/amd64",
+                  "sha": "fd45bf49fd74ec9817264e5066620b3640c61b50",
+                  "body": "<p>fix: use different remote name for canonical lxd image server</p>\n",
+                  "timestamp": 1715153253,
+                  "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.0%2Frev14%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.0%2Frev14%2Famd64"
+               },
+               {
                   "name": "0.4.0/rev13/amd64",
                   "sha": "20a49f97f58d74328831068cc3330c8c6930aab6",
                   "body": "<p>fix: don&rsquo;t fail removing non-existent lxd remote</p>\n",
@@ -1722,14 +1730,6 @@
                   "timestamp": 1715150223,
                   "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.0%2Frev12%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.0%2Frev12%2Famd64"
-               },
-               {
-                  "name": "0.4.0/rev11/amd64",
-                  "sha": "7141abf0f8ba5e6a3624390dbdb575d042337126",
-                  "body": "<p>chore: bump version to 0.4.0</p>\n",
-                  "timestamp": 1715150223,
-                  "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.0%2Frev11%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.0%2Frev11%2Famd64"
                }
             ],
             "commits": null,
@@ -1745,15 +1745,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 13,
-                     "timestamp": 1715152668,
+                     "revision": 14,
+                     "timestamp": 1715153888,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 13,
-                     "timestamp": 1715152551,
+                     "revision": 14,
+                     "timestamp": 1715153709,
                      "base": "core22"
                   }
                ],
@@ -2943,7 +2943,7 @@
          },
          {
             "name": "minetest",
-            "newCommits": 0,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/minetest",
             "releases": null,
             "tags": [
@@ -3014,8 +3014,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1920,
-                     "timestamp": 1715077891,
+                     "revision": 1926,
+                     "timestamp": 1715154999,
                      "base": "core22"
                   },
                   {
@@ -4483,6 +4483,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.8.0/rev655/amd64",
+                  "sha": "6d20c7fb1e037bce0a7dfe8fec9f44d9ca84baf0",
+                  "body": "<p>chore: bump signal-desktop to version 7.8.0</p>\n",
+                  "timestamp": 1715154040,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.8.0%2Frev655%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.8.0%2Frev655%2Famd64"
+               },
+               {
                   "name": "7.7.0/rev654/amd64",
                   "sha": "f26efe1959d8ff0b20f79719f56efefba0637a79",
                   "body": "<p>chore: bump signal-desktop to version 7.7.0</p>\n",
@@ -4497,14 +4505,6 @@
                   "timestamp": 1714054828,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.6.0%2Frev653%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.6.0%2Frev653%2Farm64"
-               },
-               {
-                  "name": "7.6.0/rev652/amd64",
-                  "sha": "cd3bd41404a46dcbbd9969391e8510e98648427e",
-                  "body": "<p>chore: bump signal-desktop to version 7.6.0</p>\n",
-                  "timestamp": 1714054828,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.6.0%2Frev652%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.6.0%2Frev652%2Famd64"
                }
             ],
             "commits": null,
@@ -4535,8 +4535,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 654,
-                     "timestamp": 1714645431,
+                     "revision": 655,
+                     "timestamp": 1715155137,
                      "base": "core22"
                   },
                   {
@@ -4750,15 +4750,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 83,
-                     "timestamp": 1714744129,
+                     "revision": 85,
+                     "timestamp": 1715154406,
                      "base": "core18"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 84,
-                     "timestamp": 1714744132,
+                     "revision": 88,
+                     "timestamp": 1715154408,
                      "base": "core18"
                   },
                   {
