@@ -2054,6 +2054,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.15.0/rev406/amd64",
+                  "sha": "13eba27826c4f6f060ff85accf108ae1ec60d5ca",
+                  "body": "<p>chore: bump helm to version 3.15.0</p>\n",
+                  "timestamp": 1715853627,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.15.0%2Frev406%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.15.0%2Frev406%2Famd64"
+               },
+               {
                   "name": "3.14.4/rev405/armhf",
                   "sha": "b59099496e5a00aa43047a2e056e32f83957b55a",
                   "body": "<p>chore: bump helm to version 3.14.4</p>\n",
@@ -2068,14 +2076,6 @@
                   "timestamp": 1712829638,
                   "url": "https://github.com/snapcrafters/helm/releases/tag/3.14.4%2Frev404%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.14.4%2Frev404%2Farm64"
-               },
-               {
-                  "name": "3.14.4/rev403/amd64",
-                  "sha": "b59099496e5a00aa43047a2e056e32f83957b55a",
-                  "body": "<p>chore: bump helm to version 3.14.4</p>\n",
-                  "timestamp": 1712829638,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.14.4%2Frev403%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.14.4%2Frev403%2Famd64"
                }
             ],
             "commits": null,
@@ -2120,8 +2120,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 403,
-                     "timestamp": 1712829970,
+                     "revision": 406,
+                     "timestamp": 1715853933,
                      "base": "core22"
                   },
                   {
@@ -2564,10 +2564,18 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
+               {
+                  "name": "2.458/rev4667/amd64",
+                  "sha": "ab1e3e03e679e0c44e03aaed28dbe3e1efdeb309",
+                  "body": "<p>chore: bump jenkins to version 2.458</p>\n",
+                  "timestamp": 1715768278,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.458%2Frev4667%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.458%2Frev4667%2Famd64"
+               },
                {
                   "name": "2.457/rev4666/armhf",
                   "sha": "2b19f55ff8034b0e742d394a76c3ca4166e9c553",
@@ -2583,14 +2591,6 @@
                   "timestamp": 1715249943,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.457%2Frev4665%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.457%2Frev4665%2Farm64"
-               },
-               {
-                  "name": "2.457/rev4664/amd64",
-                  "sha": "2b19f55ff8034b0e742d394a76c3ca4166e9c553",
-                  "body": "<p>chore: bump jenkins to version 2.457</p>\n",
-                  "timestamp": 1715249943,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.457%2Frev4664%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.457%2Frev4664%2Famd64"
                }
             ],
             "commits": null,
@@ -2628,8 +2628,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4664,
-                     "timestamp": 1715293549,
+                     "revision": 4667,
+                     "timestamp": 1715853313,
                      "base": "core22"
                   },
                   {
@@ -4478,7 +4478,7 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
