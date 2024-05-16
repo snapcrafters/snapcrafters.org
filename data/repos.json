@@ -4478,10 +4478,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.9.0/rev657/amd64",
+                  "sha": "c614a6124f62ae8047c9d124be84adc9d61d0010",
+                  "body": "<p>chore: bump signal-desktop to version 7.9.0</p>\n",
+                  "timestamp": 1715854074,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.9.0%2Frev657%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.9.0%2Frev657%2Famd64"
+               },
                {
                   "name": "7.8.0/rev656/arm64",
                   "sha": "6d20c7fb1e037bce0a7dfe8fec9f44d9ca84baf0",
@@ -4497,14 +4505,6 @@
                   "timestamp": 1715154040,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.8.0%2Frev655%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.8.0%2Frev655%2Famd64"
-               },
-               {
-                  "name": "7.7.0/rev654/amd64",
-                  "sha": "f26efe1959d8ff0b20f79719f56efefba0637a79",
-                  "body": "<p>chore: bump signal-desktop to version 7.7.0</p>\n",
-                  "timestamp": 1714644525,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.7.0%2Frev654%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.7.0%2Frev654%2Famd64"
                }
             ],
             "commits": null,
@@ -4535,8 +4535,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 655,
-                     "timestamp": 1715155137,
+                     "revision": 657,
+                     "timestamp": 1715855129,
                      "base": "core22"
                   },
                   {
