@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2023.3.1.19-Jellyfish/rev157/amd64",
+                  "sha": "296bc303a8b49679de4b4aa2eae7b230276593b9",
+                  "body": "<p>chore: bump android-studio to version 2023.3.1.19-Jellyfish</p>\n",
+                  "timestamp": 1716285989,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2023.3.1.19-Jellyfish%2Frev157%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2023.3.1.19-Jellyfish%2Frev157%2Famd64"
+               },
                {
                   "name": "2023.3.1.18-Jellyfish/rev155/amd64",
                   "sha": "d3e5145b64873992f2bee670e5de3af426d964c9",
@@ -181,14 +189,6 @@
                   "timestamp": 1712743412,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2023.2.1.25-Iguana%2Frev153%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2023.2.1.25-Iguana%2Frev153%2Famd64"
-               },
-               {
-                  "name": "2023.2.1.24-Iguana/rev151/amd64",
-                  "sha": "22913ae648c9c47d1f29f8cd9638f90f352f783a",
-                  "body": "<p>chore: bump android-studio to version 2023.2.1.24-Iguana</p>\n",
-                  "timestamp": 1710842620,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2023.2.1.24-Iguana%2Frev151%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2023.2.1.24-Iguana%2Frev151%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 155,
-                     "timestamp": 1714581319,
+                     "revision": 157,
+                     "timestamp": 1716287011,
                      "base": "core22"
                   },
                   {
