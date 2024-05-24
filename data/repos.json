@@ -639,7 +639,7 @@
          },
          {
             "name": "codespell",
-            "newCommits": 20,
+            "newCommits": 21,
             "url": "https://github.com/snapcrafters/codespell",
             "releases": null,
             "tags": [
@@ -2054,28 +2054,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.15.1/rev410/arm64",
+                  "sha": "b21f6bf5bda13e325ea7432dc915acf504b7b105",
+                  "body": "<p>chore: bump helm to version 3.15.1</p>\n",
+                  "timestamp": 1716544831,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.15.1%2Frev410%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.15.1%2Frev410%2Farm64"
+               },
+               {
+                  "name": "3.15.1/rev409/armhf",
+                  "sha": "b21f6bf5bda13e325ea7432dc915acf504b7b105",
+                  "body": "<p>chore: bump helm to version 3.15.1</p>\n",
+                  "timestamp": 1716544831,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.15.1%2Frev409%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.15.1%2Frev409%2Farmhf"
+               },
+               {
                   "name": "3.15.0/rev408/armhf",
                   "sha": "13eba27826c4f6f060ff85accf108ae1ec60d5ca",
                   "body": "<p>chore: bump helm to version 3.15.0</p>\n",
                   "timestamp": 1715853627,
                   "url": "https://github.com/snapcrafters/helm/releases/tag/3.15.0%2Frev408%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.15.0%2Frev408%2Farmhf"
-               },
-               {
-                  "name": "3.15.0/rev407/arm64",
-                  "sha": "13eba27826c4f6f060ff85accf108ae1ec60d5ca",
-                  "body": "<p>chore: bump helm to version 3.15.0</p>\n",
-                  "timestamp": 1715853627,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.15.0%2Frev407%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.15.0%2Frev407%2Farm64"
-               },
-               {
-                  "name": "3.15.0/rev406/amd64",
-                  "sha": "13eba27826c4f6f060ff85accf108ae1ec60d5ca",
-                  "body": "<p>chore: bump helm to version 3.15.0</p>\n",
-                  "timestamp": 1715853627,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.15.0%2Frev406%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.15.0%2Frev406%2Famd64"
                }
             ],
             "commits": null,
@@ -2127,15 +2127,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 407,
-                     "timestamp": 1715861468,
+                     "revision": 410,
+                     "timestamp": 1716545582,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 408,
-                     "timestamp": 1715862121,
+                     "revision": 409,
+                     "timestamp": 1716545349,
                      "base": "core22"
                   },
                   {
@@ -5036,33 +5036,33 @@
          },
          {
             "name": "terraform",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/terraform",
             "releases": null,
             "tags": [
                {
-                  "name": "1.8.4/rev690/arm64",
-                  "sha": "aca4321f5248fd23125173e7f3ce1117a41646bc",
-                  "body": "<p>chore: bump terraform to version 1.8.4</p>\n",
-                  "timestamp": 1716459454,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.8.4%2Frev690%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.8.4%2Frev690%2Farm64"
+                  "name": "1.8.4/rev693/armhf",
+                  "sha": "6f1c75d137873462cda2ae77d8b5a512b4a1e160",
+                  "body": "<p>chore: migrate to core24 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/109\">#109</a>)</p>\n",
+                  "timestamp": 1716539399,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.8.4%2Frev693%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.8.4%2Frev693%2Farmhf"
                },
                {
-                  "name": "1.8.4/rev689/armhf",
-                  "sha": "aca4321f5248fd23125173e7f3ce1117a41646bc",
-                  "body": "<p>chore: bump terraform to version 1.8.4</p>\n",
-                  "timestamp": 1716459454,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.8.4%2Frev689%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.8.4%2Frev689%2Farmhf"
+                  "name": "1.8.4/rev692/arm64",
+                  "sha": "6f1c75d137873462cda2ae77d8b5a512b4a1e160",
+                  "body": "<p>chore: migrate to core24 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/109\">#109</a>)</p>\n",
+                  "timestamp": 1716539399,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.8.4%2Frev692%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.8.4%2Frev692%2Farm64"
                },
                {
-                  "name": "1.8.4/rev688/s390x",
-                  "sha": "aca4321f5248fd23125173e7f3ce1117a41646bc",
-                  "body": "<p>chore: bump terraform to version 1.8.4</p>\n",
-                  "timestamp": 1716459454,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.8.4%2Frev688%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.8.4%2Frev688%2Fs390x"
+                  "name": "1.8.4/rev691/ppc64el",
+                  "sha": "6f1c75d137873462cda2ae77d8b5a512b4a1e160",
+                  "body": "<p>chore: migrate to core24 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/109\">#109</a>)</p>\n",
+                  "timestamp": 1716539399,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.8.4%2Frev691%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.8.4%2Frev691%2Fppc64el"
                }
             ],
             "commits": null,
@@ -5121,23 +5121,23 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 690,
-                     "timestamp": 1716461221,
-                     "base": "core22"
+                     "revision": 692,
+                     "timestamp": 1716545486,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 689,
-                     "timestamp": 1716461098,
-                     "base": "core22"
+                     "revision": 693,
+                     "timestamp": 1716545671,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 687,
-                     "timestamp": 1716460206,
-                     "base": "core22"
+                     "revision": 691,
+                     "timestamp": 1716543319,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
