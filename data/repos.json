@@ -4478,10 +4478,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.11.0/rev662/arm64",
+                  "sha": "41d15d2a52c101170987f172de8b1fb00193ae5d",
+                  "body": "<p>chore: bump signal-desktop to version 7.11.0</p>\n",
+                  "timestamp": 1717063738,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.11.0%2Frev662%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.11.0%2Frev662%2Farm64"
+               },
+               {
+                  "name": "7.11.0/rev661/amd64",
+                  "sha": "41d15d2a52c101170987f172de8b1fb00193ae5d",
+                  "body": "<p>chore: bump signal-desktop to version 7.11.0</p>\n",
+                  "timestamp": 1717063738,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.11.0%2Frev661%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.11.0%2Frev661%2Famd64"
+               },
                {
                   "name": "7.10.0/rev660/arm64",
                   "sha": "b395c39747070c0cf5f1a643c257548ed3348b4e",
@@ -4489,22 +4505,6 @@
                   "timestamp": 1716458959,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.10.0%2Frev660%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.10.0%2Frev660%2Farm64"
-               },
-               {
-                  "name": "7.10.0/rev659/amd64",
-                  "sha": "b395c39747070c0cf5f1a643c257548ed3348b4e",
-                  "body": "<p>chore: bump signal-desktop to version 7.10.0</p>\n",
-                  "timestamp": 1716458959,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.10.0%2Frev659%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.10.0%2Frev659%2Famd64"
-               },
-               {
-                  "name": "7.9.0/rev658/arm64",
-                  "sha": "c614a6124f62ae8047c9d124be84adc9d61d0010",
-                  "body": "<p>chore: bump signal-desktop to version 7.9.0</p>\n",
-                  "timestamp": 1715854074,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.9.0%2Frev658%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.9.0%2Frev658%2Farm64"
                }
             ],
             "commits": null,
@@ -4535,15 +4535,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 659,
-                     "timestamp": 1716460139,
+                     "revision": 661,
+                     "timestamp": 1717064784,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 660,
-                     "timestamp": 1716461205,
+                     "revision": 662,
+                     "timestamp": 1717066334,
                      "base": "core22"
                   }
                ],
@@ -5262,28 +5262,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "webkitgtk-6-gnome-2204-sdk-2.45.3/rev120/amd64",
+                  "sha": "2db090001b81a3dcada2f15fae5f79f0e2ac3ff8",
+                  "body": "<p>chore: bump webkitgtk-6-gnome-2204-sdk to version 2.45.3</p>\n",
+                  "timestamp": 1717064063,
+                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2204-sdk-2.45.3%2Frev120%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2204...webkitgtk-6-gnome-2204-sdk-2.45.3%2Frev120%2Famd64"
+               },
+               {
+                  "name": "webkitgtk-6-gnome-2204-sdk-2.45.3/rev119/ppc64el",
+                  "sha": "2db090001b81a3dcada2f15fae5f79f0e2ac3ff8",
+                  "body": "<p>chore: bump webkitgtk-6-gnome-2204-sdk to version 2.45.3</p>\n",
+                  "timestamp": 1717064063,
+                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2204-sdk-2.45.3%2Frev119%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2204...webkitgtk-6-gnome-2204-sdk-2.45.3%2Frev119%2Fppc64el"
+               },
+               {
                   "name": "webkitgtk-6-gnome-2204-sdk-2.45.3/rev118/armhf",
                   "sha": "2db090001b81a3dcada2f15fae5f79f0e2ac3ff8",
                   "body": "<p>chore: bump webkitgtk-6-gnome-2204-sdk to version 2.45.3</p>\n",
                   "timestamp": 1717064063,
                   "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2204-sdk-2.45.3%2Frev118%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2204...webkitgtk-6-gnome-2204-sdk-2.45.3%2Frev118%2Farmhf"
-               },
-               {
-                  "name": "webkitgtk-6-gnome-2204-sdk-2.45.3/rev117/s390x",
-                  "sha": "2db090001b81a3dcada2f15fae5f79f0e2ac3ff8",
-                  "body": "<p>chore: bump webkitgtk-6-gnome-2204-sdk to version 2.45.3</p>\n",
-                  "timestamp": 1717064063,
-                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2204-sdk-2.45.3%2Frev117%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2204...webkitgtk-6-gnome-2204-sdk-2.45.3%2Frev117%2Fs390x"
-               },
-               {
-                  "name": "webkitgtk-6-gnome-2204-sdk-2.44.2/rev116/arm64",
-                  "sha": "2befc980d33906532562e8cd1dcfc0c4dfc1c4ac",
-                  "body": "<p>snap: revert to version <code>2.44.2</code> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/webkitgtk-sdk/pull/4\">#4</a>)</p>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jon@sgrs.uk\">jon@sgrs.uk</a></p>\n",
-                  "timestamp": 1716995931,
-                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2204-sdk-2.44.2%2Frev116%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2204...webkitgtk-6-gnome-2204-sdk-2.44.2%2Frev116%2Farm64"
                }
             ],
             "commits": null,
