@@ -1400,7 +1400,7 @@
          },
          {
             "name": "ffmpeg-sdk",
-            "newCommits": 1,
+            "newCommits": 3,
             "url": "https://github.com/snapcrafters/ffmpeg-sdk",
             "releases": null,
             "tags": [
@@ -1430,9 +1430,53 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/signal-desktop/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/signal-desktop/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/signal-desktop/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "signal-desktop",
+               "url": "https://snapcraft.io/signal-desktop",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 661,
+                     "timestamp": 1717073286,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 662,
+                     "timestamp": 1717073289,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 661,
+                     "timestamp": 1717064784,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 662,
+                     "timestamp": 1717066334,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "fkill",
