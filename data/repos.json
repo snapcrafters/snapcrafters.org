@@ -1400,7 +1400,7 @@
          },
          {
             "name": "ffmpeg-sdk",
-            "newCommits": 3,
+            "newCommits": 4,
             "url": "https://github.com/snapcrafters/ffmpeg-sdk",
             "releases": null,
             "tags": [
@@ -1431,41 +1431,72 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/signal-desktop/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/signal-desktop/actions/workflows/release-to-candidate.yaml",
-               "https://github.com/snapcrafters/signal-desktop/actions/workflows/promote-to-stable.yml"
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/update-sdk-snap.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/release-sdk-to-candidate.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/promote-to-stable.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/update-sdk-snap.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/release-content-to-candidate.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
             "snap": {
-               "name": "signal-desktop",
-               "url": "https://snapcraft.io/signal-desktop",
+               "name": "ffmpeg-2204-sdk",
+               "url": "https://snapcraft.io/ffmpeg-2204-sdk",
                "releases": [
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 661,
-                     "timestamp": 1717073286,
+                     "revision": 100,
+                     "timestamp": 1711740534,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 662,
-                     "timestamp": 1717073289,
+                     "revision": 101,
+                     "timestamp": 1711740536,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 102,
+                     "timestamp": 1711740537,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 103,
+                     "timestamp": 1711740539,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 661,
-                     "timestamp": 1717064784,
+                     "revision": 121,
+                     "timestamp": 1713973827,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 662,
-                     "timestamp": 1717066334,
+                     "revision": 123,
+                     "timestamp": 1713974117,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 122,
+                     "timestamp": 1713973992,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 124,
+                     "timestamp": 1713974130,
                      "base": "core22"
                   }
                ],
