@@ -559,33 +559,7 @@
                "https://github.com/snapcrafters/discord/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "discord",
-               "url": "https://snapcraft.io/discord",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 193,
-                     "timestamp": 1718101944,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 194,
-                     "timestamp": 1718705946,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "dosbox-x",
@@ -691,7 +665,62 @@
                "https://github.com/snapcrafters/eclipse/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "eclipse",
+               "url": "https://snapcraft.io/eclipse",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 87,
+                     "timestamp": 1711639770,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 88,
+                     "timestamp": 1711639773,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 91,
+                     "timestamp": 1717430425,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 92,
+                     "timestamp": 1717430551,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 93,
+                     "timestamp": 1717489195,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 94,
+                     "timestamp": 1717490003,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "ffmpeg",
@@ -873,7 +902,168 @@
                "https://github.com/snapcrafters/get-iplayer/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "get-iplayer",
+               "url": "https://snapcraft.io/get-iplayer",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 523,
+                     "timestamp": 1707994191,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 524,
+                     "timestamp": 1707994194,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 526,
+                     "timestamp": 1707994197,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 525,
+                     "timestamp": 1707994200,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 527,
+                     "timestamp": 1707994204,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 523,
+                     "timestamp": 1707993014,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 524,
+                     "timestamp": 1707993074,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 526,
+                     "timestamp": 1707993191,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 525,
+                     "timestamp": 1707993140,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 527,
+                     "timestamp": 1707993249,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 516,
+                     "timestamp": 1706191014,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 519,
+                     "timestamp": 1706191016,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 517,
+                     "timestamp": 1706191015,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 518,
+                     "timestamp": 1706191015,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 520,
+                     "timestamp": 1706191017,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 516,
+                     "timestamp": 1705304854,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 519,
+                     "timestamp": 1705305163,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 517,
+                     "timestamp": 1705305028,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 505,
+                     "timestamp": 1702713375,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 518,
+                     "timestamp": 1705305098,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 520,
+                     "timestamp": 1705305230,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "beta",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "ghvmctl",
@@ -912,7 +1102,33 @@
                "https://github.com/snapcrafters/ghvmctl/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "ghvmctl",
+               "url": "https://snapcraft.io/ghvmctl",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 16,
+                     "timestamp": 1717074734,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 16,
+                     "timestamp": 1717074602,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "gimp",
@@ -1025,416 +1241,7 @@
                "https://github.com/snapcrafters/helm/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "helm",
-               "url": "https://snapcraft.io/helm",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 415,
-                     "timestamp": 1718275407,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 416,
-                     "timestamp": 1718275411,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 417,
-                     "timestamp": 1718275414,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 373,
-                     "timestamp": 1676749918,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 415,
-                     "timestamp": 1718273156,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 416,
-                     "timestamp": 1718273293,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 417,
-                     "timestamp": 1718273335,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 384,
-                     "timestamp": 1705650993,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 387,
-                     "timestamp": 1705651109,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 386,
-                     "timestamp": 1705651058,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 385,
-                     "timestamp": 1705651052,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.7",
-                     "channel": "stable",
-                     "revision": 353,
-                     "timestamp": 1631795191,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.7",
-                     "channel": "stable",
-                     "revision": 355,
-                     "timestamp": 1631795192,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.7",
-                     "channel": "stable",
-                     "revision": 352,
-                     "timestamp": 1631795190,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.7",
-                     "channel": "stable",
-                     "revision": 354,
-                     "timestamp": 1631795192,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.6",
-                     "channel": "stable",
-                     "revision": 350,
-                     "timestamp": 1626291504,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.6",
-                     "channel": "stable",
-                     "revision": 349,
-                     "timestamp": 1626291504,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.6",
-                     "channel": "stable",
-                     "revision": 351,
-                     "timestamp": 1626291505,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.6",
-                     "channel": "stable",
-                     "revision": 348,
-                     "timestamp": 1626291503,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.5",
-                     "channel": "stable",
-                     "revision": 336,
-                     "timestamp": 1618491154,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.5",
-                     "channel": "stable",
-                     "revision": 339,
-                     "timestamp": 1618491157,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.5",
-                     "channel": "stable",
-                     "revision": 337,
-                     "timestamp": 1618491156,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.5",
-                     "channel": "stable",
-                     "revision": 338,
-                     "timestamp": 1618491157,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.4",
-                     "channel": "stable",
-                     "revision": 317,
-                     "timestamp": 1607713911,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.4",
-                     "channel": "stable",
-                     "revision": 319,
-                     "timestamp": 1607719317,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.4",
-                     "channel": "stable",
-                     "revision": 318,
-                     "timestamp": 1607719317,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.4",
-                     "channel": "stable",
-                     "revision": 316,
-                     "timestamp": 1607713910,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.3",
-                     "channel": "stable",
-                     "revision": 292,
-                     "timestamp": 1600821729,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.3",
-                     "channel": "stable",
-                     "revision": 294,
-                     "timestamp": 1600821730,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.3",
-                     "channel": "stable",
-                     "revision": 295,
-                     "timestamp": 1600821729,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.3",
-                     "channel": "stable",
-                     "revision": 293,
-                     "timestamp": 1600821730,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.2",
-                     "channel": "stable",
-                     "revision": 244,
-                     "timestamp": 1591707615,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.2",
-                     "channel": "stable",
-                     "revision": 247,
-                     "timestamp": 1591707618,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.2",
-                     "channel": "stable",
-                     "revision": 246,
-                     "timestamp": 1591707617,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.2",
-                     "channel": "stable",
-                     "revision": 245,
-                     "timestamp": 1591707616,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.1",
-                     "channel": "stable",
-                     "revision": 226,
-                     "timestamp": 1587747235,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.1",
-                     "channel": "stable",
-                     "revision": 224,
-                     "timestamp": 1587747110,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.1",
-                     "channel": "stable",
-                     "revision": 225,
-                     "timestamp": 1587747167,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.1",
-                     "channel": "stable",
-                     "revision": 227,
-                     "timestamp": 1587747294,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.0",
-                     "channel": "stable",
-                     "revision": 181,
-                     "timestamp": 1581526274,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.0",
-                     "channel": "stable",
-                     "revision": 183,
-                     "timestamp": 1581526276,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.0",
-                     "channel": "stable",
-                     "revision": 182,
-                     "timestamp": 1581526275,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "3.0",
-                     "channel": "stable",
-                     "revision": 180,
-                     "timestamp": 1581526273,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.17",
-                     "channel": "stable",
-                     "revision": 298,
-                     "timestamp": 1603892360,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.17",
-                     "channel": "stable",
-                     "revision": 296,
-                     "timestamp": 1603892275,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.17",
-                     "channel": "stable",
-                     "revision": 297,
-                     "timestamp": 1603892314,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.17",
-                     "channel": "stable",
-                     "revision": 299,
-                     "timestamp": 1603892399,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.16",
-                     "channel": "stable",
-                     "revision": 290,
-                     "timestamp": 1600453427,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.16",
-                     "channel": "stable",
-                     "revision": 288,
-                     "timestamp": 1600453359,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.16",
-                     "channel": "stable",
-                     "revision": 289,
-                     "timestamp": 1600453393,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.16",
-                     "channel": "stable",
-                     "revision": 291,
-                     "timestamp": 1600453463,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.15",
-                     "channel": "stable",
-                     "revision": 174,
-                     "timestamp": 1576271079,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.15",
-                     "channel": "stable",
-                     "revision": 172,
-                     "timestamp": 1576270930,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.15",
-                     "channel": "stable",
-                     "revision": 173,
-                     "timestamp": 1576271004,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "2.15",
-                     "channel": "stable",
-                     "revision": 175,
-                     "timestamp": 1576271153,
-                     "base": "core18"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest",
-                  "3.7",
-                  "3.6",
-                  "3.5",
-                  "3.4",
-                  "3.3",
-                  "3.2",
-                  "3.1",
-                  "3.0",
-                  "2.17",
-                  "2.16",
-                  "2.15"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "inadyn",
@@ -1540,7 +1347,61 @@
                "https://github.com/snapcrafters/jenkins/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "jenkins",
+               "url": "https://snapcraft.io/jenkins",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 4682,
+                     "timestamp": 1718814795,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 4684,
+                     "timestamp": 1718814799,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 4683,
+                     "timestamp": 1718814803,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 4682,
+                     "timestamp": 1718792895,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 4684,
+                     "timestamp": 1718793443,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 4683,
+                     "timestamp": 1718793250,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "kompozer",
@@ -1672,7 +1533,33 @@
             ],
             "ciActions": [],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "marktext",
+               "url": "https://snapcraft.io/marktext",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 9,
+                     "timestamp": 1660057179,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 11,
+                     "timestamp": 1711343623,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "mattermost-desktop",
@@ -1712,61 +1599,7 @@
                "https://github.com/snapcrafters/mattermost-desktop/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "mattermost-desktop",
-               "url": "https://snapcraft.io/mattermost-desktop",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 756,
-                     "timestamp": 1718356331,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 757,
-                     "timestamp": 1718356335,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 426,
-                     "timestamp": 1657611201,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 756,
-                     "timestamp": 1718353347,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 757,
-                     "timestamp": 1718354146,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 426,
-                     "timestamp": 1656360600,
-                     "base": "core18"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "mdl",
@@ -1878,7 +1711,110 @@
                "https://github.com/snapcrafters/mosaic/actions/workflows/promote-to-stable.yaml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "mosaic",
+               "url": "https://snapcraft.io/mosaic",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 94,
+                     "timestamp": 1707409310,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 96,
+                     "timestamp": 1707409313,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 98,
+                     "timestamp": 1707409315,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 69,
+                     "timestamp": 1696767705,
+                     "base": ""
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 95,
+                     "timestamp": 1707409317,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 99,
+                     "timestamp": 1707409319,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 97,
+                     "timestamp": 1707409322,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 94,
+                     "timestamp": 1707405910,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 96,
+                     "timestamp": 1707406021,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 98,
+                     "timestamp": 1707406310,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 95,
+                     "timestamp": 1707406008,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 99,
+                     "timestamp": 1707408829,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 97,
+                     "timestamp": 1707406028,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "mrrescue",
@@ -1944,7 +1880,47 @@
             ],
             "ciActions": [],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "mumble",
+               "url": "https://snapcraft.io/mumble",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1731,
+                     "timestamp": 1678809119,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1732,
+                     "timestamp": 1678809122,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1797,
+                     "timestamp": 1711602835,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1798,
+                     "timestamp": 1711602989,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "mutt",
@@ -2296,168 +2272,7 @@
                "https://github.com/snapcrafters/pyradio/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "pyradio",
-               "url": "https://snapcraft.io/pyradio",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 672,
-                     "timestamp": 1622646349,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 675,
-                     "timestamp": 1622646355,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 676,
-                     "timestamp": 1622646356,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 673,
-                     "timestamp": 1622646350,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 674,
-                     "timestamp": 1622646354,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 677,
-                     "timestamp": 1622646356,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1177,
-                     "timestamp": 1717582835,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1179,
-                     "timestamp": 1717583360,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1178,
-                     "timestamp": 1717583193,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 648,
-                     "timestamp": 1618585301,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 652,
-                     "timestamp": 1618585304,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 653,
-                     "timestamp": 1618585305,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 649,
-                     "timestamp": 1618585302,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 651,
-                     "timestamp": 1618585303,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 650,
-                     "timestamp": 1618585303,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1186,
-                     "timestamp": 1718861209,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1187,
-                     "timestamp": 1718861322,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1188,
-                     "timestamp": 1718861920,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1077,
-                     "timestamp": 1704605023,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1080,
-                     "timestamp": 1704606011,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1079,
-                     "timestamp": 1704605909,
-                     "base": "core18"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "beta",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "ruff",
@@ -2675,47 +2490,7 @@
                "https://github.com/snapcrafters/signal-desktop/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "signal-desktop",
-               "url": "https://snapcraft.io/signal-desktop",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 665,
-                     "timestamp": 1718278624,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 666,
-                     "timestamp": 1718278628,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 665,
-                     "timestamp": 1718274587,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 666,
-                     "timestamp": 1718276232,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "simplenote",
@@ -2739,7 +2514,33 @@
                "https://github.com/snapcrafters/simplenote/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "simplenote",
+               "url": "https://snapcraft.io/simplenote",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 621,
+                     "timestamp": 1704543465,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 621,
+                     "timestamp": 1704300541,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "slack-term",
@@ -2878,106 +2679,7 @@
                "https://github.com/snapcrafters/sublime-merge/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "sublime-merge",
-               "url": "https://snapcraft.io/sublime-merge",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 85,
-                     "timestamp": 1715154406,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 88,
-                     "timestamp": 1715154408,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 85,
-                     "timestamp": 1714737976,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 88,
-                     "timestamp": 1714924617,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 38,
-                     "timestamp": 1697038915,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 39,
-                     "timestamp": 1697038916,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 86,
-                     "timestamp": 1714810078,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 87,
-                     "timestamp": 1714870015,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "stable",
-                     "revision": 77,
-                     "timestamp": 1714040204,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "stable",
-                     "revision": 78,
-                     "timestamp": 1714040206,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "candidate",
-                     "revision": 77,
-                     "timestamp": 1713521591,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "candidate",
-                     "revision": 78,
-                     "timestamp": 1713522247,
-                     "base": "core18"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "beta",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest",
-                  "dev"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "sublime-text",
