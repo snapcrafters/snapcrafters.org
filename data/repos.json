@@ -1277,6 +1277,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2024-06/rev96/arm64",
+                  "sha": "f354b457e02c1b451f155c9d58f87ded9459c204",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/eclipse/pull/70\">#70</a> from Mailaender/update-2024-06</p>\n\n<p>Update Eclipse 2024-06</p>\n",
+                  "timestamp": 1718967578,
+                  "url": "https://github.com/snapcrafters/eclipse/releases/tag/2024-06%2Frev96%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/eclipse/compare/candidate...2024-06%2Frev96%2Farm64"
+               },
+               {
                   "name": "2024-06/rev95/amd64",
                   "sha": "f354b457e02c1b451f155c9d58f87ded9459c204",
                   "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/eclipse/pull/70\">#70</a> from Mailaender/update-2024-06</p>\n\n<p>Update Eclipse 2024-06</p>\n",
@@ -1291,14 +1299,6 @@
                   "timestamp": 1717429839,
                   "url": "https://github.com/snapcrafters/eclipse/releases/tag/2024-03%2Frev92%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/eclipse/compare/candidate...2024-03%2Frev92%2Farm64"
-               },
-               {
-                  "name": "2024-03/rev91/amd64",
-                  "sha": "a7f96a41314fcba2fc35a57e7f06d63eb124fa71",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/eclipse/pull/67\">#67</a> from Mailaender/patch-1</p>\n\n<p>Workaround a crash on Wayland</p>\n",
-                  "timestamp": 1717429839,
-                  "url": "https://github.com/snapcrafters/eclipse/releases/tag/2024-03%2Frev91%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/eclipse/compare/candidate...2024-03%2Frev91%2Famd64"
                }
             ],
             "commits": null,
@@ -1336,9 +1336,9 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 92,
-                     "timestamp": 1717430551,
-                     "base": "core22"
+                     "revision": 96,
+                     "timestamp": 1718978132,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
@@ -4558,6 +4558,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.13.0/rev668/arm64",
+                  "sha": "1a4e470e6e068e33118659ef5005317647368d82",
+                  "body": "<p>chore: bump signal-desktop to version 7.13.0</p>\n",
+                  "timestamp": 1718964498,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.13.0%2Frev668%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.13.0%2Frev668%2Farm64"
+               },
+               {
                   "name": "7.13.0/rev667/amd64",
                   "sha": "1a4e470e6e068e33118659ef5005317647368d82",
                   "body": "<p>chore: bump signal-desktop to version 7.13.0</p>\n",
@@ -4572,14 +4580,6 @@
                   "timestamp": 1718273294,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.12.0%2Frev666%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.12.0%2Frev666%2Farm64"
-               },
-               {
-                  "name": "7.12.0/rev665/amd64",
-                  "sha": "2f67748d7d71c0fdc987ede0568983820ba8cfba",
-                  "body": "<p>chore: bump signal-desktop to version 7.12.0</p>\n",
-                  "timestamp": 1718273294,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.12.0%2Frev665%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.12.0%2Frev665%2Famd64"
                }
             ],
             "commits": null,
@@ -4596,15 +4596,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 665,
-                     "timestamp": 1718278624,
+                     "revision": 667,
+                     "timestamp": 1718978232,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 666,
-                     "timestamp": 1718278628,
+                     "revision": 668,
+                     "timestamp": 1718978236,
                      "base": "core22"
                   },
                   {
@@ -4617,8 +4617,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 666,
-                     "timestamp": 1718276232,
+                     "revision": 668,
+                     "timestamp": 1718977852,
                      "base": "core22"
                   }
                ],
