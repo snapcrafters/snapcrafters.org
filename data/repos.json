@@ -4553,10 +4553,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 3,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.15.0/rev671/amd64",
+                  "sha": "4476295d86c0145d7eff9406dbccf228b2f1aa02",
+                  "body": "<p>fix: drop yarn in favour of npm per upstream</p>\n\n<p>In signalapp/Signal-Desktop@2478bf1b the upstream\nmoved from using yarn to using npm for their build\ntooling.</p>\n\n<p>This commit updates the snapcraft.yaml to follow suit.</p>\n",
+                  "timestamp": 1720013948,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.15.0%2Frev671%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.15.0%2Frev671%2Famd64"
+               },
                {
                   "name": "7.14.0/rev670/arm64",
                   "sha": "6ae1f694678564ed46d6a098e752a2a7a3c9bf8c",
@@ -4572,14 +4580,6 @@
                   "timestamp": 1719569322,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.14.0%2Frev669%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.14.0%2Frev669%2Famd64"
-               },
-               {
-                  "name": "7.13.0/rev668/arm64",
-                  "sha": "1a4e470e6e068e33118659ef5005317647368d82",
-                  "body": "<p>chore: bump signal-desktop to version 7.13.0</p>\n",
-                  "timestamp": 1718964498,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.13.0%2Frev668%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.13.0%2Frev668%2Farm64"
                }
             ],
             "commits": null,
@@ -4610,8 +4610,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 669,
-                     "timestamp": 1719570434,
+                     "revision": 671,
+                     "timestamp": 1720088230,
                      "base": "core22"
                   },
                   {
