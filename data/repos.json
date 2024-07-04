@@ -4558,6 +4558,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.15.0/rev672/arm64",
+                  "sha": "4476295d86c0145d7eff9406dbccf228b2f1aa02",
+                  "body": "<p>fix: drop yarn in favour of npm per upstream</p>\n\n<p>In signalapp/Signal-Desktop@2478bf1b the upstream\nmoved from using yarn to using npm for their build\ntooling.</p>\n\n<p>This commit updates the snapcraft.yaml to follow suit.</p>\n",
+                  "timestamp": 1720013948,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.15.0%2Frev672%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.15.0%2Frev672%2Farm64"
+               },
+               {
                   "name": "7.15.0/rev671/amd64",
                   "sha": "4476295d86c0145d7eff9406dbccf228b2f1aa02",
                   "body": "<p>fix: drop yarn in favour of npm per upstream</p>\n\n<p>In signalapp/Signal-Desktop@2478bf1b the upstream\nmoved from using yarn to using npm for their build\ntooling.</p>\n\n<p>This commit updates the snapcraft.yaml to follow suit.</p>\n",
@@ -4572,14 +4580,6 @@
                   "timestamp": 1719569322,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.14.0%2Frev670%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.14.0%2Frev670%2Farm64"
-               },
-               {
-                  "name": "7.14.0/rev669/amd64",
-                  "sha": "6ae1f694678564ed46d6a098e752a2a7a3c9bf8c",
-                  "body": "<p>chore: bump signal-desktop to version 7.14.0</p>\n",
-                  "timestamp": 1719569322,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.14.0%2Frev669%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.14.0%2Frev669%2Famd64"
                }
             ],
             "commits": null,
@@ -4596,15 +4596,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 669,
-                     "timestamp": 1719591056,
+                     "revision": 671,
+                     "timestamp": 1720088987,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 670,
-                     "timestamp": 1719591060,
+                     "revision": 672,
+                     "timestamp": 1720088990,
                      "base": "core22"
                   },
                   {
@@ -4617,8 +4617,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 670,
-                     "timestamp": 1719587301,
+                     "revision": 672,
+                     "timestamp": 1720088614,
                      "base": "core22"
                   }
                ],
@@ -5111,33 +5111,33 @@
          },
          {
             "name": "terraform",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/terraform",
             "releases": null,
             "tags": [
                {
-                  "name": "1.9.0/rev705/armhf",
-                  "sha": "bc0be63d668edb6b5686df3a01c5475922a8ba97",
-                  "body": "<p>chore: bump terraform to version 1.9.0</p>\n",
-                  "timestamp": 1719483538,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.0%2Frev705%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.0%2Frev705%2Farmhf"
+                  "name": "1.9.1/rev709/arm64",
+                  "sha": "8fb42d92c1e817c1eef840cb7ab3e01482cdacd4",
+                  "body": "<p>chore: bump terraform to version 1.9.1</p>\n",
+                  "timestamp": 1720088205,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.1%2Frev709%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.1%2Frev709%2Farm64"
                },
                {
-                  "name": "1.9.0/rev704/s390x",
-                  "sha": "bc0be63d668edb6b5686df3a01c5475922a8ba97",
-                  "body": "<p>chore: bump terraform to version 1.9.0</p>\n",
-                  "timestamp": 1719483538,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.0%2Frev704%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.0%2Frev704%2Fs390x"
+                  "name": "1.9.1/rev708/ppc64el",
+                  "sha": "8fb42d92c1e817c1eef840cb7ab3e01482cdacd4",
+                  "body": "<p>chore: bump terraform to version 1.9.1</p>\n",
+                  "timestamp": 1720088205,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.1%2Frev708%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.1%2Frev708%2Fppc64el"
                },
                {
-                  "name": "1.9.0/rev703/arm64",
-                  "sha": "bc0be63d668edb6b5686df3a01c5475922a8ba97",
-                  "body": "<p>chore: bump terraform to version 1.9.0</p>\n",
-                  "timestamp": 1719483538,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.0%2Frev703%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.0%2Frev703%2Farm64"
+                  "name": "1.9.1/rev707/armhf",
+                  "sha": "8fb42d92c1e817c1eef840cb7ab3e01482cdacd4",
+                  "body": "<p>chore: bump terraform to version 1.9.1</p>\n",
+                  "timestamp": 1720088205,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.1%2Frev707%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.1%2Frev707%2Farmhf"
                }
             ],
             "commits": null,
@@ -5189,29 +5189,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 701,
-                     "timestamp": 1719484231,
+                     "revision": 706,
+                     "timestamp": 1720089193,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 703,
-                     "timestamp": 1719484516,
+                     "revision": 709,
+                     "timestamp": 1720089445,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 705,
-                     "timestamp": 1719484576,
+                     "revision": 707,
+                     "timestamp": 1720089419,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 702,
-                     "timestamp": 1719484387,
+                     "revision": 708,
+                     "timestamp": 1720089427,
                      "base": "core24"
                   },
                   {
