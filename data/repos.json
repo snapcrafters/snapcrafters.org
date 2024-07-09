@@ -1140,7 +1140,7 @@
          },
          {
             "name": "discord",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
@@ -4647,39 +4647,9 @@
                }
             ],
             "commits": null,
-            "ciActions": [
-               "https://github.com/snapcrafters/simplenote/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/simplenote/actions/workflows/release-to-candidate.yml",
-               "https://github.com/snapcrafters/simplenote/actions/workflows/promote-to-stable.yml"
-            ],
+            "ciActions": null,
             "charm": null,
-            "snap": {
-               "name": "simplenote",
-               "url": "https://snapcraft.io/simplenote",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 621,
-                     "timestamp": 1704543465,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 621,
-                     "timestamp": 1704300541,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "slack-term",
