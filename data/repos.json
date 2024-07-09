@@ -4818,7 +4818,106 @@
                "https://github.com/snapcrafters/sublime-merge/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "sublime-merge",
+               "url": "https://snapcraft.io/sublime-merge",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 85,
+                     "timestamp": 1715154406,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 88,
+                     "timestamp": 1715154408,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 85,
+                     "timestamp": 1714737976,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 88,
+                     "timestamp": 1714924617,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 38,
+                     "timestamp": 1697038915,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 39,
+                     "timestamp": 1697038916,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 86,
+                     "timestamp": 1714810078,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 87,
+                     "timestamp": 1714870015,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "dev",
+                     "channel": "stable",
+                     "revision": 77,
+                     "timestamp": 1714040204,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "dev",
+                     "channel": "stable",
+                     "revision": 78,
+                     "timestamp": 1714040206,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "dev",
+                     "channel": "candidate",
+                     "revision": 77,
+                     "timestamp": 1713521591,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "dev",
+                     "channel": "candidate",
+                     "revision": 78,
+                     "timestamp": 1713522247,
+                     "base": "core18"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "beta",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest",
+                  "dev"
+               ]
+            }
          },
          {
             "name": "sublime-text",
