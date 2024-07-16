@@ -1140,10 +1140,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.60/rev197/amd64",
+                  "sha": "78b50b73517245f09044fa26c7c62327aa1a42b0",
+                  "body": "<p>chore: bump discord to version 0.0.60</p>\n",
+                  "timestamp": 1721124501,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.60%2Frev197%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.60%2Frev197%2Famd64"
+               },
                {
                   "name": "0.0.59/rev196/amd64",
                   "sha": "ecacef9dc3728b0e7c7e8f3bdc5f74e6d176f594",
@@ -1159,14 +1167,6 @@
                   "timestamp": 1719396578,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.58%2Frev195%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.58%2Frev195%2Famd64"
-               },
-               {
-                  "name": "0.0.57/rev194/amd64",
-                  "sha": "2fb5fd4396ae11b3e0b37fe22527500a5668133b",
-                  "body": "<p>chore: bump discord to version 0.0.57</p>\n",
-                  "timestamp": 1718705395,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.57%2Frev194%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.57%2Frev194%2Famd64"
                }
             ],
             "commits": null,
@@ -1183,15 +1183,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 196,
-                     "timestamp": 1720522588,
+                     "revision": 197,
+                     "timestamp": 1721128003,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 196,
-                     "timestamp": 1720520437,
+                     "revision": 197,
+                     "timestamp": 1721125072,
                      "base": "core22"
                   }
                ],
