@@ -1140,7 +1140,7 @@
          },
          {
             "name": "discord",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
@@ -2720,6 +2720,13 @@
                      "revision": 4693,
                      "timestamp": 1720607538,
                      "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "candidate",
+                     "revision": 4698,
+                     "timestamp": 1721728726,
+                     "base": "core22"
                   }
                ],
                "channels": [
@@ -2727,7 +2734,8 @@
                   "candidate"
                ],
                "tracks": [
-                  "latest"
+                  "latest",
+                  "lts"
                ]
             }
          },
@@ -3640,7 +3648,7 @@
          },
          {
             "name": "obs-studio",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/obs-studio",
             "releases": null,
             "tags": [
