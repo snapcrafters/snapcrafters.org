@@ -1400,7 +1400,7 @@
          },
          {
             "name": "ffmpeg-2204-sdk",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk",
             "releases": null,
             "tags": [
@@ -1431,12 +1431,12 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/update-sdk-snap.yml",
-               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/release-sdk-to-candidate.yml",
-               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/promote-to-stable.yml",
-               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/update-sdk-snap.yml",
-               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/release-content-to-candidate.yml",
-               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/promote-to-stable.yml"
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/update-sdk-snap.yml",
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/release-sdk-to-candidate.yml",
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/promote-to-stable.yml",
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/update-sdk-snap.yml",
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/release-content-to-candidate.yml",
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
             "snap": {
@@ -2726,28 +2726,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2.469/rev4701/armhf",
+                  "sha": "d019c2c84be7a3ab66b0c712fea7fc56a1decc55",
+                  "body": "<p>chore: bump jenkins to version 2.469</p>\n",
+                  "timestamp": 1721816454,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.469%2Frev4701%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.469%2Frev4701%2Farmhf"
+               },
+               {
+                  "name": "2.469/rev4700/arm64",
+                  "sha": "d019c2c84be7a3ab66b0c712fea7fc56a1decc55",
+                  "body": "<p>chore: bump jenkins to version 2.469</p>\n",
+                  "timestamp": 1721816454,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.469%2Frev4700%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.469%2Frev4700%2Farm64"
+               },
+               {
                   "name": "2.469/rev4699/amd64",
                   "sha": "d019c2c84be7a3ab66b0c712fea7fc56a1decc55",
                   "body": "<p>chore: bump jenkins to version 2.469</p>\n",
                   "timestamp": 1721816454,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.469%2Frev4699%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.469%2Frev4699%2Famd64"
-               },
-               {
-                  "name": "2.468/rev4697/amd64",
-                  "sha": "ff4f62c146f1f0d0811113384ad828af6dff7a9c",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/98\">#98</a> from kz6fittycent/candidate</p>\n\n<p>Fix to allow both tracks to sync w/ upstream</p>\n",
-                  "timestamp": 1721400709,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.468%2Frev4697%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.468%2Frev4697%2Famd64"
-               },
-               {
-                  "name": "2.468/rev4696/amd64",
-                  "sha": "ff4f62c146f1f0d0811113384ad828af6dff7a9c",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/98\">#98</a> from kz6fittycent/candidate</p>\n\n<p>Fix to allow both tracks to sync w/ upstream</p>\n",
-                  "timestamp": 1721400709,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.468%2Frev4696%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.468%2Frev4696%2Famd64"
                }
             ],
             "commits": null,
@@ -2792,15 +2792,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4692,
-                     "timestamp": 1720607483,
+                     "revision": 4700,
+                     "timestamp": 1721835183,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4693,
-                     "timestamp": 1720607538,
+                     "revision": 4701,
+                     "timestamp": 1721835776,
                      "base": "core22"
                   },
                   {
@@ -4648,6 +4648,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.16.0/rev674/arm64",
+                  "sha": "1b63abb2491bd30628a1964aff1a1166df8b0270",
+                  "body": "<p>chore: bump signal-desktop to version 7.16.0</p>\n",
+                  "timestamp": 1721297329,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.16.0%2Frev674%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.16.0%2Frev674%2Farm64"
+               },
+               {
                   "name": "7.16.0/rev673/amd64",
                   "sha": "1b63abb2491bd30628a1964aff1a1166df8b0270",
                   "body": "<p>chore: bump signal-desktop to version 7.16.0</p>\n",
@@ -4662,14 +4670,6 @@
                   "timestamp": 1720013948,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.15.0%2Frev672%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.15.0%2Frev672%2Farm64"
-               },
-               {
-                  "name": "7.15.0/rev671/amd64",
-                  "sha": "4476295d86c0145d7eff9406dbccf228b2f1aa02",
-                  "body": "<p>fix: drop yarn in favour of npm per upstream</p>\n\n<p>In signalapp/Signal-Desktop@2478bf1b the upstream\nmoved from using yarn to using npm for their build\ntooling.</p>\n\n<p>This commit updates the snapcraft.yaml to follow suit.</p>\n",
-                  "timestamp": 1720013948,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.15.0%2Frev671%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.15.0%2Frev671%2Famd64"
                }
             ],
             "commits": null,
@@ -4686,15 +4686,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 671,
-                     "timestamp": 1720088987,
+                     "revision": 673,
+                     "timestamp": 1721836674,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 672,
-                     "timestamp": 1720088990,
+                     "revision": 674,
+                     "timestamp": 1721836677,
                      "base": "core22"
                   },
                   {
@@ -4707,8 +4707,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 672,
-                     "timestamp": 1720088614,
+                     "revision": 674,
+                     "timestamp": 1721836219,
                      "base": "core22"
                   }
                ],
