@@ -1399,34 +1399,34 @@
             "snap": null
          },
          {
-            "name": "ffmpeg-sdk",
-            "newCommits": 6,
-            "url": "https://github.com/snapcrafters/ffmpeg-sdk",
+            "name": "ffmpeg-2204-sdk",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk",
             "releases": null,
             "tags": [
                {
-                  "name": "ffmpeg-2204-sdk-7.0/rev124/ppc64el",
-                  "sha": "01d44ca2e9ddd023b7d286b7596718bf8ba6c9f2",
-                  "body": "<p>ci: add &lsquo;multi-snap&rsquo; option to release workflows</p>\n",
-                  "timestamp": 1713891233,
-                  "url": "https://github.com/snapcrafters/ffmpeg-sdk/releases/tag/ffmpeg-2204-sdk-7.0%2Frev124%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-sdk/compare/2204...ffmpeg-2204-sdk-7.0%2Frev124%2Fppc64el"
+                  "name": "ffmpeg-2404-sdk-7.0.1/rev20/ppc64el",
+                  "sha": "b013fb044dd5fd0ba500a01cbd76a19ecaad5791",
+                  "body": "<p>misc: update for <code>core24</code> release</p>\n",
+                  "timestamp": 1720701286,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev20%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2204-sdk/compare/2204...ffmpeg-2404-sdk-7.0.1%2Frev20%2Fppc64el"
                },
                {
-                  "name": "ffmpeg-2204-sdk-7.0/rev123/arm64",
-                  "sha": "01d44ca2e9ddd023b7d286b7596718bf8ba6c9f2",
-                  "body": "<p>ci: add &lsquo;multi-snap&rsquo; option to release workflows</p>\n",
-                  "timestamp": 1713891233,
-                  "url": "https://github.com/snapcrafters/ffmpeg-sdk/releases/tag/ffmpeg-2204-sdk-7.0%2Frev123%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-sdk/compare/2204...ffmpeg-2204-sdk-7.0%2Frev123%2Farm64"
+                  "name": "ffmpeg-2404-sdk-7.0.1/rev19/amd64",
+                  "sha": "b013fb044dd5fd0ba500a01cbd76a19ecaad5791",
+                  "body": "<p>misc: update for <code>core24</code> release</p>\n",
+                  "timestamp": 1720701286,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev19%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2204-sdk/compare/2204...ffmpeg-2404-sdk-7.0.1%2Frev19%2Famd64"
                },
                {
-                  "name": "ffmpeg-2204-sdk-7.0/rev122/armhf",
-                  "sha": "01d44ca2e9ddd023b7d286b7596718bf8ba6c9f2",
-                  "body": "<p>ci: add &lsquo;multi-snap&rsquo; option to release workflows</p>\n",
-                  "timestamp": 1713891233,
-                  "url": "https://github.com/snapcrafters/ffmpeg-sdk/releases/tag/ffmpeg-2204-sdk-7.0%2Frev122%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-sdk/compare/2204...ffmpeg-2204-sdk-7.0%2Frev122%2Farmhf"
+                  "name": "ffmpeg-2404-sdk-7.0.1/rev18/armhf",
+                  "sha": "931845de57f3390ceaa28c2c63f4bdfec81a9b63",
+                  "body": "<p>docs: update README</p>\n",
+                  "timestamp": 1718643537,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev18%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2204-sdk/compare/2204...ffmpeg-2404-sdk-7.0.1%2Frev18%2Farmhf"
                }
             ],
             "commits": null,
@@ -1474,8 +1474,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 125,
-                     "timestamp": 1720696943,
+                     "revision": 129,
+                     "timestamp": 1721806943,
                      "base": "core22"
                   },
                   {
@@ -1495,13 +1495,95 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 128,
-                     "timestamp": 1720697391,
+                     "revision": 130,
+                     "timestamp": 1721807184,
                      "base": "core22"
                   }
                ],
                "channels": [
                   "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "ffmpeg-2404-sdk",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "ffmpeg-2404-sdk-7.0.1/rev22/ppc64el",
+                  "sha": "839f162c3862bfa87e8ac17234682ba6538c2e1b",
+                  "body": "<p>update for <code>core24</code> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/22\">#22</a>)</p>\n\n<ul>\n<li><p>misc: fixes for CI</p></li>\n\n<li><p>misc: improve metadata</p></li>\n\n<li><p>misc: updates for core24</p></li>\n\n<li><p>New base snap used (core24)</p></li>\n\n<li><p>Updated snapcraft.yaml to use new base snap</p></li>\n\n<li><p>Follow tag changes instead of branches for ffmpeg part</p></li>\n\n<li><p>Follow the Project Version for the <code>source-tag</code> for ffmpeg part</p></li>\n\n<li><p>changed architectures to platforms</p></li>\n\n<li><p>fixed all the workflows to point the new folders</p></li>\n\n<li><p>renamed folders</p></li>\n\n<li><p>docs: update README</p></li>\n\n<li><p>misc: update for <code>core24</code> release</p></li>\n</ul>\n",
+                  "timestamp": 1721805891,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev22%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.1%2Frev22%2Fppc64el"
+               },
+               {
+                  "name": "ffmpeg-2404-sdk-7.0.1/rev21/amd64",
+                  "sha": "839f162c3862bfa87e8ac17234682ba6538c2e1b",
+                  "body": "<p>update for <code>core24</code> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/22\">#22</a>)</p>\n\n<ul>\n<li><p>misc: fixes for CI</p></li>\n\n<li><p>misc: improve metadata</p></li>\n\n<li><p>misc: updates for core24</p></li>\n\n<li><p>New base snap used (core24)</p></li>\n\n<li><p>Updated snapcraft.yaml to use new base snap</p></li>\n\n<li><p>Follow tag changes instead of branches for ffmpeg part</p></li>\n\n<li><p>Follow the Project Version for the <code>source-tag</code> for ffmpeg part</p></li>\n\n<li><p>changed architectures to platforms</p></li>\n\n<li><p>fixed all the workflows to point the new folders</p></li>\n\n<li><p>renamed folders</p></li>\n\n<li><p>docs: update README</p></li>\n\n<li><p>misc: update for <code>core24</code> release</p></li>\n</ul>\n",
+                  "timestamp": 1721805891,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev21%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.1%2Frev21%2Famd64"
+               },
+               {
+                  "name": "ffmpeg-2204-sdk-7.0/rev124/ppc64el",
+                  "sha": "01d44ca2e9ddd023b7d286b7596718bf8ba6c9f2",
+                  "body": "<p>ci: add &lsquo;multi-snap&rsquo; option to release workflows</p>\n",
+                  "timestamp": 1713891233,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2204-sdk-7.0%2Frev124%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2204-sdk-7.0%2Frev124%2Fppc64el"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/update-sdk-snap.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/release-sdk-to-candidate.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/promote-to-stable.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/update-sdk-snap.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/release-content-to-candidate.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "ffmpeg-2404-sdk",
+               "url": "https://snapcraft.io/ffmpeg-2404-sdk",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 21,
+                     "timestamp": 1721808429,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 17,
+                     "timestamp": 1720642481,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 18,
+                     "timestamp": 1720642670,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 22,
+                     "timestamp": 1721808917,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
                   "candidate"
                ],
                "tracks": [
