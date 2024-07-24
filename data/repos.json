@@ -2721,10 +2721,18 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
+               {
+                  "name": "2.469/rev4699/amd64",
+                  "sha": "d019c2c84be7a3ab66b0c712fea7fc56a1decc55",
+                  "body": "<p>chore: bump jenkins to version 2.469</p>\n",
+                  "timestamp": 1721816454,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.469%2Frev4699%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.469%2Frev4699%2Famd64"
+               },
                {
                   "name": "2.468/rev4697/amd64",
                   "sha": "ff4f62c146f1f0d0811113384ad828af6dff7a9c",
@@ -2740,14 +2748,6 @@
                   "timestamp": 1721400709,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.468%2Frev4696%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.468%2Frev4696%2Famd64"
-               },
-               {
-                  "name": "2.468/rev4695/amd64",
-                  "sha": "ff4f62c146f1f0d0811113384ad828af6dff7a9c",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/98\">#98</a> from kz6fittycent/candidate</p>\n\n<p>Fix to allow both tracks to sync w/ upstream</p>\n",
-                  "timestamp": 1721400709,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.468%2Frev4695%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.468%2Frev4695%2Famd64"
                }
             ],
             "commits": null,
@@ -2785,8 +2785,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4697,
-                     "timestamp": 1721440493,
+                     "revision": 4699,
+                     "timestamp": 1721816906,
                      "base": "core22"
                   },
                   {
@@ -3730,10 +3730,18 @@
          },
          {
             "name": "obs-studio",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/obs-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "30.2.2/rev1303/amd64",
+                  "sha": "467567f759a921559e13cdbd3fddd44c70c0da4b",
+                  "body": "<p>chore: bump obs-studio to version 30.2.2</p>\n",
+                  "timestamp": 1721816148,
+                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/30.2.2%2Frev1303%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...30.2.2%2Frev1303%2Famd64"
+               },
                {
                   "name": "30.2.0/rev1302/amd64",
                   "sha": "3008f8d62236397bd49c6d9e498fcbd1b1abd86c",
@@ -3749,14 +3757,6 @@
                   "timestamp": 1719563342,
                   "url": "https://github.com/snapcrafters/obs-studio/releases/tag/30.1.2%2Frev1301%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...30.1.2%2Frev1301%2Famd64"
-               },
-               {
-                  "name": "30.1.2/rev1300/amd64",
-                  "sha": "04993f4d94fea691eb6a09d83ff33d57d131fd7d",
-                  "body": "<p>chore: bump obs-studio to version 30.1.2</p>\n",
-                  "timestamp": 1712398340,
-                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/30.1.2%2Frev1300%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...30.1.2%2Frev1300%2Famd64"
                }
             ],
             "commits": null,
@@ -3780,8 +3780,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1302,
-                     "timestamp": 1720866796,
+                     "revision": 1303,
+                     "timestamp": 1721817617,
                      "base": "core22"
                   },
                   {
