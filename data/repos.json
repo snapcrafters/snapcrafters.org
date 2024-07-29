@@ -4396,38 +4396,35 @@
          },
          {
             "name": "ruff",
-            "newCommits": 52,
+            "newCommits": 71,
             "url": "https://github.com/snapcrafters/ruff",
-            "releases": [
+            "releases": null,
+            "tags": [
                {
-                  "id": 140722782,
-                  "version": "0.2.0/rev964/riscv64",
-                  "timestamp": 1706840053,
-                  "title": "No longer releasing on GitHub",
-                  "body": "<p>Please view releases directly <a href=\"https://snapcraft.io/ruff\">on the ruff page on Snapcraft</a>.</p>\n",
-                  "url": "https://github.com/snapcrafters/ruff/releases/tag/0.2.0/rev964/riscv64",
-                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/0.2.0/rev964/riscv64...candidate"
-               },
-               {
-                  "id": 135635222,
-                  "version": "v0.1.11",
+                  "name": "v0.1.11",
+                  "sha": "1ab66b641f43c5103b064755c2108414b1a451c1",
+                  "body": "<p>Sync upstream release v0.1.11 as v0.1.11</p>\n",
                   "timestamp": 1704262640,
-                  "title": "Ruff v0.1.11",
-                  "body": "<p>See upstream release at <a href=\"https://github.com/charliermarsh/ruff/releases/tag/v0.1.11\">https://github.com/charliermarsh/ruff/releases/tag/v0.1.11</a></p>\n",
                   "url": "https://github.com/snapcrafters/ruff/releases/tag/v0.1.11",
-                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/v0.1.11...candidate"
+                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/candidate...v0.1.11"
                },
                {
-                  "id": 135635217,
-                  "version": "v0.1.10",
+                  "name": "v0.1.10",
+                  "sha": "b0933393097581122b5cdf770bc4c90a51bd5195",
+                  "body": "<p>Sync upstream release v0.1.10 as v0.1.10</p>\n",
                   "timestamp": 1704262639,
-                  "title": "Ruff v0.1.10",
-                  "body": "<p>See upstream release at <a href=\"https://github.com/charliermarsh/ruff/releases/tag/v0.1.10\">https://github.com/charliermarsh/ruff/releases/tag/v0.1.10</a></p>\n",
                   "url": "https://github.com/snapcrafters/ruff/releases/tag/v0.1.10",
-                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/v0.1.10...candidate"
+                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/candidate...v0.1.10"
+               },
+               {
+                  "name": "v0.1.9",
+                  "sha": "606ee6b425c9603c1c9c73067dc62e3f2968f345",
+                  "body": "<p>Sync upstream release v0.1.9 as v0.1.9</p>\n",
+                  "timestamp": 1703225837,
+                  "url": "https://github.com/snapcrafters/ruff/releases/tag/v0.1.9",
+                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/candidate...v0.1.9"
                }
             ],
-            "tags": null,
             "commits": null,
             "ciActions": [
                "https://github.com/snapcrafters/ruff/actions/workflows/sync-version-with-upstream.yaml",
