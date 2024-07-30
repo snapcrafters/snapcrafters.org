@@ -2721,10 +2721,26 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
+               {
+                  "name": "2.470/rev4706/armhf",
+                  "sha": "a6b247520bdc1e1f2bd9159161e6ac0f4180482d",
+                  "body": "<p>chore: bump jenkins to version 2.470</p>\n",
+                  "timestamp": 1722371330,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.470%2Frev4706%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.470%2Frev4706%2Farmhf"
+               },
+               {
+                  "name": "2.470/rev4705/arm64",
+                  "sha": "a6b247520bdc1e1f2bd9159161e6ac0f4180482d",
+                  "body": "<p>chore: bump jenkins to version 2.470</p>\n",
+                  "timestamp": 1722371330,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.470%2Frev4705%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.470%2Frev4705%2Farm64"
+               },
                {
                   "name": "2.469/rev4701/armhf",
                   "sha": "d019c2c84be7a3ab66b0c712fea7fc56a1decc55",
@@ -2732,22 +2748,6 @@
                   "timestamp": 1721816454,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.469%2Frev4701%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.469%2Frev4701%2Farmhf"
-               },
-               {
-                  "name": "2.469/rev4700/arm64",
-                  "sha": "d019c2c84be7a3ab66b0c712fea7fc56a1decc55",
-                  "body": "<p>chore: bump jenkins to version 2.469</p>\n",
-                  "timestamp": 1721816454,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.469%2Frev4700%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.469%2Frev4700%2Farm64"
-               },
-               {
-                  "name": "2.469/rev4699/amd64",
-                  "sha": "d019c2c84be7a3ab66b0c712fea7fc56a1decc55",
-                  "body": "<p>chore: bump jenkins to version 2.469</p>\n",
-                  "timestamp": 1721816454,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.469%2Frev4699%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.469%2Frev4699%2Famd64"
                }
             ],
             "commits": null,
@@ -2792,15 +2792,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4700,
-                     "timestamp": 1721835183,
+                     "revision": 4705,
+                     "timestamp": 1722372606,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4701,
-                     "timestamp": 1721835776,
+                     "revision": 4706,
+                     "timestamp": 1722372682,
                      "base": "core22"
                   },
                   {
