@@ -4704,10 +4704,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.18.0/rev678/amd64",
+                  "sha": "6a6aa424fa1d765940062f982e3ccb990fd3d46c",
+                  "body": "<p>build: remove unused library (according to snapcraft linter)</p>\n",
+                  "timestamp": 1722516076,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.18.0%2Frev678%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.18.0%2Frev678%2Famd64"
+               },
                {
                   "name": "7.18.0/rev677/amd64",
                   "sha": "5afdd166c41a0240b9cd55b6ef156e111dd8d376",
@@ -4723,14 +4731,6 @@
                   "timestamp": 1722257866,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.17.0%2Frev676%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.17.0%2Frev676%2Farm64"
-               },
-               {
-                  "name": "7.17.0/rev675/amd64",
-                  "sha": "b131b1470d89113c592c865d1d46cefc88a6a4eb",
-                  "body": "<p>build: turn off super-debug logging</p>\n",
-                  "timestamp": 1722257866,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.17.0%2Frev675%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.17.0%2Frev675%2Famd64"
                }
             ],
             "commits": null,
@@ -4761,9 +4761,9 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 677,
-                     "timestamp": 1722506487,
-                     "base": "core22"
+                     "revision": 678,
+                     "timestamp": 1722521418,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
