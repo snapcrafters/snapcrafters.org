@@ -4704,10 +4704,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 6,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.18.0/rev679/amd64",
+                  "sha": "f4a397fcf6abdb93d49b6fd1f2d2d093104a1257",
+                  "body": "<p>revert: build: enable the <code>build:dns-fallback</code> step from <code>npm run generate</code></p>\n",
+                  "timestamp": 1722543408,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.18.0%2Frev679%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.18.0%2Frev679%2Famd64"
+               },
                {
                   "name": "7.18.0/rev678/amd64",
                   "sha": "6a6aa424fa1d765940062f982e3ccb990fd3d46c",
@@ -4723,14 +4731,6 @@
                   "timestamp": 1722503760,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.18.0%2Frev677%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.18.0%2Frev677%2Famd64"
-               },
-               {
-                  "name": "7.17.0/rev676/arm64",
-                  "sha": "b131b1470d89113c592c865d1d46cefc88a6a4eb",
-                  "body": "<p>build: turn off super-debug logging</p>\n",
-                  "timestamp": 1722257866,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.17.0%2Frev676%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.17.0%2Frev676%2Farm64"
                }
             ],
             "commits": null,
@@ -4761,8 +4761,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 678,
-                     "timestamp": 1722521418,
+                     "revision": 679,
+                     "timestamp": 1722591733,
                      "base": "core24"
                   },
                   {
