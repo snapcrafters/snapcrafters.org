@@ -1145,6 +1145,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "0.0.62/rev201/amd64",
+                  "sha": "475a242299d316f9904263f3559f6e189b3efac2",
+                  "body": "<p>build: reinstante explicit library staging</p>\n",
+                  "timestamp": 1722605470,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.62%2Frev201%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.62%2Frev201%2Famd64"
+               },
+               {
                   "name": "0.0.62/rev200/amd64",
                   "sha": "fee897ea653bee71ac42f3f94f517adcc8ce8ccf",
                   "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/217\">#217</a> from jnsgruk/candidate</p>\n\n<p>build: update to use <code>core24</code></p>\n",
@@ -1159,14 +1167,6 @@
                   "timestamp": 1722420483,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.62%2Frev199%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.62%2Frev199%2Famd64"
-               },
-               {
-                  "name": "0.0.61/rev198/amd64",
-                  "sha": "dd6f6b282e63690776ce0b846d4254a38f1fd57e",
-                  "body": "<p>chore: bump discord to version 0.0.61</p>\n",
-                  "timestamp": 1721729405,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.61%2Frev198%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.61%2Frev198%2Famd64"
                }
             ],
             "commits": null,
@@ -1183,15 +1183,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 199,
-                     "timestamp": 1722604415,
-                     "base": "core22"
+                     "revision": 201,
+                     "timestamp": 1722606785,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 200,
-                     "timestamp": 1722597319,
+                     "revision": 201,
+                     "timestamp": 1722605925,
                      "base": "core24"
                   }
                ],
