@@ -1140,10 +1140,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 4,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.62/rev200/amd64",
+                  "sha": "fee897ea653bee71ac42f3f94f517adcc8ce8ccf",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/217\">#217</a> from jnsgruk/candidate</p>\n\n<p>build: update to use <code>core24</code></p>\n",
+                  "timestamp": 1722596890,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.62%2Frev200%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.62%2Frev200%2Famd64"
+               },
                {
                   "name": "0.0.62/rev199/amd64",
                   "sha": "5c0207791d0cb93e0b15e54263db3640401b379f",
@@ -1159,14 +1167,6 @@
                   "timestamp": 1721729405,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.61%2Frev198%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.61%2Frev198%2Famd64"
-               },
-               {
-                  "name": "0.0.60/rev197/amd64",
-                  "sha": "78b50b73517245f09044fa26c7c62327aa1a42b0",
-                  "body": "<p>chore: bump discord to version 0.0.60</p>\n",
-                  "timestamp": 1721124501,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.60%2Frev197%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.60%2Frev197%2Famd64"
                }
             ],
             "commits": null,
@@ -1190,9 +1190,9 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 199,
-                     "timestamp": 1722421023,
-                     "base": "core22"
+                     "revision": 200,
+                     "timestamp": 1722597319,
+                     "base": "core24"
                   }
                ],
                "channels": [
