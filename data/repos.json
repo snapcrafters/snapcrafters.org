@@ -9,28 +9,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "0.13.2/rev139/arm64",
+                  "sha": "c8a9190d4493757b5f48641ebe023b40a9a69360",
+                  "body": "<p>Remove <code>unset</code> line from wrapper. (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/29\">#29</a>)</p>\n",
+                  "timestamp": 1722677041,
+                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.13.2%2Frev139%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.13.2%2Frev139%2Farm64"
+               },
+               {
+                  "name": "0.13.2/rev138/armhf",
+                  "sha": "c8a9190d4493757b5f48641ebe023b40a9a69360",
+                  "body": "<p>Remove <code>unset</code> line from wrapper. (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/29\">#29</a>)</p>\n",
+                  "timestamp": 1722677041,
+                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.13.2%2Frev138%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.13.2%2Frev138%2Farmhf"
+               },
+               {
                   "name": "0.13.2/rev137/ppc64el",
                   "sha": "c8a9190d4493757b5f48641ebe023b40a9a69360",
                   "body": "<p>Remove <code>unset</code> line from wrapper. (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/29\">#29</a>)</p>\n",
                   "timestamp": 1722677041,
                   "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.13.2%2Frev137%2Fppc64el",
                   "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.13.2%2Frev137%2Fppc64el"
-               },
-               {
-                  "name": "0.13.2/rev136/s390x",
-                  "sha": "c8a9190d4493757b5f48641ebe023b40a9a69360",
-                  "body": "<p>Remove <code>unset</code> line from wrapper. (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/29\">#29</a>)</p>\n",
-                  "timestamp": 1722677041,
-                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.13.2%2Frev136%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.13.2%2Frev136%2Fs390x"
-               },
-               {
-                  "name": "0.13.2/rev135/amd64",
-                  "sha": "c8a9190d4493757b5f48641ebe023b40a9a69360",
-                  "body": "<p>Remove <code>unset</code> line from wrapper. (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/29\">#29</a>)</p>\n",
-                  "timestamp": 1722677041,
-                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.13.2%2Frev135%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.13.2%2Frev135%2Famd64"
                }
             ],
             "commits": null,
@@ -89,15 +89,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 131,
-                     "timestamp": 1718053313,
+                     "revision": 139,
+                     "timestamp": 1722683018,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 132,
-                     "timestamp": 1718053368,
+                     "revision": 138,
+                     "timestamp": 1722682307,
                      "base": "core22"
                   },
                   {
@@ -1511,33 +1511,33 @@
          },
          {
             "name": "ffmpeg-2404-sdk",
-            "newCommits": 2,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
                {
-                  "name": "ffmpeg-2404-sdk-7.0.1/rev24/armhf",
-                  "sha": "839f162c3862bfa87e8ac17234682ba6538c2e1b",
-                  "body": "<p>update for <code>core24</code> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/22\">#22</a>)</p>\n\n<ul>\n<li><p>misc: fixes for CI</p></li>\n\n<li><p>misc: improve metadata</p></li>\n\n<li><p>misc: updates for core24</p></li>\n\n<li><p>New base snap used (core24)</p></li>\n\n<li><p>Updated snapcraft.yaml to use new base snap</p></li>\n\n<li><p>Follow tag changes instead of branches for ffmpeg part</p></li>\n\n<li><p>Follow the Project Version for the <code>source-tag</code> for ffmpeg part</p></li>\n\n<li><p>changed architectures to platforms</p></li>\n\n<li><p>fixed all the workflows to point the new folders</p></li>\n\n<li><p>renamed folders</p></li>\n\n<li><p>docs: update README</p></li>\n\n<li><p>misc: update for <code>core24</code> release</p></li>\n</ul>\n",
-                  "timestamp": 1721805891,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev24%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.1%2Frev24%2Farmhf"
+                  "name": "ffmpeg-2404-sdk-7.0.2/rev27/armhf",
+                  "sha": "93d70539058f9eed44f4625fb69ba7bba49bf2d8",
+                  "body": "<p>chore: bump ffmpeg-2404-sdk to version 7.0.2</p>\n",
+                  "timestamp": 1722679638,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.2%2Frev27%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.2%2Frev27%2Farmhf"
                },
                {
-                  "name": "ffmpeg-2404-sdk-7.0.1/rev23/arm64",
-                  "sha": "839f162c3862bfa87e8ac17234682ba6538c2e1b",
-                  "body": "<p>update for <code>core24</code> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/22\">#22</a>)</p>\n\n<ul>\n<li><p>misc: fixes for CI</p></li>\n\n<li><p>misc: improve metadata</p></li>\n\n<li><p>misc: updates for core24</p></li>\n\n<li><p>New base snap used (core24)</p></li>\n\n<li><p>Updated snapcraft.yaml to use new base snap</p></li>\n\n<li><p>Follow tag changes instead of branches for ffmpeg part</p></li>\n\n<li><p>Follow the Project Version for the <code>source-tag</code> for ffmpeg part</p></li>\n\n<li><p>changed architectures to platforms</p></li>\n\n<li><p>fixed all the workflows to point the new folders</p></li>\n\n<li><p>renamed folders</p></li>\n\n<li><p>docs: update README</p></li>\n\n<li><p>misc: update for <code>core24</code> release</p></li>\n</ul>\n",
-                  "timestamp": 1721805891,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev23%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.1%2Frev23%2Farm64"
+                  "name": "ffmpeg-2404-sdk-7.0.2/rev26/ppc64el",
+                  "sha": "93d70539058f9eed44f4625fb69ba7bba49bf2d8",
+                  "body": "<p>chore: bump ffmpeg-2404-sdk to version 7.0.2</p>\n",
+                  "timestamp": 1722679638,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.2%2Frev26%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.2%2Frev26%2Fppc64el"
                },
                {
-                  "name": "ffmpeg-2404-sdk-7.0.1/rev22/ppc64el",
-                  "sha": "839f162c3862bfa87e8ac17234682ba6538c2e1b",
-                  "body": "<p>update for <code>core24</code> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/22\">#22</a>)</p>\n\n<ul>\n<li><p>misc: fixes for CI</p></li>\n\n<li><p>misc: improve metadata</p></li>\n\n<li><p>misc: updates for core24</p></li>\n\n<li><p>New base snap used (core24)</p></li>\n\n<li><p>Updated snapcraft.yaml to use new base snap</p></li>\n\n<li><p>Follow tag changes instead of branches for ffmpeg part</p></li>\n\n<li><p>Follow the Project Version for the <code>source-tag</code> for ffmpeg part</p></li>\n\n<li><p>changed architectures to platforms</p></li>\n\n<li><p>fixed all the workflows to point the new folders</p></li>\n\n<li><p>renamed folders</p></li>\n\n<li><p>docs: update README</p></li>\n\n<li><p>misc: update for <code>core24</code> release</p></li>\n</ul>\n",
-                  "timestamp": 1721805891,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev22%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.1%2Frev22%2Fppc64el"
+                  "name": "ffmpeg-2404-sdk-7.0.2/rev25/amd64",
+                  "sha": "93d70539058f9eed44f4625fb69ba7bba49bf2d8",
+                  "body": "<p>chore: bump ffmpeg-2404-sdk to version 7.0.2</p>\n",
+                  "timestamp": 1722679638,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.2%2Frev25%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.2%2Frev25%2Famd64"
                }
             ],
             "commits": null,
@@ -1585,8 +1585,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 21,
-                     "timestamp": 1721808429,
+                     "revision": 25,
+                     "timestamp": 1722680468,
                      "base": "core24"
                   },
                   {
@@ -1599,15 +1599,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 24,
-                     "timestamp": 1721840235,
+                     "revision": 27,
+                     "timestamp": 1722683236,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 22,
-                     "timestamp": 1721808917,
+                     "revision": 26,
+                     "timestamp": 1722680778,
                      "base": "core24"
                   }
                ],
