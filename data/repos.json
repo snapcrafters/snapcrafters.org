@@ -1302,9 +1302,68 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/eclipse/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/eclipse/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/eclipse/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "eclipse",
+               "url": "https://snapcraft.io/eclipse",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 95,
+                     "timestamp": 1718982935,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 96,
+                     "timestamp": 1718982937,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 95,
+                     "timestamp": 1718968289,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 96,
+                     "timestamp": 1718978132,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 97,
+                     "timestamp": 1719044241,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 98,
+                     "timestamp": 1719057517,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "ffmpeg",
