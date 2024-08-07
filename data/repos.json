@@ -1145,6 +1145,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "0.0.63/rev203/amd64",
+                  "sha": "f192ba06a7a069f0f7e35bdb2378d65d4b9945cc",
+                  "body": "<p>fix: use <code>NOTIFY_IGNORE_PORTAL=1</code> to workaround notifications bug`</p>\n",
+                  "timestamp": 1723030726,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.63%2Frev203%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.63%2Frev203%2Famd64"
+               },
+               {
                   "name": "0.0.63/rev202/amd64",
                   "sha": "8b6afe3850b01c96ffa0ae23d4499601f3f6a0d4",
                   "body": "<p>chore: bump discord to version 0.0.63</p>\n",
@@ -1159,14 +1167,6 @@
                   "timestamp": 1722605470,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.62%2Frev201%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.62%2Frev201%2Famd64"
-               },
-               {
-                  "name": "0.0.62/rev200/amd64",
-                  "sha": "fee897ea653bee71ac42f3f94f517adcc8ce8ccf",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/217\">#217</a> from jnsgruk/candidate</p>\n\n<p>build: update to use <code>core24</code></p>\n",
-                  "timestamp": 1722596890,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.62%2Frev200%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.62%2Frev200%2Famd64"
                }
             ],
             "commits": null,
@@ -1190,8 +1190,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 202,
-                     "timestamp": 1722939463,
+                     "revision": 203,
+                     "timestamp": 1723031207,
                      "base": "core24"
                   }
                ],
@@ -3050,28 +3050,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "5.8.1/rev761/arm64",
+                  "sha": "c2acef7feef0de69941daeff25bf861ce276d816",
+                  "body": "<p>fix: use <code>NOTIFY_IGNORE_PORTAL=1</code> to workaround notifications bug`</p>\n",
+                  "timestamp": 1723030764,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.8.1%2Frev761%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.8.1%2Frev761%2Farm64"
+               },
+               {
+                  "name": "5.8.1/rev760/amd64",
+                  "sha": "c2acef7feef0de69941daeff25bf861ce276d816",
+                  "body": "<p>fix: use <code>NOTIFY_IGNORE_PORTAL=1</code> to workaround notifications bug`</p>\n",
+                  "timestamp": 1723030764,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.8.1%2Frev760%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.8.1%2Frev760%2Famd64"
+               },
+               {
                   "name": "5.8.1/rev759/arm64",
                   "sha": "27bac71093a59310bc3638f6795ae9ecb6582cca",
                   "body": "<p>build: update to use <code>core24</code> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/106\">#106</a>)</p>\n",
                   "timestamp": 1722853310,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.8.1%2Frev759%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.8.1%2Frev759%2Farm64"
-               },
-               {
-                  "name": "5.8.1/rev758/amd64",
-                  "sha": "27bac71093a59310bc3638f6795ae9ecb6582cca",
-                  "body": "<p>build: update to use <code>core24</code> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/106\">#106</a>)</p>\n",
-                  "timestamp": 1722853310,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.8.1%2Frev758%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.8.1%2Frev758%2Famd64"
-               },
-               {
-                  "name": "5.8.1/rev757/arm64",
-                  "sha": "79f598cb8e9add82a6e6937d5a8e24c70e387e8e",
-                  "body": "<p>chore: bump mattermost-desktop to version 5.8.1</p>\n",
-                  "timestamp": 1718352798,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.8.1%2Frev757%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.8.1%2Frev757%2Farm64"
                }
             ],
             "commits": null,
@@ -3088,15 +3088,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 758,
-                     "timestamp": 1722872855,
+                     "revision": 760,
+                     "timestamp": 1723031900,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 759,
-                     "timestamp": 1722872858,
+                     "revision": 761,
+                     "timestamp": 1723031904,
                      "base": "core24"
                   },
                   {
@@ -3109,15 +3109,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 758,
-                     "timestamp": 1722853864,
+                     "revision": 760,
+                     "timestamp": 1723031199,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 759,
-                     "timestamp": 1722853887,
+                     "revision": 761,
+                     "timestamp": 1723031503,
                      "base": "core24"
                   },
                   {
@@ -4709,6 +4709,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.19.0/rev682/amd64",
+                  "sha": "e8796835900d93792e29d8a7a5d568c9cea6868e",
+                  "body": "<p>fix: use <code>NOTIFY_IGNORE_PORTAL=1</code> to workaround notifications bug`</p>\n",
+                  "timestamp": 1723030706,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.0%2Frev682%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.0%2Frev682%2Famd64"
+               },
+               {
                   "name": "7.19.0/rev681/amd64",
                   "sha": "8e2b8b2e989de015ca5ca617a04dd31c14eadb0d",
                   "body": "<p>chore: bump signal-desktop to version 7.19.0</p>\n",
@@ -4723,14 +4731,6 @@
                   "timestamp": 1722543408,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.18.0%2Frev680%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.18.0%2Frev680%2Farm64"
-               },
-               {
-                  "name": "7.18.0/rev679/amd64",
-                  "sha": "f4a397fcf6abdb93d49b6fd1f2d2d093104a1257",
-                  "body": "<p>revert: build: enable the <code>build:dns-fallback</code> step from <code>npm run generate</code></p>\n",
-                  "timestamp": 1722543408,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.18.0%2Frev679%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.18.0%2Frev679%2Famd64"
                }
             ],
             "commits": null,
@@ -4761,8 +4761,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 681,
-                     "timestamp": 1723021253,
+                     "revision": 682,
+                     "timestamp": 1723031817,
                      "base": "core24"
                   },
                   {
@@ -5488,6 +5488,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "webkitgtk-6-gnome-2404-sdk-2.44.2/rev57/arm64",
+                  "sha": "6819dc6dcab54acd02e780af6b51d19e16428f24",
+                  "body": "<p>chore: bump webkitgtk-6-gnome-2404-sdk dependencies</p>\n",
+                  "timestamp": 1722939294,
+                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.44.2%2Frev57%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.44.2%2Frev57%2Farm64"
+               },
+               {
                   "name": "webkitgtk-6-gnome-2404-sdk-2.44.2/rev56/ppc64el",
                   "sha": "6819dc6dcab54acd02e780af6b51d19e16428f24",
                   "body": "<p>chore: bump webkitgtk-6-gnome-2404-sdk dependencies</p>\n",
@@ -5502,14 +5510,6 @@
                   "timestamp": 1722939294,
                   "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.44.2%2Frev55%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.44.2%2Frev55%2Farmhf"
-               },
-               {
-                  "name": "webkitgtk-6-gnome-2404-sdk-2.44.2/rev54/amd64",
-                  "sha": "6819dc6dcab54acd02e780af6b51d19e16428f24",
-                  "body": "<p>chore: bump webkitgtk-6-gnome-2404-sdk dependencies</p>\n",
-                  "timestamp": 1722939294,
-                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.44.2%2Frev54%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.44.2%2Frev54%2Famd64"
                }
             ],
             "commits": null,
