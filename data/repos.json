@@ -4709,6 +4709,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.19.0/rev681/amd64",
+                  "sha": "8e2b8b2e989de015ca5ca617a04dd31c14eadb0d",
+                  "body": "<p>chore: bump signal-desktop to version 7.19.0</p>\n",
+                  "timestamp": 1723020232,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.0%2Frev681%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.0%2Frev681%2Famd64"
+               },
+               {
                   "name": "7.18.0/rev680/arm64",
                   "sha": "f4a397fcf6abdb93d49b6fd1f2d2d093104a1257",
                   "body": "<p>revert: build: enable the <code>build:dns-fallback</code> step from <code>npm run generate</code></p>\n",
@@ -4723,14 +4731,6 @@
                   "timestamp": 1722543408,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.18.0%2Frev679%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.18.0%2Frev679%2Famd64"
-               },
-               {
-                  "name": "7.18.0/rev678/amd64",
-                  "sha": "6a6aa424fa1d765940062f982e3ccb990fd3d46c",
-                  "body": "<p>build: remove unused library (according to snapcraft linter)</p>\n",
-                  "timestamp": 1722516076,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.18.0%2Frev678%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.18.0%2Frev678%2Famd64"
                }
             ],
             "commits": null,
@@ -4761,8 +4761,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 679,
-                     "timestamp": 1722591733,
+                     "revision": 681,
+                     "timestamp": 1723021253,
                      "base": "core24"
                   },
                   {
@@ -5267,28 +5267,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "1.9.3/rev725/armhf",
-                  "sha": "8035907b255d2016c4631c59af156370c87ef628",
-                  "body": "<p>build(deps): bump balchua/microk8s-actions from 0.4.2 to 0.4.3 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/117\">#117</a>)</p>\n",
-                  "timestamp": 1722577702,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.3%2Frev725%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.3%2Frev725%2Farmhf"
+                  "name": "1.9.4/rev728/ppc64el",
+                  "sha": "fbb434f6e2fcd96c2ea704a842f1265b4df319e2",
+                  "body": "<p>chore: bump terraform to version 1.9.4</p>\n",
+                  "timestamp": 1723020275,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.4%2Frev728%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.4%2Frev728%2Fppc64el"
                },
                {
-                  "name": "1.9.3/rev724/arm64",
-                  "sha": "8035907b255d2016c4631c59af156370c87ef628",
-                  "body": "<p>build(deps): bump balchua/microk8s-actions from 0.4.2 to 0.4.3 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/117\">#117</a>)</p>\n",
-                  "timestamp": 1722577702,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.3%2Frev724%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.3%2Frev724%2Farm64"
+                  "name": "1.9.4/rev727/s390x",
+                  "sha": "fbb434f6e2fcd96c2ea704a842f1265b4df319e2",
+                  "body": "<p>chore: bump terraform to version 1.9.4</p>\n",
+                  "timestamp": 1723020275,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.4%2Frev727%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.4%2Frev727%2Fs390x"
                },
                {
-                  "name": "1.9.3/rev723/s390x",
-                  "sha": "8035907b255d2016c4631c59af156370c87ef628",
-                  "body": "<p>build(deps): bump balchua/microk8s-actions from 0.4.2 to 0.4.3 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/117\">#117</a>)</p>\n",
-                  "timestamp": 1722577702,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.3%2Frev723%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.3%2Frev723%2Fs390x"
+                  "name": "1.9.4/rev726/amd64",
+                  "sha": "fbb434f6e2fcd96c2ea704a842f1265b4df319e2",
+                  "body": "<p>chore: bump terraform to version 1.9.4</p>\n",
+                  "timestamp": 1723020275,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.9.4%2Frev726%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.9.4%2Frev726%2Famd64"
                }
             ],
             "commits": null,
@@ -5340,8 +5340,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 721,
-                     "timestamp": 1722578329,
+                     "revision": 726,
+                     "timestamp": 1723020829,
                      "base": "core24"
                   },
                   {
@@ -5361,15 +5361,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 722,
-                     "timestamp": 1722578395,
+                     "revision": 728,
+                     "timestamp": 1723020977,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 723,
-                     "timestamp": 1722578463,
+                     "revision": 727,
+                     "timestamp": 1723020960,
                      "base": "core24"
                   }
                ],
