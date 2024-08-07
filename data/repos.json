@@ -4709,6 +4709,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.19.0/rev683/arm64",
+                  "sha": "e8796835900d93792e29d8a7a5d568c9cea6868e",
+                  "body": "<p>fix: use <code>NOTIFY_IGNORE_PORTAL=1</code> to workaround notifications bug`</p>\n",
+                  "timestamp": 1723030706,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.0%2Frev683%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.0%2Frev683%2Farm64"
+               },
+               {
                   "name": "7.19.0/rev682/amd64",
                   "sha": "e8796835900d93792e29d8a7a5d568c9cea6868e",
                   "body": "<p>fix: use <code>NOTIFY_IGNORE_PORTAL=1</code> to workaround notifications bug`</p>\n",
@@ -4723,14 +4731,6 @@
                   "timestamp": 1723020232,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.0%2Frev681%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.0%2Frev681%2Famd64"
-               },
-               {
-                  "name": "7.18.0/rev680/arm64",
-                  "sha": "f4a397fcf6abdb93d49b6fd1f2d2d093104a1257",
-                  "body": "<p>revert: build: enable the <code>build:dns-fallback</code> step from <code>npm run generate</code></p>\n",
-                  "timestamp": 1722543408,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.18.0%2Frev680%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.18.0%2Frev680%2Farm64"
                }
             ],
             "commits": null,
@@ -4747,15 +4747,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 679,
-                     "timestamp": 1722599754,
+                     "revision": 682,
+                     "timestamp": 1723034856,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 680,
-                     "timestamp": 1722599757,
+                     "revision": 683,
+                     "timestamp": 1723034859,
                      "base": "core24"
                   },
                   {
@@ -4768,8 +4768,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 680,
-                     "timestamp": 1722598975,
+                     "revision": 683,
+                     "timestamp": 1723034444,
                      "base": "core24"
                   }
                ],
