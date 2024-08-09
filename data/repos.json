@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2024.1.1.13-Koala/rev165/amd64",
+                  "sha": "f47f3cadce21ff455a24f6faaae91d8f0baf236a",
+                  "body": "<p>chore: bump android-studio to version 2024.1.1.13-Koala</p>\n",
+                  "timestamp": 1723198035,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.1.1.13-Koala%2Frev165%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.1.1.13-Koala%2Frev165%2Famd64"
+               },
                {
                   "name": "2024.1.1.12-Koala/rev163/amd64",
                   "sha": "58b398fbf19888832740759c6cb2460cc7a3edd1",
@@ -181,14 +189,6 @@
                   "timestamp": 1718359605,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.1.1.11-Koala%2Frev161%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.1.1.11-Koala%2Frev161%2Famd64"
-               },
-               {
-                  "name": "2023.3.1.20-Jellyfish/rev159/amd64",
-                  "sha": "863587fb90539ca12b899106df944a91531da738",
-                  "body": "<p>chore: bump android-studio to version 2023.3.1.20-Jellyfish</p>\n",
-                  "timestamp": 1718100407,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2023.3.1.20-Jellyfish%2Frev159%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2023.3.1.20-Jellyfish%2Frev159%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 163,
-                     "timestamp": 1720779847,
+                     "revision": 165,
+                     "timestamp": 1723199079,
                      "base": "core22"
                   },
                   {
@@ -2856,8 +2856,8 @@
                   {
                      "track": "lts",
                      "channel": "candidate",
-                     "revision": 4702,
-                     "timestamp": 1721903843,
+                     "revision": 4718,
+                     "timestamp": 1723199240,
                      "base": "core22"
                   },
                   {
