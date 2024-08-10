@@ -4709,6 +4709,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.19.0/rev685/arm64",
+                  "sha": "fd589bd232ca84b7b6b308162fb3b9ad70f683ce",
+                  "body": "<p>feat: add optional <code>password-manager-service</code> plug</p>\n\n<p>A test that might address <a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/300\">#300</a>, due to a suggestion\nfrom the upstream that the issue is access to a stored\ntoken in the user&rsquo;s keyring.</p>\n\n<p>Will not autoconnect, and users will need to:</p>\n\n<pre><code>snap connect signal-desktop:password-manager-service\n</code></pre>\n\n<p>Should be reverted if it does not address the issue.</p>\n",
+                  "timestamp": 1723104628,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.0%2Frev685%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.0%2Frev685%2Farm64"
+               },
+               {
                   "name": "7.19.0/rev684/amd64",
                   "sha": "fd589bd232ca84b7b6b308162fb3b9ad70f683ce",
                   "body": "<p>feat: add optional <code>password-manager-service</code> plug</p>\n\n<p>A test that might address <a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/300\">#300</a>, due to a suggestion\nfrom the upstream that the issue is access to a stored\ntoken in the user&rsquo;s keyring.</p>\n\n<p>Will not autoconnect, and users will need to:</p>\n\n<pre><code>snap connect signal-desktop:password-manager-service\n</code></pre>\n\n<p>Should be reverted if it does not address the issue.</p>\n",
@@ -4723,14 +4731,6 @@
                   "timestamp": 1723030706,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.0%2Frev683%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.0%2Frev683%2Farm64"
-               },
-               {
-                  "name": "7.19.0/rev682/amd64",
-                  "sha": "e8796835900d93792e29d8a7a5d568c9cea6868e",
-                  "body": "<p>fix: use <code>NOTIFY_IGNORE_PORTAL=1</code> to workaround notifications bug`</p>\n",
-                  "timestamp": 1723030706,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.0%2Frev682%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.0%2Frev682%2Famd64"
                }
             ],
             "commits": null,
@@ -4768,8 +4768,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 683,
-                     "timestamp": 1723034444,
+                     "revision": 685,
+                     "timestamp": 1723308727,
                      "base": "core24"
                   }
                ],
