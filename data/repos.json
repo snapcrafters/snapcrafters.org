@@ -2755,6 +2755,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2.472/rev4722/amd64",
+                  "sha": "597c5664dfbb8f9cf29e77053cbc0d6cca6b0edd",
+                  "body": "<p>chore: bump jenkins to version 2.472</p>\n",
+                  "timestamp": 1723560486,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.472%2Frev4722%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.472%2Frev4722%2Famd64"
+               },
+               {
                   "name": "2.471/rev4717/arm64",
                   "sha": "0196eeb616f80e1cc5694338bfde86136de02b42",
                   "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/106\">#106</a> from kz6fittycent/candidate</p>\n\n<p>Corrects issue with messy Jenkins LTS releases</p>\n",
@@ -2769,14 +2777,6 @@
                   "timestamp": 1723189999,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.471%2Frev4716%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.471%2Frev4716%2Farmhf"
-               },
-               {
-                  "name": "2.471/rev4715/amd64",
-                  "sha": "0196eeb616f80e1cc5694338bfde86136de02b42",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/106\">#106</a> from kz6fittycent/candidate</p>\n\n<p>Corrects issue with messy Jenkins LTS releases</p>\n",
-                  "timestamp": 1723189999,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.471%2Frev4715%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.471%2Frev4715%2Famd64"
                }
             ],
             "commits": null,
@@ -2814,8 +2814,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4715,
-                     "timestamp": 1723190501,
+                     "revision": 4722,
+                     "timestamp": 1723561942,
                      "base": "core22"
                   },
                   {
@@ -4704,10 +4704,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.19.1/rev687/arm64",
+                  "sha": "3446feb0734e9bb0b24d56cbf17d442279cb5b40",
+                  "body": "<p>chore: bump signal-desktop to version 7.19.1</p>\n",
+                  "timestamp": 1723543779,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.1%2Frev687%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.1%2Frev687%2Farm64"
+               },
+               {
+                  "name": "7.19.1/rev686/amd64",
+                  "sha": "3446feb0734e9bb0b24d56cbf17d442279cb5b40",
+                  "body": "<p>chore: bump signal-desktop to version 7.19.1</p>\n",
+                  "timestamp": 1723543779,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.1%2Frev686%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.1%2Frev686%2Famd64"
+               },
                {
                   "name": "7.19.0/rev685/arm64",
                   "sha": "fd589bd232ca84b7b6b308162fb3b9ad70f683ce",
@@ -4715,22 +4731,6 @@
                   "timestamp": 1723104628,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.0%2Frev685%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.0%2Frev685%2Farm64"
-               },
-               {
-                  "name": "7.19.0/rev684/amd64",
-                  "sha": "fd589bd232ca84b7b6b308162fb3b9ad70f683ce",
-                  "body": "<p>feat: add optional <code>password-manager-service</code> plug</p>\n\n<p>A test that might address <a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/300\">#300</a>, due to a suggestion\nfrom the upstream that the issue is access to a stored\ntoken in the user&rsquo;s keyring.</p>\n\n<p>Will not autoconnect, and users will need to:</p>\n\n<pre><code>snap connect signal-desktop:password-manager-service\n</code></pre>\n\n<p>Should be reverted if it does not address the issue.</p>\n",
-                  "timestamp": 1723104628,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.0%2Frev684%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.0%2Frev684%2Famd64"
-               },
-               {
-                  "name": "7.19.0/rev683/arm64",
-                  "sha": "e8796835900d93792e29d8a7a5d568c9cea6868e",
-                  "body": "<p>fix: use <code>NOTIFY_IGNORE_PORTAL=1</code> to workaround notifications bug`</p>\n",
-                  "timestamp": 1723030706,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.19.0%2Frev683%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.19.0%2Frev683%2Farm64"
                }
             ],
             "commits": null,
@@ -4747,29 +4747,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 682,
-                     "timestamp": 1723034856,
+                     "revision": 686,
+                     "timestamp": 1723561381,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 683,
-                     "timestamp": 1723034859,
+                     "revision": 687,
+                     "timestamp": 1723561384,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 684,
-                     "timestamp": 1723105873,
+                     "revision": 686,
+                     "timestamp": 1723559964,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 685,
-                     "timestamp": 1723308727,
+                     "revision": 687,
+                     "timestamp": 1723560523,
                      "base": "core24"
                   }
                ],
