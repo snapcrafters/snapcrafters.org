@@ -4938,6 +4938,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2099/rev90/arm64",
+                  "sha": "19621d49f66d3ff570149db85ccbd8644115e13b",
+                  "body": "<p>chore: bump sublime-merge to version 2099</p>\n",
+                  "timestamp": 1723543735,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2099%2Frev90%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2099%2Frev90%2Farm64"
+               },
+               {
                   "name": "2099/rev89/amd64",
                   "sha": "19621d49f66d3ff570149db85ccbd8644115e13b",
                   "body": "<p>chore: bump sublime-merge to version 2099</p>\n",
@@ -4952,14 +4960,6 @@
                   "timestamp": 1714737559,
                   "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2096%2Frev88%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2096%2Frev88%2Farm64"
-               },
-               {
-                  "name": "2096/rev85/amd64",
-                  "sha": "fd969705b1b3dce4f71ebc4114737244d4b6fea8",
-                  "body": "<p>fix: action fails for sublime-merge on core18 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-merge/pull/41\">#41</a>)</p>\n\n<p>This forces the use of snapcraft 7.x when manipulating sublime-merge which is built on core18.</p>\n",
-                  "timestamp": 1714737559,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2096%2Frev85%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2096%2Frev85%2Famd64"
                }
             ],
             "commits": null,
@@ -5053,8 +5053,8 @@
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 78,
-                     "timestamp": 1713522247,
+                     "revision": 90,
+                     "timestamp": 1723544735,
                      "base": "core18"
                   }
                ],
