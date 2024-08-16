@@ -3045,10 +3045,18 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "5.9.0/rev762/amd64",
+                  "sha": "4d7122617e491e7d4b07c7faa3ed4f32f747d967",
+                  "body": "<p>chore: bump mattermost-desktop to version 5.9.0</p>\n",
+                  "timestamp": 1723795873,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.9.0%2Frev762%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.9.0%2Frev762%2Famd64"
+               },
                {
                   "name": "5.8.1/rev761/arm64",
                   "sha": "c2acef7feef0de69941daeff25bf861ce276d816",
@@ -3064,14 +3072,6 @@
                   "timestamp": 1723030764,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.8.1%2Frev760%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.8.1%2Frev760%2Famd64"
-               },
-               {
-                  "name": "5.8.1/rev759/arm64",
-                  "sha": "27bac71093a59310bc3638f6795ae9ecb6582cca",
-                  "body": "<p>build: update to use <code>core24</code> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/106\">#106</a>)</p>\n",
-                  "timestamp": 1722853310,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.8.1%2Frev759%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.8.1%2Frev759%2Farm64"
                }
             ],
             "commits": null,
@@ -3109,8 +3109,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 760,
-                     "timestamp": 1723031199,
+                     "revision": 762,
+                     "timestamp": 1723796549,
                      "base": "core24"
                   },
                   {
