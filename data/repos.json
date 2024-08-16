@@ -3794,10 +3794,18 @@
          },
          {
             "name": "obs-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/obs-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "30.2.3/rev1304/amd64",
+                  "sha": "3329fb18bfd8b41aac1533e81929a55630a1f814",
+                  "body": "<p>chore: bump obs-studio to version 30.2.3</p>\n",
+                  "timestamp": 1723803239,
+                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/30.2.3%2Frev1304%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...30.2.3%2Frev1304%2Famd64"
+               },
                {
                   "name": "30.2.2/rev1303/amd64",
                   "sha": "467567f759a921559e13cdbd3fddd44c70c0da4b",
@@ -3813,14 +3821,6 @@
                   "timestamp": 1720865554,
                   "url": "https://github.com/snapcrafters/obs-studio/releases/tag/30.2.0%2Frev1302%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...30.2.0%2Frev1302%2Famd64"
-               },
-               {
-                  "name": "30.1.2/rev1301/amd64",
-                  "sha": "ecad594a58031bcd1c3642ca2facb37d69b1c774",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/obs-studio/pull/201\">#201</a> from raivisdejus/fix-icon</p>\n\n<p>Fix for desktop icon</p>\n",
-                  "timestamp": 1719563342,
-                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/30.1.2%2Frev1301%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...30.1.2%2Frev1301%2Famd64"
                }
             ],
             "commits": null,
@@ -3844,8 +3844,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1303,
-                     "timestamp": 1721817617,
+                     "revision": 1304,
+                     "timestamp": 1723804992,
                      "base": "core22"
                   },
                   {
@@ -5483,7 +5483,7 @@
          },
          {
             "name": "webkitgtk-sdk",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/webkitgtk-sdk",
             "releases": null,
             "tags": [
