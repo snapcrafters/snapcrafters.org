@@ -1511,10 +1511,18 @@
          },
          {
             "name": "ffmpeg-2404-sdk",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
+               {
+                  "name": "ffmpeg-2404-sdk-7.0.2/rev33/ppc64el",
+                  "sha": "46653c104c322a378c9d0a6b4369d733d8b8d0b7",
+                  "body": "<p>chore(sdk): cleanup the sdk (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/32\">#32</a>)</p>\n",
+                  "timestamp": 1724241372,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.2%2Frev33%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.2%2Frev33%2Fppc64el"
+               },
                {
                   "name": "ffmpeg-2404-sdk-7.0.2/rev32/arm64",
                   "sha": "9580ab3339685fc4f346ed2bb9481765b03d7e62",
@@ -1530,14 +1538,6 @@
                   "timestamp": 1722679654,
                   "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.2%2Frev31%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.2%2Frev31%2Farmhf"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-7.0.2/rev30/ppc64el",
-                  "sha": "9580ab3339685fc4f346ed2bb9481765b03d7e62",
-                  "body": "<p>chore: bump ffmpeg-2404 to version 7.0.2</p>\n",
-                  "timestamp": 1722679654,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.2%2Frev30%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.2%2Frev30%2Fppc64el"
                }
             ],
             "commits": null,
@@ -1606,8 +1606,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 30,
-                     "timestamp": 1722971206,
+                     "revision": 33,
+                     "timestamp": 1724243363,
                      "base": "core24"
                   }
                ],
