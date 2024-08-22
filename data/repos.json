@@ -1516,6 +1516,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "ffmpeg-2404-sdk-7.0.2/rev38/arm64",
+                  "sha": "3e5f50502f0b6fbc844ed09a7b4ac0f1fedceb14",
+                  "body": "<p>fix: use the cleanup from the gpu-snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/36\">#36</a>)</p>\n",
+                  "timestamp": 1724313625,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.2%2Frev38%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.2%2Frev38%2Farm64"
+               },
+               {
                   "name": "ffmpeg-2404-sdk-7.0.2/rev37/amd64",
                   "sha": "3e5f50502f0b6fbc844ed09a7b4ac0f1fedceb14",
                   "body": "<p>fix: use the cleanup from the gpu-snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/36\">#36</a>)</p>\n",
@@ -1530,14 +1538,6 @@
                   "timestamp": 1724241372,
                   "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.2%2Frev36%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.2%2Frev36%2Farmhf"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-7.0.2/rev35/arm64",
-                  "sha": "46653c104c322a378c9d0a6b4369d733d8b8d0b7",
-                  "body": "<p>chore(sdk): cleanup the sdk (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/32\">#32</a>)</p>\n",
-                  "timestamp": 1724241372,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.0.2%2Frev35%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.0.2%2Frev35%2Farm64"
                }
             ],
             "commits": null,
@@ -1592,8 +1592,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 35,
-                     "timestamp": 1724245099,
+                     "revision": 38,
+                     "timestamp": 1724314880,
                      "base": "core24"
                   },
                   {
