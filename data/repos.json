@@ -1140,10 +1140,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.66/rev206/amd64",
+                  "sha": "a21662d9f3147a362fcbbcad50b9eb42ac2b3bdb",
+                  "body": "<p>chore: bump discord to version 0.0.66</p>\n",
+                  "timestamp": 1724839818,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.66%2Frev206%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.66%2Frev206%2Famd64"
+               },
                {
                   "name": "0.0.65/rev205/amd64",
                   "sha": "75f7ed779c87207a27f5027bf978d31ffdb363ab",
@@ -1159,14 +1167,6 @@
                   "timestamp": 1723630250,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.64%2Frev204%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.64%2Frev204%2Famd64"
-               },
-               {
-                  "name": "0.0.63/rev203/amd64",
-                  "sha": "f192ba06a7a069f0f7e35bdb2378d65d4b9945cc",
-                  "body": "<p>fix: use <code>NOTIFY_IGNORE_PORTAL=1</code> to workaround notifications bug`</p>\n",
-                  "timestamp": 1723030726,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.63%2Frev203%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.63%2Frev203%2Famd64"
                }
             ],
             "commits": null,
@@ -1190,8 +1190,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 205,
-                     "timestamp": 1724408328,
+                     "revision": 206,
+                     "timestamp": 1724840264,
                      "base": "core24"
                   }
                ],
@@ -2750,7 +2750,7 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
