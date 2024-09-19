@@ -1145,6 +1145,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "0.0.68/rev208/amd64",
+                  "sha": "7a8f18db8f285ddfc182ffbca63d3a9e3b8f68e7",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/234\">#234</a> from lengau/revert-to-core22</p>\n\n<p>fix: workaround core24 window sharing bug</p>\n",
+                  "timestamp": 1726750819,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.68%2Frev208%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.68%2Frev208%2Famd64"
+               },
+               {
                   "name": "0.0.68/rev207/amd64",
                   "sha": "7b46e9e8767a3f8cc7afeb5c5bb00f95fc12d06e",
                   "body": "<p>chore: bump discord to version 0.0.68</p>\n",
@@ -1159,14 +1167,6 @@
                   "timestamp": 1724839818,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.66%2Frev206%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.66%2Frev206%2Famd64"
-               },
-               {
-                  "name": "0.0.65/rev205/amd64",
-                  "sha": "75f7ed779c87207a27f5027bf978d31ffdb363ab",
-                  "body": "<p>chore: bump discord to version 0.0.65</p>\n",
-                  "timestamp": 1724407833,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.65%2Frev205%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.65%2Frev205%2Famd64"
                }
             ],
             "commits": null,
@@ -1190,9 +1190,9 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 207,
-                     "timestamp": 1725963536,
-                     "base": "core24"
+                     "revision": 208,
+                     "timestamp": 1726751406,
+                     "base": "core22"
                   }
                ],
                "channels": [
