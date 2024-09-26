@@ -4716,6 +4716,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.26.0/rev709/arm64",
+                  "sha": "93a8eef6124682f9e83b1843ce22b42f2fb8ce54",
+                  "body": "<p>chore: bump signal-desktop to version 7.26.0</p>\n",
+                  "timestamp": 1727345383,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.26.0%2Frev709%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.26.0%2Frev709%2Farm64"
+               },
+               {
                   "name": "7.26.0/rev708/amd64",
                   "sha": "93a8eef6124682f9e83b1843ce22b42f2fb8ce54",
                   "body": "<p>chore: bump signal-desktop to version 7.26.0</p>\n",
@@ -4730,14 +4738,6 @@
                   "timestamp": 1727279641,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.25.0%2Frev707%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.25.0%2Frev707%2Farm64"
-               },
-               {
-                  "name": "7.25.0/rev706/amd64",
-                  "sha": "6df16d099c7580f68562b82ed42db8cebc78ed8d",
-                  "body": "<p>fix: patch fs-extra to fix images on arm64 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/318\">#318</a>)</p>\n",
-                  "timestamp": 1727279641,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.25.0%2Frev706%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.25.0%2Frev706%2Famd64"
                }
             ],
             "commits": null,
@@ -4754,15 +4754,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 706,
-                     "timestamp": 1727287771,
+                     "revision": 708,
+                     "timestamp": 1727351522,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 707,
-                     "timestamp": 1727287775,
+                     "revision": 709,
+                     "timestamp": 1727351527,
                      "base": "core24"
                   },
                   {
@@ -4775,8 +4775,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 707,
-                     "timestamp": 1727285804,
+                     "revision": 709,
+                     "timestamp": 1727350612,
                      "base": "core24"
                   }
                ],
