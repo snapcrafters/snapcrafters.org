@@ -4711,10 +4711,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.26.0/rev708/amd64",
+                  "sha": "93a8eef6124682f9e83b1843ce22b42f2fb8ce54",
+                  "body": "<p>chore: bump signal-desktop to version 7.26.0</p>\n",
+                  "timestamp": 1727345383,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.26.0%2Frev708%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.26.0%2Frev708%2Famd64"
+               },
                {
                   "name": "7.25.0/rev707/arm64",
                   "sha": "6df16d099c7580f68562b82ed42db8cebc78ed8d",
@@ -4730,14 +4738,6 @@
                   "timestamp": 1727279641,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.25.0%2Frev706%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.25.0%2Frev706%2Famd64"
-               },
-               {
-                  "name": "7.25.0/rev705/arm64",
-                  "sha": "01be45da6748f6a2c9c503e12b4323f613ea32dc",
-                  "body": "<p>chore: bump signal-desktop to version 7.25.0</p>\n",
-                  "timestamp": 1726740584,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.25.0%2Frev705%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.25.0%2Frev705%2Farm64"
                }
             ],
             "commits": null,
@@ -4768,8 +4768,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 706,
-                     "timestamp": 1727285429,
+                     "revision": 708,
+                     "timestamp": 1727346642,
                      "base": "core24"
                   },
                   {
@@ -5084,6 +5084,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "4183/rev185/arm64",
+                  "sha": "282db462bdad68909fd0a239cc373709f6f950ab",
+                  "body": "<p>chore: bump sublime-text to version 4183</p>\n",
+                  "timestamp": 1727345463,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4183%2Frev185%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4183%2Frev185%2Farm64"
+               },
+               {
                   "name": "4183/rev184/amd64",
                   "sha": "282db462bdad68909fd0a239cc373709f6f950ab",
                   "body": "<p>chore: bump sublime-text to version 4183</p>\n",
@@ -5098,14 +5106,6 @@
                   "timestamp": 1727259120,
                   "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4181%2Frev183%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4181%2Frev183%2Farm64"
-               },
-               {
-                  "name": "4181/rev182/amd64",
-                  "sha": "8d8e5af7d912fc2d6d38e454cd92d4df4aa88598",
-                  "body": "<p>chore: bump sublime-text to version 4181</p>\n",
-                  "timestamp": 1727259120,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4181%2Frev182%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4181%2Frev182%2Famd64"
                }
             ],
             "commits": null,
@@ -5164,15 +5164,15 @@
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 182,
-                     "timestamp": 1727262585,
+                     "revision": 184,
+                     "timestamp": 1727348413,
                      "base": "core20"
                   },
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 183,
-                     "timestamp": 1727262588,
+                     "revision": 185,
+                     "timestamp": 1727348415,
                      "base": "core20"
                   },
                   {
@@ -5185,8 +5185,8 @@
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 183,
-                     "timestamp": 1727259700,
+                     "revision": 185,
+                     "timestamp": 1727346888,
                      "base": "core20"
                   }
                ],
