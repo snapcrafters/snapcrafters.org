@@ -4711,10 +4711,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.26.0/rev711/arm64",
+                  "sha": "d42fdb68847db7d69798d01fedd4c57898360f9a",
+                  "body": "<p>chore: remove temporary password-manager-service plug</p>\n",
+                  "timestamp": 1727789340,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.26.0%2Frev711%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.26.0%2Frev711%2Farm64"
+               },
+               {
+                  "name": "7.26.0/rev710/amd64",
+                  "sha": "d42fdb68847db7d69798d01fedd4c57898360f9a",
+                  "body": "<p>chore: remove temporary password-manager-service plug</p>\n",
+                  "timestamp": 1727789340,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.26.0%2Frev710%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.26.0%2Frev710%2Famd64"
+               },
                {
                   "name": "7.26.0/rev709/arm64",
                   "sha": "93a8eef6124682f9e83b1843ce22b42f2fb8ce54",
@@ -4722,22 +4738,6 @@
                   "timestamp": 1727345383,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.26.0%2Frev709%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.26.0%2Frev709%2Farm64"
-               },
-               {
-                  "name": "7.26.0/rev708/amd64",
-                  "sha": "93a8eef6124682f9e83b1843ce22b42f2fb8ce54",
-                  "body": "<p>chore: bump signal-desktop to version 7.26.0</p>\n",
-                  "timestamp": 1727345383,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.26.0%2Frev708%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.26.0%2Frev708%2Famd64"
-               },
-               {
-                  "name": "7.25.0/rev707/arm64",
-                  "sha": "6df16d099c7580f68562b82ed42db8cebc78ed8d",
-                  "body": "<p>fix: patch fs-extra to fix images on arm64 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/318\">#318</a>)</p>\n",
-                  "timestamp": 1727279641,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.25.0%2Frev707%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.25.0%2Frev707%2Farm64"
                }
             ],
             "commits": null,
@@ -4768,15 +4768,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 708,
-                     "timestamp": 1727346642,
+                     "revision": 710,
+                     "timestamp": 1727793243,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 709,
-                     "timestamp": 1727350612,
+                     "revision": 711,
+                     "timestamp": 1727793752,
                      "base": "core24"
                   }
                ],
