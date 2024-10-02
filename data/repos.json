@@ -1140,10 +1140,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.70/rev211/amd64",
+                  "sha": "00c300642e9c9ed30ce00298eac70a0dd6ff76fc",
+                  "body": "<p>chore: bump discord to version 0.0.70</p>\n",
+                  "timestamp": 1727863878,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.70%2Frev211%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.70%2Frev211%2Famd64"
+               },
                {
                   "name": "0.0.69/rev210/amd64",
                   "sha": "f377312f11e9edb390c73197155af3405cf937f4",
@@ -1159,14 +1167,6 @@
                   "timestamp": 1727172672,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.69%2Frev209%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.69%2Frev209%2Famd64"
-               },
-               {
-                  "name": "0.0.68/rev208/amd64",
-                  "sha": "7a8f18db8f285ddfc182ffbca63d3a9e3b8f68e7",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/234\">#234</a> from lengau/revert-to-core22</p>\n\n<p>fix: workaround core24 window sharing bug</p>\n",
-                  "timestamp": 1726750819,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.68%2Frev208%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.68%2Frev208%2Famd64"
                }
             ],
             "commits": null,
@@ -1190,8 +1190,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 210,
-                     "timestamp": 1727801039,
+                     "revision": 211,
+                     "timestamp": 1727864323,
                      "base": "core22"
                   }
                ],
