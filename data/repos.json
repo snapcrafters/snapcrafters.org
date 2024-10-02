@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2024.2.1.9-Ladybug/rev171/amd64",
+                  "sha": "6ca31e47ab7f72d1ac0291be6f645daaff59b3a9",
+                  "body": "<p>chore: bump android-studio to version 2024.2.1.9-Ladybug</p>\n",
+                  "timestamp": 1727863677,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.2.1.9-Ladybug%2Frev171%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.2.1.9-Ladybug%2Frev171%2Famd64"
+               },
                {
                   "name": "2024.1.2.13-Koala/rev169/amd64",
                   "sha": "f7c231a2707f2a2d4c16d3ca62297f3a1921c022",
@@ -181,14 +189,6 @@
                   "timestamp": 1725012444,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.1.2.12-Koala%2Frev167%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.1.2.12-Koala%2Frev167%2Famd64"
-               },
-               {
-                  "name": "2024.1.1.13-Koala/rev165/amd64",
-                  "sha": "f47f3cadce21ff455a24f6faaae91d8f0baf236a",
-                  "body": "<p>chore: bump android-studio to version 2024.1.1.13-Koala</p>\n",
-                  "timestamp": 1723198035,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.1.1.13-Koala%2Frev165%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.1.1.13-Koala%2Frev165%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 169,
-                     "timestamp": 1726741565,
+                     "revision": 171,
+                     "timestamp": 1727864866,
                      "base": "core22"
                   },
                   {
@@ -1183,8 +1183,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 210,
-                     "timestamp": 1727813317,
+                     "revision": 211,
+                     "timestamp": 1727864709,
                      "base": "core22"
                   },
                   {
