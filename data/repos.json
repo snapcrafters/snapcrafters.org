@@ -2098,25 +2098,25 @@
             "tags": null,
             "commits": [
                {
+                  "sha": "739f80d1de04771b05d809b7403b5610c227eba6",
+                  "author": "Jon Seager",
+                  "timestamp": 1728549859,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/gradle/pull/31\">#31</a> from big-r81/patch-1</p>\n\n<p>Upgrade Gradle to 8.10.2</p>\n",
+                  "url": "https://github.com/snapcrafters/gradle/commit/739f80d1de04771b05d809b7403b5610c227eba6"
+               },
+               {
+                  "sha": "a21bcb9c0b295dfaa206d9b48f592beae4bb9bc1",
+                  "author": "Ronny Berndt",
+                  "timestamp": 1728465429,
+                  "message": "<p>Upgrade Gradle to 8.10.2</p>\n\n<p>Use Core22 as base\nBump to OpenJDK 21</p>\n",
+                  "url": "https://github.com/snapcrafters/gradle/commit/a21bcb9c0b295dfaa206d9b48f592beae4bb9bc1"
+               },
+               {
                   "sha": "624611b3f969f432947028f00e419fce4774e8e0",
                   "author": "Dani Llewellyn",
                   "timestamp": 1668428507,
                   "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/gradle/pull/29\">#29</a> from snapcrafters/galgalesh-patch-1</p>\n\n<p>Create test-snap-can-build.yml</p>\n",
                   "url": "https://github.com/snapcrafters/gradle/commit/624611b3f969f432947028f00e419fce4774e8e0"
-               },
-               {
-                  "sha": "e2885897c408f2365efe35befd7bac0a8b57bff1",
-                  "author": "Merlijn Sebrechts",
-                  "timestamp": 1667933485,
-                  "message": "<p>Create test-snap-can-build.yml</p>\n",
-                  "url": "https://github.com/snapcrafters/gradle/commit/e2885897c408f2365efe35befd7bac0a8b57bff1"
-               },
-               {
-                  "sha": "4315705b80af5538be085c0947a5cc18d5412b6d",
-                  "author": "Merlijn Sebrechts",
-                  "timestamp": 1667931214,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/gradle/pull/28\">#28</a> from donat/patch-1</p>\n\n<p>Update Gradle to 7.4.1</p>\n",
-                  "url": "https://github.com/snapcrafters/gradle/commit/4315705b80af5538be085c0947a5cc18d5412b6d"
                }
             ],
             "ciActions": [],
@@ -2170,9 +2170,9 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 154,
-                     "timestamp": 1668428859,
-                     "base": "core20"
+                     "revision": 159,
+                     "timestamp": 1728551916,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
@@ -2191,9 +2191,9 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 155,
-                     "timestamp": 1668430283,
-                     "base": "core20"
+                     "revision": 160,
+                     "timestamp": 1728551969,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
@@ -4716,28 +4716,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.27.0/rev715/arm64",
+                  "sha": "442badb7f39bd284e823065f8484c305a7ada697",
+                  "body": "<p>fix: stage libnss (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/326\">#326</a>)</p>\n",
+                  "timestamp": 1728549880,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.27.0%2Frev715%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.27.0%2Frev715%2Farm64"
+               },
+               {
+                  "name": "7.27.0/rev714/amd64",
+                  "sha": "442badb7f39bd284e823065f8484c305a7ada697",
+                  "body": "<p>fix: stage libnss (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/326\">#326</a>)</p>\n",
+                  "timestamp": 1728549880,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.27.0%2Frev714%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.27.0%2Frev714%2Famd64"
+               },
+               {
                   "name": "7.27.0/rev713/arm64",
                   "sha": "a5e4f9da4d2bd7d348cc41176a67cabaac8d2565",
                   "body": "<p>chore: bump signal-desktop to version 7.27.0</p>\n",
                   "timestamp": 1727950182,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.27.0%2Frev713%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.27.0%2Frev713%2Farm64"
-               },
-               {
-                  "name": "7.27.0/rev712/amd64",
-                  "sha": "a5e4f9da4d2bd7d348cc41176a67cabaac8d2565",
-                  "body": "<p>chore: bump signal-desktop to version 7.27.0</p>\n",
-                  "timestamp": 1727950182,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.27.0%2Frev712%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.27.0%2Frev712%2Famd64"
-               },
-               {
-                  "name": "7.26.0/rev711/arm64",
-                  "sha": "d42fdb68847db7d69798d01fedd4c57898360f9a",
-                  "body": "<p>chore: remove temporary password-manager-service plug</p>\n",
-                  "timestamp": 1727789340,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.26.0%2Frev711%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.26.0%2Frev711%2Farm64"
                }
             ],
             "commits": null,
@@ -4768,15 +4768,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 712,
-                     "timestamp": 1727951458,
+                     "revision": 714,
+                     "timestamp": 1728551124,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 713,
-                     "timestamp": 1727951696,
+                     "revision": 715,
+                     "timestamp": 1728551531,
                      "base": "core24"
                   }
                ],
