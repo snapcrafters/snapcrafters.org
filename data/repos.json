@@ -4711,10 +4711,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.28.0/rev719/arm64",
+                  "sha": "b7dfcdc2572b5021af01e40429756a8c077c0709",
+                  "body": "<p>fix: stage libnss-sss</p>\n",
+                  "timestamp": 1728634412,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.28.0%2Frev719%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.28.0%2Frev719%2Farm64"
+               },
+               {
+                  "name": "7.28.0/rev718/amd64",
+                  "sha": "b7dfcdc2572b5021af01e40429756a8c077c0709",
+                  "body": "<p>fix: stage libnss-sss</p>\n",
+                  "timestamp": 1728634412,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.28.0%2Frev718%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.28.0%2Frev718%2Famd64"
+               },
                {
                   "name": "7.28.0/rev717/arm64",
                   "sha": "1ecfd92ffdadfe80900bd7a6de17356ea0db6566",
@@ -4722,22 +4738,6 @@
                   "timestamp": 1728554991,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.28.0%2Frev717%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.28.0%2Frev717%2Farm64"
-               },
-               {
-                  "name": "7.28.0/rev716/amd64",
-                  "sha": "1ecfd92ffdadfe80900bd7a6de17356ea0db6566",
-                  "body": "<p>chore: bump signal-desktop to version 7.28.0</p>\n",
-                  "timestamp": 1728554991,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.28.0%2Frev716%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.28.0%2Frev716%2Famd64"
-               },
-               {
-                  "name": "7.27.0/rev715/arm64",
-                  "sha": "442badb7f39bd284e823065f8484c305a7ada697",
-                  "body": "<p>fix: stage libnss (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/326\">#326</a>)</p>\n",
-                  "timestamp": 1728549880,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.27.0%2Frev715%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.27.0%2Frev715%2Farm64"
                }
             ],
             "commits": null,
@@ -4768,15 +4768,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 716,
-                     "timestamp": 1728556038,
+                     "revision": 718,
+                     "timestamp": 1728638730,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 717,
-                     "timestamp": 1728557068,
+                     "revision": 719,
+                     "timestamp": 1728638843,
                      "base": "core24"
                   }
                ],
