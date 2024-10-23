@@ -3187,7 +3187,7 @@
          },
          {
             "name": "minetest",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/minetest",
             "releases": null,
             "tags": [
@@ -3206,107 +3206,12 @@
                   "timestamp": 1715076813,
                   "url": "https://github.com/snapcrafters/minetest/releases/tag/5.8.1-android%2Frev1921%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/minetest/compare/candidate...5.8.1-android%2Frev1921%2Farm64"
-               },
-               {
-                  "name": "5.8.1-android/rev1920/amd64",
-                  "sha": "9db255f785e342aa8704e27b3984f5b9e10b5bc7",
-                  "body": "<p>chore: bump minetest to version 5.8.1-android</p>\n",
-                  "timestamp": 1715076813,
-                  "url": "https://github.com/snapcrafters/minetest/releases/tag/5.8.1-android%2Frev1920%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/minetest/compare/candidate...5.8.1-android%2Frev1920%2Famd64"
                }
             ],
             "commits": null,
-            "ciActions": [
-               "https://github.com/snapcrafters/minetest/actions/workflows/sync-upstream.yml",
-               "https://github.com/snapcrafters/minetest/actions/workflows/release-to-candidate.yml",
-               "https://github.com/snapcrafters/minetest/actions/workflows/promote-to-stable.yml"
-            ],
+            "ciActions": null,
             "charm": null,
-            "snap": {
-               "name": "minetest",
-               "url": "https://snapcraft.io/minetest",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 1926,
-                     "timestamp": 1715163263,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 1928,
-                     "timestamp": 1715163266,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 1927,
-                     "timestamp": 1715163269,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 1883,
-                     "timestamp": 1701788372,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1926,
-                     "timestamp": 1715154999,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1928,
-                     "timestamp": 1715160122,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1927,
-                     "timestamp": 1715156803,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1929,
-                     "timestamp": 1715318262,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1931,
-                     "timestamp": 1715319520,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1930,
-                     "timestamp": 1715319459,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "mosaic",
