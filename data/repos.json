@@ -4711,10 +4711,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.30.0/rev723/arm64",
+                  "sha": "f5f3a985d259c63370903a52670c012702e34ea1",
+                  "body": "<p>chore: bump signal-desktop to version 7.30.0</p>\n",
+                  "timestamp": 1729764593,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.30.0%2Frev723%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.30.0%2Frev723%2Farm64"
+               },
+               {
+                  "name": "7.30.0/rev722/amd64",
+                  "sha": "f5f3a985d259c63370903a52670c012702e34ea1",
+                  "body": "<p>chore: bump signal-desktop to version 7.30.0</p>\n",
+                  "timestamp": 1729764593,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.30.0%2Frev722%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.30.0%2Frev722%2Famd64"
+               },
                {
                   "name": "7.29.0/rev721/arm64",
                   "sha": "de7dbd8808df2eabcc4f4ce2b3ac64bf66a2a438",
@@ -4722,22 +4738,6 @@
                   "timestamp": 1729159801,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.29.0%2Frev721%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.29.0%2Frev721%2Farm64"
-               },
-               {
-                  "name": "7.29.0/rev720/amd64",
-                  "sha": "de7dbd8808df2eabcc4f4ce2b3ac64bf66a2a438",
-                  "body": "<p>chore: bump signal-desktop to version 7.29.0</p>\n",
-                  "timestamp": 1729159801,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.29.0%2Frev720%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.29.0%2Frev720%2Famd64"
-               },
-               {
-                  "name": "7.28.0/rev719/arm64",
-                  "sha": "b7dfcdc2572b5021af01e40429756a8c077c0709",
-                  "body": "<p>fix: stage libnss-sss</p>\n",
-                  "timestamp": 1728634412,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.28.0%2Frev719%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.28.0%2Frev719%2Farm64"
                }
             ],
             "commits": null,
@@ -4754,29 +4754,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 720,
-                     "timestamp": 1729166673,
+                     "revision": 722,
+                     "timestamp": 1729767467,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 721,
-                     "timestamp": 1729166677,
+                     "revision": 723,
+                     "timestamp": 1729767471,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 720,
-                     "timestamp": 1729160938,
+                     "revision": 722,
+                     "timestamp": 1729765626,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 721,
-                     "timestamp": 1729161148,
+                     "revision": 723,
+                     "timestamp": 1729766147,
                      "base": "core24"
                   }
                ],
@@ -5495,6 +5495,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "webkitgtk-6-gnome-2404-sdk-2.46.2/rev64/ppc64el",
+                  "sha": "a23c3df2fec9ba20f80ef01fc81d9fb9e0aabd60",
+                  "body": "<p>chore: bump webkitgtk-6-gnome-2404-sdk to version 2.46.2</p>\n",
+                  "timestamp": 1729678522,
+                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.46.2%2Frev64%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.46.2%2Frev64%2Fppc64el"
+               },
+               {
                   "name": "webkitgtk-6-gnome-2404-sdk-2.46.2/rev63/amd64",
                   "sha": "a23c3df2fec9ba20f80ef01fc81d9fb9e0aabd60",
                   "body": "<p>chore: bump webkitgtk-6-gnome-2404-sdk to version 2.46.2</p>\n",
@@ -5509,14 +5517,6 @@
                   "timestamp": 1729678522,
                   "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.46.2%2Frev62%2Fs390x",
                   "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.46.2%2Frev62%2Fs390x"
-               },
-               {
-                  "name": "webkitgtk-6-gnome-2404-sdk-2.46.0/rev61/s390x",
-                  "sha": "1083f104b908d1e1cea41d1152caedf2ca527539",
-                  "body": "<p>many: fix build and remove anything being primed (<a target=\"_blank\" href=\"https://github.com/snapcrafters/webkitgtk-sdk/pull/24\">#24</a>)</p>\n",
-                  "timestamp": 1727626624,
-                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.46.0%2Frev61%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.46.0%2Frev61%2Fs390x"
                }
             ],
             "commits": null,
