@@ -4727,10 +4727,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.32.0/rev726/amd64",
+                  "sha": "b6fe5c52f20dcd56dba944eb4ef6f731252934bd",
+                  "body": "<p>fix: use correct better-sqlite3 url</p>\n",
+                  "timestamp": 1731243745,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.32.0%2Frev726%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.32.0%2Frev726%2Famd64"
+               },
                {
                   "name": "7.31.0/rev725/arm64",
                   "sha": "0dc85b742d5da0746ddd6ca97dc07796d1bcace6",
@@ -4746,14 +4754,6 @@
                   "timestamp": 1730369428,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.31.0%2Frev724%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.31.0%2Frev724%2Famd64"
-               },
-               {
-                  "name": "7.30.0/rev723/arm64",
-                  "sha": "f5f3a985d259c63370903a52670c012702e34ea1",
-                  "body": "<p>chore: bump signal-desktop to version 7.30.0</p>\n",
-                  "timestamp": 1729764593,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.30.0%2Frev723%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.30.0%2Frev723%2Farm64"
                }
             ],
             "commits": null,
@@ -4784,8 +4784,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 724,
-                     "timestamp": 1730370481,
+                     "revision": 726,
+                     "timestamp": 1731244699,
                      "base": "core24"
                   },
                   {
