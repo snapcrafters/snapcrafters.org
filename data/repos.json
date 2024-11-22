@@ -1156,10 +1156,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.75/rev217/amd64",
+                  "sha": "33d61574cad4466e10660ff6126d6d690cec684a",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/244\">#244</a> from snapcrafters/fix-autostart</p>\n",
+                  "timestamp": 1732263630,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.75%2Frev217%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.75%2Frev217%2Famd64"
+               },
                {
                   "name": "0.0.75/rev216/amd64",
                   "sha": "c3513bee9e20636ea80349348f330d40e81d0c00",
@@ -1175,14 +1183,6 @@
                   "timestamp": 1731492692,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.74%2Frev215%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.74%2Frev215%2Famd64"
-               },
-               {
-                  "name": "0.0.73/rev214/amd64",
-                  "sha": "7d413b2247c3df35d3c08681f601ac8b946ad867",
-                  "body": "<p>chore: bump discord to version 0.0.73</p>\n",
-                  "timestamp": 1730801523,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.73%2Frev214%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.73%2Frev214%2Famd64"
                }
             ],
             "commits": null,
@@ -1206,8 +1206,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 216,
-                     "timestamp": 1732011643,
+                     "revision": 217,
+                     "timestamp": 1732264012,
                      "base": "core22"
                   }
                ],
