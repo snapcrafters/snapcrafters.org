@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2024.2.1.12-Ladybug/rev177/amd64",
+                  "sha": "4661338a406bf008331dcd010321be9d706c2a4d",
+                  "body": "<p>chore: bump android-studio to version 2024.2.1.12-Ladybug</p>\n",
+                  "timestamp": 1733220570,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.2.1.12-Ladybug%2Frev177%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.2.1.12-Ladybug%2Frev177%2Famd64"
+               },
                {
                   "name": "2024.2.1.11-Ladybug/rev175/amd64",
                   "sha": "e907d6fdfdd39a77f79577c04b79e4ca5691d863",
@@ -181,14 +189,6 @@
                   "timestamp": 1728986926,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.2.1.10-Ladybug%2Frev173%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.2.1.10-Ladybug%2Frev173%2Famd64"
-               },
-               {
-                  "name": "2024.2.1.9-Ladybug/rev171/amd64",
-                  "sha": "6ca31e47ab7f72d1ac0291be6f645daaff59b3a9",
-                  "body": "<p>chore: bump android-studio to version 2024.2.1.9-Ladybug</p>\n",
-                  "timestamp": 1727863677,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.2.1.9-Ladybug%2Frev171%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.2.1.9-Ladybug%2Frev171%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 175,
-                     "timestamp": 1730457014,
+                     "revision": 177,
+                     "timestamp": 1733222466,
                      "base": "core22"
                   },
                   {
