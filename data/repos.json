@@ -1975,6 +1975,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.0.0-RC1/rev457/amd64",
+                  "sha": "21a6cef70c4160db714157c6fe0220dd9903f446",
+                  "body": "<p>build: pull gimp submodules from github due to gitlab infra instability (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/301\">#301</a>)</p>\n",
+                  "timestamp": 1733324596,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0-RC1%2Frev457%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0-RC1%2Frev457%2Famd64"
+               },
+               {
                   "name": "3.0.0-RC1/rev456/arm64",
                   "sha": "21a6cef70c4160db714157c6fe0220dd9903f446",
                   "body": "<p>build: pull gimp submodules from github due to gitlab infra instability (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/301\">#301</a>)</p>\n",
@@ -1989,14 +1997,6 @@
                   "timestamp": 1730888624,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0-RC1%2Frev453%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0-RC1%2Frev453%2Farm64"
-               },
-               {
-                  "name": "3.0.0-RC1/rev452/amd64",
-                  "sha": "a7f31c65f152ca27442f9767275a3d7d3db74061",
-                  "body": "<p>feat!: disable gmic until incompatibility is resolved</p>\n",
-                  "timestamp": 1730888624,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0-RC1%2Frev452%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0-RC1%2Frev452%2Famd64"
                }
             ],
             "commits": null,
@@ -2055,22 +2055,22 @@
                   {
                      "track": "preview",
                      "channel": "stable",
-                     "revision": 452,
-                     "timestamp": 1730969546,
+                     "revision": 457,
+                     "timestamp": 1733334543,
                      "base": "core24"
                   },
                   {
                      "track": "preview",
                      "channel": "stable",
-                     "revision": 453,
-                     "timestamp": 1730969549,
+                     "revision": 456,
+                     "timestamp": 1733334546,
                      "base": "core24"
                   },
                   {
                      "track": "preview",
                      "channel": "candidate",
-                     "revision": 452,
-                     "timestamp": 1730934724,
+                     "revision": 457,
+                     "timestamp": 1733333579,
                      "base": "core24"
                   },
                   {
@@ -2090,8 +2090,8 @@
                   {
                      "track": "preview",
                      "channel": "edge",
-                     "revision": 455,
-                     "timestamp": 1730945114,
+                     "revision": 458,
+                     "timestamp": 1733335386,
                      "base": "core24"
                   }
                ],
