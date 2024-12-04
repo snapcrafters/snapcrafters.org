@@ -1975,6 +1975,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.0.0-RC1/rev456/arm64",
+                  "sha": "21a6cef70c4160db714157c6fe0220dd9903f446",
+                  "body": "<p>build: pull gimp submodules from github due to gitlab infra instability (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/301\">#301</a>)</p>\n",
+                  "timestamp": 1733324596,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0-RC1%2Frev456%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0-RC1%2Frev456%2Farm64"
+               },
+               {
                   "name": "3.0.0-RC1/rev453/arm64",
                   "sha": "a7f31c65f152ca27442f9767275a3d7d3db74061",
                   "body": "<p>feat!: disable gmic until incompatibility is resolved</p>\n",
@@ -1989,14 +1997,6 @@
                   "timestamp": 1730888624,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0-RC1%2Frev452%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0-RC1%2Frev452%2Famd64"
-               },
-               {
-                  "name": "2.99.19-dev/rev446/arm64",
-                  "sha": "0e173a7a3bbf2d4f2e0ca346c9990ce5546a4c63",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/290\">#290</a> from frenchwr/preview</p>\n\n<p>fix: update LD_LIBRARY_PATH for crashing python plugins</p>\n",
-                  "timestamp": 1730797862,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/2.99.19-dev%2Frev446%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...2.99.19-dev%2Frev446%2Farm64"
                }
             ],
             "commits": null,
@@ -2076,8 +2076,8 @@
                   {
                      "track": "preview",
                      "channel": "candidate",
-                     "revision": 453,
-                     "timestamp": 1730935023,
+                     "revision": 456,
+                     "timestamp": 1733327060,
                      "base": "core24"
                   },
                   {
