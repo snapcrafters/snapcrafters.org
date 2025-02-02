@@ -4756,10 +4756,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.40.1/rev753/amd64",
+                  "sha": "068c7ae3f3298ec65bba6bf6911c8b9595a76d13",
+                  "body": "<p>chore: bump signal-desktop to version 7.40.1</p>\n",
+                  "timestamp": 1738490923,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.40.1%2Frev753%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.40.1%2Frev753%2Famd64"
+               },
                {
                   "name": "7.40.0/rev752/arm64",
                   "sha": "9a97de71ff35799fef90ab496c1644eb8ebde9b2",
@@ -4775,14 +4783,6 @@
                   "timestamp": 1738231787,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.40.0%2Frev751%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.40.0%2Frev751%2Famd64"
-               },
-               {
-                  "name": "7.39.0/rev750/arm64",
-                  "sha": "e62cdf6e9750fd5d87ee945c38d4066272ebba15",
-                  "body": "<p>build: use node snap for build (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/347\">#347</a>)</p>\n\n<p>When I first switched this snap to build from source, I couldn&rsquo;t\nmake the process succeed using the node snap, which led to a\nrather more complicated method for obtaining and configuring\nnodejs.</p>\n\n<p>Taking another look, the issues I was seeing seem to be resolved.</p>\n",
-                  "timestamp": 1737628843,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.39.0%2Frev750%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.39.0%2Frev750%2Farm64"
                }
             ],
             "commits": null,
@@ -4813,8 +4813,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 751,
-                     "timestamp": 1738232893,
+                     "revision": 753,
+                     "timestamp": 1738492034,
                      "base": "core24"
                   },
                   {
