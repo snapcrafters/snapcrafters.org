@@ -1156,10 +1156,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.83/rev226/amd64",
+                  "sha": "9058161a30a0c0de894adaf681be5a92679c3544",
+                  "body": "<p>chore: bump discord to version 0.0.83</p>\n",
+                  "timestamp": 1738663907,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.83%2Frev226%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.83%2Frev226%2Famd64"
+               },
                {
                   "name": "0.0.82/rev225/amd64",
                   "sha": "327d980eb3e8a350be270223d042ee5dd7311477",
@@ -1175,14 +1183,6 @@
                   "timestamp": 1737627117,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.81%2Frev224%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.81%2Frev224%2Famd64"
-               },
-               {
-                  "name": "0.0.80/rev223/amd64",
-                  "sha": "a3d89cf4233e24b2b4018f572da4f856d33f470e",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/254\">#254</a> from AKoskovich/wayland-opt-in</p>\n\n<p>Allow users to opt-in to Wayland support</p>\n",
-                  "timestamp": 1737543319,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.80%2Frev223%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.80%2Frev223%2Famd64"
                }
             ],
             "commits": null,
@@ -1206,8 +1206,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 225,
-                     "timestamp": 1738059684,
+                     "revision": 226,
+                     "timestamp": 1738664998,
                      "base": "core22"
                   }
                ],
@@ -4761,28 +4761,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.40.1/rev755/arm64",
+                  "sha": "068c7ae3f3298ec65bba6bf6911c8b9595a76d13",
+                  "body": "<p>chore: bump signal-desktop to version 7.40.1</p>\n",
+                  "timestamp": 1738490923,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.40.1%2Frev755%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.40.1%2Frev755%2Farm64"
+               },
+               {
+                  "name": "7.40.1/rev754/amd64",
+                  "sha": "068c7ae3f3298ec65bba6bf6911c8b9595a76d13",
+                  "body": "<p>chore: bump signal-desktop to version 7.40.1</p>\n",
+                  "timestamp": 1738490923,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.40.1%2Frev754%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.40.1%2Frev754%2Famd64"
+               },
+               {
                   "name": "7.40.1/rev753/amd64",
                   "sha": "068c7ae3f3298ec65bba6bf6911c8b9595a76d13",
                   "body": "<p>chore: bump signal-desktop to version 7.40.1</p>\n",
                   "timestamp": 1738490923,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.40.1%2Frev753%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.40.1%2Frev753%2Famd64"
-               },
-               {
-                  "name": "7.40.0/rev752/arm64",
-                  "sha": "9a97de71ff35799fef90ab496c1644eb8ebde9b2",
-                  "body": "<p>chore: bump signal-desktop to version 7.40.0</p>\n",
-                  "timestamp": 1738231787,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.40.0%2Frev752%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.40.0%2Frev752%2Farm64"
-               },
-               {
-                  "name": "7.40.0/rev751/amd64",
-                  "sha": "9a97de71ff35799fef90ab496c1644eb8ebde9b2",
-                  "body": "<p>chore: bump signal-desktop to version 7.40.0</p>\n",
-                  "timestamp": 1738231787,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.40.0%2Frev751%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.40.0%2Frev751%2Famd64"
                }
             ],
             "commits": null,
@@ -4813,15 +4813,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 753,
-                     "timestamp": 1738492034,
+                     "revision": 754,
+                     "timestamp": 1738665566,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 752,
-                     "timestamp": 1738234109,
+                     "revision": 755,
+                     "timestamp": 1738666340,
                      "base": "core24"
                   }
                ],
