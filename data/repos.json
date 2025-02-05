@@ -1199,8 +1199,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 226,
-                     "timestamp": 1738671788,
+                     "revision": 227,
+                     "timestamp": 1738751722,
                      "base": "core22"
                   },
                   {
@@ -2810,10 +2810,18 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
+               {
+                  "name": "2.496/rev4803/amd64",
+                  "sha": "a849ec64c1ff6202ae676446945132f8b0ad838c",
+                  "body": "<p>chore: bump jenkins to version 2.496</p>\n",
+                  "timestamp": 1738750848,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.496%2Frev4803%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.496%2Frev4803%2Famd64"
+               },
                {
                   "name": "2.495/rev4802/armhf",
                   "sha": "9bac663c8ee21d1a0922a79d4a1df4cdfffcac58",
@@ -2829,14 +2837,6 @@
                   "timestamp": 1738146027,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.495%2Frev4801%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.495%2Frev4801%2Farm64"
-               },
-               {
-                  "name": "2.495/rev4800/amd64",
-                  "sha": "9bac663c8ee21d1a0922a79d4a1df4cdfffcac58",
-                  "body": "<p>chore: bump jenkins to version 2.495</p>\n",
-                  "timestamp": 1738146027,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.495%2Frev4800%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.495%2Frev4800%2Famd64"
                }
             ],
             "commits": null,
@@ -2874,8 +2874,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4800,
-                     "timestamp": 1738147277,
+                     "revision": 4803,
+                     "timestamp": 1738751354,
                      "base": "core22"
                   },
                   {
