@@ -1,6 +1,31 @@
 {{ define "main" }}
-  <article>
-    <h1>{{ .Title }}</h1>
-    <div>{{ .Content }}</div>
+<style>
+  .dark-theme {
+    background-color: #333;
+    color: #eee;
+  }
+</style>
+<div class="row p-strip is-shallow">
+  <aside class="col-3 u-align--left p-card--highlighted">
+    <h2>{{ .Title }}</h2>
+    <p>Author: {{ .Params.author }}</p>
+    <p>Date: {{ .Date.Format "2006-01-02" }}</p>
+    <p>Approx. Reading Time: {{ .ReadingTime }} min</p>
+    <button id="theme-toggle" class="p-button--neutral">Toggle Theme</button>
+    <hr />
+    <nav id="blog-toc">
+      {{ .TableOfContents }}
+    </nav>
+  </aside>
+
+  <article class="col-9 blog-content" id="blog-content">
+    {{ .Content }}
   </article>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+(() => {
+{{ partial "js/single-blog.js" . | safeJS }}
+})();
 {{ end }}
