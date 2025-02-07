@@ -1527,33 +1527,33 @@
          },
          {
             "name": "ffmpeg-2404-sdk",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
                {
-                  "name": "ffmpeg-2404-sdk-7.1/rev64/amd64",
-                  "sha": "395897b78828a377a5b030177f76f7904c7ace91",
-                  "body": "<p>chore: bump ffmpeg-2404-sdk dependencies</p>\n",
-                  "timestamp": 1731319768,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1%2Frev64%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1%2Frev64%2Famd64"
+                  "name": "ffmpeg-2404-sdk-7.1/rev68/ppc64el",
+                  "sha": "aa3bad5985c5c803331a227b3ad5720e4f96f534",
+                  "body": "<p>sdk: use libva from the repos (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/57\">#57</a>)</p>\n\n<p>libva was needed to build from source because the gnome sdk did the same.\nand using a different API while building would&rsquo;ve brought API incompatibilities. Not needed anymore as Gnome SDK silently removed it.</p>\n",
+                  "timestamp": 1738946463,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1%2Frev68%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1%2Frev68%2Fppc64el"
                },
                {
-                  "name": "ffmpeg-2404-sdk-7.1/rev63/arm64",
-                  "sha": "395897b78828a377a5b030177f76f7904c7ace91",
-                  "body": "<p>chore: bump ffmpeg-2404-sdk dependencies</p>\n",
-                  "timestamp": 1731319768,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1%2Frev63%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1%2Frev63%2Farm64"
+                  "name": "ffmpeg-2404-sdk-7.1/rev67/arm64",
+                  "sha": "aa3bad5985c5c803331a227b3ad5720e4f96f534",
+                  "body": "<p>sdk: use libva from the repos (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/57\">#57</a>)</p>\n\n<p>libva was needed to build from source because the gnome sdk did the same.\nand using a different API while building would&rsquo;ve brought API incompatibilities. Not needed anymore as Gnome SDK silently removed it.</p>\n",
+                  "timestamp": 1738946463,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1%2Frev67%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1%2Frev67%2Farm64"
                },
                {
-                  "name": "ffmpeg-2404-sdk-7.1/rev62/ppc64el",
-                  "sha": "395897b78828a377a5b030177f76f7904c7ace91",
-                  "body": "<p>chore: bump ffmpeg-2404-sdk dependencies</p>\n",
-                  "timestamp": 1731319768,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1%2Frev62%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1%2Frev62%2Fppc64el"
+                  "name": "ffmpeg-2404-sdk-7.1/rev66/armhf",
+                  "sha": "aa3bad5985c5c803331a227b3ad5720e4f96f534",
+                  "body": "<p>sdk: use libva from the repos (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/57\">#57</a>)</p>\n\n<p>libva was needed to build from source because the gnome sdk did the same.\nand using a different API while building would&rsquo;ve brought API incompatibilities. Not needed anymore as Gnome SDK silently removed it.</p>\n",
+                  "timestamp": 1738946463,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1%2Frev66%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1%2Frev66%2Farmhf"
                }
             ],
             "commits": null,
@@ -1601,29 +1601,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 64,
-                     "timestamp": 1731321086,
+                     "revision": 65,
+                     "timestamp": 1738947392,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 63,
-                     "timestamp": 1731321069,
+                     "revision": 67,
+                     "timestamp": 1738947958,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 61,
-                     "timestamp": 1731320945,
+                     "revision": 66,
+                     "timestamp": 1738947811,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 62,
-                     "timestamp": 1731321033,
+                     "revision": 68,
+                     "timestamp": 1738947975,
                      "base": "core24"
                   }
                ],
