@@ -1975,6 +1975,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.0.0-RC2/rev493/arm64",
+                  "sha": "359d0d67a3e8c65874f910dc04ccd3c9c1eb48cb",
+                  "body": "<p>feat: enable OpenVINO AI Plugins (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/325\">#325</a>)</p>\n\n<ul>\n<li><p>feature: integrate OpenVINO AI plugins</p></li>\n\n<li><p>ci: update workflows for 2.99-openvino track</p></li>\n\n<li><p>readme: remove TODOs and improve setup instructions</p></li>\n\n<li><p>fix: remove arch hard-coding</p></li>\n\n<li><p>feature: switch to personal-files interface as a less intrusive location for models</p></li>\n\n<li><p>fix: add plug-declaration to unblock build</p></li>\n\n<li><p>fix: use fixed source for command-chain scripts</p></li>\n\n<li><p>readme: remove section for manually connecting plugs</p></li>\n\n<li><p>fix: minor plug-in and extension errors from logs</p></li>\n\n<li><p>fix: avoid lua goat extension crash loop</p></li>\n\n<li><p>chore: bump versions of command-chain scripts for openvino ai plugins support</p></li>\n\n<li><p>chore: update 2.99 paths and commands to 3.0</p></li>\n\n<li><p>readme: update instructions for preview branch</p></li>\n\n<li><p>chore: bump ai plugins command-chain version for 3.0 support</p></li>\n\n<li><p>chore: revert CI to preview branches</p></li>\n\n<li><p>fix: pull new command-chain scripts for arm64 issues</p></li>\n\n<li><p>chore: make openvino command-chain scripts no-ops for arm64</p></li>\n\n<li><p>chore: bump openvino command chain versions for better hardware detection</p></li>\n\n<li><p>readme: clarify details about hardware requirements for AI plugins</p></li>\n</ul>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jnsgruk@ubuntu.com\">jnsgruk@ubuntu.com</a>\nCo-authored-by: Jon Seager <a href=\"mailto:jon@sgrs.uk\">jon@sgrs.uk</a></p>\n",
+                  "timestamp": 1738791398,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0-RC2%2Frev493%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0-RC2%2Frev493%2Farm64"
+               },
+               {
                   "name": "3.0.0-RC2/rev491/amd64",
                   "sha": "359d0d67a3e8c65874f910dc04ccd3c9c1eb48cb",
                   "body": "<p>feat: enable OpenVINO AI Plugins (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/325\">#325</a>)</p>\n\n<ul>\n<li><p>feature: integrate OpenVINO AI plugins</p></li>\n\n<li><p>ci: update workflows for 2.99-openvino track</p></li>\n\n<li><p>readme: remove TODOs and improve setup instructions</p></li>\n\n<li><p>fix: remove arch hard-coding</p></li>\n\n<li><p>feature: switch to personal-files interface as a less intrusive location for models</p></li>\n\n<li><p>fix: add plug-declaration to unblock build</p></li>\n\n<li><p>fix: use fixed source for command-chain scripts</p></li>\n\n<li><p>readme: remove section for manually connecting plugs</p></li>\n\n<li><p>fix: minor plug-in and extension errors from logs</p></li>\n\n<li><p>fix: avoid lua goat extension crash loop</p></li>\n\n<li><p>chore: bump versions of command-chain scripts for openvino ai plugins support</p></li>\n\n<li><p>chore: update 2.99 paths and commands to 3.0</p></li>\n\n<li><p>readme: update instructions for preview branch</p></li>\n\n<li><p>chore: bump ai plugins command-chain version for 3.0 support</p></li>\n\n<li><p>chore: revert CI to preview branches</p></li>\n\n<li><p>fix: pull new command-chain scripts for arm64 issues</p></li>\n\n<li><p>chore: make openvino command-chain scripts no-ops for arm64</p></li>\n\n<li><p>chore: bump openvino command chain versions for better hardware detection</p></li>\n\n<li><p>readme: clarify details about hardware requirements for AI plugins</p></li>\n</ul>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jnsgruk@ubuntu.com\">jnsgruk@ubuntu.com</a>\nCo-authored-by: Jon Seager <a href=\"mailto:jon@sgrs.uk\">jon@sgrs.uk</a></p>\n",
@@ -1989,14 +1997,6 @@
                   "timestamp": 1738148434,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0-RC2%2Frev488%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0-RC2%2Frev488%2Farm64"
-               },
-               {
-                  "name": "3.0.0-RC2/rev487/amd64",
-                  "sha": "9d45d5c41d63ac114003b3837d420e8ba3ebe922",
-                  "body": "<p>chore(deps): gmic 3.5.0 -&gt; 3.5.2</p>\n",
-                  "timestamp": 1738148434,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0-RC2%2Frev487%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0-RC2%2Frev487%2Famd64"
                }
             ],
             "commits": null,
@@ -2076,8 +2076,8 @@
                   {
                      "track": "preview",
                      "channel": "candidate",
-                     "revision": 488,
-                     "timestamp": 1738153060,
+                     "revision": 493,
+                     "timestamp": 1738922964,
                      "base": "core24"
                   },
                   {
@@ -4485,7 +4485,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 105,
+            "newCommits": 106,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
