@@ -2136,6 +2136,164 @@
             }
          },
          {
+            "name": "gradle",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/gradle",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "739f80d1de04771b05d809b7403b5610c227eba6",
+                  "author": "Jon Seager",
+                  "timestamp": 1728549859,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/gradle/pull/31\">#31</a> from big-r81/patch-1</p>\n\n<p>Upgrade Gradle to 8.10.2</p>\n",
+                  "url": "https://github.com/snapcrafters/gradle/commit/739f80d1de04771b05d809b7403b5610c227eba6"
+               },
+               {
+                  "sha": "a21bcb9c0b295dfaa206d9b48f592beae4bb9bc1",
+                  "author": "Ronny Berndt",
+                  "timestamp": 1728465429,
+                  "message": "<p>Upgrade Gradle to 8.10.2</p>\n\n<p>Use Core22 as base\nBump to OpenJDK 21</p>\n",
+                  "url": "https://github.com/snapcrafters/gradle/commit/a21bcb9c0b295dfaa206d9b48f592beae4bb9bc1"
+               },
+               {
+                  "sha": "624611b3f969f432947028f00e419fce4774e8e0",
+                  "author": "Dani Llewellyn",
+                  "timestamp": 1668428507,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/gradle/pull/29\">#29</a> from snapcrafters/galgalesh-patch-1</p>\n\n<p>Create test-snap-can-build.yml</p>\n",
+                  "url": "https://github.com/snapcrafters/gradle/commit/624611b3f969f432947028f00e419fce4774e8e0"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": {
+               "name": "gradle",
+               "url": "https://snapcraft.io/gradle",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 134,
+                     "timestamp": 1632928298,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 138,
+                     "timestamp": 1632928303,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 137,
+                     "timestamp": 1632928300,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 60,
+                     "timestamp": 1615995915,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 135,
+                     "timestamp": 1632928299,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 136,
+                     "timestamp": 1632928300,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 159,
+                     "timestamp": 1728551916,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 161,
+                     "timestamp": 1728551996,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 163,
+                     "timestamp": 1728552137,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 160,
+                     "timestamp": 1728551969,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 162,
+                     "timestamp": 1728552048,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "6.8.x",
+                     "channel": "stable",
+                     "revision": 87,
+                     "timestamp": 1622062738,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "6.8.x",
+                     "channel": "stable",
+                     "revision": 83,
+                     "timestamp": 1622062736,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "6.8.x",
+                     "channel": "stable",
+                     "revision": 84,
+                     "timestamp": 1622062736,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "6.8.x",
+                     "channel": "stable",
+                     "revision": 85,
+                     "timestamp": 1622062737,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "6.8.x",
+                     "channel": "stable",
+                     "revision": 86,
+                     "timestamp": 1622062737,
+                     "base": "core20"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest",
+                  "6.8.x"
+               ]
+            }
+         },
+         {
             "name": "helm",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/helm",
