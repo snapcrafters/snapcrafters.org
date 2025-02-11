@@ -1,0 +1,20 @@
+{{- $filteredPages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- if and (gt (len $filteredPages) 1) (in $filteredPages .) }}
+<nav class="">
+  {{- with $filteredPages.Next . }}
+  <a class="" href="{{ .Permalink }}">
+    <span class="">{{ i18n "prev_page" }}</span>
+    <br>
+    <span class="">{{ .Name }}</span>
+  </a>
+  {{- end }}
+  
+  {{- with $filteredPages.Prev . }}
+  <a class="" href="{{ .Permalink }}">
+    <span class="">{{ i18n "next_page" }}</span>
+    <br>
+    <span class="">{{ .Name }}</span>
+  </a>
+  {{- end }}
+</nav>
+{{- end }}
