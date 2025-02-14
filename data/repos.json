@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2024.2.2.14-Ladybug/rev181/amd64",
+                  "sha": "1807b87687f38fc00fb28424f0a3015d38ee7b91",
+                  "body": "<p>chore: bump android-studio to version 2024.2.2.14-Ladybug</p>\n",
+                  "timestamp": 1739527664,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.2.2.14-Ladybug%2Frev181%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.2.2.14-Ladybug%2Frev181%2Famd64"
+               },
                {
                   "name": "2024.2.2.13-Ladybug/rev179/amd64",
                   "sha": "5b524ca1aa81387d4287f73c8c4b0fdce5715ad4",
@@ -181,14 +189,6 @@
                   "timestamp": 1733220570,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.2.1.12-Ladybug%2Frev177%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.2.1.12-Ladybug%2Frev177%2Famd64"
-               },
-               {
-                  "name": "2024.2.1.11-Ladybug/rev175/amd64",
-                  "sha": "e907d6fdfdd39a77f79577c04b79e4ca5691d863",
-                  "body": "<p>chore: bump android-studio to version 2024.2.1.11-Ladybug</p>\n",
-                  "timestamp": 1730455727,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.2.1.11-Ladybug%2Frev175%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.2.1.11-Ladybug%2Frev175%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 179,
-                     "timestamp": 1736504946,
+                     "revision": 181,
+                     "timestamp": 1739529103,
                      "base": "core22"
                   },
                   {
@@ -1331,16 +1331,16 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 113,
-                     "timestamp": 1739471731,
-                     "base": "core22"
+                     "revision": 115,
+                     "timestamp": 1739531306,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 114,
-                     "timestamp": 1739471881,
-                     "base": "core22"
+                     "revision": 116,
+                     "timestamp": 1739531409,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
@@ -3105,10 +3105,26 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "5.11.0/rev775/arm64",
+                  "sha": "92681f7c9728e95892eeaeea8fddab24ad075dbb",
+                  "body": "<p>chore: bump mattermost-desktop to version 5.11.0</p>\n",
+                  "timestamp": 1739528341,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.11.0%2Frev775%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.11.0%2Frev775%2Farm64"
+               },
+               {
+                  "name": "5.11.0/rev774/amd64",
+                  "sha": "92681f7c9728e95892eeaeea8fddab24ad075dbb",
+                  "body": "<p>chore: bump mattermost-desktop to version 5.11.0</p>\n",
+                  "timestamp": 1739528341,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.11.0%2Frev774%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.11.0%2Frev774%2Famd64"
+               },
                {
                   "name": "5.10.2/rev773/arm64",
                   "sha": "6e882b5d4f648e2980125655dd41bd6cc9866b9d",
@@ -3116,22 +3132,6 @@
                   "timestamp": 1739179422,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.10.2%2Frev773%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.10.2%2Frev773%2Farm64"
-               },
-               {
-                  "name": "5.10.2/rev772/amd64",
-                  "sha": "6e882b5d4f648e2980125655dd41bd6cc9866b9d",
-                  "body": "<p>fix: use correct application logo</p>\n\n<p>There has been some confusion, it seems, about the\ncorrect application logo to use. While indeed the\nMattermost (company) logo did change, the application\nlogo is still a blue square with the white logo, as\nsee in their upstream repo:</p>\n\n<p><a href=\"https://github.com/mattermost/desktop/blob/master/src/assets/linux/app_icon.png\">https://github.com/mattermost/desktop/blob/master/src/assets/linux/app_icon.png</a></p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/119\">#119</a>.</p>\n",
-                  "timestamp": 1739179422,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.10.2%2Frev772%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.10.2%2Frev772%2Famd64"
-               },
-               {
-                  "name": "5.10.2/rev771/arm64",
-                  "sha": "6d4e23b47c4761e32430c995b40556cffcd12be6",
-                  "body": "<p>chore: replace icon with svg equivalent</p>\n",
-                  "timestamp": 1738863745,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.10.2%2Frev771%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.10.2%2Frev771%2Farm64"
                }
             ],
             "commits": null,
@@ -3169,15 +3169,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 772,
-                     "timestamp": 1739180318,
+                     "revision": 774,
+                     "timestamp": 1739528853,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 773,
-                     "timestamp": 1739180569,
+                     "revision": 775,
+                     "timestamp": 1739530679,
                      "base": "core24"
                   },
                   {
