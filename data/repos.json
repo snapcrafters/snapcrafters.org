@@ -5349,28 +5349,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.10.5/rev782/s390x",
+                  "sha": "0cc184d93c0b6e358437dbd25914d53a18ca0aa7",
+                  "body": "<p>fix: build with <code>version.dev=no</code></p>\n\n<p>This commit fixes a minor issue where Terraform was being built\nwith <code>version.dev=true</code>, resulting in the embedded version string\nincluding the <code>-dev</code> prefix, and also triggering a warning about\nthe version being out of date.</p>\n\n<p>The fix is to use Go&rsquo;s LDFLAGS to set <code>version.dev=no</code> at build\ntime, which is also done in the upstream repository.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/130\">#130</a></p>\n",
+                  "timestamp": 1739620791,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev782%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev782%2Fs390x"
+               },
+               {
+                  "name": "1.10.5/rev781/amd64",
+                  "sha": "0cc184d93c0b6e358437dbd25914d53a18ca0aa7",
+                  "body": "<p>fix: build with <code>version.dev=no</code></p>\n\n<p>This commit fixes a minor issue where Terraform was being built\nwith <code>version.dev=true</code>, resulting in the embedded version string\nincluding the <code>-dev</code> prefix, and also triggering a warning about\nthe version being out of date.</p>\n\n<p>The fix is to use Go&rsquo;s LDFLAGS to set <code>version.dev=no</code> at build\ntime, which is also done in the upstream repository.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/130\">#130</a></p>\n",
+                  "timestamp": 1739620791,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev781%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev781%2Famd64"
+               },
+               {
                   "name": "1.10.5/rev780/armhf",
                   "sha": "9888a3b6e88829bfaf4465af9e842831a05e2596",
                   "body": "<p>chore: bump terraform to version 1.10.5</p>\n",
                   "timestamp": 1737627602,
                   "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev780%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev780%2Farmhf"
-               },
-               {
-                  "name": "1.10.5/rev779/ppc64el",
-                  "sha": "9888a3b6e88829bfaf4465af9e842831a05e2596",
-                  "body": "<p>chore: bump terraform to version 1.10.5</p>\n",
-                  "timestamp": 1737627602,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev779%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev779%2Fppc64el"
-               },
-               {
-                  "name": "1.10.5/rev778/arm64",
-                  "sha": "9888a3b6e88829bfaf4465af9e842831a05e2596",
-                  "body": "<p>chore: bump terraform to version 1.10.5</p>\n",
-                  "timestamp": 1737627602,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev778%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev778%2Farm64"
                }
             ],
             "commits": null,
@@ -5422,8 +5422,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 777,
-                     "timestamp": 1737628428,
+                     "revision": 781,
+                     "timestamp": 1739621474,
                      "base": "core24"
                   },
                   {
@@ -5450,8 +5450,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 776,
-                     "timestamp": 1737628410,
+                     "revision": 782,
+                     "timestamp": 1739621577,
                      "base": "core24"
                   }
                ],
