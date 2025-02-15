@@ -5349,28 +5349,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "1.10.5/rev782/s390x",
+                  "name": "1.10.5/rev785/ppc64el",
                   "sha": "0cc184d93c0b6e358437dbd25914d53a18ca0aa7",
                   "body": "<p>fix: build with <code>version.dev=no</code></p>\n\n<p>This commit fixes a minor issue where Terraform was being built\nwith <code>version.dev=true</code>, resulting in the embedded version string\nincluding the <code>-dev</code> prefix, and also triggering a warning about\nthe version being out of date.</p>\n\n<p>The fix is to use Go&rsquo;s LDFLAGS to set <code>version.dev=no</code> at build\ntime, which is also done in the upstream repository.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/130\">#130</a></p>\n",
                   "timestamp": 1739620791,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev782%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev782%2Fs390x"
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev785%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev785%2Fppc64el"
                },
                {
-                  "name": "1.10.5/rev781/amd64",
+                  "name": "1.10.5/rev784/s390x",
                   "sha": "0cc184d93c0b6e358437dbd25914d53a18ca0aa7",
                   "body": "<p>fix: build with <code>version.dev=no</code></p>\n\n<p>This commit fixes a minor issue where Terraform was being built\nwith <code>version.dev=true</code>, resulting in the embedded version string\nincluding the <code>-dev</code> prefix, and also triggering a warning about\nthe version being out of date.</p>\n\n<p>The fix is to use Go&rsquo;s LDFLAGS to set <code>version.dev=no</code> at build\ntime, which is also done in the upstream repository.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/130\">#130</a></p>\n",
                   "timestamp": 1739620791,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev781%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev781%2Famd64"
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev784%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev784%2Fs390x"
                },
                {
-                  "name": "1.10.5/rev780/armhf",
-                  "sha": "9888a3b6e88829bfaf4465af9e842831a05e2596",
-                  "body": "<p>chore: bump terraform to version 1.10.5</p>\n",
-                  "timestamp": 1737627602,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev780%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev780%2Farmhf"
+                  "name": "1.10.5/rev783/amd64",
+                  "sha": "0cc184d93c0b6e358437dbd25914d53a18ca0aa7",
+                  "body": "<p>fix: build with <code>version.dev=no</code></p>\n\n<p>This commit fixes a minor issue where Terraform was being built\nwith <code>version.dev=true</code>, resulting in the embedded version string\nincluding the <code>-dev</code> prefix, and also triggering a warning about\nthe version being out of date.</p>\n\n<p>The fix is to use Go&rsquo;s LDFLAGS to set <code>version.dev=no</code> at build\ntime, which is also done in the upstream repository.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/130\">#130</a></p>\n",
+                  "timestamp": 1739620791,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev783%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev783%2Famd64"
                }
             ],
             "commits": null,
@@ -5422,8 +5422,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 781,
-                     "timestamp": 1739621474,
+                     "revision": 783,
+                     "timestamp": 1739625010,
                      "base": "core24"
                   },
                   {
@@ -5443,15 +5443,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 779,
-                     "timestamp": 1737628500,
+                     "revision": 785,
+                     "timestamp": 1739625349,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 782,
-                     "timestamp": 1739621577,
+                     "revision": 784,
+                     "timestamp": 1739625197,
                      "base": "core24"
                   }
                ],
