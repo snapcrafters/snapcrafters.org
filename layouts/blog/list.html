@@ -1,9 +1,56 @@
-{{ define "main" }}
+{{- define "main" }}
+
+{{- if not .IsHome | and .Title }}
+<header class="">
+  {{- partial "breadcrumbs.html" . }}
   <h1>{{ .Title }}</h1>
-  {{ range .Pages }}
-    <article>
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <p>{{ .Summary }} <a href="{{ .Permalink }}">Read more...</a></p>
-    </article>
-  {{ end }}
-{{ end }}
+  {{- if .Description }}
+  <div class="">
+    <h2>{{ .Description | markdownify | emojify }}</h2>
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<article class="">
+  {{ .Content }}
+</article>
+{{- end }}
+
+{{- $pages := slice }}
+
+{{- if .IsHome }}
+  {{- $sections := site.Params.mainSections | default (slice "blogs") }}
+  {{- range site.RegularPages }}
+    {{- if (and (in $sections .Section) (not .Params.hiddenInHomeList)) }}
+      {{- $pages = $pages | append . }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- $pages = .RegularPages }}
+{{- end }}
+
+{{- $paginator := .Paginate $pages }}
+
+{{- range $paginator.Pages }}
+<article class="">
+  <header class="">
+    <h3>
+      <a href="{{ .Permalink }}">{{ .Title | emojify }}</a>
+      {{- if .Draft }} <span class="">[Draft]</span> {{- end }}
+    </h3>
+  </header>
+  
+  {{- if not .Params.hideSummary }}
+  <div class="">
+    <p>{{ .Summary | plainify | htmlUnescape | emojify | truncate 200 }}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+
+  {{- if not .Params.hideMeta }}
+    {{- partial "blog-only-date.html" . }}
+  {{- end }}
+</article>
+{{- end }}
+{{- end }}
