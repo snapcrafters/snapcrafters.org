@@ -2,11 +2,11 @@
 
 {{- if not .IsHome | and .Title }}
 <header class="">
-  {{- partial "breadcrumbs.html" . }}
+  {{ partial "breadcrumbs.html" . }}
   <h1>{{ .Title }}</h1>
   {{- if .Description }}
   <div class="">
-    <h2>{{ .Description | markdownify | emojify }}</h2>
+    <h2>{{ .Description | markdownify | emojify | safeHTML}}</h2>
   </div>
   {{- end }}
 </header>
@@ -37,14 +37,14 @@
 <article class="">
   <header class="">
     <h3>
-      <a href="{{ .Permalink }}">{{ .Title | emojify }}</a>
+      <a href="{{ .Permalink }}">{{ .Title | emojify | safeHTML}}</a>
       {{- if .Draft }} <span class="">[Draft]</span> {{- end }}
     </h3>
   </header>
   
   {{- if not .Params.hideSummary }}
   <div class="">
-    <p>{{ .Summary | plainify | htmlUnescape | emojify | truncate 200 }}{{ if .Truncated }}...{{ end }}</p>
+    <p>{{ .Summary | plainify | htmlUnescape | emojify | truncate 200 | safeHTML}}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
 

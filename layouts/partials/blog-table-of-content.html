@@ -14,8 +14,7 @@
                 <ul>
                     {{- range $i, $header := $headers -}}
                     {{- $headerLevel := len (seq (index (findRE "[1-6]" . 1) 0)) -}}
-                    {{- $cleanedID := replace (index (findRE "(id=\"(.*?)\")" $header 9) 0) "id=\"" "" | replace "\"" ""
-                    }}
+                    {{- $cleanedID := replaceRE ".*id=\"([^\"]+)\".*" "$1" $header -}}
                     {{- if lt $headerLevel ($.Scratch.Get "currentLevel") }}
                 </ul>
                 {{- else if gt $headerLevel ($.Scratch.Get "currentLevel") }}

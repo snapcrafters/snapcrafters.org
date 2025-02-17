@@ -5,7 +5,7 @@
       <header class="">
         {{ partial "breadcrumbs.html" . }}
         <h1 class="">
-          {{ .Title | emojify}}
+          {{ .Title | emojify | safeHTML}}
         </h1>
         {{- if (.Param "DisplayMeta") }}
         <div class="">
@@ -23,7 +23,7 @@
       {{- end }}
       {{- if .Content }}
       <div class="">
-        {{ .Content | emojify}}
+        {{ .Content | emojify | safeHTML}}
       </div>
       {{- end }}
       {{- $tags := "tags" }}
