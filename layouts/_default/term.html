@@ -1,0 +1,56 @@
+{{- define "main" }}
+
+{{- if not .IsHome | and .Title }}
+<header class="">
+  {{ partial "breadcrumbs-for-tags.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="">
+    <h2>{{ .Description | markdownify | emojify | safeHTML}}</h2>
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<article class="">
+  {{ .Content }}
+</article>
+{{- end }}
+
+{{- $pages := slice }}
+
+{{- if .IsHome }}
+  {{- $sections := site.Params.mainSections | default (slice "tags") }}
+  {{- range site.RegularPages }}
+    {{- if (and (in $sections .Section) (not .Params.hiddenInHomeList)) }}
+      {{- $pages = $pages | append . }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- $pages = .RegularPages }}
+{{- end }}
+
+{{- $paginator := .Paginate $pages }}
+
+{{- range $paginator.Pages }}
+<article class="">
+  <header class="">
+    <h3>
+      <a href="{{ .Permalink }}">{{ .Title | emojify | safeHTML}}</a>
+      {{- if .Draft }} <span class="">[Draft]</span> {{- end }}
+    </h3>
+  </header>
+  
+  {{- if not .Params.hideSummary }}
+  <div class="">
+    <p>{{ .Summary | plainify | htmlUnescape | emojify | truncate 200 | safeHTML}}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+
+  {{- if not .Params.hideMeta }}
+    {{- partial "blog-only-date.html" . }}
+  {{- end }}
+</article>
+{{- end }}
+{{- end }}
