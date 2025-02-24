@@ -1,19 +1,19 @@
 {{- $filteredPages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- if and (gt (len $filteredPages) 1) (in $filteredPages .) }}
-<nav class="">
+<nav class="footer-nav-card">
   {{- with $filteredPages.Next . }}
-  <a class="" href="{{ .Permalink }}">
-    <span class="">{{ i18n "prev_page" }}</span>
+  <a class="footer-nav-link footer-nav-prev" href="{{ .Permalink }}">
+    <span class="footer-nav-text">{{ i18n "prev_page" }}</span>
     <br>
-    <span class="">{{ .Name }}</span>
+    <span class="footer-nav-title">{{ .Name | truncate 30 }}</span>
   </a>
   {{- end }}
   
   {{- with $filteredPages.Prev . }}
-  <a class="" href="{{ .Permalink }}">
-    <span class="">{{ i18n "next_page" }}</span>
+  <a class="footer-nav-link footer-nav-next" href="{{ .Permalink }}">
+    <span class="footer-nav-text">{{ i18n "next_page" }}</span>
     <br>
-    <span class="">{{ .Name }}</span>
+    <span class="footer-nav-title">{{ .Name | truncate 30 }}</span>
   </a>
   {{- end }}
 </nav>

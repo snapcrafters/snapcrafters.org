@@ -1,11 +1,8 @@
-<link rel="stylesheet"
-      href="https://assets.ubuntu.com/v1/vanilla-framework-version-4.5.0.min.css" />
-
-<div class="p-breadcrumbs">
+<div class="breadcrumbs">
     {{- $url := replace .Permalink (printf "%s" site.Home.Permalink) "" -}}
     {{- $lang_url := strings.TrimPrefix (printf "%s/" .Lang) $url -}}
 
-    <a href="{{ "" | absLangURL }}" class="p-breadcrumbs__item u-textBold">
+    <a href="{{ "" | absLangURL }}">
       {{ i18n "home" | default "Home" }}
     </a>
 
@@ -16,11 +13,10 @@
             {{- $bc_pg := site.GetPage ($scratch.Get "path") -}}
             {{- if $bc_pg -}}
                 {{- print "&nbsp;&nbsp;" | safeHTML -}}
-                <a href="{{ $bc_pg.Permalink }}" class="p-breadcrumbs__item u-textBold">
+                <a href="{{ $bc_pg.Permalink }}">
                   {{ $bc_pg.Name }}
                 </a>
             {{- end -}}
         {{- end -}}
     {{- end -}}
 </div>
-

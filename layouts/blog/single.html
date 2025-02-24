@@ -1,14 +1,14 @@
 {{- define "main" }}
-<div class="row">
-  <div class="col-12">
+<div class="blog-single-container">
+  <div class="">
     <article class="">
-      <header class="">
+      <header class="blog-header">
         {{ partial "breadcrumbs.html" . }}
-        <h1 class="">
+        <h1 class="blog-page-title">
           {{ .Title | emojify | safeHTML}}
         </h1>
         {{- if (.Param "DisplayMeta") }}
-        <div class="">
+        <div class="blog-meta">
           {{- partial "blog-meta.html" . -}}
         </div>
         {{- end }}
@@ -26,15 +26,17 @@
         {{ .Content | emojify | safeHTML}}
       </div>
       {{- end }}
-      {{- $tags := "tags" }}
-      <ul class="">
-        {{- range ($.GetTerms $tags) }}
-        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      <footer class="blog-footer">
+        {{- $tags := "tags" }}
+        <ul class="tag-list">
+          {{- range ($.GetTerms $tags) }}
+          <li class="tag-card"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+          {{- end }}
+        </ul>
+        {{- if (.Param "ShowFooterNav") }}
+        {{- partial "blog-footer-nav.html" . }}
         {{- end }}
-      </ul>
-      {{- if (.Param "ShowFooterNav") }}
-      {{- partial "blog-footer-nav.html" . }}
-      {{- end }}
+      </footer>
     </article>
   </div>
 </div>
