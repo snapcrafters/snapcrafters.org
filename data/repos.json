@@ -4475,29 +4475,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1279,
-                     "timestamp": 1740137345,
+                     "revision": 1282,
+                     "timestamp": 1740738678,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1277,
-                     "timestamp": 1740134464,
+                     "revision": 1286,
+                     "timestamp": 1740739135,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1276,
-                     "timestamp": 1740134457,
+                     "revision": 1284,
+                     "timestamp": 1740738849,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1278,
-                     "timestamp": 1740134779,
+                     "revision": 1285,
+                     "timestamp": 1740739026,
                      "base": "core24"
                   },
                   {
@@ -4510,8 +4510,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1280,
-                     "timestamp": 1740417228,
+                     "revision": 1283,
+                     "timestamp": 1740738716,
                      "base": "core24"
                   }
                ],
@@ -5249,33 +5249,33 @@
          },
          {
             "name": "terraform",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/terraform",
             "releases": null,
             "tags": [
                {
-                  "name": "1.10.5/rev787/armhf",
-                  "sha": "0cc184d93c0b6e358437dbd25914d53a18ca0aa7",
-                  "body": "<p>fix: build with <code>version.dev=no</code></p>\n\n<p>This commit fixes a minor issue where Terraform was being built\nwith <code>version.dev=true</code>, resulting in the embedded version string\nincluding the <code>-dev</code> prefix, and also triggering a warning about\nthe version being out of date.</p>\n\n<p>The fix is to use Go&rsquo;s LDFLAGS to set <code>version.dev=no</code> at build\ntime, which is also done in the upstream repository.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/130\">#130</a></p>\n",
-                  "timestamp": 1739620791,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev787%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev787%2Farmhf"
+                  "name": "1.11.0/rev792/ppc64el",
+                  "sha": "1e7e9bf36cd53c4f1d92dc6d7443c212112a1a68",
+                  "body": "<p>chore: bump terraform to version 1.11.0</p>\n",
+                  "timestamp": 1740737988,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.0%2Frev792%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.0%2Frev792%2Fppc64el"
                },
                {
-                  "name": "1.10.5/rev786/arm64",
-                  "sha": "0cc184d93c0b6e358437dbd25914d53a18ca0aa7",
-                  "body": "<p>fix: build with <code>version.dev=no</code></p>\n\n<p>This commit fixes a minor issue where Terraform was being built\nwith <code>version.dev=true</code>, resulting in the embedded version string\nincluding the <code>-dev</code> prefix, and also triggering a warning about\nthe version being out of date.</p>\n\n<p>The fix is to use Go&rsquo;s LDFLAGS to set <code>version.dev=no</code> at build\ntime, which is also done in the upstream repository.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/130\">#130</a></p>\n",
-                  "timestamp": 1739620791,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev786%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev786%2Farm64"
+                  "name": "1.11.0/rev791/arm64",
+                  "sha": "1e7e9bf36cd53c4f1d92dc6d7443c212112a1a68",
+                  "body": "<p>chore: bump terraform to version 1.11.0</p>\n",
+                  "timestamp": 1740737988,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.0%2Frev791%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.0%2Frev791%2Farm64"
                },
                {
-                  "name": "1.10.5/rev785/ppc64el",
-                  "sha": "0cc184d93c0b6e358437dbd25914d53a18ca0aa7",
-                  "body": "<p>fix: build with <code>version.dev=no</code></p>\n\n<p>This commit fixes a minor issue where Terraform was being built\nwith <code>version.dev=true</code>, resulting in the embedded version string\nincluding the <code>-dev</code> prefix, and also triggering a warning about\nthe version being out of date.</p>\n\n<p>The fix is to use Go&rsquo;s LDFLAGS to set <code>version.dev=no</code> at build\ntime, which is also done in the upstream repository.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/terraform/pull/130\">#130</a></p>\n",
-                  "timestamp": 1739620791,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.10.5%2Frev785%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.10.5%2Frev785%2Fppc64el"
+                  "name": "1.11.0/rev790/armhf",
+                  "sha": "1e7e9bf36cd53c4f1d92dc6d7443c212112a1a68",
+                  "body": "<p>chore: bump terraform to version 1.11.0</p>\n",
+                  "timestamp": 1740737988,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.0%2Frev790%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.0%2Frev790%2Farmhf"
                }
             ],
             "commits": null,
@@ -5327,36 +5327,36 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 783,
-                     "timestamp": 1739625010,
+                     "revision": 788,
+                     "timestamp": 1740738717,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 786,
-                     "timestamp": 1739626452,
+                     "revision": 791,
+                     "timestamp": 1740738971,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 787,
-                     "timestamp": 1739626460,
+                     "revision": 790,
+                     "timestamp": 1740738837,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 785,
-                     "timestamp": 1739625349,
+                     "revision": 792,
+                     "timestamp": 1740739115,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 784,
-                     "timestamp": 1739625197,
+                     "revision": 789,
+                     "timestamp": 1740738786,
                      "base": "core24"
                   }
                ],
