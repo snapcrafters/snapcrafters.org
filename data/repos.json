@@ -4503,8 +4503,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1292,
-                     "timestamp": 1740831240,
+                     "revision": 1298,
+                     "timestamp": 1741369397,
                      "base": "core24"
                   },
                   {
@@ -4661,10 +4661,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 3,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.45.0/rev766/amd64",
+                  "sha": "d57c3dcdac3d8ac96b7adba914f3c23d7de0ca43",
+                  "body": "<p>build: fix pnpm build process on launchpad</p>\n",
+                  "timestamp": 1741369570,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev766%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev766%2Famd64"
+               },
                {
                   "name": "7.44.0/rev765/arm64",
                   "sha": "f046614aae114dc1f8c9801b413ce02863c34dfd",
@@ -4680,14 +4688,6 @@
                   "timestamp": 1740651028,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.44.0%2Frev764%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.44.0%2Frev764%2Famd64"
-               },
-               {
-                  "name": "7.43.0/rev763/arm64",
-                  "sha": "45792ca9e100d2a14017a4847e8d2979e14470bd",
-                  "body": "<p>chore: bump signal-desktop to version 7.43.0</p>\n",
-                  "timestamp": 1740046213,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.43.0%2Frev763%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.43.0%2Frev763%2Farm64"
                }
             ],
             "commits": null,
@@ -4718,8 +4718,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 764,
-                     "timestamp": 1740652041,
+                     "revision": 766,
+                     "timestamp": 1741370481,
                      "base": "core24"
                   },
                   {
