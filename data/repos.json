@@ -4661,10 +4661,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 3,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.45.0/rev770/arm64",
+                  "sha": "f7f8eb17da7cd80208c6eb197a623a4c2bb106c4",
+                  "body": "<p>build: remove fpm hack; use <code>--dir</code> to specify directory target</p>\n",
+                  "timestamp": 1741378851,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev770%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev770%2Farm64"
+               },
+               {
+                  "name": "7.45.0/rev769/amd64",
+                  "sha": "f7f8eb17da7cd80208c6eb197a623a4c2bb106c4",
+                  "body": "<p>build: remove fpm hack; use <code>--dir</code> to specify directory target</p>\n",
+                  "timestamp": 1741378851,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev769%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev769%2Famd64"
+               },
                {
                   "name": "7.45.0/rev768/amd64",
                   "sha": "ea143cfd4be9816c48ad3215f5087bdae253c657",
@@ -4672,22 +4688,6 @@
                   "timestamp": 1741375611,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev768%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev768%2Famd64"
-               },
-               {
-                  "name": "7.45.0/rev767/amd64",
-                  "sha": "026981e0ca4e8ae44b2d2ef6c3d2df7ceade6d97",
-                  "body": "<p>build: simplify proxy configuration in build</p>\n",
-                  "timestamp": 1741371019,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev767%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev767%2Famd64"
-               },
-               {
-                  "name": "7.45.0/rev766/amd64",
-                  "sha": "d57c3dcdac3d8ac96b7adba914f3c23d7de0ca43",
-                  "body": "<p>build: fix pnpm build process on launchpad</p>\n",
-                  "timestamp": 1741369570,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev766%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev766%2Famd64"
                }
             ],
             "commits": null,
@@ -4704,29 +4704,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 764,
-                     "timestamp": 1740653441,
+                     "revision": 769,
+                     "timestamp": 1741381353,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 765,
-                     "timestamp": 1740653445,
+                     "revision": 770,
+                     "timestamp": 1741381357,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 768,
-                     "timestamp": 1741376484,
+                     "revision": 769,
+                     "timestamp": 1741379709,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 765,
-                     "timestamp": 1740652775,
+                     "revision": 770,
+                     "timestamp": 1741380909,
                      "base": "core24"
                   }
                ],
