@@ -4661,10 +4661,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 0,
+            "newCommits": 3,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.45.0/rev768/amd64",
+                  "sha": "ea143cfd4be9816c48ad3215f5087bdae253c657",
+                  "body": "<p>build: fix electron build on arm64</p>\n",
+                  "timestamp": 1741375611,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev768%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev768%2Famd64"
+               },
                {
                   "name": "7.45.0/rev767/amd64",
                   "sha": "026981e0ca4e8ae44b2d2ef6c3d2df7ceade6d97",
@@ -4680,14 +4688,6 @@
                   "timestamp": 1741369570,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev766%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev766%2Famd64"
-               },
-               {
-                  "name": "7.44.0/rev765/arm64",
-                  "sha": "f046614aae114dc1f8c9801b413ce02863c34dfd",
-                  "body": "<p>chore: bump signal-desktop to version 7.44.0</p>\n",
-                  "timestamp": 1740651028,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.44.0%2Frev765%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.44.0%2Frev765%2Farm64"
                }
             ],
             "commits": null,
@@ -4718,8 +4718,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 767,
-                     "timestamp": 1741372165,
+                     "revision": 768,
+                     "timestamp": 1741376484,
                      "base": "core24"
                   },
                   {
