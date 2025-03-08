@@ -3759,10 +3759,18 @@
          },
          {
             "name": "obs-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/obs-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "31.0.2/rev1307/amd64",
+                  "sha": "9ae039808106c1bb9d11dd0ebf0231197dbe1bf9",
+                  "body": "<p>chore: bump obs-studio to version 31.0.2</p>\n",
+                  "timestamp": 1741428781,
+                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/31.0.2%2Frev1307%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...31.0.2%2Frev1307%2Famd64"
+               },
                {
                   "name": "31.0.1/rev1306/amd64",
                   "sha": "2f669f18164b05225f75e47636490bd89872f0c2",
@@ -3778,14 +3786,6 @@
                   "timestamp": 1733566578,
                   "url": "https://github.com/snapcrafters/obs-studio/releases/tag/31.0.0%2Frev1305%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...31.0.0%2Frev1305%2Famd64"
-               },
-               {
-                  "name": "30.2.3/rev1304/amd64",
-                  "sha": "3329fb18bfd8b41aac1533e81929a55630a1f814",
-                  "body": "<p>chore: bump obs-studio to version 30.2.3</p>\n",
-                  "timestamp": 1723803239,
-                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/30.2.3%2Frev1304%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...30.2.3%2Frev1304%2Famd64"
                }
             ],
             "commits": null,
@@ -3809,8 +3809,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1306,
-                     "timestamp": 1737283184,
+                     "revision": 1307,
+                     "timestamp": 1741430005,
                      "base": "core22"
                   },
                   {
@@ -4661,10 +4661,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.45.1/rev772/arm64",
+                  "sha": "a5e07a78605da7819f6dd6c4f62d31c16ee5610d",
+                  "body": "<p>chore: bump signal-desktop to version 7.45.1</p>\n",
+                  "timestamp": 1741428508,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.1%2Frev772%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.1%2Frev772%2Farm64"
+               },
+               {
+                  "name": "7.45.1/rev771/amd64",
+                  "sha": "a5e07a78605da7819f6dd6c4f62d31c16ee5610d",
+                  "body": "<p>chore: bump signal-desktop to version 7.45.1</p>\n",
+                  "timestamp": 1741428508,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.1%2Frev771%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.1%2Frev771%2Famd64"
+               },
                {
                   "name": "7.45.0/rev770/arm64",
                   "sha": "f7f8eb17da7cd80208c6eb197a623a4c2bb106c4",
@@ -4672,22 +4688,6 @@
                   "timestamp": 1741378851,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev770%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev770%2Farm64"
-               },
-               {
-                  "name": "7.45.0/rev769/amd64",
-                  "sha": "f7f8eb17da7cd80208c6eb197a623a4c2bb106c4",
-                  "body": "<p>build: remove fpm hack; use <code>--dir</code> to specify directory target</p>\n",
-                  "timestamp": 1741378851,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev769%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev769%2Famd64"
-               },
-               {
-                  "name": "7.45.0/rev768/amd64",
-                  "sha": "ea143cfd4be9816c48ad3215f5087bdae253c657",
-                  "body": "<p>build: fix electron build on arm64</p>\n",
-                  "timestamp": 1741375611,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev768%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev768%2Famd64"
                }
             ],
             "commits": null,
@@ -4718,15 +4718,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 769,
-                     "timestamp": 1741379709,
+                     "revision": 771,
+                     "timestamp": 1741429382,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 770,
-                     "timestamp": 1741380909,
+                     "revision": 772,
+                     "timestamp": 1741430042,
                      "base": "core24"
                   }
                ],
