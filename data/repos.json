@@ -1156,10 +1156,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.88/rev231/amd64",
+                  "sha": "73c722614f92263d17fad3e879a383c2d12c63e4",
+                  "body": "<p>chore: bump discord to version 0.0.88</p>\n",
+                  "timestamp": 1741687981,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.88%2Frev231%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.88%2Frev231%2Famd64"
+               },
                {
                   "name": "0.0.87/rev230/amd64",
                   "sha": "6e0c700138d5bf7c46570b71e5b0075fe80e5514",
@@ -1175,14 +1183,6 @@
                   "timestamp": 1739959906,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.86%2Frev229%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.86%2Frev229%2Famd64"
-               },
-               {
-                  "name": "0.0.85/rev228/amd64",
-                  "sha": "b7889a185b2f23e9f8e158353bf4d76f9b93399b",
-                  "body": "<p>chore: bump discord to version 0.0.85</p>\n",
-                  "timestamp": 1739268737,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.85%2Frev228%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.85%2Frev228%2Famd64"
                }
             ],
             "commits": null,
@@ -1206,8 +1206,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 230,
-                     "timestamp": 1740479188,
+                     "revision": 231,
+                     "timestamp": 1741688461,
                      "base": "core22"
                   }
                ],
