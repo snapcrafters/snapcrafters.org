@@ -3015,6 +3015,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "5.11.2/rev778/amd64",
+                  "sha": "9ed006c797e1d0d159aef5b233205b957010f7d3",
+                  "body": "<p>chore: bump mattermost-desktop to version 5.11.2</p>\n",
+                  "timestamp": 1741770537,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.11.2%2Frev778%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.11.2%2Frev778%2Famd64"
+               },
+               {
                   "name": "5.11.1/rev777/arm64",
                   "sha": "2de7cd5412bd059a8dac571aedcaf1b72b8676e2",
                   "body": "<p>chore: bump mattermost-desktop to version 5.11.1</p>\n",
@@ -3029,14 +3037,6 @@
                   "timestamp": 1740910729,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.11.1%2Frev776%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.11.1%2Frev776%2Famd64"
-               },
-               {
-                  "name": "5.11.0/rev775/arm64",
-                  "sha": "92681f7c9728e95892eeaeea8fddab24ad075dbb",
-                  "body": "<p>chore: bump mattermost-desktop to version 5.11.0</p>\n",
-                  "timestamp": 1739528341,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.11.0%2Frev775%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.11.0%2Frev775%2Farm64"
                }
             ],
             "commits": null,
@@ -3074,8 +3074,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 776,
-                     "timestamp": 1740911269,
+                     "revision": 778,
+                     "timestamp": 1741771226,
                      "base": "core24"
                   },
                   {
