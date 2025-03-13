@@ -2720,28 +2720,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "2.500/rev4824/armhf",
-                  "sha": "d187c66b709a4a7b5755dbc918fe41aefc1cbac2",
-                  "body": "<p>chore: bump jenkins to version 2.500</p>\n",
-                  "timestamp": 1741256578,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.500%2Frev4824%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.500%2Frev4824%2Farmhf"
+                  "name": "2.501/rev4828/arm64",
+                  "sha": "09a195272104ec97d7898e628bcca875014731b0",
+                  "body": "<p>chore: bump jenkins to version 2.501</p>\n",
+                  "timestamp": 1741861367,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.501%2Frev4828%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.501%2Frev4828%2Farm64"
                },
                {
-                  "name": "2.500/rev4822/arm64",
-                  "sha": "d187c66b709a4a7b5755dbc918fe41aefc1cbac2",
-                  "body": "<p>chore: bump jenkins to version 2.500</p>\n",
-                  "timestamp": 1741256578,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.500%2Frev4822%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.500%2Frev4822%2Farm64"
+                  "name": "2.501/rev4827/armhf",
+                  "sha": "09a195272104ec97d7898e628bcca875014731b0",
+                  "body": "<p>chore: bump jenkins to version 2.501</p>\n",
+                  "timestamp": 1741861367,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.501%2Frev4827%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.501%2Frev4827%2Farmhf"
                },
                {
-                  "name": "2.500/rev4820/amd64",
-                  "sha": "d187c66b709a4a7b5755dbc918fe41aefc1cbac2",
-                  "body": "<p>chore: bump jenkins to version 2.500</p>\n",
-                  "timestamp": 1741256578,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.500%2Frev4820%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.500%2Frev4820%2Famd64"
+                  "name": "2.501/rev4826/amd64",
+                  "sha": "09a195272104ec97d7898e628bcca875014731b0",
+                  "body": "<p>chore: bump jenkins to version 2.501</p>\n",
+                  "timestamp": 1741861367,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.501%2Frev4826%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.501%2Frev4826%2Famd64"
                }
             ],
             "commits": null,
@@ -2779,22 +2779,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4820,
-                     "timestamp": 1741257249,
+                     "revision": 4826,
+                     "timestamp": 1741861941,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4822,
-                     "timestamp": 1741257408,
+                     "revision": 4828,
+                     "timestamp": 1741862283,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4824,
-                     "timestamp": 1741257514,
+                     "revision": 4827,
+                     "timestamp": 1741862209,
                      "base": "core22"
                   },
                   {
@@ -4661,10 +4661,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.46.0/rev774/arm64",
+                  "sha": "505a10b308a99275ae6fc9ca18ac1343f5907058",
+                  "body": "<p>chore: bump signal-desktop to version 7.46.0</p>\n",
+                  "timestamp": 1741860661,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.46.0%2Frev774%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.46.0%2Frev774%2Farm64"
+               },
+               {
+                  "name": "7.46.0/rev773/amd64",
+                  "sha": "505a10b308a99275ae6fc9ca18ac1343f5907058",
+                  "body": "<p>chore: bump signal-desktop to version 7.46.0</p>\n",
+                  "timestamp": 1741860661,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.46.0%2Frev773%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.46.0%2Frev773%2Famd64"
+               },
                {
                   "name": "7.45.1/rev772/arm64",
                   "sha": "a5e07a78605da7819f6dd6c4f62d31c16ee5610d",
@@ -4672,22 +4688,6 @@
                   "timestamp": 1741428508,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.1%2Frev772%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.1%2Frev772%2Farm64"
-               },
-               {
-                  "name": "7.45.1/rev771/amd64",
-                  "sha": "a5e07a78605da7819f6dd6c4f62d31c16ee5610d",
-                  "body": "<p>chore: bump signal-desktop to version 7.45.1</p>\n",
-                  "timestamp": 1741428508,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.1%2Frev771%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.1%2Frev771%2Famd64"
-               },
-               {
-                  "name": "7.45.0/rev770/arm64",
-                  "sha": "f7f8eb17da7cd80208c6eb197a623a4c2bb106c4",
-                  "body": "<p>build: remove fpm hack; use <code>--dir</code> to specify directory target</p>\n",
-                  "timestamp": 1741378851,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.45.0%2Frev770%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.45.0%2Frev770%2Farm64"
                }
             ],
             "commits": null,
@@ -4704,29 +4704,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 771,
-                     "timestamp": 1741449074,
+                     "revision": 773,
+                     "timestamp": 1741863532,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 772,
-                     "timestamp": 1741449078,
+                     "revision": 774,
+                     "timestamp": 1741863536,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 771,
-                     "timestamp": 1741429382,
+                     "revision": 773,
+                     "timestamp": 1741861559,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 772,
-                     "timestamp": 1741430042,
+                     "revision": 774,
+                     "timestamp": 1741862164,
                      "base": "core24"
                   }
                ],
@@ -5249,33 +5249,33 @@
          },
          {
             "name": "terraform",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/terraform",
             "releases": null,
             "tags": [
                {
-                  "name": "1.11.1/rev797/ppc64el",
-                  "sha": "789c344107ee851f83478c01078cfda2f054e49e",
-                  "body": "<p>chore: bump terraform to version 1.11.1</p>\n",
-                  "timestamp": 1741256420,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.1%2Frev797%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.1%2Frev797%2Fppc64el"
+                  "name": "1.11.2/rev801/armhf",
+                  "sha": "4c3a6488e8b077bb13ad17b33760408f46398596",
+                  "body": "<p>chore: bump terraform to version 1.11.2</p>\n",
+                  "timestamp": 1741861230,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.2%2Frev801%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.2%2Frev801%2Farmhf"
                },
                {
-                  "name": "1.11.1/rev796/armhf",
-                  "sha": "789c344107ee851f83478c01078cfda2f054e49e",
-                  "body": "<p>chore: bump terraform to version 1.11.1</p>\n",
-                  "timestamp": 1741256420,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.1%2Frev796%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.1%2Frev796%2Farmhf"
+                  "name": "1.11.2/rev800/arm64",
+                  "sha": "4c3a6488e8b077bb13ad17b33760408f46398596",
+                  "body": "<p>chore: bump terraform to version 1.11.2</p>\n",
+                  "timestamp": 1741861230,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.2%2Frev800%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.2%2Frev800%2Farm64"
                },
                {
-                  "name": "1.11.1/rev795/arm64",
-                  "sha": "789c344107ee851f83478c01078cfda2f054e49e",
-                  "body": "<p>chore: bump terraform to version 1.11.1</p>\n",
-                  "timestamp": 1741256420,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.1%2Frev795%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.1%2Frev795%2Farm64"
+                  "name": "1.11.2/rev799/amd64",
+                  "sha": "4c3a6488e8b077bb13ad17b33760408f46398596",
+                  "body": "<p>chore: bump terraform to version 1.11.2</p>\n",
+                  "timestamp": 1741861230,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.2%2Frev799%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.2%2Frev799%2Famd64"
                }
             ],
             "commits": null,
@@ -5327,22 +5327,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 793,
-                     "timestamp": 1741257149,
+                     "revision": 799,
+                     "timestamp": 1741862120,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 795,
-                     "timestamp": 1741257380,
+                     "revision": 800,
+                     "timestamp": 1741862162,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 796,
-                     "timestamp": 1741257426,
+                     "revision": 801,
+                     "timestamp": 1741862349,
                      "base": "core24"
                   },
                   {
@@ -5355,8 +5355,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 794,
-                     "timestamp": 1741257302,
+                     "revision": 798,
+                     "timestamp": 1741862109,
                      "base": "core24"
                   }
                ],
