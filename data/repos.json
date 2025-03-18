@@ -1875,10 +1875,18 @@
          },
          {
             "name": "gimp",
-            "newCommits": 31,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.0/rev502/amd64",
+                  "sha": "2e2218f913b9317e770b4f73b7849ced67064fd9",
+                  "body": "<p>ci: remove extra plumbing for preview branch</p>\n",
+                  "timestamp": 1742304916,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0%2Frev502%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0%2Frev502%2Famd64"
+               },
                {
                   "name": "3.0.0/rev499/arm64",
                   "sha": "c0c295cd2b3bd7402c319eae14f10f0c3952c9b4",
@@ -1894,14 +1902,6 @@
                   "timestamp": 1742284325,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0%2Frev498%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0%2Frev498%2Famd64"
-               },
-               {
-                  "name": "3.0.0-RC3/rev495/arm64",
-                  "sha": "71a3ba9c2ab4b64ef23e4affd5306f1a7a431e67",
-                  "body": "<p>chore: bump gegl to 0.4.54</p>\n",
-                  "timestamp": 1739207599,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0-RC3%2Frev495%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0-RC3%2Frev495%2Farm64"
                }
             ],
             "commits": null,
@@ -1939,9 +1939,9 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 484,
-                     "timestamp": 1737456303,
-                     "base": "core20"
+                     "revision": 502,
+                     "timestamp": 1742308189,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
