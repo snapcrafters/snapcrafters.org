@@ -4661,10 +4661,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.46.1/rev778/arm64",
+                  "sha": "999582b33faa86b21621c78026fb2b3d12ce5f8a",
+                  "body": "<p>chore: bump signal-desktop to version 7.46.1</p>\n",
+                  "timestamp": 1742292642,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.46.1%2Frev778%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.46.1%2Frev778%2Farm64"
+               },
+               {
+                  "name": "7.46.1/rev777/amd64",
+                  "sha": "999582b33faa86b21621c78026fb2b3d12ce5f8a",
+                  "body": "<p>chore: bump signal-desktop to version 7.46.1</p>\n",
+                  "timestamp": 1742292642,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.46.1%2Frev777%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.46.1%2Frev777%2Famd64"
+               },
                {
                   "name": "7.46.0/rev776/arm64",
                   "sha": "86342363b3c731fc2cc13bbfc9e97cedc8096c7c",
@@ -4672,22 +4688,6 @@
                   "timestamp": 1741879329,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.46.0%2Frev776%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.46.0%2Frev776%2Farm64"
-               },
-               {
-                  "name": "7.46.0/rev775/amd64",
-                  "sha": "86342363b3c731fc2cc13bbfc9e97cedc8096c7c",
-                  "body": "<p>build: remove explicit re-setting of proxy vars</p>\n\n<p>launchpad-buildd recently landed a change that\nensures both lowercase and uppercase variants of\nthe variables are exported in the build environment</p>\n",
-                  "timestamp": 1741879329,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.46.0%2Frev775%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.46.0%2Frev775%2Famd64"
-               },
-               {
-                  "name": "7.46.0/rev774/arm64",
-                  "sha": "505a10b308a99275ae6fc9ca18ac1343f5907058",
-                  "body": "<p>chore: bump signal-desktop to version 7.46.0</p>\n",
-                  "timestamp": 1741860661,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.46.0%2Frev774%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.46.0%2Frev774%2Farm64"
                }
             ],
             "commits": null,
@@ -4718,15 +4718,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 775,
-                     "timestamp": 1741880449,
+                     "revision": 777,
+                     "timestamp": 1742327582,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 776,
-                     "timestamp": 1741881194,
+                     "revision": 778,
+                     "timestamp": 1742328162,
                      "base": "core24"
                   }
                ],
