@@ -365,9 +365,145 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/axel/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/axel/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/axel/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "axel",
+               "url": "https://snapcraft.io/axel",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 212,
+                     "timestamp": 1714732919,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 215,
+                     "timestamp": 1714732922,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 216,
+                     "timestamp": 1714732925,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 108,
+                     "timestamp": 1678034890,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 213,
+                     "timestamp": 1714732928,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 214,
+                     "timestamp": 1714732931,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 212,
+                     "timestamp": 1714041189,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 215,
+                     "timestamp": 1714041359,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 216,
+                     "timestamp": 1714042367,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 213,
+                     "timestamp": 1714041214,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 214,
+                     "timestamp": 1714041333,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 217,
+                     "timestamp": 1714119917,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 220,
+                     "timestamp": 1714123110,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 221,
+                     "timestamp": 1714123339,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 117,
+                     "timestamp": 1702037118,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 218,
+                     "timestamp": 1714119979,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 219,
+                     "timestamp": 1714120095,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "brackets",
@@ -4525,10 +4661,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.47.0/rev779/amd64",
+                  "sha": "7626a6cfd3031bfdc41f41482b280350a202d595",
+                  "body": "<p>chore: bump signal-desktop to version 7.47.0</p>\n",
+                  "timestamp": 1742465460,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.47.0%2Frev779%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.47.0%2Frev779%2Famd64"
+               },
                {
                   "name": "7.46.1/rev778/arm64",
                   "sha": "999582b33faa86b21621c78026fb2b3d12ce5f8a",
@@ -4544,14 +4688,6 @@
                   "timestamp": 1742292642,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.46.1%2Frev777%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.46.1%2Frev777%2Famd64"
-               },
-               {
-                  "name": "7.46.0/rev776/arm64",
-                  "sha": "86342363b3c731fc2cc13bbfc9e97cedc8096c7c",
-                  "body": "<p>build: remove explicit re-setting of proxy vars</p>\n\n<p>launchpad-buildd recently landed a change that\nensures both lowercase and uppercase variants of\nthe variables are exported in the build environment</p>\n",
-                  "timestamp": 1741879329,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.46.0%2Frev776%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.46.0%2Frev776%2Farm64"
                }
             ],
             "commits": null,
@@ -4582,8 +4718,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 777,
-                     "timestamp": 1742327582,
+                     "revision": 779,
+                     "timestamp": 1742466434,
                      "base": "core24"
                   },
                   {
