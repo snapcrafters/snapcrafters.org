@@ -162,7 +162,7 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
@@ -1156,7 +1156,7 @@
          },
          {
             "name": "discord",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
@@ -1432,7 +1432,7 @@
          },
          {
             "name": "ffmpeg-2404-sdk",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
@@ -1875,10 +1875,26 @@
          },
          {
             "name": "gimp",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.2/rev508/arm64",
+                  "sha": "43311f9fbafa62bf4043147572ad0c83782eead4",
+                  "body": "<p>chore: gimp 3.0.0 -&gt; 3.0.2</p>\n",
+                  "timestamp": 1742891567,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev508%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev508%2Farm64"
+               },
+               {
+                  "name": "3.0.2/rev507/amd64",
+                  "sha": "43311f9fbafa62bf4043147572ad0c83782eead4",
+                  "body": "<p>chore: gimp 3.0.0 -&gt; 3.0.2</p>\n",
+                  "timestamp": 1742891567,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev507%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev507%2Famd64"
+               },
                {
                   "name": "3.0.0/rev503/arm64",
                   "sha": "2e2218f913b9317e770b4f73b7849ced67064fd9",
@@ -1886,22 +1902,6 @@
                   "timestamp": 1742304916,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0%2Frev503%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0%2Frev503%2Farm64"
-               },
-               {
-                  "name": "3.0.0/rev502/amd64",
-                  "sha": "2e2218f913b9317e770b4f73b7849ced67064fd9",
-                  "body": "<p>ci: remove extra plumbing for preview branch</p>\n",
-                  "timestamp": 1742304916,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0%2Frev502%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0%2Frev502%2Famd64"
-               },
-               {
-                  "name": "3.0.0/rev499/arm64",
-                  "sha": "c0c295cd2b3bd7402c319eae14f10f0c3952c9b4",
-                  "body": "<p>chore: gimp 3.0.0-rc3 -&gt; 3.0.0</p>\n",
-                  "timestamp": 1742284325,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0%2Frev499%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0%2Frev499%2Farm64"
                }
             ],
             "commits": null,
@@ -1939,15 +1939,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 502,
-                     "timestamp": 1742308189,
+                     "revision": 507,
+                     "timestamp": 1742895684,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 503,
-                     "timestamp": 1742312907,
+                     "revision": 508,
+                     "timestamp": 1742896054,
                      "base": "core24"
                   },
                   {
@@ -4397,7 +4397,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 115,
+            "newCommits": 116,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
