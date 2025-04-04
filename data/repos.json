@@ -1161,28 +1161,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "0.0.90/rev235/amd64",
+                  "sha": "90991451051e97d416c9dbe284fea6a734bd41a1",
+                  "body": "<p>chore: remove notify portal workaround</p>\n\n<p>This was added due to a shortcoming in the new\ngnome extension which is now fixed.</p>\n",
+                  "timestamp": 1743778421,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.90%2Frev235%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.90%2Frev235%2Famd64"
+               },
+               {
+                  "name": "0.0.90/rev234/amd64",
+                  "sha": "347bf19f34496966f63eb18bbd032c0edf99c0f7",
+                  "body": "<p>snap: patch desktop file name (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/270\">#270</a>)</p>\n\n<ul>\n<li><p>snap: patch desktop file name</p></li>\n\n<li><p>fix: don&rsquo;t use <code>--break-system-packages</code> for <code>pip</code></p></li>\n</ul>\n\n<p>Co-authored-by: সৌম্যদীপ ঘোষ <a href=\"mailto:72045785+soumyaDghosh@users.noreply.github.com\">72045785+soumyaDghosh@users.noreply.github.com</a></p>\n\n<ul>\n<li><p>Update snap/snapcraft.yaml</p></li>\n\n<li><p>build: use uv standalone branch for desktop file fix</p></li>\n\n<li><p>build: use uv standalone branch for desktop file fix</p></li>\n\n<li><p>Update snap/snapcraft.yaml</p></li>\n</ul>\n\n<p>Co-authored-by: সৌম্যদীপ ঘোষ <a href=\"mailto:72045785+soumyaDghosh@users.noreply.github.com\">72045785+soumyaDghosh@users.noreply.github.com</a></p>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jon@sgrs.uk\">jon@sgrs.uk</a></p>\n",
+                  "timestamp": 1743777213,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.90%2Frev234%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.90%2Frev234%2Famd64"
+               },
+               {
                   "name": "0.0.90/rev233/amd64",
                   "sha": "eb2ce9a2d8f08922cefc9eab18493e3c85457e5c",
                   "body": "<p>chore: bump discord to version 0.0.90</p>\n",
                   "timestamp": 1743502378,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.90%2Frev233%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.90%2Frev233%2Famd64"
-               },
-               {
-                  "name": "0.0.89/rev232/amd64",
-                  "sha": "99499771756161759b2a5929ec4f75c9eb4cf3b0",
-                  "body": "<p>chore: bump discord to version 0.0.89</p>\n",
-                  "timestamp": 1742897554,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.89%2Frev232%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.89%2Frev232%2Famd64"
-               },
-               {
-                  "name": "0.0.88/rev231/amd64",
-                  "sha": "73c722614f92263d17fad3e879a383c2d12c63e4",
-                  "body": "<p>chore: bump discord to version 0.0.88</p>\n",
-                  "timestamp": 1741687981,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.88%2Frev231%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.88%2Frev231%2Famd64"
                }
             ],
             "commits": null,
@@ -1199,15 +1199,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 233,
-                     "timestamp": 1743503514,
+                     "revision": 235,
+                     "timestamp": 1743779979,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 233,
-                     "timestamp": 1743502852,
+                     "revision": 235,
+                     "timestamp": 1743778926,
                      "base": "core22"
                   }
                ],
