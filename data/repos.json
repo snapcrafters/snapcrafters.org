@@ -205,8 +205,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 161,
-                     "timestamp": 1720939343,
+                     "revision": 187,
+                     "timestamp": 1743901126,
                      "base": "core22"
                   },
                   {
@@ -1437,6 +1437,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "ffmpeg-2404-sdk-7.1.1/rev79/arm64",
+                  "sha": "92c3a3c445008b1ac4cb89677df6d05a2bbcfa02",
+                  "body": "<p>chore: bump ffmpeg-2404-sdk dependencies</p>\n",
+                  "timestamp": 1742897715,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev79%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev79%2Farm64"
+               },
+               {
                   "name": "ffmpeg-2404-sdk-7.1.1/rev78/ppc64el",
                   "sha": "92c3a3c445008b1ac4cb89677df6d05a2bbcfa02",
                   "body": "<p>chore: bump ffmpeg-2404-sdk dependencies</p>\n",
@@ -1451,14 +1459,6 @@
                   "timestamp": 1742897715,
                   "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev77%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev77%2Farmhf"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-7.1.1/rev76/amd64",
-                  "sha": "92c3a3c445008b1ac4cb89677df6d05a2bbcfa02",
-                  "body": "<p>chore: bump ffmpeg-2404-sdk dependencies</p>\n",
-                  "timestamp": 1742897715,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev76%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev76%2Famd64"
                }
             ],
             "commits": null,
@@ -1478,29 +1478,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 69,
-                     "timestamp": 1739114442,
+                     "revision": 76,
+                     "timestamp": 1743903306,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 71,
-                     "timestamp": 1739114445,
+                     "revision": 79,
+                     "timestamp": 1743903308,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 70,
-                     "timestamp": 1739114448,
+                     "revision": 77,
+                     "timestamp": 1743903311,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 72,
-                     "timestamp": 1739114451,
+                     "revision": 78,
+                     "timestamp": 1743903314,
                      "base": "core24"
                   },
                   {
@@ -1513,8 +1513,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 75,
-                     "timestamp": 1740999096,
+                     "revision": 79,
+                     "timestamp": 1743902657,
                      "base": "core24"
                   },
                   {
@@ -3766,10 +3766,18 @@
          },
          {
             "name": "obs-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/obs-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "31.0.3/rev1308/amd64",
+                  "sha": "311085c642c6bbb86370d152c31c716ac75e1b93",
+                  "body": "<p>chore: bump obs-studio to version 31.0.3</p>\n",
+                  "timestamp": 1743243295,
+                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/31.0.3%2Frev1308%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...31.0.3%2Frev1308%2Famd64"
+               },
                {
                   "name": "31.0.2/rev1307/amd64",
                   "sha": "9ae039808106c1bb9d11dd0ebf0231197dbe1bf9",
@@ -3785,14 +3793,6 @@
                   "timestamp": 1737281653,
                   "url": "https://github.com/snapcrafters/obs-studio/releases/tag/31.0.1%2Frev1306%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...31.0.1%2Frev1306%2Famd64"
-               },
-               {
-                  "name": "31.0.0/rev1305/amd64",
-                  "sha": "5ca5fe8cd8afd8208ae5037d237558c39d120d5d",
-                  "body": "<p>chore: bump obs-studio to version 31.0.0</p>\n",
-                  "timestamp": 1733566578,
-                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/31.0.0%2Frev1305%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...31.0.0%2Frev1305%2Famd64"
                }
             ],
             "commits": null,
@@ -3816,8 +3816,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1307,
-                     "timestamp": 1741430005,
+                     "revision": 1308,
+                     "timestamp": 1743902945,
                      "base": "core22"
                   },
                   {
@@ -4440,50 +4440,50 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1322,
-                     "timestamp": 1743093960,
+                     "revision": 1328,
+                     "timestamp": 1743902977,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1324,
-                     "timestamp": 1743093964,
+                     "revision": 1331,
+                     "timestamp": 1743902980,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1325,
-                     "timestamp": 1743093967,
+                     "revision": 1330,
+                     "timestamp": 1743902983,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1326,
-                     "timestamp": 1743093970,
+                     "revision": 1332,
+                     "timestamp": 1743902986,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1327,
-                     "timestamp": 1743093974,
+                     "revision": 1333,
+                     "timestamp": 1743902989,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1323,
-                     "timestamp": 1743093977,
+                     "revision": 1329,
+                     "timestamp": 1743902992,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1328,
-                     "timestamp": 1743762716,
+                     "revision": 1339,
+                     "timestamp": 1743903554,
                      "base": "core24"
                   },
                   {
