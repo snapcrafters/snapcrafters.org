@@ -1,0 +1,43 @@
+{{- define "main" }}
+<div class="blog-single-container">
+  <div class="">
+    <article class="">
+      <header class="blog-header">
+        {{ partial "breadcrumbs.html" . }}
+        <h1 class="blog-page-title">
+          {{ .Title | emojify | safeHTML}}
+        </h1>
+        {{- if (.Param "DisplayMeta") }}
+        <div class="blog-meta">
+          {{- partial "blog-meta.html" . -}}
+        </div>
+        {{- end }}
+        {{- if (.Param "DisplayCanonicalLink") }}
+        <div class="">
+          {{- partial "blog-canonical.html" . -}}
+        </div>
+        {{- end }}
+      </header>
+      {{- if (.Param "ShowToc") }}
+      {{- partial "blog-table-of-content.html" . }}
+      {{- end }}
+      {{- if .Content }}
+      <div class="">
+        {{ .Content | emojify | safeHTML}}
+      </div>
+      {{- end }}
+      <footer class="blog-footer">
+        {{- $tags := "tags" }}
+        <ul class="tag-list">
+          {{- range ($.GetTerms $tags) }}
+          <li class="tag-card"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+          {{- end }}
+        </ul>
+        {{- if (.Param "ShowFooterNav") }}
+        {{- partial "blog-footer-nav.html" . }}
+        {{- end }}
+      </footer>
+    </article>
+  </div>
+</div>
+{{- end }}
