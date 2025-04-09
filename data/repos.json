@@ -162,7 +162,7 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
@@ -1875,10 +1875,18 @@
          },
          {
             "name": "gimp",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.2/rev510/amd64",
+                  "sha": "54eb5bcef42b79481e251d835ca21edf8df60e65",
+                  "body": "<p>fix: stage correct <code>libfftw</code> lib package</p>\n",
+                  "timestamp": 1743755253,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev510%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev510%2Famd64"
+               },
                {
                   "name": "3.0.2/rev508/arm64",
                   "sha": "43311f9fbafa62bf4043147572ad0c83782eead4",
@@ -1894,14 +1902,6 @@
                   "timestamp": 1742891567,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev507%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev507%2Famd64"
-               },
-               {
-                  "name": "3.0.0/rev503/arm64",
-                  "sha": "2e2218f913b9317e770b4f73b7849ced67064fd9",
-                  "body": "<p>ci: remove extra plumbing for preview branch</p>\n",
-                  "timestamp": 1742304916,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.0%2Frev503%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.0%2Frev503%2Farm64"
                }
             ],
             "commits": null,
@@ -1939,8 +1939,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 507,
-                     "timestamp": 1742895684,
+                     "revision": 510,
+                     "timestamp": 1744191475,
                      "base": "core24"
                   },
                   {
