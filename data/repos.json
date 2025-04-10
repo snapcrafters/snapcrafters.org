@@ -1875,10 +1875,18 @@
          },
          {
             "name": "gimp",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.2/rev515/amd64",
+                  "sha": "15523f5f0765a44389ea5e78da93952cd2c75138",
+                  "body": "<p>fix: build later version of <code>libheif</code></p>\n\n<p>The version of <code>libheif</code> in <code>core24</code> is not able\nto open HEIC/HEIF images from iOS 18 or later.</p>\n\n<p>This is rectified in later versions, so this\ncommit adds a local build of <code>libheif</code> to the\nsnap.</p>\n\n<p>This can likely be removed when <code>core26</code> happens.</p>\n",
+                  "timestamp": 1744304671,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev515%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev515%2Famd64"
+               },
                {
                   "name": "3.0.2/rev512/amd64",
                   "sha": "069ce5d4327aa4cbeb94aec799ef689f73adeead",
@@ -1894,14 +1902,6 @@
                   "timestamp": 1743755253,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev511%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev511%2Farm64"
-               },
-               {
-                  "name": "3.0.2/rev510/amd64",
-                  "sha": "54eb5bcef42b79481e251d835ca21edf8df60e65",
-                  "body": "<p>fix: stage correct <code>libfftw</code> lib package</p>\n",
-                  "timestamp": 1743755253,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev510%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev510%2Famd64"
                }
             ],
             "commits": null,
@@ -1939,8 +1939,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 512,
-                     "timestamp": 1744298458,
+                     "revision": 515,
+                     "timestamp": 1744307960,
                      "base": "core24"
                   },
                   {
@@ -2765,22 +2765,22 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 4832,
-                     "timestamp": 1743711867,
+                     "revision": 4844,
+                     "timestamp": 1744307533,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 4834,
-                     "timestamp": 1743711871,
+                     "revision": 4845,
+                     "timestamp": 1744307538,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 4833,
-                     "timestamp": 1743711875,
+                     "revision": 4846,
+                     "timestamp": 1744307542,
                      "base": "core22"
                   },
                   {
@@ -4397,7 +4397,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 119,
+            "newCommits": 120,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
@@ -4482,8 +4482,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1339,
-                     "timestamp": 1743903554,
+                     "revision": 1340,
+                     "timestamp": 1744307902,
                      "base": "core24"
                   },
                   {
@@ -4503,8 +4503,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1337,
-                     "timestamp": 1743849346,
+                     "revision": 1342,
+                     "timestamp": 1744308297,
                      "base": "core24"
                   },
                   {
@@ -4517,8 +4517,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1334,
-                     "timestamp": 1743849017,
+                     "revision": 1341,
+                     "timestamp": 1744307993,
                      "base": "core24"
                   }
                ],
