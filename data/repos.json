@@ -4673,6 +4673,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.50.0/rev786/arm64",
+                  "sha": "4e3753da3ca296a1684af3cdc0349cbdc71b068a",
+                  "body": "<p>chore: bump signal-desktop to version 7.50.0</p>\n",
+                  "timestamp": 1744279893,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.50.0%2Frev786%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.50.0%2Frev786%2Farm64"
+               },
+               {
                   "name": "7.50.0/rev785/amd64",
                   "sha": "4e3753da3ca296a1684af3cdc0349cbdc71b068a",
                   "body": "<p>chore: bump signal-desktop to version 7.50.0</p>\n",
@@ -4687,14 +4695,6 @@
                   "timestamp": 1743691477,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.49.0%2Frev784%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.49.0%2Frev784%2Farm64"
-               },
-               {
-                  "name": "7.49.0/rev783/amd64",
-                  "sha": "53200b5a59e463cbda93a9bd5080538121b30a51",
-                  "body": "<p>fix: drop <code>@signalapp/better-sqlite</code> patches</p>\n\n<p>The upstream have stopped depending on their\n<code>better-sqlite</code> fork, and are now using\n<code>@signalapp/sqlcipher</code> instead.</p>\n\n<p>This commit removes the various workarounds we\nhad in place to support <code>better-sqlite</code> in the\nbuild process.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/237\">#237</a></p>\n",
-                  "timestamp": 1743691477,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.49.0%2Frev783%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.49.0%2Frev783%2Famd64"
                }
             ],
             "commits": null,
@@ -4711,15 +4711,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 783,
-                     "timestamp": 1743694872,
+                     "revision": 785,
+                     "timestamp": 1744291066,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 784,
-                     "timestamp": 1743694876,
+                     "revision": 786,
+                     "timestamp": 1744291070,
                      "base": "core24"
                   },
                   {
@@ -4732,8 +4732,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 784,
-                     "timestamp": 1743693878,
+                     "revision": 786,
+                     "timestamp": 1744289892,
                      "base": "core24"
                   }
                ],
