@@ -1880,6 +1880,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.0.2/rev512/amd64",
+                  "sha": "069ce5d4327aa4cbeb94aec799ef689f73adeead",
+                  "body": "<p>chore: update gimp <code>build-id</code> to remove <code>preview</code></p>\n",
+                  "timestamp": 1744295099,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev512%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev512%2Famd64"
+               },
+               {
                   "name": "3.0.2/rev511/arm64",
                   "sha": "54eb5bcef42b79481e251d835ca21edf8df60e65",
                   "body": "<p>fix: stage correct <code>libfftw</code> lib package</p>\n",
@@ -1894,14 +1902,6 @@
                   "timestamp": 1743755253,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev510%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev510%2Famd64"
-               },
-               {
-                  "name": "3.0.2/rev508/arm64",
-                  "sha": "43311f9fbafa62bf4043147572ad0c83782eead4",
-                  "body": "<p>chore: gimp 3.0.0 -&gt; 3.0.2</p>\n",
-                  "timestamp": 1742891567,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev508%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev508%2Farm64"
                }
             ],
             "commits": null,
@@ -1939,8 +1939,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 510,
-                     "timestamp": 1744191475,
+                     "revision": 512,
+                     "timestamp": 1744298458,
                      "base": "core24"
                   },
                   {
@@ -2727,6 +2727,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2.505/rev4844/amd64",
+                  "sha": "c9eb4056a4ed99fff710f864dc33b8ddaba453ab",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/152\">#152</a> from kz6fittycent/candidate</p>\n\n<p>Needed a new library</p>\n",
+                  "timestamp": 1744296637,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.505%2Frev4844%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.505%2Frev4844%2Famd64"
+               },
+               {
                   "name": "2.505/rev4843/arm64",
                   "sha": "b4e0962196f397b6d3c971a877f94dc512511299",
                   "body": "<p>chore: bump jenkins to version 2.505</p>\n",
@@ -2741,14 +2749,6 @@
                   "timestamp": 1744194359,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.505%2Frev4842%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.505%2Frev4842%2Farmhf"
-               },
-               {
-                  "name": "2.505/rev4841/amd64",
-                  "sha": "b4e0962196f397b6d3c971a877f94dc512511299",
-                  "body": "<p>chore: bump jenkins to version 2.505</p>\n",
-                  "timestamp": 1744194359,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.505%2Frev4841%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.505%2Frev4841%2Famd64"
                }
             ],
             "commits": null,
@@ -2786,8 +2786,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4841,
-                     "timestamp": 1744195097,
+                     "revision": 4844,
+                     "timestamp": 1744297253,
                      "base": "core22"
                   },
                   {
