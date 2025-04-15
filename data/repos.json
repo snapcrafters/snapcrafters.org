@@ -5256,33 +5256,33 @@
          },
          {
             "name": "terraform",
-            "newCommits": 3,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/terraform",
             "releases": null,
             "tags": [
                {
-                  "name": "1.11.3/rev806/ppc64el",
-                  "sha": "0ef43dd37f0b83e347e224776b037cf35e3dbc4d",
-                  "body": "<p>chore: bump terraform to version 1.11.3</p>\n",
-                  "timestamp": 1743070853,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.3%2Frev806%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.3%2Frev806%2Fppc64el"
+                  "name": "1.11.4/rev809/s390x",
+                  "sha": "7574c86a0f367fdf5991f0c0f1592c41bb82cfdf",
+                  "body": "<p>build: determine go snap version from <code>go.mod</code></p>\n\n<p>To prevent incompatibilities as go versions\nchange in the upstream repository, read the go\nversion from the <code>go.mod</code> file and install the\nsnap version of go accordingly.</p>\n",
+                  "timestamp": 1744704717,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.4%2Frev809%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.4%2Frev809%2Fs390x"
                },
                {
-                  "name": "1.11.3/rev805/arm64",
-                  "sha": "0ef43dd37f0b83e347e224776b037cf35e3dbc4d",
-                  "body": "<p>chore: bump terraform to version 1.11.3</p>\n",
-                  "timestamp": 1743070853,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.3%2Frev805%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.3%2Frev805%2Farm64"
+                  "name": "1.11.4/rev808/armhf",
+                  "sha": "7574c86a0f367fdf5991f0c0f1592c41bb82cfdf",
+                  "body": "<p>build: determine go snap version from <code>go.mod</code></p>\n\n<p>To prevent incompatibilities as go versions\nchange in the upstream repository, read the go\nversion from the <code>go.mod</code> file and install the\nsnap version of go accordingly.</p>\n",
+                  "timestamp": 1744704717,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.4%2Frev808%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.4%2Frev808%2Farmhf"
                },
                {
-                  "name": "1.11.3/rev804/armhf",
-                  "sha": "0ef43dd37f0b83e347e224776b037cf35e3dbc4d",
-                  "body": "<p>chore: bump terraform to version 1.11.3</p>\n",
-                  "timestamp": 1743070853,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.3%2Frev804%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.3%2Frev804%2Farmhf"
+                  "name": "1.11.4/rev807/amd64",
+                  "sha": "7574c86a0f367fdf5991f0c0f1592c41bb82cfdf",
+                  "body": "<p>build: determine go snap version from <code>go.mod</code></p>\n\n<p>To prevent incompatibilities as go versions\nchange in the upstream repository, read the go\nversion from the <code>go.mod</code> file and install the\nsnap version of go accordingly.</p>\n",
+                  "timestamp": 1744704717,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.11.4%2Frev807%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.11.4%2Frev807%2Famd64"
                }
             ],
             "commits": null,
@@ -5334,8 +5334,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 802,
-                     "timestamp": 1743071704,
+                     "revision": 807,
+                     "timestamp": 1744705828,
                      "base": "core24"
                   },
                   {
@@ -5348,8 +5348,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 804,
-                     "timestamp": 1743071946,
+                     "revision": 808,
+                     "timestamp": 1744706180,
                      "base": "core24"
                   },
                   {
@@ -5362,8 +5362,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 803,
-                     "timestamp": 1743071901,
+                     "revision": 809,
+                     "timestamp": 1744706286,
                      "base": "core24"
                   }
                ],
