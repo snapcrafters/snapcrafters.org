@@ -4668,10 +4668,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.51.0/rev787/amd64",
+                  "sha": "21b717fe32155d56ded39f436c0e4470e078a2e4",
+                  "body": "<p>chore: bump signal-desktop to version 7.51.0</p>\n",
+                  "timestamp": 1744971062,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.51.0%2Frev787%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.51.0%2Frev787%2Famd64"
+               },
                {
                   "name": "7.50.0/rev786/arm64",
                   "sha": "4e3753da3ca296a1684af3cdc0349cbdc71b068a",
@@ -4687,14 +4695,6 @@
                   "timestamp": 1744279893,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.50.0%2Frev785%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.50.0%2Frev785%2Famd64"
-               },
-               {
-                  "name": "7.49.0/rev784/arm64",
-                  "sha": "53200b5a59e463cbda93a9bd5080538121b30a51",
-                  "body": "<p>fix: drop <code>@signalapp/better-sqlite</code> patches</p>\n\n<p>The upstream have stopped depending on their\n<code>better-sqlite</code> fork, and are now using\n<code>@signalapp/sqlcipher</code> instead.</p>\n\n<p>This commit removes the various workarounds we\nhad in place to support <code>better-sqlite</code> in the\nbuild process.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/237\">#237</a></p>\n",
-                  "timestamp": 1743691477,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.49.0%2Frev784%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.49.0%2Frev784%2Farm64"
                }
             ],
             "commits": null,
@@ -4725,8 +4725,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 785,
-                     "timestamp": 1744280694,
+                     "revision": 787,
+                     "timestamp": 1744971738,
                      "base": "core24"
                   },
                   {
