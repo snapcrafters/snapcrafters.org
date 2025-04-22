@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2024.3.1.15-wallpapers/rev191/amd64",
+                  "sha": "93986381ba92d8bd8228e9af687f9c6399bc39e4",
+                  "body": "<p>chore: bump android-studio to version 2024.3.1.15-wallpapers</p>\n",
+                  "timestamp": 1745316555,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.3.1.15-wallpapers%2Frev191%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.3.1.15-wallpapers%2Frev191%2Famd64"
+               },
                {
                   "name": "2024.3.1.14-wallpapers/rev189/amd64",
                   "sha": "ed4c6c6ed0c7008c4eb046d5aa441234f5c28793",
@@ -181,14 +189,6 @@
                   "timestamp": 1742897328,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.3.1.14-Meerkat%2Frev187%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.3.1.14-Meerkat%2Frev187%2Famd64"
-               },
-               {
-                  "name": "2024.3.1.13-Meerkat/rev185/amd64",
-                  "sha": "71084a91494e3e4cbb18919b28441d4a3d06d018",
-                  "body": "<p>chore: bump android-studio to version 2024.3.1.13-Meerkat</p>\n",
-                  "timestamp": 1741169329,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2024.3.1.13-Meerkat%2Frev185%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2024.3.1.13-Meerkat%2Frev185%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 189,
-                     "timestamp": 1744194859,
+                     "revision": 191,
+                     "timestamp": 1745317754,
                      "base": "core22"
                   },
                   {
