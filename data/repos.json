@@ -1156,10 +1156,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.92/rev238/amd64",
+                  "sha": "5e094f66ab3a1334d1b6f5a1f8f602ceb6067c91",
+                  "body": "<p>chore: bump discord to version 0.0.92</p>\n",
+                  "timestamp": 1745403194,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.92%2Frev238%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.92%2Frev238%2Famd64"
+               },
                {
                   "name": "0.0.91/rev237/amd64",
                   "sha": "464be2b547ef4cce37dd07c9637b087831fee6af",
@@ -1175,14 +1183,6 @@
                   "timestamp": 1743778421,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.90%2Frev235%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.90%2Frev235%2Famd64"
-               },
-               {
-                  "name": "0.0.90/rev234/amd64",
-                  "sha": "347bf19f34496966f63eb18bbd032c0edf99c0f7",
-                  "body": "<p>snap: patch desktop file name (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/270\">#270</a>)</p>\n\n<ul>\n<li><p>snap: patch desktop file name</p></li>\n\n<li><p>fix: don&rsquo;t use <code>--break-system-packages</code> for <code>pip</code></p></li>\n</ul>\n\n<p>Co-authored-by: সৌম্যদীপ ঘোষ <a href=\"mailto:72045785+soumyaDghosh@users.noreply.github.com\">72045785+soumyaDghosh@users.noreply.github.com</a></p>\n\n<ul>\n<li><p>Update snap/snapcraft.yaml</p></li>\n\n<li><p>build: use uv standalone branch for desktop file fix</p></li>\n\n<li><p>build: use uv standalone branch for desktop file fix</p></li>\n\n<li><p>Update snap/snapcraft.yaml</p></li>\n</ul>\n\n<p>Co-authored-by: সৌম্যদীপ ঘোষ <a href=\"mailto:72045785+soumyaDghosh@users.noreply.github.com\">72045785+soumyaDghosh@users.noreply.github.com</a></p>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jon@sgrs.uk\">jon@sgrs.uk</a></p>\n",
-                  "timestamp": 1743777213,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.90%2Frev234%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.90%2Frev234%2Famd64"
                }
             ],
             "commits": null,
@@ -1206,8 +1206,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 237,
-                     "timestamp": 1744799240,
+                     "revision": 238,
+                     "timestamp": 1745403782,
                      "base": "core22"
                   }
                ],
