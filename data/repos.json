@@ -1894,12 +1894,158 @@
                   "timestamp": 1744628886,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev517%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev517%2Famd64"
+               },
+               {
+                  "name": "3.0.2/rev516/arm64",
+                  "sha": "15523f5f0765a44389ea5e78da93952cd2c75138",
+                  "body": "<p>fix: build later version of <code>libheif</code></p>\n\n<p>The version of <code>libheif</code> in <code>core24</code> is not able\nto open HEIC/HEIF images from iOS 18 or later.</p>\n\n<p>This is rectified in later versions, so this\ncommit adds a local build of <code>libheif</code> to the\nsnap.</p>\n\n<p>This can likely be removed when <code>core26</code> happens.</p>\n",
+                  "timestamp": 1744304671,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev516%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev516%2Farm64"
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/gimp/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/gimp/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/gimp/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "gimp",
+               "url": "https://snapcraft.io/gimp",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 517,
+                     "timestamp": 1744636890,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 518,
+                     "timestamp": 1744636893,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 486,
+                     "timestamp": 1737460643,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 517,
+                     "timestamp": 1744632636,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 518,
+                     "timestamp": 1744633021,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 486,
+                     "timestamp": 1737457294,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 514,
+                     "timestamp": 1744304875,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "preview",
+                     "channel": "stable",
+                     "revision": 498,
+                     "timestamp": 1742294564,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "preview",
+                     "channel": "stable",
+                     "revision": 499,
+                     "timestamp": 1742294567,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "preview",
+                     "channel": "candidate",
+                     "revision": 498,
+                     "timestamp": 1742287943,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "preview",
+                     "channel": "candidate",
+                     "revision": 499,
+                     "timestamp": 1742293540,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "preview",
+                     "channel": "edge",
+                     "revision": 500,
+                     "timestamp": 1742300578,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "preview",
+                     "channel": "edge",
+                     "revision": 501,
+                     "timestamp": 1742305301,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "2.99-openvino",
+                     "channel": "stable",
+                     "revision": 481,
+                     "timestamp": 1737453225,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "2.99-openvino",
+                     "channel": "stable",
+                     "revision": 478,
+                     "timestamp": 1737453228,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "2.99-openvino",
+                     "channel": "candidate",
+                     "revision": 481,
+                     "timestamp": 1736847509,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "2.99-openvino",
+                     "channel": "candidate",
+                     "revision": 478,
+                     "timestamp": 1736786646,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest",
+                  "preview",
+                  "2.99-openvino"
+               ]
+            }
          },
          {
             "name": "gradle",
@@ -3113,6 +3259,148 @@
                   "stable",
                   "candidate",
                   "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "mosaic",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/mosaic",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "2.7/rev99/riscv64",
+                  "sha": "55fd60181fbb7fc58225d99d02776179dfb7f265",
+                  "body": "<p>docs: update README template; add badges (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mosaic/pull/6\">#6</a>)</p>\n",
+                  "timestamp": 1707405591,
+                  "url": "https://github.com/snapcrafters/mosaic/releases/tag/2.7%2Frev99%2Friscv64",
+                  "compareUrl": "https://github.com/snapcrafters/mosaic/compare/candidate...2.7%2Frev99%2Friscv64"
+               },
+               {
+                  "name": "2.7/rev98/armhf",
+                  "sha": "55fd60181fbb7fc58225d99d02776179dfb7f265",
+                  "body": "<p>docs: update README template; add badges (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mosaic/pull/6\">#6</a>)</p>\n",
+                  "timestamp": 1707405591,
+                  "url": "https://github.com/snapcrafters/mosaic/releases/tag/2.7%2Frev98%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/mosaic/compare/candidate...2.7%2Frev98%2Farmhf"
+               },
+               {
+                  "name": "2.7/rev97/s390x",
+                  "sha": "55fd60181fbb7fc58225d99d02776179dfb7f265",
+                  "body": "<p>docs: update README template; add badges (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mosaic/pull/6\">#6</a>)</p>\n",
+                  "timestamp": 1707405591,
+                  "url": "https://github.com/snapcrafters/mosaic/releases/tag/2.7%2Frev97%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/mosaic/compare/candidate...2.7%2Frev97%2Fs390x"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/mosaic/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/mosaic/actions/workflows/promote-to-stable.yaml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "mosaic",
+               "url": "https://snapcraft.io/mosaic",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 94,
+                     "timestamp": 1707409310,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 96,
+                     "timestamp": 1707409313,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 98,
+                     "timestamp": 1707409315,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 69,
+                     "timestamp": 1696767705,
+                     "base": ""
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 95,
+                     "timestamp": 1707409317,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 99,
+                     "timestamp": 1707409319,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 97,
+                     "timestamp": 1707409322,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 94,
+                     "timestamp": 1707405910,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 96,
+                     "timestamp": 1707406021,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 98,
+                     "timestamp": 1707406310,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 95,
+                     "timestamp": 1707406008,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 99,
+                     "timestamp": 1707408829,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 97,
+                     "timestamp": 1707406028,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
                ],
                "tracks": [
                   "latest"
