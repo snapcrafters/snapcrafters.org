@@ -1161,6 +1161,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "0.0.93/rev239/amd64",
+                  "sha": "2b3424b35e7a8f00473798aaf4006deb3ff63b0f",
+                  "body": "<p>chore: bump discord to version 0.0.93</p>\n",
+                  "timestamp": 1746007970,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.93%2Frev239%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.93%2Frev239%2Famd64"
+               },
+               {
                   "name": "0.0.92/rev238/amd64",
                   "sha": "5e094f66ab3a1334d1b6f5a1f8f602ceb6067c91",
                   "body": "<p>chore: bump discord to version 0.0.92</p>\n",
@@ -1175,14 +1183,6 @@
                   "timestamp": 1744798375,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.91%2Frev237%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.91%2Frev237%2Famd64"
-               },
-               {
-                  "name": "0.0.90/rev235/amd64",
-                  "sha": "90991451051e97d416c9dbe284fea6a734bd41a1",
-                  "body": "<p>chore: remove notify portal workaround</p>\n\n<p>This was added due to a shortcoming in the new\ngnome extension which is now fixed.</p>\n",
-                  "timestamp": 1743778421,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.90%2Frev235%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.90%2Frev235%2Famd64"
                }
             ],
             "commits": null,
@@ -1206,8 +1206,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 238,
-                     "timestamp": 1745403782,
+                     "revision": 239,
+                     "timestamp": 1746008380,
                      "base": "core22"
                   }
                ],
