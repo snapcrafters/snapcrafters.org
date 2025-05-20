@@ -1875,10 +1875,26 @@
          },
          {
             "name": "gimp",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.4/rev520/arm64",
+                  "sha": "6daecd87836fea36f0f801451a849f099b0601d8",
+                  "body": "<p>chore: <code>babl</code> -&gt; <code>0.1.114</code> and <code>gegl</code> -&gt; <code>0.4.62</code></p>\n",
+                  "timestamp": 1747734531,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev520%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev520%2Farm64"
+               },
+               {
+                  "name": "3.0.4/rev519/amd64",
+                  "sha": "6daecd87836fea36f0f801451a849f099b0601d8",
+                  "body": "<p>chore: <code>babl</code> -&gt; <code>0.1.114</code> and <code>gegl</code> -&gt; <code>0.4.62</code></p>\n",
+                  "timestamp": 1747734531,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev519%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev519%2Famd64"
+               },
                {
                   "name": "3.0.2/rev518/arm64",
                   "sha": "c7ba83e3c1b82f561f003693a88f837931ed35f2",
@@ -1886,22 +1902,6 @@
                   "timestamp": 1744628886,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev518%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev518%2Farm64"
-               },
-               {
-                  "name": "3.0.2/rev517/amd64",
-                  "sha": "c7ba83e3c1b82f561f003693a88f837931ed35f2",
-                  "body": "<p>fix: link against correct libheif version</p>\n",
-                  "timestamp": 1744628886,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev517%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev517%2Famd64"
-               },
-               {
-                  "name": "3.0.2/rev516/arm64",
-                  "sha": "15523f5f0765a44389ea5e78da93952cd2c75138",
-                  "body": "<p>fix: build later version of <code>libheif</code></p>\n\n<p>The version of <code>libheif</code> in <code>core24</code> is not able\nto open HEIC/HEIF images from iOS 18 or later.</p>\n\n<p>This is rectified in later versions, so this\ncommit adds a local build of <code>libheif</code> to the\nsnap.</p>\n\n<p>This can likely be removed when <code>core26</code> happens.</p>\n",
-                  "timestamp": 1744304671,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev516%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev516%2Farm64"
                }
             ],
             "commits": null,
@@ -1939,15 +1939,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 517,
-                     "timestamp": 1744632636,
+                     "revision": 519,
+                     "timestamp": 1747738723,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 518,
-                     "timestamp": 1744633021,
+                     "revision": 520,
+                     "timestamp": 1747738927,
                      "base": "core24"
                   },
                   {
