@@ -3017,10 +3017,18 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "5.12.0/rev782/amd64",
+                  "sha": "57900a114595f28da0836126666b9b29075cb19a",
+                  "body": "<p>fix: disable global shortcuts portal while it is broken in Chromium/Electron (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/126\">#126</a>)</p>\n\n<p>Need to create a launcher script because snapcraft/snapd do not support the\nequal &lsquo;=&rsquo; sign in a command definition!</p>\n",
+                  "timestamp": 1747933800,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev782%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev782%2Famd64"
+               },
                {
                   "name": "5.12.0/rev781/arm64",
                   "sha": "da20037569dfe13fbbb2c6536c66c6fb17eeddf7",
@@ -3036,14 +3044,6 @@
                   "timestamp": 1747834992,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev780%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev780%2Famd64"
-               },
-               {
-                  "name": "5.11.2/rev779/arm64",
-                  "sha": "9ed006c797e1d0d159aef5b233205b957010f7d3",
-                  "body": "<p>chore: bump mattermost-desktop to version 5.11.2</p>\n",
-                  "timestamp": 1741770537,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.11.2%2Frev779%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.11.2%2Frev779%2Farm64"
                }
             ],
             "commits": null,
@@ -3081,8 +3081,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 780,
-                     "timestamp": 1747908886,
+                     "revision": 782,
+                     "timestamp": 1747934321,
                      "base": "core24"
                   },
                   {
