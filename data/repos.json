@@ -334,6 +334,39 @@
             "snap": null
          },
          {
+            "name": "audacity",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/audacity",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "c9bf510d02915c222e12fd64ff39cc4475ce3dc1",
+                  "author": "Will French",
+                  "timestamp": 1744292268,
+                  "message": "<p>Fix startup issues</p>\n",
+                  "url": "https://github.com/snapcrafters/audacity/commit/c9bf510d02915c222e12fd64ff39cc4475ce3dc1"
+               },
+               {
+                  "sha": "d670e1445d66638bea91d35fe3a5ee66e635c65b",
+                  "author": "Will French",
+                  "timestamp": 1743632368,
+                  "message": "<p>Update stage-package to t64 version</p>\n",
+                  "url": "https://github.com/snapcrafters/audacity/commit/d670e1445d66638bea91d35fe3a5ee66e635c65b"
+               },
+               {
+                  "sha": "bb65a0c5b4c3c9a40e85631f51c3e8c2b8242bfa",
+                  "author": "Alex Murray",
+                  "timestamp": 1738220539,
+                  "message": "<p>Update to core24 and latest upstream release 3.7.1</p>\n\n<p>Signed-off-by: Alex Murray <a href=\"mailto:murray.alex@gmail.com\">murray.alex@gmail.com</a></p>\n",
+                  "url": "https://github.com/snapcrafters/audacity/commit/bb65a0c5b4c3c9a40e85631f51c3e8c2b8242bfa"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": null
+         },
+         {
             "name": "axel",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/axel",
@@ -1918,15 +1951,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 519,
-                     "timestamp": 1747817515,
+                     "revision": 521,
+                     "timestamp": 1748350149,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 520,
-                     "timestamp": 1747817518,
+                     "revision": 522,
+                     "timestamp": 1748350152,
                      "base": "core24"
                   },
                   {
@@ -5563,39 +5596,6 @@
                   "latest"
                ]
             }
-         },
-         {
-            "name": "wethr",
-            "newCommits": 0,
-            "url": "https://github.com/snapcrafters/wethr",
-            "releases": null,
-            "tags": null,
-            "commits": [
-               {
-                  "sha": "830ec042cf43221911bf648991d502cfdb785bab",
-                  "author": "Alan Pope",
-                  "timestamp": 1605620498,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/wethr/pull/6\">#6</a> from snapcrafters/core-migration</p>\n\n<p>Core migration</p>\n",
-                  "url": "https://github.com/snapcrafters/wethr/commit/830ec042cf43221911bf648991d502cfdb785bab"
-               },
-               {
-                  "sha": "678ac026fb03d42925eb585f376245ee073747ad",
-                  "author": "Alan Pope",
-                  "timestamp": 1605620186,
-                  "message": "<p>Core migration</p>\n",
-                  "url": "https://github.com/snapcrafters/wethr/commit/678ac026fb03d42925eb585f376245ee073747ad"
-               },
-               {
-                  "sha": "81c117a076234bc76b894cfd39010f8e152545db",
-                  "author": "Ubuntu",
-                  "timestamp": 1605226806,
-                  "message": "<p>Trigger build of wethr on 2020-11-13-00:18:18</p>\n",
-                  "url": "https://github.com/snapcrafters/wethr/commit/81c117a076234bc76b894cfd39010f8e152545db"
-               }
-            ],
-            "ciActions": [],
-            "charm": null,
-            "snap": null
          }
       ]
    }
