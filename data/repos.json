@@ -1875,10 +1875,26 @@
          },
          {
             "name": "gimp",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.4/rev522/arm64",
+                  "sha": "fc04d2641990f4dd19e2900c4fd04a9ad4d00201",
+                  "body": "<p>chore: gmic <code>3.5.2</code> -&gt; <code>3.5.5</code></p>\n",
+                  "timestamp": 1748343774,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev522%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev522%2Farm64"
+               },
+               {
+                  "name": "3.0.4/rev521/amd64",
+                  "sha": "fc04d2641990f4dd19e2900c4fd04a9ad4d00201",
+                  "body": "<p>chore: gmic <code>3.5.2</code> -&gt; <code>3.5.5</code></p>\n",
+                  "timestamp": 1748343774,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev521%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev521%2Famd64"
+               },
                {
                   "name": "3.0.4/rev520/arm64",
                   "sha": "6daecd87836fea36f0f801451a849f099b0601d8",
@@ -1886,22 +1902,6 @@
                   "timestamp": 1747734531,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev520%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev520%2Farm64"
-               },
-               {
-                  "name": "3.0.4/rev519/amd64",
-                  "sha": "6daecd87836fea36f0f801451a849f099b0601d8",
-                  "body": "<p>chore: <code>babl</code> -&gt; <code>0.1.114</code> and <code>gegl</code> -&gt; <code>0.4.62</code></p>\n",
-                  "timestamp": 1747734531,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev519%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev519%2Famd64"
-               },
-               {
-                  "name": "3.0.2/rev518/arm64",
-                  "sha": "c7ba83e3c1b82f561f003693a88f837931ed35f2",
-                  "body": "<p>fix: link against correct libheif version</p>\n",
-                  "timestamp": 1744628886,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.2%2Frev518%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.2%2Frev518%2Farm64"
                }
             ],
             "commits": null,
@@ -1939,15 +1939,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 519,
-                     "timestamp": 1747738723,
+                     "revision": 521,
+                     "timestamp": 1748347763,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 520,
-                     "timestamp": 1747738927,
+                     "revision": 522,
+                     "timestamp": 1748348607,
                      "base": "core24"
                   },
                   {
@@ -2945,10 +2945,26 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 4,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "5.12.0/rev788/arm64",
+                  "sha": "9532d944eedf775f241dbb31b948e7e42fd53ed3",
+                  "body": "<p>fix: pass through command-line args in launcher</p>\n\n<p>The recently committed launcher doesn&rsquo;t pass through command line arguments - this commit ensures that it does</p>\n",
+                  "timestamp": 1748341551,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev788%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev788%2Farm64"
+               },
+               {
+                  "name": "5.12.0/rev787/amd64",
+                  "sha": "9532d944eedf775f241dbb31b948e7e42fd53ed3",
+                  "body": "<p>fix: pass through command-line args in launcher</p>\n\n<p>The recently committed launcher doesn&rsquo;t pass through command line arguments - this commit ensures that it does</p>\n",
+                  "timestamp": 1748341551,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev787%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev787%2Famd64"
+               },
                {
                   "name": "5.12.0/rev783/arm64",
                   "sha": "57900a114595f28da0836126666b9b29075cb19a",
@@ -2956,22 +2972,6 @@
                   "timestamp": 1747933800,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev783%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev783%2Farm64"
-               },
-               {
-                  "name": "5.12.0/rev782/amd64",
-                  "sha": "57900a114595f28da0836126666b9b29075cb19a",
-                  "body": "<p>fix: disable global shortcuts portal while it is broken in Chromium/Electron (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/126\">#126</a>)</p>\n\n<p>Need to create a launcher script because snapcraft/snapd do not support the\nequal &lsquo;=&rsquo; sign in a command definition!</p>\n",
-                  "timestamp": 1747933800,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev782%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev782%2Famd64"
-               },
-               {
-                  "name": "5.12.0/rev781/arm64",
-                  "sha": "da20037569dfe13fbbb2c6536c66c6fb17eeddf7",
-                  "body": "<p>chore: bump mattermost-desktop to version 5.12.0</p>\n",
-                  "timestamp": 1747834992,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev781%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev781%2Farm64"
                }
             ],
             "commits": null,
@@ -2988,15 +2988,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 784,
-                     "timestamp": 1748101670,
+                     "revision": 787,
+                     "timestamp": 1748349262,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 785,
-                     "timestamp": 1748101674,
+                     "revision": 788,
+                     "timestamp": 1748349266,
                      "base": "core24"
                   },
                   {
@@ -3009,15 +3009,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 786,
-                     "timestamp": 1748343389,
+                     "revision": 787,
+                     "timestamp": 1748348082,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 785,
-                     "timestamp": 1748082146,
+                     "revision": 788,
+                     "timestamp": 1748348746,
                      "base": "core24"
                   },
                   {
