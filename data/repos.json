@@ -341,30 +341,110 @@
             "tags": null,
             "commits": [
                {
-                  "sha": "c9bf510d02915c222e12fd64ff39cc4475ce3dc1",
-                  "author": "Will French",
-                  "timestamp": 1744292268,
-                  "message": "<p>Fix startup issues</p>\n",
-                  "url": "https://github.com/snapcrafters/audacity/commit/c9bf510d02915c222e12fd64ff39cc4475ce3dc1"
+                  "sha": "fb2f4e6b90a6f6995f06d995348939056a7f01be",
+                  "author": "Jon Seager",
+                  "timestamp": 1748419824,
+                  "message": "<p>docs: correct links to release badge</p>\n",
+                  "url": "https://github.com/snapcrafters/audacity/commit/fb2f4e6b90a6f6995f06d995348939056a7f01be"
                },
                {
-                  "sha": "d670e1445d66638bea91d35fe3a5ee66e635c65b",
+                  "sha": "41452174382ab79a732682cb27a8586f1170e3e1",
                   "author": "Will French",
-                  "timestamp": 1743632368,
-                  "message": "<p>Update stage-package to t64 version</p>\n",
-                  "url": "https://github.com/snapcrafters/audacity/commit/d670e1445d66638bea91d35fe3a5ee66e635c65b"
+                  "timestamp": 1748419780,
+                  "message": "<p>ci: update to standard snapcrafters actions (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/44\">#44</a>)</p>\n\n<ul>\n<li><p>ci: update to standard snapcrafters actions</p></li>\n\n<li><p>Update .github/workflows/pull-request.yml</p></li>\n\n<li><p>Update .github/workflows/release-to-candidate.yml</p></li>\n\n<li><p>Update .github/workflows/release-to-candidate.yml</p></li>\n</ul>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jon@sgrs.uk\">jon@sgrs.uk</a></p>\n",
+                  "url": "https://github.com/snapcrafters/audacity/commit/41452174382ab79a732682cb27a8586f1170e3e1"
                },
                {
-                  "sha": "bb65a0c5b4c3c9a40e85631f51c3e8c2b8242bfa",
-                  "author": "Alex Murray",
-                  "timestamp": 1738220539,
-                  "message": "<p>Update to core24 and latest upstream release 3.7.1</p>\n\n<p>Signed-off-by: Alex Murray <a href=\"mailto:murray.alex@gmail.com\">murray.alex@gmail.com</a></p>\n",
-                  "url": "https://github.com/snapcrafters/audacity/commit/bb65a0c5b4c3c9a40e85631f51c3e8c2b8242bfa"
+                  "sha": "5dbc58e9e2c075752e6ff132574a2228f62ae20d",
+                  "author": "Jon Seager",
+                  "timestamp": 1748419508,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/45\">#45</a> from frenchwr/snapcrafters-readme</p>\n\n<p>readme: update to use current snapcrafters template</p>\n",
+                  "url": "https://github.com/snapcrafters/audacity/commit/5dbc58e9e2c075752e6ff132574a2228f62ae20d"
                }
             ],
-            "ciActions": [],
+            "ciActions": [
+               "https://github.com/snapcrafters/audacity/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/audacity/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/audacity/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "audacity",
+               "url": "https://snapcraft.io/audacity",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1051,
+                     "timestamp": 1663525851,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 933,
+                     "timestamp": 1640019320,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 911,
+                     "timestamp": 1626103156,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 906,
+                     "timestamp": 1633698067,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1178,
+                     "timestamp": 1738749399,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1179,
+                     "timestamp": 1745577025,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1180,
+                     "timestamp": 1745577711,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1176,
+                     "timestamp": 1676959286,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 906,
+                     "timestamp": 1625636983,
+                     "base": "core18"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "axel",
