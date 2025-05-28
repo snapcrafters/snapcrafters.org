@@ -2778,6 +2778,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2.512/rev4873/riscv64",
+                  "sha": "ebc9278ae2883d4967a29bbc0ca103a46aadc7b2",
+                  "body": "<p>feat: enable riscv64 builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/162\">#162</a>)</p>\n\n<p>Add riscv64 to the list of architectures.</p>\n\n<p>Signed-off-by: Heinrich Schuchardt <a href=\"mailto:heinrich.schuchardt@canonical.com\">heinrich.schuchardt@canonical.com</a></p>\n",
+                  "timestamp": 1748428794,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.512%2Frev4873%2Friscv64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.512%2Frev4873%2Friscv64"
+               },
+               {
                   "name": "2.512/rev4872/armhf",
                   "sha": "ebc9278ae2883d4967a29bbc0ca103a46aadc7b2",
                   "body": "<p>feat: enable riscv64 builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/162\">#162</a>)</p>\n\n<p>Add riscv64 to the list of architectures.</p>\n\n<p>Signed-off-by: Heinrich Schuchardt <a href=\"mailto:heinrich.schuchardt@canonical.com\">heinrich.schuchardt@canonical.com</a></p>\n",
@@ -2792,14 +2800,6 @@
                   "timestamp": 1748428794,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.512%2Frev4871%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.512%2Frev4871%2Farm64"
-               },
-               {
-                  "name": "2.512/rev4870/amd64",
-                  "sha": "ebc9278ae2883d4967a29bbc0ca103a46aadc7b2",
-                  "body": "<p>feat: enable riscv64 builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/162\">#162</a>)</p>\n\n<p>Add riscv64 to the list of architectures.</p>\n\n<p>Signed-off-by: Heinrich Schuchardt <a href=\"mailto:heinrich.schuchardt@canonical.com\">heinrich.schuchardt@canonical.com</a></p>\n",
-                  "timestamp": 1748428794,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.512%2Frev4870%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.512%2Frev4870%2Famd64"
                }
             ],
             "commits": null,
@@ -2853,6 +2853,13 @@
                      "channel": "candidate",
                      "revision": 4872,
                      "timestamp": 1748429942,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 4873,
+                     "timestamp": 1748446160,
                      "base": "core22"
                   },
                   {
