@@ -335,33 +335,28 @@
          },
          {
             "name": "audacity",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/audacity",
             "releases": null,
-            "tags": null,
-            "commits": [
+            "tags": [
                {
+                  "name": "3.7.1/rev1184/arm64",
                   "sha": "fb2f4e6b90a6f6995f06d995348939056a7f01be",
-                  "author": "Jon Seager",
+                  "body": "<p>docs: correct links to release badge</p>\n",
                   "timestamp": 1748419824,
-                  "message": "<p>docs: correct links to release badge</p>\n",
-                  "url": "https://github.com/snapcrafters/audacity/commit/fb2f4e6b90a6f6995f06d995348939056a7f01be"
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1184%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1184%2Farm64"
                },
                {
-                  "sha": "41452174382ab79a732682cb27a8586f1170e3e1",
-                  "author": "Will French",
-                  "timestamp": 1748419780,
-                  "message": "<p>ci: update to standard snapcrafters actions (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/44\">#44</a>)</p>\n\n<ul>\n<li><p>ci: update to standard snapcrafters actions</p></li>\n\n<li><p>Update .github/workflows/pull-request.yml</p></li>\n\n<li><p>Update .github/workflows/release-to-candidate.yml</p></li>\n\n<li><p>Update .github/workflows/release-to-candidate.yml</p></li>\n</ul>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jon@sgrs.uk\">jon@sgrs.uk</a></p>\n",
-                  "url": "https://github.com/snapcrafters/audacity/commit/41452174382ab79a732682cb27a8586f1170e3e1"
-               },
-               {
-                  "sha": "5dbc58e9e2c075752e6ff132574a2228f62ae20d",
-                  "author": "Jon Seager",
-                  "timestamp": 1748419508,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/45\">#45</a> from frenchwr/snapcrafters-readme</p>\n\n<p>readme: update to use current snapcrafters template</p>\n",
-                  "url": "https://github.com/snapcrafters/audacity/commit/5dbc58e9e2c075752e6ff132574a2228f62ae20d"
+                  "name": "3.7.1/rev1183/amd64",
+                  "sha": "fb2f4e6b90a6f6995f06d995348939056a7f01be",
+                  "body": "<p>docs: correct links to release badge</p>\n",
+                  "timestamp": 1748419824,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1183%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1183%2Famd64"
                }
             ],
+            "commits": null,
             "ciActions": [
                "https://github.com/snapcrafters/audacity/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/audacity/actions/workflows/release-to-candidate.yml",
@@ -403,8 +398,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1178,
-                     "timestamp": 1738749399,
+                     "revision": 1183,
+                     "timestamp": 1748428268,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1184,
+                     "timestamp": 1748429005,
                      "base": "core24"
                   },
                   {
@@ -2768,28 +2770,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "2.511/rev4867/armhf",
-                  "sha": "8b377497f4d523e1cc57c71f0583a84aac2b57d2",
-                  "body": "<p>chore: bump jenkins to version 2.511</p>\n",
-                  "timestamp": 1747768895,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.511%2Frev4867%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.511%2Frev4867%2Farmhf"
+                  "name": "2.512/rev4872/armhf",
+                  "sha": "ebc9278ae2883d4967a29bbc0ca103a46aadc7b2",
+                  "body": "<p>feat: enable riscv64 builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/162\">#162</a>)</p>\n\n<p>Add riscv64 to the list of architectures.</p>\n\n<p>Signed-off-by: Heinrich Schuchardt <a href=\"mailto:heinrich.schuchardt@canonical.com\">heinrich.schuchardt@canonical.com</a></p>\n",
+                  "timestamp": 1748428794,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.512%2Frev4872%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.512%2Frev4872%2Farmhf"
                },
                {
-                  "name": "2.511/rev4866/arm64",
-                  "sha": "8b377497f4d523e1cc57c71f0583a84aac2b57d2",
-                  "body": "<p>chore: bump jenkins to version 2.511</p>\n",
-                  "timestamp": 1747768895,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.511%2Frev4866%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.511%2Frev4866%2Farm64"
+                  "name": "2.512/rev4871/arm64",
+                  "sha": "ebc9278ae2883d4967a29bbc0ca103a46aadc7b2",
+                  "body": "<p>feat: enable riscv64 builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/162\">#162</a>)</p>\n\n<p>Add riscv64 to the list of architectures.</p>\n\n<p>Signed-off-by: Heinrich Schuchardt <a href=\"mailto:heinrich.schuchardt@canonical.com\">heinrich.schuchardt@canonical.com</a></p>\n",
+                  "timestamp": 1748428794,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.512%2Frev4871%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.512%2Frev4871%2Farm64"
                },
                {
-                  "name": "2.511/rev4865/amd64",
-                  "sha": "8b377497f4d523e1cc57c71f0583a84aac2b57d2",
-                  "body": "<p>chore: bump jenkins to version 2.511</p>\n",
-                  "timestamp": 1747768895,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.511%2Frev4865%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.511%2Frev4865%2Famd64"
+                  "name": "2.512/rev4870/amd64",
+                  "sha": "ebc9278ae2883d4967a29bbc0ca103a46aadc7b2",
+                  "body": "<p>feat: enable riscv64 builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/jenkins/pull/162\">#162</a>)</p>\n\n<p>Add riscv64 to the list of architectures.</p>\n\n<p>Signed-off-by: Heinrich Schuchardt <a href=\"mailto:heinrich.schuchardt@canonical.com\">heinrich.schuchardt@canonical.com</a></p>\n",
+                  "timestamp": 1748428794,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.512%2Frev4870%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.512%2Frev4870%2Famd64"
                }
             ],
             "commits": null,
@@ -2827,22 +2829,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4865,
-                     "timestamp": 1747769451,
+                     "revision": 4870,
+                     "timestamp": 1748429400,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4866,
-                     "timestamp": 1747769535,
+                     "revision": 4871,
+                     "timestamp": 1748429834,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4867,
-                     "timestamp": 1747769617,
+                     "revision": 4872,
+                     "timestamp": 1748429942,
                      "base": "core22"
                   },
                   {
