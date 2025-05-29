@@ -162,7 +162,7 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
@@ -2263,6 +2263,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.18.1/rev455/amd64",
+                  "sha": "b9ae330006969cf28ded15eba3886c28aa835407",
+                  "body": "<p>chore: bump helm to version 3.18.1</p>\n",
+                  "timestamp": 1748513349,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.1%2Frev455%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.1%2Frev455%2Famd64"
+               },
+               {
                   "name": "3.18.0/rev454/armhf",
                   "sha": "c0cb40fde388519ddb360410d6a3dc04ed749287",
                   "body": "<p>chore: bump helm to version 3.18.0</p>\n",
@@ -2277,14 +2285,6 @@
                   "timestamp": 1747834988,
                   "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.0%2Frev453%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.0%2Frev453%2Farm64"
-               },
-               {
-                  "name": "3.18.0/rev452/amd64",
-                  "sha": "c0cb40fde388519ddb360410d6a3dc04ed749287",
-                  "body": "<p>chore: bump helm to version 3.18.0</p>\n",
-                  "timestamp": 1747834988,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.0%2Frev452%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.0%2Frev452%2Famd64"
                }
             ],
             "commits": null,
@@ -2329,8 +2329,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 452,
-                     "timestamp": 1747908641,
+                     "revision": 455,
+                     "timestamp": 1748513693,
                      "base": "core24"
                   },
                   {
@@ -4731,6 +4731,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.56.0/rev793/amd64",
+                  "sha": "322c30d90936d00a1109ef74b3c3fca4761a41d9",
+                  "body": "<p>chore: bump signal-desktop to version 7.56.0</p>\n",
+                  "timestamp": 1748513500,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.56.0%2Frev793%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.56.0%2Frev793%2Famd64"
+               },
+               {
                   "name": "7.55.0/rev792/arm64",
                   "sha": "83886f0286586af2b4b2f5f9e440bb8a0526be4d",
                   "body": "<p>chore: bump signal-desktop to version 7.55.0</p>\n",
@@ -4745,14 +4753,6 @@
                   "timestamp": 1747908700,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.55.0%2Frev791%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.55.0%2Frev791%2Famd64"
-               },
-               {
-                  "name": "7.52.0/rev790/arm64",
-                  "sha": "8186d4a9d9721c5372bda1818a9de9e5b947e01f",
-                  "body": "<p>chore: bump signal-desktop to version 7.52.0</p>\n",
-                  "timestamp": 1745489484,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.52.0%2Frev790%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.52.0%2Frev790%2Farm64"
                }
             ],
             "commits": null,
@@ -4783,8 +4783,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 791,
-                     "timestamp": 1747909726,
+                     "revision": 793,
+                     "timestamp": 1748514205,
                      "base": "core24"
                   },
                   {
