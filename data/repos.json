@@ -340,6 +340,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.7.1/rev1189/arm64",
+                  "sha": "68fefccf51f59fc8391f603daa952359beeee9bb",
+                  "body": "<p>chore: add metadata to snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/48\">#48</a>)</p>\n",
+                  "timestamp": 1748524061,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1189%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1189%2Farm64"
+               },
+               {
                   "name": "3.7.1/rev1187/amd64",
                   "sha": "68fefccf51f59fc8391f603daa952359beeee9bb",
                   "body": "<p>chore: add metadata to snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/48\">#48</a>)</p>\n",
@@ -354,14 +362,6 @@
                   "timestamp": 1748429436,
                   "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1186%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1186%2Farm64"
-               },
-               {
-                  "name": "3.7.1/rev1185/amd64",
-                  "sha": "5e5091f7b9eb14f5e007b0ef7082fc14c890ffb3",
-                  "body": "<p>ci: don&rsquo;t run screenshot job on self-hosted runner</p>\n",
-                  "timestamp": 1748429436,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1185%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1185%2Famd64"
                }
             ],
             "commits": null,
@@ -413,15 +413,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1186,
-                     "timestamp": 1748435756,
+                     "revision": 1189,
+                     "timestamp": 1748596346,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 1181,
-                     "timestamp": 1748423242,
+                     "revision": 1188,
+                     "timestamp": 1748596025,
                      "base": "core24"
                   },
                   {
@@ -2263,28 +2263,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.18.1/rev457/arm64",
+                  "sha": "b9ae330006969cf28ded15eba3886c28aa835407",
+                  "body": "<p>chore: bump helm to version 3.18.1</p>\n",
+                  "timestamp": 1748513349,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.1%2Frev457%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.1%2Frev457%2Farm64"
+               },
+               {
+                  "name": "3.18.1/rev456/armhf",
+                  "sha": "b9ae330006969cf28ded15eba3886c28aa835407",
+                  "body": "<p>chore: bump helm to version 3.18.1</p>\n",
+                  "timestamp": 1748513349,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.1%2Frev456%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.1%2Frev456%2Farmhf"
+               },
+               {
                   "name": "3.18.1/rev455/amd64",
                   "sha": "b9ae330006969cf28ded15eba3886c28aa835407",
                   "body": "<p>chore: bump helm to version 3.18.1</p>\n",
                   "timestamp": 1748513349,
                   "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.1%2Frev455%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.1%2Frev455%2Famd64"
-               },
-               {
-                  "name": "3.18.0/rev454/armhf",
-                  "sha": "c0cb40fde388519ddb360410d6a3dc04ed749287",
-                  "body": "<p>chore: bump helm to version 3.18.0</p>\n",
-                  "timestamp": 1747834988,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.0%2Frev454%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.0%2Frev454%2Farmhf"
-               },
-               {
-                  "name": "3.18.0/rev453/arm64",
-                  "sha": "c0cb40fde388519ddb360410d6a3dc04ed749287",
-                  "body": "<p>chore: bump helm to version 3.18.0</p>\n",
-                  "timestamp": 1747834988,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.0%2Frev453%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.0%2Frev453%2Farm64"
                }
             ],
             "commits": null,
@@ -2336,15 +2336,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 453,
-                     "timestamp": 1747908657,
+                     "revision": 457,
+                     "timestamp": 1748595934,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 454,
-                     "timestamp": 1747908669,
+                     "revision": 456,
+                     "timestamp": 1748595927,
                      "base": "core24"
                   },
                   {
@@ -3080,28 +3080,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "5.12.1/rev790/arm64",
+                  "sha": "84cf4735bfcf0da45d86a182eeb8fd359bcf64af",
+                  "body": "<p>chore: bump mattermost-desktop to version 5.12.1</p>\n",
+                  "timestamp": 1748593762,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.1%2Frev790%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.1%2Frev790%2Farm64"
+               },
+               {
+                  "name": "5.12.1/rev789/amd64",
+                  "sha": "84cf4735bfcf0da45d86a182eeb8fd359bcf64af",
+                  "body": "<p>chore: bump mattermost-desktop to version 5.12.1</p>\n",
+                  "timestamp": 1748593762,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.1%2Frev789%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.1%2Frev789%2Famd64"
+               },
+               {
                   "name": "5.12.0/rev788/arm64",
                   "sha": "9532d944eedf775f241dbb31b948e7e42fd53ed3",
                   "body": "<p>fix: pass through command-line args in launcher</p>\n\n<p>The recently committed launcher doesn&rsquo;t pass through command line arguments - this commit ensures that it does</p>\n",
                   "timestamp": 1748341551,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev788%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev788%2Farm64"
-               },
-               {
-                  "name": "5.12.0/rev787/amd64",
-                  "sha": "9532d944eedf775f241dbb31b948e7e42fd53ed3",
-                  "body": "<p>fix: pass through command-line args in launcher</p>\n\n<p>The recently committed launcher doesn&rsquo;t pass through command line arguments - this commit ensures that it does</p>\n",
-                  "timestamp": 1748341551,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev787%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev787%2Famd64"
-               },
-               {
-                  "name": "5.12.0/rev783/arm64",
-                  "sha": "57900a114595f28da0836126666b9b29075cb19a",
-                  "body": "<p>fix: disable global shortcuts portal while it is broken in Chromium/Electron (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/126\">#126</a>)</p>\n\n<p>Need to create a launcher script because snapcraft/snapd do not support the\nequal &lsquo;=&rsquo; sign in a command definition!</p>\n",
-                  "timestamp": 1747933800,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev783%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev783%2Farm64"
                }
             ],
             "commits": null,
@@ -3139,15 +3139,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 787,
-                     "timestamp": 1748348082,
+                     "revision": 789,
+                     "timestamp": 1748595974,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 788,
-                     "timestamp": 1748348746,
+                     "revision": 790,
+                     "timestamp": 1748596091,
                      "base": "core24"
                   },
                   {
@@ -4731,6 +4731,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.56.0/rev794/arm64",
+                  "sha": "322c30d90936d00a1109ef74b3c3fca4761a41d9",
+                  "body": "<p>chore: bump signal-desktop to version 7.56.0</p>\n",
+                  "timestamp": 1748513500,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.56.0%2Frev794%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.56.0%2Frev794%2Farm64"
+               },
+               {
                   "name": "7.56.0/rev793/amd64",
                   "sha": "322c30d90936d00a1109ef74b3c3fca4761a41d9",
                   "body": "<p>chore: bump signal-desktop to version 7.56.0</p>\n",
@@ -4745,14 +4753,6 @@
                   "timestamp": 1747908700,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.55.0%2Frev792%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.55.0%2Frev792%2Farm64"
-               },
-               {
-                  "name": "7.55.0/rev791/amd64",
-                  "sha": "83886f0286586af2b4b2f5f9e440bb8a0526be4d",
-                  "body": "<p>chore: bump signal-desktop to version 7.55.0</p>\n",
-                  "timestamp": 1747908700,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.55.0%2Frev791%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.55.0%2Frev791%2Famd64"
                }
             ],
             "commits": null,
@@ -4790,8 +4790,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 792,
-                     "timestamp": 1747910322,
+                     "revision": 794,
+                     "timestamp": 1748596216,
                      "base": "core24"
                   }
                ],
