@@ -1,0 +1,39 @@
+{{- $headers := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content -}}
+{{- $has_headers := ge (len $headers) 1 -}}
+{{- if $has_headers -}}
+<div class="toc-card">
+    <details {{ if (.Param "DefaultOpenTOC" ) }} open{{ end }}>
+        <summary accesskey="z">
+            <span class="toc-title">{{ "Table of Contents" }}</span>
+        </summary>
+
+        <div class="toc-content">
+            {{- $headerLevels := slice -}}
+            {{- $.Scratch.Set "currentLevel" 1 -}}
+
+            <ul class="toc-list">
+                {{- range $i, $header := $headers -}}
+                {{- $headerLevel := len (seq (index (findRE "[1-6]" . 1) 0)) -}}
+                {{- $cleanedID := replaceRE ".*id=\"([^\"]+)\".*" "$1" $header -}}
+                {{- if lt $headerLevel ($.Scratch.Get "currentLevel") }}
+            </ul>
+            {{- else if gt $headerLevel ($.Scratch.Get "currentLevel") }}
+            <ul>
+                {{- end -}}
+
+                <li class="toc-item">
+                    <a href="#{{- $cleanedID }}" aria-label="{{- $header | plainify | safeHTML }}">
+                        {{- $header | plainify | safeHTML }}
+                    </a>
+                </li>
+
+                {{- $.Scratch.Set "currentLevel" $headerLevel -}}
+                {{- end -}}
+                {{- range seq ($.Scratch.Get "currentLevel") 1 -}}
+            </ul>
+            {{- end -}}
+            </ul>
+        </div>
+    </details>
+</div>
+{{- end }}
