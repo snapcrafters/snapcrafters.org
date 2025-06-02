@@ -335,10 +335,26 @@
          },
          {
             "name": "audacity",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/audacity",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.7.1/rev1192/amd64",
+                  "sha": "44e9b8b24f66e5456961ac380538f31f8f03ff51",
+                  "body": "<p>feat: add OpenVINO AI Plugins (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/50\">#50</a>)</p>\n",
+                  "timestamp": 1748851514,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1192%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1192%2Famd64"
+               },
+               {
+                  "name": "3.7.1/rev1190/arm64",
+                  "sha": "44e9b8b24f66e5456961ac380538f31f8f03ff51",
+                  "body": "<p>feat: add OpenVINO AI Plugins (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/50\">#50</a>)</p>\n",
+                  "timestamp": 1748851514,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1190%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1190%2Farm64"
+               },
                {
                   "name": "3.7.1/rev1189/arm64",
                   "sha": "68fefccf51f59fc8391f603daa952359beeee9bb",
@@ -346,22 +362,6 @@
                   "timestamp": 1748524061,
                   "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1189%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1189%2Farm64"
-               },
-               {
-                  "name": "3.7.1/rev1187/amd64",
-                  "sha": "68fefccf51f59fc8391f603daa952359beeee9bb",
-                  "body": "<p>chore: add metadata to snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/48\">#48</a>)</p>\n",
-                  "timestamp": 1748524061,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1187%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1187%2Famd64"
-               },
-               {
-                  "name": "3.7.1/rev1186/arm64",
-                  "sha": "5e5091f7b9eb14f5e007b0ef7082fc14c890ffb3",
-                  "body": "<p>ci: don&rsquo;t run screenshot job on self-hosted runner</p>\n",
-                  "timestamp": 1748429436,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1186%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1186%2Farm64"
                }
             ],
             "commits": null,
@@ -406,15 +406,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1187,
-                     "timestamp": 1748525337,
+                     "revision": 1192,
+                     "timestamp": 1748855126,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1189,
-                     "timestamp": 1748596346,
+                     "revision": 1190,
+                     "timestamp": 1748854237,
                      "base": "core24"
                   },
                   {
@@ -427,8 +427,8 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 1182,
-                     "timestamp": 1748424206,
+                     "revision": 1191,
+                     "timestamp": 1748854967,
                      "base": "core24"
                   },
                   {
