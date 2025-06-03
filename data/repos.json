@@ -335,10 +335,26 @@
          },
          {
             "name": "audacity",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/audacity",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.7.1/rev1196/amd64",
+                  "sha": "f0e27cc8bf99cb852830e442ea81df7be6374321",
+                  "body": "<p>feat: enable ffmpeg support from content snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/54\">#54</a>)</p>\n",
+                  "timestamp": 1748959225,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1196%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1196%2Famd64"
+               },
+               {
+                  "name": "3.7.1/rev1195/arm64",
+                  "sha": "f0e27cc8bf99cb852830e442ea81df7be6374321",
+                  "body": "<p>feat: enable ffmpeg support from content snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/54\">#54</a>)</p>\n",
+                  "timestamp": 1748959225,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1195%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1195%2Farm64"
+               },
                {
                   "name": "3.7.1/rev1192/amd64",
                   "sha": "44e9b8b24f66e5456961ac380538f31f8f03ff51",
@@ -346,22 +362,6 @@
                   "timestamp": 1748851514,
                   "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1192%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1192%2Famd64"
-               },
-               {
-                  "name": "3.7.1/rev1190/arm64",
-                  "sha": "44e9b8b24f66e5456961ac380538f31f8f03ff51",
-                  "body": "<p>feat: add OpenVINO AI Plugins (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/50\">#50</a>)</p>\n",
-                  "timestamp": 1748851514,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1190%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1190%2Farm64"
-               },
-               {
-                  "name": "3.7.1/rev1189/arm64",
-                  "sha": "68fefccf51f59fc8391f603daa952359beeee9bb",
-                  "body": "<p>chore: add metadata to snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/48\">#48</a>)</p>\n",
-                  "timestamp": 1748524061,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1189%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1189%2Farm64"
                }
             ],
             "commits": null,
@@ -406,15 +406,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1192,
-                     "timestamp": 1748855126,
+                     "revision": 1196,
+                     "timestamp": 1748962296,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1190,
-                     "timestamp": 1748854237,
+                     "revision": 1195,
+                     "timestamp": 1748961565,
                      "base": "core24"
                   },
                   {
