@@ -2778,6 +2778,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2.513/rev4877/riscv64",
+                  "sha": "d0f901401203f38312bd8b9ac09b007b588404b2",
+                  "body": "<p>chore: bump jenkins to version 2.513</p>\n",
+                  "timestamp": 1749032741,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.513%2Frev4877%2Friscv64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.513%2Frev4877%2Friscv64"
+               },
+               {
                   "name": "2.513/rev4876/arm64",
                   "sha": "d0f901401203f38312bd8b9ac09b007b588404b2",
                   "body": "<p>chore: bump jenkins to version 2.513</p>\n",
@@ -2792,14 +2800,6 @@
                   "timestamp": 1749032741,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.513%2Frev4875%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.513%2Frev4875%2Farmhf"
-               },
-               {
-                  "name": "2.513/rev4874/amd64",
-                  "sha": "d0f901401203f38312bd8b9ac09b007b588404b2",
-                  "body": "<p>chore: bump jenkins to version 2.513</p>\n",
-                  "timestamp": 1749032741,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.513%2Frev4874%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.513%2Frev4874%2Famd64"
                }
             ],
             "commits": null,
@@ -2865,8 +2865,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4873,
-                     "timestamp": 1748446160,
+                     "revision": 4877,
+                     "timestamp": 1749037199,
                      "base": "core22"
                   },
                   {
@@ -3209,7 +3209,7 @@
          },
          {
             "name": "minetest",
-            "newCommits": 0,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/minetest",
             "releases": null,
             "tags": [
