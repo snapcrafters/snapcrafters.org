@@ -2990,33 +2990,33 @@
          },
          {
             "name": "luanti",
-            "newCommits": 3,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/luanti",
             "releases": null,
             "tags": [
                {
-                  "name": "5.10.0/rev1934/amd64",
-                  "sha": "7356d031ed5483e12aa412b23e774aa823713a6e",
-                  "body": "<p>chore: bump minetest to version 5.10.0</p>\n",
-                  "timestamp": 1732530021,
-                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.10.0%2Frev1934%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.10.0%2Frev1934%2Famd64"
+                  "name": "5.12.0/rev6/arm64",
+                  "sha": "f2ae25e1978f298e2e011abe0db6ec490f906ea2",
+                  "body": "<p>docs: minetest -&gt; luanti</p>\n",
+                  "timestamp": 1749040989,
+                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.12.0%2Frev6%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.12.0%2Frev6%2Farm64"
                },
                {
-                  "name": "5.10.0/rev1933/arm64",
-                  "sha": "7356d031ed5483e12aa412b23e774aa823713a6e",
-                  "body": "<p>chore: bump minetest to version 5.10.0</p>\n",
-                  "timestamp": 1732530021,
-                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.10.0%2Frev1933%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.10.0%2Frev1933%2Farm64"
+                  "name": "5.12.0/rev5/armhf",
+                  "sha": "f2ae25e1978f298e2e011abe0db6ec490f906ea2",
+                  "body": "<p>docs: minetest -&gt; luanti</p>\n",
+                  "timestamp": 1749040989,
+                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.12.0%2Frev5%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.12.0%2Frev5%2Farmhf"
                },
                {
-                  "name": "5.10.0/rev1932/armhf",
-                  "sha": "7356d031ed5483e12aa412b23e774aa823713a6e",
-                  "body": "<p>chore: bump minetest to version 5.10.0</p>\n",
-                  "timestamp": 1732530021,
-                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.10.0%2Frev1932%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.10.0%2Frev1932%2Farmhf"
+                  "name": "5.12.0/rev4/amd64",
+                  "sha": "f2ae25e1978f298e2e011abe0db6ec490f906ea2",
+                  "body": "<p>docs: minetest -&gt; luanti</p>\n",
+                  "timestamp": 1749040989,
+                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.12.0%2Frev4%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.12.0%2Frev4%2Famd64"
                }
             ],
             "commits": null,
@@ -3032,6 +3032,27 @@
                "releases": [
                   {
                      "track": "latest",
+                     "channel": "candidate",
+                     "revision": 4,
+                     "timestamp": 1749047449,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 6,
+                     "timestamp": 1749048015,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 5,
+                     "timestamp": 1749047996,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
                      "channel": "edge",
                      "revision": 3,
                      "timestamp": 1748653723,
@@ -3039,6 +3060,7 @@
                   }
                ],
                "channels": [
+                  "candidate",
                   "edge"
                ],
                "tracks": [
