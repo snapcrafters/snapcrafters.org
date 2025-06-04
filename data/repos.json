@@ -2989,6 +2989,64 @@
             "snap": null
          },
          {
+            "name": "luanti",
+            "newCommits": 3,
+            "url": "https://github.com/snapcrafters/luanti",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "5.10.0/rev1934/amd64",
+                  "sha": "7356d031ed5483e12aa412b23e774aa823713a6e",
+                  "body": "<p>chore: bump minetest to version 5.10.0</p>\n",
+                  "timestamp": 1732530021,
+                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.10.0%2Frev1934%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.10.0%2Frev1934%2Famd64"
+               },
+               {
+                  "name": "5.10.0/rev1933/arm64",
+                  "sha": "7356d031ed5483e12aa412b23e774aa823713a6e",
+                  "body": "<p>chore: bump minetest to version 5.10.0</p>\n",
+                  "timestamp": 1732530021,
+                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.10.0%2Frev1933%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.10.0%2Frev1933%2Farm64"
+               },
+               {
+                  "name": "5.10.0/rev1932/armhf",
+                  "sha": "7356d031ed5483e12aa412b23e774aa823713a6e",
+                  "body": "<p>chore: bump minetest to version 5.10.0</p>\n",
+                  "timestamp": 1732530021,
+                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.10.0%2Frev1932%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.10.0%2Frev1932%2Farmhf"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/luanti/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/luanti/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/luanti/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "luanti",
+               "url": "https://snapcraft.io/luanti",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 3,
+                     "timestamp": 1748653723,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
             "name": "magic-wormhole",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/magic-wormhole",
@@ -3206,129 +3264,6 @@
             "ciActions": [],
             "charm": null,
             "snap": null
-         },
-         {
-            "name": "minetest",
-            "newCommits": 2,
-            "url": "https://github.com/snapcrafters/minetest",
-            "releases": null,
-            "tags": [
-               {
-                  "name": "5.10.0/rev1934/amd64",
-                  "sha": "7356d031ed5483e12aa412b23e774aa823713a6e",
-                  "body": "<p>chore: bump minetest to version 5.10.0</p>\n",
-                  "timestamp": 1732530021,
-                  "url": "https://github.com/snapcrafters/minetest/releases/tag/5.10.0%2Frev1934%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/minetest/compare/candidate...5.10.0%2Frev1934%2Famd64"
-               },
-               {
-                  "name": "5.10.0/rev1933/arm64",
-                  "sha": "7356d031ed5483e12aa412b23e774aa823713a6e",
-                  "body": "<p>chore: bump minetest to version 5.10.0</p>\n",
-                  "timestamp": 1732530021,
-                  "url": "https://github.com/snapcrafters/minetest/releases/tag/5.10.0%2Frev1933%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/minetest/compare/candidate...5.10.0%2Frev1933%2Farm64"
-               },
-               {
-                  "name": "5.10.0/rev1932/armhf",
-                  "sha": "7356d031ed5483e12aa412b23e774aa823713a6e",
-                  "body": "<p>chore: bump minetest to version 5.10.0</p>\n",
-                  "timestamp": 1732530021,
-                  "url": "https://github.com/snapcrafters/minetest/releases/tag/5.10.0%2Frev1932%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/minetest/compare/candidate...5.10.0%2Frev1932%2Farmhf"
-               }
-            ],
-            "commits": null,
-            "ciActions": [
-               "https://github.com/snapcrafters/minetest/actions/workflows/sync-upstream.yml",
-               "https://github.com/snapcrafters/minetest/actions/workflows/release-to-candidate.yml",
-               "https://github.com/snapcrafters/minetest/actions/workflows/promote-to-stable.yml"
-            ],
-            "charm": null,
-            "snap": {
-               "name": "minetest",
-               "url": "https://snapcraft.io/minetest",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 1934,
-                     "timestamp": 1732538530,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 1933,
-                     "timestamp": 1732538534,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 1932,
-                     "timestamp": 1732538539,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 1883,
-                     "timestamp": 1701788372,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1934,
-                     "timestamp": 1732535832,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1933,
-                     "timestamp": 1732535782,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1932,
-                     "timestamp": 1732535746,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1935,
-                     "timestamp": 1732598809,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1936,
-                     "timestamp": 1732598986,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1937,
-                     "timestamp": 1732599223,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
          },
          {
             "name": "mosaic",
