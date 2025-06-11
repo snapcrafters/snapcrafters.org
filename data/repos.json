@@ -1998,10 +1998,18 @@
          },
          {
             "name": "gimp",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.4/rev523/amd64",
+                  "sha": "6014ca529abd0dcecf565b6dccef953d8237c13a",
+                  "body": "<p>build: replace issue tracker link with upstream</p>\n\n<p>The vast majority of issues reported on this\nsnap are upstream issues with the app itself,\nmaking it very hard for us to fix.</p>\n\n<p>This makes the issue tracker link for the snap\npoint to the upstream issue tracker for now.</p>\n",
+                  "timestamp": 1749629657,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev523%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev523%2Famd64"
+               },
                {
                   "name": "3.0.4/rev522/arm64",
                   "sha": "fc04d2641990f4dd19e2900c4fd04a9ad4d00201",
@@ -2017,14 +2025,6 @@
                   "timestamp": 1748343774,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev521%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev521%2Famd64"
-               },
-               {
-                  "name": "3.0.4/rev520/arm64",
-                  "sha": "6daecd87836fea36f0f801451a849f099b0601d8",
-                  "body": "<p>chore: <code>babl</code> -&gt; <code>0.1.114</code> and <code>gegl</code> -&gt; <code>0.4.62</code></p>\n",
-                  "timestamp": 1747734531,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev520%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev520%2Farm64"
                }
             ],
             "commits": null,
@@ -2062,8 +2062,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 521,
-                     "timestamp": 1748347763,
+                     "revision": 523,
+                     "timestamp": 1749632808,
                      "base": "core24"
                   },
                   {
