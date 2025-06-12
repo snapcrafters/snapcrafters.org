@@ -2106,25 +2106,25 @@
             "tags": null,
             "commits": [
                {
-                  "sha": "34fa1d0745db3fa1cd2a8a81801160abc3a8d2fb",
+                  "sha": "234cec1455421491b4eae7d1f45ad395e96751a8",
                   "author": "Jon Seager",
-                  "timestamp": 1749723637,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/gradle/pull/36\">#36</a> from vpa1977/update-gradle</p>\n\n<p>chore: bump gradle to 8.14.2</p>\n",
-                  "url": "https://github.com/snapcrafters/gradle/commit/34fa1d0745db3fa1cd2a8a81801160abc3a8d2fb"
+                  "timestamp": 1749753299,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/gradle/pull/35\">#35</a> from vpa1977/fix_certificate</p>\n\n<p>fix: copy correct certificate file</p>\n",
+                  "url": "https://github.com/snapcrafters/gradle/commit/234cec1455421491b4eae7d1f45ad395e96751a8"
                },
                {
-                  "sha": "dcf038df069d893caf85092597bb8b01619b0292",
+                  "sha": "e6c70c4c3e05e9d0526bce33f09e8cae9cfdd5e6",
                   "author": "Vladimir Petko",
-                  "timestamp": 1749543370,
-                  "message": "<p>chore: bump gradle to 8.14.2</p>\n",
-                  "url": "https://github.com/snapcrafters/gradle/commit/dcf038df069d893caf85092597bb8b01619b0292"
+                  "timestamp": 1749752670,
+                  "message": "<p>fix: force-copy certificates</p>\n",
+                  "url": "https://github.com/snapcrafters/gradle/commit/e6c70c4c3e05e9d0526bce33f09e8cae9cfdd5e6"
                },
                {
-                  "sha": "f477096ddfa5cd370a6970fbff0841596055f7fe",
-                  "author": "Jon Seager",
-                  "timestamp": 1748851671,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/gradle/pull/34\">#34</a> from vpa1977/do-not-hardcode-home</p>\n\n<p>fix: do not hardcode gradle environment</p>\n",
-                  "url": "https://github.com/snapcrafters/gradle/commit/f477096ddfa5cd370a6970fbff0841596055f7fe"
+                  "sha": "98dedad5772c6aafcdffc2936cf26453c51d7baa",
+                  "author": "Vladimir Petko",
+                  "timestamp": 1749752139,
+                  "message": "<p>chore: use JAVA_HOME to replace the certificate</p>\n\n<ul>\n<li>use readlink to find the installed java and set JAVA_HOME</li>\n<li>use JAVA_HOME when replacing CA certificates</li>\n</ul>\n",
+                  "url": "https://github.com/snapcrafters/gradle/commit/98dedad5772c6aafcdffc2936cf26453c51d7baa"
                }
             ],
             "ciActions": [],
