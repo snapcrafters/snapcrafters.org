@@ -1998,10 +1998,26 @@
          },
          {
             "name": "gimp",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.4/rev526/arm64",
+                  "sha": "ef6e75f4399c29b96c795c176118aca9e9f15553",
+                  "body": "<p>build: replace issue tracker url in build process</p>\n",
+                  "timestamp": 1749714444,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev526%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev526%2Farm64"
+               },
+               {
+                  "name": "3.0.4/rev525/amd64",
+                  "sha": "ef6e75f4399c29b96c795c176118aca9e9f15553",
+                  "body": "<p>build: replace issue tracker url in build process</p>\n",
+                  "timestamp": 1749714444,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev525%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev525%2Famd64"
+               },
                {
                   "name": "3.0.4/rev524/arm64",
                   "sha": "6014ca529abd0dcecf565b6dccef953d8237c13a",
@@ -2009,22 +2025,6 @@
                   "timestamp": 1749629657,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev524%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev524%2Farm64"
-               },
-               {
-                  "name": "3.0.4/rev523/amd64",
-                  "sha": "6014ca529abd0dcecf565b6dccef953d8237c13a",
-                  "body": "<p>build: replace issue tracker link with upstream</p>\n\n<p>The vast majority of issues reported on this\nsnap are upstream issues with the app itself,\nmaking it very hard for us to fix.</p>\n\n<p>This makes the issue tracker link for the snap\npoint to the upstream issue tracker for now.</p>\n",
-                  "timestamp": 1749629657,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev523%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev523%2Famd64"
-               },
-               {
-                  "name": "3.0.4/rev522/arm64",
-                  "sha": "fc04d2641990f4dd19e2900c4fd04a9ad4d00201",
-                  "body": "<p>chore: gmic <code>3.5.2</code> -&gt; <code>3.5.5</code></p>\n",
-                  "timestamp": 1748343774,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev522%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev522%2Farm64"
                }
             ],
             "commits": null,
@@ -2041,15 +2041,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 523,
-                     "timestamp": 1749635659,
+                     "revision": 525,
+                     "timestamp": 1749718861,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 524,
-                     "timestamp": 1749635662,
+                     "revision": 526,
+                     "timestamp": 1749718865,
                      "base": "core24"
                   },
                   {
@@ -2062,15 +2062,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 523,
-                     "timestamp": 1749632808,
+                     "revision": 525,
+                     "timestamp": 1749717431,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 524,
-                     "timestamp": 1749633952,
+                     "revision": 526,
+                     "timestamp": 1749718284,
                      "base": "core24"
                   },
                   {
