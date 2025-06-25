@@ -162,7 +162,7 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
@@ -1284,6 +1284,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "0.0.99/rev244/amd64",
+                  "sha": "c0a687480c481ff595992a15ad444097fd4117b8",
+                  "body": "<p>chore: bump discord to version 0.0.99</p>\n",
+                  "timestamp": 1750846435,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.99%2Frev244%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.99%2Frev244%2Famd64"
+               },
+               {
                   "name": "0.0.98/rev243/amd64",
                   "sha": "a761bd423b7f6850e373afb8a34c483478d0a115",
                   "body": "<p>chore: bump discord to version 0.0.98</p>\n",
@@ -1298,14 +1306,6 @@
                   "timestamp": 1749550417,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.97%2Frev242%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.97%2Frev242%2Famd64"
-               },
-               {
-                  "name": "0.0.96/rev241/amd64",
-                  "sha": "a7a29750cab078e981f791bf40ce9a387c96817a",
-                  "body": "<p>chore: bump discord to version 0.0.96</p>\n",
-                  "timestamp": 1748945631,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.96%2Frev241%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.96%2Frev241%2Famd64"
                }
             ],
             "commits": null,
@@ -1329,8 +1329,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 243,
-                     "timestamp": 1750155671,
+                     "revision": 244,
+                     "timestamp": 1750846909,
                      "base": "core22"
                   }
                ],
