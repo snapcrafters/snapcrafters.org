@@ -1279,10 +1279,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.102/rev247/amd64",
+                  "sha": "513620e8f0184c648a3f7f662980fef0fbbcb833",
+                  "body": "<p>chore: bump discord to version 0.0.102</p>\n",
+                  "timestamp": 1752574441,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.102%2Frev247%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.102%2Frev247%2Famd64"
+               },
                {
                   "name": "0.0.101/rev246/amd64",
                   "sha": "dd63a583e14ca61f8d3dd3c1d98e5a295801817b",
@@ -1298,14 +1306,6 @@
                   "timestamp": 1751364848,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.100%2Frev245%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.100%2Frev245%2Famd64"
-               },
-               {
-                  "name": "0.0.99/rev244/amd64",
-                  "sha": "c0a687480c481ff595992a15ad444097fd4117b8",
-                  "body": "<p>chore: bump discord to version 0.0.99</p>\n",
-                  "timestamp": 1750846435,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.99%2Frev244%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.99%2Frev244%2Famd64"
                }
             ],
             "commits": null,
@@ -1329,8 +1329,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 246,
-                     "timestamp": 1751970146,
+                     "revision": 247,
+                     "timestamp": 1752576549,
                      "base": "core22"
                   }
                ],
