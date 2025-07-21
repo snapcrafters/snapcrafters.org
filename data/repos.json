@@ -1344,6 +1344,39 @@
             }
          },
          {
+            "name": "dosbox-x",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/dosbox-x",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "b2ddf0f556563cfa12b2f77579cf47c4524a0b63",
+                  "author": "Ken VanDine",
+                  "timestamp": 1677725207,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/dosbox-x/pull/40\">#40</a> from snapcrafters/new-logo</p>\n\n<p>meta: use dosbox-x.svg icon with transparent background</p>\n",
+                  "url": "https://github.com/snapcrafters/dosbox-x/commit/b2ddf0f556563cfa12b2f77579cf47c4524a0b63"
+               },
+               {
+                  "sha": "e66a41c0403f8bc43a1d987765b22ab58bfb432c",
+                  "author": "Callahan Kovacs",
+                  "timestamp": 1677695170,
+                  "message": "<p>meta: use dosbox-x.svg icon with transparent background</p>\n\n<p>Signed-off-by: Callahan Kovacs <a href=\"mailto:callahankovacs@gmail.com\">callahankovacs@gmail.com</a></p>\n",
+                  "url": "https://github.com/snapcrafters/dosbox-x/commit/e66a41c0403f8bc43a1d987765b22ab58bfb432c"
+               },
+               {
+                  "sha": "3b3426c0804c494c1c19bf8ed2ac031f8c77b663",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1676751131,
+                  "message": "<p>Add USB and serial port plugs`</p>\n\n<p>for users that want to connect DOS to serial or USB devices.</p>\n",
+                  "url": "https://github.com/snapcrafters/dosbox-x/commit/3b3426c0804c494c1c19bf8ed2ac031f8c77b663"
+               }
+            ],
+            "ciActions": null,
+            "charm": null,
+            "snap": null
+         },
+         {
             "name": "duckmarines",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/duckmarines",
@@ -4643,7 +4676,7 @@
          },
          {
             "name": "sentry",
-            "newCommits": 0,
+            "newCommits": 84,
             "url": "https://github.com/snapcrafters/sentry",
             "releases": null,
             "tags": [
@@ -4662,10 +4695,18 @@
                   "timestamp": 1496936250,
                   "url": "https://github.com/snapcrafters/sentry/releases/tag/8.17.0",
                   "compareUrl": "https://github.com/snapcrafters/sentry/compare/master...8.17.0"
+               },
+               {
+                  "name": "8.16.0",
+                  "sha": "9e1bf9eea26c981d2550c8ab00ea0ba31f25fcce",
+                  "body": "<p>Updating to 8.16.0</p>\n",
+                  "timestamp": 1495460631,
+                  "url": "https://github.com/snapcrafters/sentry/releases/tag/8.16.0",
+                  "compareUrl": "https://github.com/snapcrafters/sentry/compare/master...8.16.0"
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [],
             "charm": null,
             "snap": null
          },
@@ -5289,9 +5330,95 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/terraform/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/terraform/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/terraform/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "terraform",
+               "url": "https://snapcraft.io/terraform",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 826,
+                     "timestamp": 1749725118,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 829,
+                     "timestamp": 1749725121,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 827,
+                     "timestamp": 1749725125,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 828,
+                     "timestamp": 1749725129,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 825,
+                     "timestamp": 1749725132,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 826,
+                     "timestamp": 1749724523,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 829,
+                     "timestamp": 1749724680,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 827,
+                     "timestamp": 1749724609,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 828,
+                     "timestamp": 1749724634,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 825,
+                     "timestamp": 1749724513,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "thelounge",
