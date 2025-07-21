@@ -3330,12 +3330,126 @@
                   "timestamp": 1707405591,
                   "url": "https://github.com/snapcrafters/mosaic/releases/tag/2.7%2Frev98%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/mosaic/compare/candidate...2.7%2Frev98%2Farmhf"
+               },
+               {
+                  "name": "2.7/rev97/s390x",
+                  "sha": "55fd60181fbb7fc58225d99d02776179dfb7f265",
+                  "body": "<p>docs: update README template; add badges (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mosaic/pull/6\">#6</a>)</p>\n",
+                  "timestamp": 1707405591,
+                  "url": "https://github.com/snapcrafters/mosaic/releases/tag/2.7%2Frev97%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/mosaic/compare/candidate...2.7%2Frev97%2Fs390x"
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/mosaic/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/mosaic/actions/workflows/promote-to-stable.yaml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "mosaic",
+               "url": "https://snapcraft.io/mosaic",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 94,
+                     "timestamp": 1707409310,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 96,
+                     "timestamp": 1707409313,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 98,
+                     "timestamp": 1707409315,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 69,
+                     "timestamp": 1696767705,
+                     "base": ""
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 95,
+                     "timestamp": 1707409317,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 99,
+                     "timestamp": 1707409319,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 97,
+                     "timestamp": 1707409322,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 94,
+                     "timestamp": 1707405910,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 96,
+                     "timestamp": 1707406021,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 98,
+                     "timestamp": 1707406310,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 95,
+                     "timestamp": 1707406008,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 99,
+                     "timestamp": 1707408829,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 97,
+                     "timestamp": 1707406028,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "mrrescue",
@@ -4024,6 +4138,39 @@
                   "latest"
                ]
             }
+         },
+         {
+            "name": "photoscape",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/photoscape",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "5d45b10403d4eaee9824be7fc5fb87cc2fa4a7c8",
+                  "author": "Dani Llewellyn",
+                  "timestamp": 1668428649,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/photoscape/pull/9\">#9</a> from snapcrafters/galgalesh-patch-1</p>\n\n<p>Create test-snap-can-build.yml</p>\n",
+                  "url": "https://github.com/snapcrafters/photoscape/commit/5d45b10403d4eaee9824be7fc5fb87cc2fa4a7c8"
+               },
+               {
+                  "sha": "d96a03999f5e669d4244392a4817f557dba92121",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1667933237,
+                  "message": "<p>Create test-snap-can-build.yml</p>\n",
+                  "url": "https://github.com/snapcrafters/photoscape/commit/d96a03999f5e669d4244392a4817f557dba92121"
+               },
+               {
+                  "sha": "efc0bd574b151625dfbe3be6bfb641fa84f43ec7",
+                  "author": "Dani Llewellyn",
+                  "timestamp": 1663702200,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/photoscape/pull/8\">#8</a> from galgalesh/cups</p>\n\n<p>Only use <code>cups</code> interface since <code>cups-control</code> isn&rsquo;t needed and is giving snap lint errors.</p>\n",
+                  "url": "https://github.com/snapcrafters/photoscape/commit/efc0bd574b151625dfbe3be6bfb641fa84f43ec7"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": null
          },
          {
             "name": "pogo",
