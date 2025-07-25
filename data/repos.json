@@ -2005,10 +2005,18 @@
          },
          {
             "name": "gimp",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.4/rev527/arm64",
+                  "sha": "805158fb71db2408bfaaec59e1a85f625bd7fbef",
+                  "body": "<p>chore: bump versions for OpenVINO plugins, update docs (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/445\">#445</a>)</p>\n\n<ul>\n<li><p>fix: allow git command usage inside snap needed by openvino</p></li>\n\n<li><p>chore: bump command-chain versions</p></li>\n\n<li><p>fix: let gegl find lapack and blas from gnome snap</p></li>\n\n<li><p>chore: update docs</p></li>\n\n<li><p>chore: bump tag for openvino plugins command chain script</p></li>\n</ul>\n",
+                  "timestamp": 1753457762,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev527%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev527%2Farm64"
+               },
                {
                   "name": "3.0.4/rev526/arm64",
                   "sha": "ef6e75f4399c29b96c795c176118aca9e9f15553",
@@ -2024,14 +2032,6 @@
                   "timestamp": 1749714444,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev525%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev525%2Famd64"
-               },
-               {
-                  "name": "3.0.4/rev524/arm64",
-                  "sha": "6014ca529abd0dcecf565b6dccef953d8237c13a",
-                  "body": "<p>build: replace issue tracker link with upstream</p>\n\n<p>The vast majority of issues reported on this\nsnap are upstream issues with the app itself,\nmaking it very hard for us to fix.</p>\n\n<p>This makes the issue tracker link for the snap\npoint to the upstream issue tracker for now.</p>\n",
-                  "timestamp": 1749629657,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev524%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev524%2Farm64"
                }
             ],
             "commits": null,
@@ -2076,8 +2076,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 526,
-                     "timestamp": 1749718284,
+                     "revision": 527,
+                     "timestamp": 1753464056,
                      "base": "core24"
                   },
                   {
