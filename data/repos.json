@@ -2787,10 +2787,18 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
+               {
+                  "name": "2.522/rev4919/amd64",
+                  "sha": "25c682e37ac441b51e7bcd26bedb2b290e20b1ef",
+                  "body": "<p>chore: bump jenkins to version 2.522</p>\n",
+                  "timestamp": 1754476083,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.522%2Frev4919%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.522%2Frev4919%2Famd64"
+               },
                {
                   "name": "2.521/rev4918/armhf",
                   "sha": "7295c7b53d4a58de29f875b84f1307ef5a058e9a",
@@ -2806,14 +2814,6 @@
                   "timestamp": 1753871263,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.521%2Frev4917%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.521%2Frev4917%2Farm64"
-               },
-               {
-                  "name": "2.521/rev4916/amd64",
-                  "sha": "7295c7b53d4a58de29f875b84f1307ef5a058e9a",
-                  "body": "<p>chore: bump jenkins to version 2.521</p>\n",
-                  "timestamp": 1753871263,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.521%2Frev4916%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.521%2Frev4916%2Famd64"
                }
             ],
             "commits": null,
@@ -2858,8 +2858,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4916,
-                     "timestamp": 1753872807,
+                     "revision": 4919,
+                     "timestamp": 1754498085,
                      "base": "core22"
                   },
                   {
