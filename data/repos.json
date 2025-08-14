@@ -2272,10 +2272,18 @@
          },
          {
             "name": "helm",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/helm",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.18.5/rev470/amd64",
+                  "sha": "ad986986298d7e6cfc1113d341f8448f1a6c0385",
+                  "body": "<p>chore: bump helm to version 3.18.5</p>\n",
+                  "timestamp": 1755166152,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.5%2Frev470%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.5%2Frev470%2Famd64"
+               },
                {
                   "name": "3.18.4/rev466/armhf",
                   "sha": "981854fa18d4397c00ee0192d4c84e4b20cbe6ca",
@@ -2291,14 +2299,6 @@
                   "timestamp": 1752055243,
                   "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.4%2Frev465%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.4%2Frev465%2Farm64"
-               },
-               {
-                  "name": "3.18.4/rev464/amd64",
-                  "sha": "981854fa18d4397c00ee0192d4c84e4b20cbe6ca",
-                  "body": "<p>chore: bump helm to version 3.18.4</p>\n",
-                  "timestamp": 1752055243,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/3.18.4%2Frev464%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...3.18.4%2Frev464%2Famd64"
                }
             ],
             "commits": null,
@@ -2343,8 +2343,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 467,
-                     "timestamp": 1752748148,
+                     "revision": 470,
+                     "timestamp": 1755167165,
                      "base": "core24"
                   },
                   {
