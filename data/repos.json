@@ -3203,6 +3203,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "5.13.0/rev791/amd64",
+                  "sha": "9b5b161e73ad3a78a3f679565b63d653ec7edfb4",
+                  "body": "<p>chore: bump mattermost-desktop to version 5.13.0</p>\n",
+                  "timestamp": 1755345020,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.0%2Frev791%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.0%2Frev791%2Famd64"
+               },
+               {
                   "name": "5.12.1/rev790/arm64",
                   "sha": "84cf4735bfcf0da45d86a182eeb8fd359bcf64af",
                   "body": "<p>chore: bump mattermost-desktop to version 5.12.1</p>\n",
@@ -3217,14 +3225,6 @@
                   "timestamp": 1748593762,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.1%2Frev789%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.1%2Frev789%2Famd64"
-               },
-               {
-                  "name": "5.12.0/rev788/arm64",
-                  "sha": "9532d944eedf775f241dbb31b948e7e42fd53ed3",
-                  "body": "<p>fix: pass through command-line args in launcher</p>\n\n<p>The recently committed launcher doesn&rsquo;t pass through command line arguments - this commit ensures that it does</p>\n",
-                  "timestamp": 1748341551,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.12.0%2Frev788%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.12.0%2Frev788%2Farm64"
                }
             ],
             "commits": null,
@@ -3262,8 +3262,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 789,
-                     "timestamp": 1748595974,
+                     "revision": 791,
+                     "timestamp": 1755347128,
                      "base": "core24"
                   },
                   {
