@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2025.1.2.12-wallpapers/rev203/amd64",
+                  "sha": "7bccd14d1cbfefc39f74a221f5d64a6a08d5a38e",
+                  "body": "<p>chore: bump android-studio to version 2025.1.2.12-wallpapers</p>\n",
+                  "timestamp": 1755598179,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.1.2.12-wallpapers%2Frev203%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.1.2.12-wallpapers%2Frev203%2Famd64"
+               },
                {
                   "name": "2025.1.2.11-wallpapers/rev201/amd64",
                   "sha": "5be3cac68517c95e98250da631eb6b993ae03ab8",
@@ -181,14 +189,6 @@
                   "timestamp": 1752228578,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.1.1.14-wallpapers%2Frev199%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.1.1.14-wallpapers%2Frev199%2Famd64"
-               },
-               {
-                  "name": "2025.1.1.13-wallpapers/rev197/amd64",
-                  "sha": "41fc871ded6b57ab40104524cfe5ba6124f699fc",
-                  "body": "<p>chore: bump android-studio to version 2025.1.1.13-wallpapers</p>\n",
-                  "timestamp": 1750846185,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.1.1.13-wallpapers%2Frev197%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.1.1.13-wallpapers%2Frev197%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 201,
-                     "timestamp": 1754045669,
+                     "revision": 203,
+                     "timestamp": 1755600387,
                      "base": "core22"
                   },
                   {
