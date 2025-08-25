@@ -2012,10 +2012,26 @@
          },
          {
             "name": "gimp",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.4/rev530/amd64",
+                  "sha": "750dd662834b48ef54b09cc043bb1003809db5a5",
+                  "body": "<p>chore: gmic <code>3.5.5</code> -&gt; <code>3.6.0</code></p>\n",
+                  "timestamp": 1756118242,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev530%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev530%2Famd64"
+               },
+               {
+                  "name": "3.0.4/rev529/arm64",
+                  "sha": "750dd662834b48ef54b09cc043bb1003809db5a5",
+                  "body": "<p>chore: gmic <code>3.5.5</code> -&gt; <code>3.6.0</code></p>\n",
+                  "timestamp": 1756118242,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev529%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev529%2Farm64"
+               },
                {
                   "name": "3.0.4/rev528/amd64",
                   "sha": "805158fb71db2408bfaaec59e1a85f625bd7fbef",
@@ -2023,22 +2039,6 @@
                   "timestamp": 1753457762,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev528%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev528%2Famd64"
-               },
-               {
-                  "name": "3.0.4/rev527/arm64",
-                  "sha": "805158fb71db2408bfaaec59e1a85f625bd7fbef",
-                  "body": "<p>chore: bump versions for OpenVINO plugins, update docs (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/445\">#445</a>)</p>\n\n<ul>\n<li><p>fix: allow git command usage inside snap needed by openvino</p></li>\n\n<li><p>chore: bump command-chain versions</p></li>\n\n<li><p>fix: let gegl find lapack and blas from gnome snap</p></li>\n\n<li><p>chore: update docs</p></li>\n\n<li><p>chore: bump tag for openvino plugins command chain script</p></li>\n</ul>\n",
-                  "timestamp": 1753457762,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev527%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev527%2Farm64"
-               },
-               {
-                  "name": "3.0.4/rev526/arm64",
-                  "sha": "ef6e75f4399c29b96c795c176118aca9e9f15553",
-                  "body": "<p>build: replace issue tracker url in build process</p>\n",
-                  "timestamp": 1749714444,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev526%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev526%2Farm64"
                }
             ],
             "commits": null,
@@ -2076,15 +2076,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 528,
-                     "timestamp": 1753464131,
+                     "revision": 530,
+                     "timestamp": 1756125624,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 527,
-                     "timestamp": 1753464056,
+                     "revision": 529,
+                     "timestamp": 1756125198,
                      "base": "core24"
                   },
                   {
