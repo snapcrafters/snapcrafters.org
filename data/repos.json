@@ -2012,10 +2012,18 @@
          },
          {
             "name": "gimp",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.4/rev531/amd64",
+                  "sha": "f9f4d70e4c69115efb128337eeab52d30b90ec97",
+                  "body": "<p>ci: also bump gmic version automatically in ci</p>\n",
+                  "timestamp": 1756224769,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev531%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev531%2Famd64"
+               },
                {
                   "name": "3.0.4/rev530/amd64",
                   "sha": "750dd662834b48ef54b09cc043bb1003809db5a5",
@@ -2031,14 +2039,6 @@
                   "timestamp": 1756118242,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev529%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev529%2Farm64"
-               },
-               {
-                  "name": "3.0.4/rev528/amd64",
-                  "sha": "805158fb71db2408bfaaec59e1a85f625bd7fbef",
-                  "body": "<p>chore: bump versions for OpenVINO plugins, update docs (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/445\">#445</a>)</p>\n\n<ul>\n<li><p>fix: allow git command usage inside snap needed by openvino</p></li>\n\n<li><p>chore: bump command-chain versions</p></li>\n\n<li><p>fix: let gegl find lapack and blas from gnome snap</p></li>\n\n<li><p>chore: update docs</p></li>\n\n<li><p>chore: bump tag for openvino plugins command chain script</p></li>\n</ul>\n",
-                  "timestamp": 1753457762,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev528%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev528%2Famd64"
                }
             ],
             "commits": null,
@@ -2076,8 +2076,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 530,
-                     "timestamp": 1756125624,
+                     "revision": 531,
+                     "timestamp": 1756229553,
                      "base": "core24"
                   },
                   {
