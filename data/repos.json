@@ -4726,10 +4726,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.68.0/rev818/arm64",
+                  "sha": "3d177ee488d605506ca6788b5b607275269b2fa5",
+                  "body": "<p>chore: bump signal-desktop to version 7.68.0</p>\n",
+                  "timestamp": 1756375861,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.68.0%2Frev818%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.68.0%2Frev818%2Farm64"
+               },
+               {
+                  "name": "7.68.0/rev817/amd64",
+                  "sha": "3d177ee488d605506ca6788b5b607275269b2fa5",
+                  "body": "<p>chore: bump signal-desktop to version 7.68.0</p>\n",
+                  "timestamp": 1756375861,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.68.0%2Frev817%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.68.0%2Frev817%2Famd64"
+               },
                {
                   "name": "7.67.0/rev816/arm64",
                   "sha": "3f3f7eb4c3547de5ca5b87a65b9b594ae135eb23",
@@ -4737,22 +4753,6 @@
                   "timestamp": 1756286971,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.67.0%2Frev816%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.67.0%2Frev816%2Farm64"
-               },
-               {
-                  "name": "7.67.0/rev815/amd64",
-                  "sha": "3f3f7eb4c3547de5ca5b87a65b9b594ae135eb23",
-                  "body": "<p>fix: use <code>pnpm run generate</code> in build</p>\n\n<p>Previously, <code>pnpm run generate</code> was broken for\nesoteric snapcraft-build-environment related\nreasons.</p>\n\n<p>The way this works in more recent releases of\nSignal removes the existing issue, so we can go\nback to just invoking <code>pnpm run generate</code> rather\nthan breaking that task into its component parts.</p>\n",
-                  "timestamp": 1756286971,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.67.0%2Frev815%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.67.0%2Frev815%2Famd64"
-               },
-               {
-                  "name": "7.66.0/rev814/arm64",
-                  "sha": "2a7b8b4328d08d5f31385305ff279f8fcd7e91de",
-                  "body": "<p>chore: bump signal-desktop to version 7.66.0</p>\n",
-                  "timestamp": 1755166351,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.66.0%2Frev814%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.66.0%2Frev814%2Farm64"
                }
             ],
             "commits": null,
@@ -4783,15 +4783,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 815,
-                     "timestamp": 1756289518,
+                     "revision": 817,
+                     "timestamp": 1756378512,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 816,
-                     "timestamp": 1756290518,
+                     "revision": 818,
+                     "timestamp": 1756379559,
                      "base": "core24"
                   }
                ],
