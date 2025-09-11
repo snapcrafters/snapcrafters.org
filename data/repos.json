@@ -3198,10 +3198,18 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "5.13.1/rev794/amd64",
+                  "sha": "14e3eb2dc09f7d7fb07c4b245cf83a1c1564de2a",
+                  "body": "<p>chore: bump mattermost-desktop to version 5.13.1</p>\n",
+                  "timestamp": 1757585732,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.1%2Frev794%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.1%2Frev794%2Famd64"
+               },
                {
                   "name": "5.13.0/rev793/arm64",
                   "sha": "9b5b161e73ad3a78a3f679565b63d653ec7edfb4",
@@ -3217,14 +3225,6 @@
                   "timestamp": 1755345020,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.0%2Frev792%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.0%2Frev792%2Famd64"
-               },
-               {
-                  "name": "5.13.0/rev791/amd64",
-                  "sha": "9b5b161e73ad3a78a3f679565b63d653ec7edfb4",
-                  "body": "<p>chore: bump mattermost-desktop to version 5.13.0</p>\n",
-                  "timestamp": 1755345020,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.0%2Frev791%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.0%2Frev791%2Famd64"
                }
             ],
             "commits": null,
@@ -3262,8 +3262,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 792,
-                     "timestamp": 1756227039,
+                     "revision": 794,
+                     "timestamp": 1757593992,
                      "base": "core24"
                   },
                   {
@@ -4731,6 +4731,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.70.0/rev824/arm64",
+                  "sha": "d1b0b6107b39fbee3e1b62180f4d434147fde5ac",
+                  "body": "<p>chore: bump signal-desktop to version 7.70.0</p>\n",
+                  "timestamp": 1757585410,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.70.0%2Frev824%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.70.0%2Frev824%2Farm64"
+               },
+               {
                   "name": "7.70.0/rev823/amd64",
                   "sha": "d1b0b6107b39fbee3e1b62180f4d434147fde5ac",
                   "body": "<p>chore: bump signal-desktop to version 7.70.0</p>\n",
@@ -4745,14 +4753,6 @@
                   "timestamp": 1756980640,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.69.0%2Frev822%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.69.0%2Frev822%2Farm64"
-               },
-               {
-                  "name": "7.69.0/rev821/amd64",
-                  "sha": "611d789346e449026e077647e05744aea195c259",
-                  "body": "<p>chore: bump signal-desktop to version 7.69.0</p>\n",
-                  "timestamp": 1756980640,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.69.0%2Frev821%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.69.0%2Frev821%2Famd64"
                }
             ],
             "commits": null,
@@ -4769,15 +4769,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 821,
-                     "timestamp": 1756985862,
+                     "revision": 823,
+                     "timestamp": 1757590059,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 822,
-                     "timestamp": 1756985865,
+                     "revision": 824,
+                     "timestamp": 1757590063,
                      "base": "core24"
                   },
                   {
@@ -4790,8 +4790,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 822,
-                     "timestamp": 1756985098,
+                     "revision": 824,
+                     "timestamp": 1757589618,
                      "base": "core24"
                   }
                ],
