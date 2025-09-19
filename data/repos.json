@@ -4726,10 +4726,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.71.0/rev826/arm64",
+                  "sha": "5b2fd68e59134091fa5b18b29a46fb6e0651178f",
+                  "body": "<p>chore: bump signal-desktop to version 7.71.0</p>\n",
+                  "timestamp": 1758276671,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.71.0%2Frev826%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.71.0%2Frev826%2Farm64"
+               },
+               {
+                  "name": "7.71.0/rev825/amd64",
+                  "sha": "5b2fd68e59134091fa5b18b29a46fb6e0651178f",
+                  "body": "<p>chore: bump signal-desktop to version 7.71.0</p>\n",
+                  "timestamp": 1758276671,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.71.0%2Frev825%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.71.0%2Frev825%2Famd64"
+               },
                {
                   "name": "7.70.0/rev824/arm64",
                   "sha": "d1b0b6107b39fbee3e1b62180f4d434147fde5ac",
@@ -4737,22 +4753,6 @@
                   "timestamp": 1757585410,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.70.0%2Frev824%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.70.0%2Frev824%2Farm64"
-               },
-               {
-                  "name": "7.70.0/rev823/amd64",
-                  "sha": "d1b0b6107b39fbee3e1b62180f4d434147fde5ac",
-                  "body": "<p>chore: bump signal-desktop to version 7.70.0</p>\n",
-                  "timestamp": 1757585410,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.70.0%2Frev823%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.70.0%2Frev823%2Famd64"
-               },
-               {
-                  "name": "7.69.0/rev822/arm64",
-                  "sha": "611d789346e449026e077647e05744aea195c259",
-                  "body": "<p>chore: bump signal-desktop to version 7.69.0</p>\n",
-                  "timestamp": 1756980640,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.69.0%2Frev822%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.69.0%2Frev822%2Farm64"
                }
             ],
             "commits": null,
@@ -4783,15 +4783,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 823,
-                     "timestamp": 1757588417,
+                     "revision": 825,
+                     "timestamp": 1758279300,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 824,
-                     "timestamp": 1757589618,
+                     "revision": 826,
+                     "timestamp": 1758280166,
                      "base": "core24"
                   }
                ],
