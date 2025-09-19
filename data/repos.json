@@ -3198,10 +3198,26 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "5.13.1/rev799/arm64",
+                  "sha": "3b3e2c5870855f85ecfaaa79430d963a5798d954",
+                  "body": "<p>fix: Ensure $WAYLAND_OPTS is set to something to guard against unbound variables. (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/137\">#137</a>)</p>\n\n<ul>\n<li><p>feat: Enable wayland</p></li>\n\n<li><p>Update snap/local/launcher.sh</p></li>\n\n<li><p>fix: Ensure $WAYLAND_OPTS is set to something to guard against unbound\nvariables.</p></li>\n</ul>\n\n<p>This should really be done by quoting the varible, but for some strange\nreason electron doesn&rsquo;t use the wayland backend when that variable is\nquoted. Even when the command passed looks exactly the same.</p>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jon@sgrs.uk\">jon@sgrs.uk</a></p>\n",
+                  "timestamp": 1758289980,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.1%2Frev799%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.1%2Frev799%2Farm64"
+               },
+               {
+                  "name": "5.13.1/rev798/amd64",
+                  "sha": "3b3e2c5870855f85ecfaaa79430d963a5798d954",
+                  "body": "<p>fix: Ensure $WAYLAND_OPTS is set to something to guard against unbound variables. (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/137\">#137</a>)</p>\n\n<ul>\n<li><p>feat: Enable wayland</p></li>\n\n<li><p>Update snap/local/launcher.sh</p></li>\n\n<li><p>fix: Ensure $WAYLAND_OPTS is set to something to guard against unbound\nvariables.</p></li>\n</ul>\n\n<p>This should really be done by quoting the varible, but for some strange\nreason electron doesn&rsquo;t use the wayland backend when that variable is\nquoted. Even when the command passed looks exactly the same.</p>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jon@sgrs.uk\">jon@sgrs.uk</a></p>\n",
+                  "timestamp": 1758289980,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.1%2Frev798%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.1%2Frev798%2Famd64"
+               },
                {
                   "name": "5.13.1/rev797/arm64",
                   "sha": "c14f90de2aafa22b2f81e2d576f7af3b0449db37",
@@ -3209,22 +3225,6 @@
                   "timestamp": 1758269813,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.1%2Frev797%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.1%2Frev797%2Farm64"
-               },
-               {
-                  "name": "5.13.1/rev796/amd64",
-                  "sha": "c14f90de2aafa22b2f81e2d576f7af3b0449db37",
-                  "body": "<p>feat: Enable wayland (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/135\">#135</a>)</p>\n\n<ul>\n<li>feat: Enable wayland</li>\n</ul>\n",
-                  "timestamp": 1758269813,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.1%2Frev796%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.1%2Frev796%2Famd64"
-               },
-               {
-                  "name": "5.13.1/rev795/arm64",
-                  "sha": "14e3eb2dc09f7d7fb07c4b245cf83a1c1564de2a",
-                  "body": "<p>chore: bump mattermost-desktop to version 5.13.1</p>\n",
-                  "timestamp": 1757585732,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.1%2Frev795%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.1%2Frev795%2Farm64"
                }
             ],
             "commits": null,
@@ -3241,15 +3241,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 796,
-                     "timestamp": 1758283343,
+                     "revision": 798,
+                     "timestamp": 1758294297,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 797,
-                     "timestamp": 1758283347,
+                     "revision": 799,
+                     "timestamp": 1758294302,
                      "base": "core24"
                   },
                   {
@@ -3262,15 +3262,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 796,
-                     "timestamp": 1758276642,
+                     "revision": 798,
+                     "timestamp": 1758292531,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 797,
-                     "timestamp": 1758277168,
+                     "revision": 799,
+                     "timestamp": 1758293148,
                      "base": "core24"
                   },
                   {
