@@ -162,7 +162,7 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 0,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
@@ -3004,7 +3004,7 @@
          },
          {
             "name": "luanti",
-            "newCommits": 0,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/luanti",
             "releases": null,
             "tags": [
@@ -3203,6 +3203,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "5.13.1/rev800/amd64",
+                  "sha": "d7adaa6f13a4d7ed5984af8eeff44d86fe997a9b",
+                  "body": "<p>chore: remove obsolete workaround for broken notifications</p>\n",
+                  "timestamp": 1758296575,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.1%2Frev800%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.1%2Frev800%2Famd64"
+               },
+               {
                   "name": "5.13.1/rev799/arm64",
                   "sha": "3b3e2c5870855f85ecfaaa79430d963a5798d954",
                   "body": "<p>fix: Ensure $WAYLAND_OPTS is set to something to guard against unbound variables. (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/137\">#137</a>)</p>\n\n<ul>\n<li><p>feat: Enable wayland</p></li>\n\n<li><p>Update snap/local/launcher.sh</p></li>\n\n<li><p>fix: Ensure $WAYLAND_OPTS is set to something to guard against unbound\nvariables.</p></li>\n</ul>\n\n<p>This should really be done by quoting the varible, but for some strange\nreason electron doesn&rsquo;t use the wayland backend when that variable is\nquoted. Even when the command passed looks exactly the same.</p>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jon@sgrs.uk\">jon@sgrs.uk</a></p>\n",
@@ -3217,14 +3225,6 @@
                   "timestamp": 1758289980,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.1%2Frev798%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.1%2Frev798%2Famd64"
-               },
-               {
-                  "name": "5.13.1/rev797/arm64",
-                  "sha": "c14f90de2aafa22b2f81e2d576f7af3b0449db37",
-                  "body": "<p>feat: Enable wayland (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/135\">#135</a>)</p>\n\n<ul>\n<li>feat: Enable wayland</li>\n</ul>\n",
-                  "timestamp": 1758269813,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.1%2Frev797%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.1%2Frev797%2Farm64"
                }
             ],
             "commits": null,
@@ -3262,8 +3262,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 798,
-                     "timestamp": 1758292531,
+                     "revision": 800,
+                     "timestamp": 1758298967,
                      "base": "core24"
                   },
                   {
@@ -3788,7 +3788,7 @@
          },
          {
             "name": "nano",
-            "newCommits": 66,
+            "newCommits": 74,
             "url": "https://github.com/snapcrafters/nano",
             "releases": null,
             "tags": [
@@ -4985,7 +4985,7 @@
          },
          {
             "name": "sublime-merge",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/sublime-merge",
             "releases": null,
             "tags": [
@@ -5129,28 +5129,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "4200/rev215/arm64",
+                  "sha": "afc731459dc1d3da0de1640abc9bbd7518d04ab8",
+                  "body": "<p>chore: add <code>.gitignore</code></p>\n",
+                  "timestamp": 1758295554,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev215%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev215%2Farm64"
+               },
+               {
+                  "name": "4200/rev214/amd64",
+                  "sha": "afc731459dc1d3da0de1640abc9bbd7518d04ab8",
+                  "body": "<p>chore: add <code>.gitignore</code></p>\n",
+                  "timestamp": 1758295554,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev214%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev214%2Famd64"
+               },
+               {
                   "name": "4200/rev210/arm64",
                   "sha": "d23c6b01bd236a97085644bec70516a9d1e1d258",
                   "body": "<p>chore: bump sublime-text to version 4200</p>\n",
                   "timestamp": 1747834971,
                   "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev210%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev210%2Farm64"
-               },
-               {
-                  "name": "4200/rev209/amd64",
-                  "sha": "d23c6b01bd236a97085644bec70516a9d1e1d258",
-                  "body": "<p>chore: bump sublime-text to version 4200</p>\n",
-                  "timestamp": 1747834971,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev209%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev209%2Famd64"
-               },
-               {
-                  "name": "4199/rev211/arm64",
-                  "sha": "1030f3a51cda0b6460e3999809a63de79133ac59",
-                  "body": "<p>chore: bump sublime-text to version 4199</p>\n",
-                  "timestamp": 1747834974,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4199%2Frev211%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4199%2Frev211%2Farm64"
                }
             ],
             "commits": null,
@@ -5167,29 +5167,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 209,
-                     "timestamp": 1747836129,
+                     "revision": 215,
+                     "timestamp": 1758297595,
                      "base": "core20"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 210,
-                     "timestamp": 1747836133,
+                     "revision": 215,
+                     "timestamp": 1758297595,
                      "base": "core20"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 209,
-                     "timestamp": 1747835585,
+                     "revision": 215,
+                     "timestamp": 1758297254,
                      "base": "core20"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 210,
-                     "timestamp": 1747835614,
+                     "revision": 215,
+                     "timestamp": 1758297254,
                      "base": "core20"
                   },
                   {
