@@ -2017,6 +2017,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.0.6/rev536/arm64",
+                  "sha": "55ffca54c502d711d93d7a1e7629fd5ecee4aba0",
+                  "body": "<p>feat: implement generic interface for plugins (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/460\">#460</a>)</p>\n\n<ul>\n<li><p>feat: implement generic interface for plugins</p></li>\n\n<li><p>fix: re-add plugs providing openvino and npu libs</p></li>\n\n<li><p>chore: remove remaining openvino plugs</p></li>\n\n<li><p>chore: remove plug-declaration</p></li>\n\n<li><p>chore: only allow plug-ins to append to LD_LIBRARY_PATH</p></li>\n\n<li><p>chore: remove git dependency</p></li>\n\n<li><p>fix: add back NPU dir to LD_LIBRARY_PATH</p></li>\n\n<li><p>fix: prepend instead of append to LD_LIBRARY_PATH</p></li>\n</ul>\n\n<p>In case plugins ship .so&rsquo;s that are already present inside GIMP,\nprefer the ones that come with the plugins. This puts the maintenance\nresponsibility on the plugin maintainer for ensuring compatability.</p>\n\n<ul>\n<li>Revert &ldquo;fix: prepend instead of append to LD_LIBRARY_PATH&rdquo;</li>\n</ul>\n\n<p>This reverts commit f777258903688807e689e3d7dc7ebff71bec2b02.</p>\n",
+                  "timestamp": 1759765063,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.6%2Frev536%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.6%2Frev536%2Farm64"
+               },
+               {
                   "name": "3.0.6/rev535/amd64",
                   "sha": "55ffca54c502d711d93d7a1e7629fd5ecee4aba0",
                   "body": "<p>feat: implement generic interface for plugins (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/460\">#460</a>)</p>\n\n<ul>\n<li><p>feat: implement generic interface for plugins</p></li>\n\n<li><p>fix: re-add plugs providing openvino and npu libs</p></li>\n\n<li><p>chore: remove remaining openvino plugs</p></li>\n\n<li><p>chore: remove plug-declaration</p></li>\n\n<li><p>chore: only allow plug-ins to append to LD_LIBRARY_PATH</p></li>\n\n<li><p>chore: remove git dependency</p></li>\n\n<li><p>fix: add back NPU dir to LD_LIBRARY_PATH</p></li>\n\n<li><p>fix: prepend instead of append to LD_LIBRARY_PATH</p></li>\n</ul>\n\n<p>In case plugins ship .so&rsquo;s that are already present inside GIMP,\nprefer the ones that come with the plugins. This puts the maintenance\nresponsibility on the plugin maintainer for ensuring compatability.</p>\n\n<ul>\n<li>Revert &ldquo;fix: prepend instead of append to LD_LIBRARY_PATH&rdquo;</li>\n</ul>\n\n<p>This reverts commit f777258903688807e689e3d7dc7ebff71bec2b02.</p>\n",
@@ -2031,14 +2039,6 @@
                   "timestamp": 1759749837,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.6%2Frev534%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.6%2Frev534%2Farm64"
-               },
-               {
-                  "name": "3.0.6/rev533/amd64",
-                  "sha": "d3169eeb15cc8c66f7749ccf20b2ef296c172ace",
-                  "body": "<p>chore: bump gimp to version 3.0.6 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/465\">#465</a>)</p>\n",
-                  "timestamp": 1759749837,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.6%2Frev533%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.6%2Frev533%2Famd64"
                }
             ],
             "commits": null,
@@ -2083,8 +2083,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 534,
-                     "timestamp": 1759760087,
+                     "revision": 536,
+                     "timestamp": 1759777344,
                      "base": "core24"
                   },
                   {
