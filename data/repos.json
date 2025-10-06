@@ -2012,10 +2012,18 @@
          },
          {
             "name": "gimp",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.6/rev533/amd64",
+                  "sha": "d3169eeb15cc8c66f7749ccf20b2ef296c172ace",
+                  "body": "<p>chore: bump gimp to version 3.0.6 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/465\">#465</a>)</p>\n",
+                  "timestamp": 1759749837,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.6%2Frev533%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.6%2Frev533%2Famd64"
+               },
                {
                   "name": "3.0.4/rev532/arm64",
                   "sha": "f9f4d70e4c69115efb128337eeab52d30b90ec97",
@@ -2031,14 +2039,6 @@
                   "timestamp": 1756224769,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev531%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev531%2Famd64"
-               },
-               {
-                  "name": "3.0.4/rev530/amd64",
-                  "sha": "750dd662834b48ef54b09cc043bb1003809db5a5",
-                  "body": "<p>chore: gmic <code>3.5.5</code> -&gt; <code>3.6.0</code></p>\n",
-                  "timestamp": 1756118242,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.4%2Frev530%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.4%2Frev530%2Famd64"
                }
             ],
             "commits": null,
@@ -2076,8 +2076,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 531,
-                     "timestamp": 1756229553,
+                     "revision": 533,
+                     "timestamp": 1759754615,
                      "base": "core24"
                   },
                   {
