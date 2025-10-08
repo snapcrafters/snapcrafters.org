@@ -2012,10 +2012,18 @@
          },
          {
             "name": "gimp",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/gimp",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.0.6/rev537/amd64",
+                  "sha": "787c6d6c83981ea8341eacbfdbee8e7565316a6f",
+                  "body": "<p>chore: Sync with upstream/official Snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/468\">#468</a>)</p>\n\n<p>Ported from: <a href=\"https://gitlab.gnome.org/GNOME/gimp/-/blob/gimp-3-0/build/linux/snap/snapcraft.yaml?ref_type=heads\">https://gitlab.gnome.org/GNOME/gimp/-/blob/gimp-3-0/build/linux/snap/snapcraft.yaml?ref_type=heads</a></p>\n",
+                  "timestamp": 1759928579,
+                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.6%2Frev537%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.6%2Frev537%2Famd64"
+               },
                {
                   "name": "3.0.6/rev536/arm64",
                   "sha": "55ffca54c502d711d93d7a1e7629fd5ecee4aba0",
@@ -2031,14 +2039,6 @@
                   "timestamp": 1759765063,
                   "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.6%2Frev535%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.6%2Frev535%2Famd64"
-               },
-               {
-                  "name": "3.0.6/rev534/arm64",
-                  "sha": "d3169eeb15cc8c66f7749ccf20b2ef296c172ace",
-                  "body": "<p>chore: bump gimp to version 3.0.6 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/465\">#465</a>)</p>\n",
-                  "timestamp": 1759749837,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.6%2Frev534%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.6%2Frev534%2Farm64"
                }
             ],
             "commits": null,
@@ -2076,8 +2076,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 535,
-                     "timestamp": 1759769058,
+                     "revision": 537,
+                     "timestamp": 1759931943,
                      "base": "core24"
                   },
                   {
