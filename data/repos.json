@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2025.1.4.8-wallpapers/rev211/amd64",
+                  "sha": "a823ebb2e741bfdd2ac307e0378a89401c99b323",
+                  "body": "<p>chore: bump android-studio to version 2025.1.4.8-wallpapers</p>\n",
+                  "timestamp": 1760090986,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.1.4.8-wallpapers%2Frev211%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.1.4.8-wallpapers%2Frev211%2Famd64"
+               },
                {
                   "name": "2025.1.3.7-wallpapers/rev209/amd64",
                   "sha": "0fd9143c4aeff6c1410b663fff1c595acc26c9b8",
@@ -181,14 +189,6 @@
                   "timestamp": 1756894085,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.1.3.7-wallpapers%2Frev207%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.1.3.7-wallpapers%2Frev207%2Famd64"
-               },
-               {
-                  "name": "2025.1.2.13-wallpapers/rev205/amd64",
-                  "sha": "b60a3f10a03aea922eedcd9f61a065fa4e2385ec",
-                  "body": "<p>chore: bump android-studio to version 2025.1.2.13-wallpapers</p>\n",
-                  "timestamp": 1756462125,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.1.2.13-wallpapers%2Frev205%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.1.2.13-wallpapers%2Frev205%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 209,
-                     "timestamp": 1758299151,
+                     "revision": 211,
+                     "timestamp": 1760093695,
                      "base": "core22"
                   },
                   {
@@ -2004,78 +2004,6 @@
                "channels": [
                   "stable",
                   "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
-         },
-         {
-            "name": "gimp",
-            "newCommits": 0,
-            "url": "https://github.com/snapcrafters/gimp",
-            "releases": null,
-            "tags": [
-               {
-                  "name": "3.0.6/rev538/arm64",
-                  "sha": "787c6d6c83981ea8341eacbfdbee8e7565316a6f",
-                  "body": "<p>chore: Sync with upstream/official Snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/468\">#468</a>)</p>\n\n<p>Ported from: <a href=\"https://gitlab.gnome.org/GNOME/gimp/-/blob/gimp-3-0/build/linux/snap/snapcraft.yaml?ref_type=heads\">https://gitlab.gnome.org/GNOME/gimp/-/blob/gimp-3-0/build/linux/snap/snapcraft.yaml?ref_type=heads</a></p>\n",
-                  "timestamp": 1759928579,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.6%2Frev538%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.6%2Frev538%2Farm64"
-               },
-               {
-                  "name": "3.0.6/rev537/amd64",
-                  "sha": "787c6d6c83981ea8341eacbfdbee8e7565316a6f",
-                  "body": "<p>chore: Sync with upstream/official Snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/468\">#468</a>)</p>\n\n<p>Ported from: <a href=\"https://gitlab.gnome.org/GNOME/gimp/-/blob/gimp-3-0/build/linux/snap/snapcraft.yaml?ref_type=heads\">https://gitlab.gnome.org/GNOME/gimp/-/blob/gimp-3-0/build/linux/snap/snapcraft.yaml?ref_type=heads</a></p>\n",
-                  "timestamp": 1759928579,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.6%2Frev537%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.6%2Frev537%2Famd64"
-               },
-               {
-                  "name": "3.0.6/rev536/arm64",
-                  "sha": "55ffca54c502d711d93d7a1e7629fd5ecee4aba0",
-                  "body": "<p>feat: implement generic interface for plugins (<a target=\"_blank\" href=\"https://github.com/snapcrafters/gimp/pull/460\">#460</a>)</p>\n\n<ul>\n<li><p>feat: implement generic interface for plugins</p></li>\n\n<li><p>fix: re-add plugs providing openvino and npu libs</p></li>\n\n<li><p>chore: remove remaining openvino plugs</p></li>\n\n<li><p>chore: remove plug-declaration</p></li>\n\n<li><p>chore: only allow plug-ins to append to LD_LIBRARY_PATH</p></li>\n\n<li><p>chore: remove git dependency</p></li>\n\n<li><p>fix: add back NPU dir to LD_LIBRARY_PATH</p></li>\n\n<li><p>fix: prepend instead of append to LD_LIBRARY_PATH</p></li>\n</ul>\n\n<p>In case plugins ship .so&rsquo;s that are already present inside GIMP,\nprefer the ones that come with the plugins. This puts the maintenance\nresponsibility on the plugin maintainer for ensuring compatability.</p>\n\n<ul>\n<li>Revert &ldquo;fix: prepend instead of append to LD_LIBRARY_PATH&rdquo;</li>\n</ul>\n\n<p>This reverts commit f777258903688807e689e3d7dc7ebff71bec2b02.</p>\n",
-                  "timestamp": 1759765063,
-                  "url": "https://github.com/snapcrafters/gimp/releases/tag/3.0.6%2Frev536%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/gimp/compare/candidate...3.0.6%2Frev536%2Farm64"
-               }
-            ],
-            "commits": null,
-            "ciActions": [
-               "https://github.com/snapcrafters/gimp/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/gimp/actions/workflows/release-to-candidate.yaml",
-               "https://github.com/snapcrafters/gimp/actions/workflows/promote-to-stable.yml"
-            ],
-            "charm": null,
-            "snap": {
-               "name": "gimp",
-               "url": "https://snapcraft.io/gimp",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 537,
-                     "timestamp": 1759936672,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 538,
-                     "timestamp": 1759936675,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 486,
-                     "timestamp": 1737460643,
-                     "base": "core20"
-                  }
-               ],
-               "channels": [
-                  "stable"
                ],
                "tracks": [
                   "latest"
