@@ -3722,10 +3722,18 @@
          },
          {
             "name": "obs-studio",
-            "newCommits": 9,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/obs-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "32.0.0/rev1315/amd64",
+                  "sha": "78e81a2e13e18079749364500414cd35ef930fd0",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/obs-studio/pull/228\">#228</a> from vandah/core24-content-snaps</p>\n\n<p>Add plugins through the content interface</p>\n",
+                  "timestamp": 1761600408,
+                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.0.0%2Frev1315%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.0.0%2Frev1315%2Famd64"
+               },
                {
                   "name": "32.0.0/rev1314/amd64",
                   "sha": "e133354c03f7eb706aa53de557fa687478e30777",
@@ -3741,14 +3749,6 @@
                   "timestamp": 1753784385,
                   "url": "https://github.com/snapcrafters/obs-studio/releases/tag/31.1.2%2Frev1313%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...31.1.2%2Frev1313%2Famd64"
-               },
-               {
-                  "name": "31.1.1/rev1312/amd64",
-                  "sha": "f69c87e71122aefaedd711990deb337d20d729db",
-                  "body": "<p>feat!: migrate to <code>core24</code> and rebase on official PPA (<a target=\"_blank\" href=\"https://github.com/snapcrafters/obs-studio/pull/220\">#220</a>)</p>\n\n<ul>\n<li><p>base the snap on core24, build from official PPA</p></li>\n\n<li><p>use obs-wrapper for launching the snap</p></li>\n\n<li><p>Add a script for getting the latest PPA deb url and version</p></li>\n\n<li><p>move the &ndash;multi comment in the wrapper where the option is</p></li>\n\n<li><p>replaced majority of the bind-mounts with patching the binaries with a different rpath</p></li>\n\n<li><p>sort dependencies</p></li>\n\n<li><p>add a comment to explain the need for patchelf</p></li>\n\n<li><p>remove unused paths from env variables</p></li>\n\n<li><p>integrate the script for ppa version into GH action</p></li>\n\n<li><p>add alsa library</p></li>\n\n<li><p>README: move camera info and add sound info</p></li>\n\n<li><p>update to 31.1.0, use PPA with package-repositories, add the ffmpeg plug</p></li>\n\n<li><p>add hardware encoding support (Intel QSV)</p></li>\n\n<li><p>remove redundant dependencies</p></li>\n\n<li><p>add LIBVA_DRIVERS_PATH</p></li>\n\n<li><p>update to 31.1.1</p></li>\n</ul>\n",
-                  "timestamp": 1752768609,
-                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/31.1.1%2Frev1312%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...31.1.1%2Frev1312%2Famd64"
                }
             ],
             "commits": null,
@@ -3772,8 +3772,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1314,
-                     "timestamp": 1758884533,
+                     "revision": 1315,
+                     "timestamp": 1761654059,
                      "base": "core24"
                   },
                   {
