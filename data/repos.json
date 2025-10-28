@@ -1279,10 +1279,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.113/rev258/amd64",
+                  "sha": "85b39537d12523456eb08a9bad6db4be6ddd9d5f",
+                  "body": "<p>chore: bump discord to version 0.0.113</p>\n",
+                  "timestamp": 1761646433,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.113%2Frev258%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.113%2Frev258%2Famd64"
+               },
                {
                   "name": "0.0.112/rev257/amd64",
                   "sha": "6d9a035d0d3bb62e8c45e6475d6ea3acbfaf5909",
@@ -1298,14 +1306,6 @@
                   "timestamp": 1758622357,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.111%2Frev256%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.111%2Frev256%2Famd64"
-               },
-               {
-                  "name": "0.0.110/rev255/amd64",
-                  "sha": "3d120e3bfa4afb2c552bc39cb7cdb2f0dbd74cf6",
-                  "body": "<p>chore: bump discord to version 0.0.110</p>\n",
-                  "timestamp": 1758017558,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.110%2Frev255%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.110%2Frev255%2Famd64"
                }
             ],
             "commits": null,
@@ -1329,8 +1329,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 257,
-                     "timestamp": 1760525615,
+                     "revision": 258,
+                     "timestamp": 1761647806,
                      "base": "core22"
                   }
                ],
