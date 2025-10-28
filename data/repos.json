@@ -420,8 +420,8 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 1210,
-                     "timestamp": 1750152556,
+                     "revision": 1214,
+                     "timestamp": 1761655869,
                      "base": "core24"
                   },
                   {
@@ -1322,8 +1322,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 257,
-                     "timestamp": 1760534171,
+                     "revision": 258,
+                     "timestamp": 1761656052,
                      "base": "core22"
                   },
                   {
@@ -3096,10 +3096,18 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "5.13.2/rev806/amd64",
+                  "sha": "02b0dd72a253e0c003d39714126c8bdd0f3ecd08",
+                  "body": "<p>fix: Disable wayland to supress notification when switching focus fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/140\">#140</a> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/143\">#143</a>)</p>\n",
+                  "timestamp": 1761655419,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.2%2Frev806%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.2%2Frev806%2Famd64"
+               },
                {
                   "name": "5.13.2/rev805/arm64",
                   "sha": "a75cd96b23b7fc92d0691da49adc5af19fa7eb63",
@@ -3115,14 +3123,6 @@
                   "timestamp": 1760609890,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.2%2Frev804%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.2%2Frev804%2Famd64"
-               },
-               {
-                  "name": "5.13.1/rev803/arm64",
-                  "sha": "cc1911df80b79814c07c380080f08a47fc69a09a",
-                  "body": "<p>revert: &ldquo;chore: remove obsolete workaround for broken notifications&rdquo;</p>\n\n<p>This reverts commit d7adaa6f13a4d7ed5984af8eeff44d86fe997a9b.</p>\n",
-                  "timestamp": 1759257424,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.1%2Frev803%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.1%2Frev803%2Farm64"
                }
             ],
             "commits": null,
@@ -3160,8 +3160,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 804,
-                     "timestamp": 1760616645,
+                     "revision": 806,
+                     "timestamp": 1761656868,
                      "base": "core24"
                   },
                   {
