@@ -3101,6 +3101,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "5.13.2/rev807/arm64",
+                  "sha": "02b0dd72a253e0c003d39714126c8bdd0f3ecd08",
+                  "body": "<p>fix: Disable wayland to supress notification when switching focus fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/140\">#140</a> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/143\">#143</a>)</p>\n",
+                  "timestamp": 1761655419,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.2%2Frev807%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.2%2Frev807%2Farm64"
+               },
+               {
                   "name": "5.13.2/rev806/amd64",
                   "sha": "02b0dd72a253e0c003d39714126c8bdd0f3ecd08",
                   "body": "<p>fix: Disable wayland to supress notification when switching focus fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/140\">#140</a> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/143\">#143</a>)</p>\n",
@@ -3115,14 +3123,6 @@
                   "timestamp": 1760609890,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.2%2Frev805%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.2%2Frev805%2Farm64"
-               },
-               {
-                  "name": "5.13.2/rev804/amd64",
-                  "sha": "a75cd96b23b7fc92d0691da49adc5af19fa7eb63",
-                  "body": "<p>chore: bump mattermost-desktop to version 5.13.2</p>\n",
-                  "timestamp": 1760609890,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.2%2Frev804%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.2%2Frev804%2Famd64"
                }
             ],
             "commits": null,
@@ -3167,8 +3167,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 805,
-                     "timestamp": 1760617319,
+                     "revision": 807,
+                     "timestamp": 1761716830,
                      "base": "core24"
                   },
                   {
