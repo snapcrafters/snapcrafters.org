@@ -3722,10 +3722,18 @@
          },
          {
             "name": "obs-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/obs-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "32.0.2/rev1316/amd64",
+                  "sha": "a06bba292f1566085e555076db820f73cf450e96",
+                  "body": "<p>chore: bump obs-studio to version 32.0.2</p>\n",
+                  "timestamp": 1761819496,
+                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.0.2%2Frev1316%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.0.2%2Frev1316%2Famd64"
+               },
                {
                   "name": "32.0.0/rev1315/amd64",
                   "sha": "78e81a2e13e18079749364500414cd35ef930fd0",
@@ -3741,14 +3749,6 @@
                   "timestamp": 1758881810,
                   "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.0.0%2Frev1314%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.0.0%2Frev1314%2Famd64"
-               },
-               {
-                  "name": "31.1.2/rev1313/amd64",
-                  "sha": "436dc030cc4931fd221b594a51832a39954f81c4",
-                  "body": "<p>chore: bump obs-studio to version 31.1.2</p>\n",
-                  "timestamp": 1753784385,
-                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/31.1.2%2Frev1313%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...31.1.2%2Frev1313%2Famd64"
                }
             ],
             "commits": null,
@@ -3772,8 +3772,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1315,
-                     "timestamp": 1761654059,
+                     "revision": 1316,
+                     "timestamp": 1761821607,
                      "base": "core24"
                   },
                   {
