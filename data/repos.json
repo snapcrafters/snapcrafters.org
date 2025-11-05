@@ -2685,7 +2685,7 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 2,
+            "newCommits": 3,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
@@ -4883,10 +4883,26 @@
          },
          {
             "name": "sublime-merge",
-            "newCommits": 0,
+            "newCommits": 6,
             "url": "https://github.com/snapcrafters/sublime-merge",
             "releases": null,
             "tags": [
+               {
+                  "name": "2115/rev106/arm64",
+                  "sha": "b8e8a247c4a7491580d2c6c177b215954e243f3c",
+                  "body": "<p>chore: bump sublime-merge to version 2115</p>\n",
+                  "timestamp": 1762337935,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2115%2Frev106%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2115%2Frev106%2Farm64"
+               },
+               {
+                  "name": "2115/rev105/amd64",
+                  "sha": "b8e8a247c4a7491580d2c6c177b215954e243f3c",
+                  "body": "<p>chore: bump sublime-merge to version 2115</p>\n",
+                  "timestamp": 1762337935,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2115%2Frev105%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2115%2Frev105%2Famd64"
+               },
                {
                   "name": "2112/rev101/arm64",
                   "sha": "4a6836a2ab61bace0a8889aba5b66b804703f8a2",
@@ -4894,22 +4910,6 @@
                   "timestamp": 1758892693,
                   "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2112%2Frev101%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2112%2Frev101%2Farm64"
-               },
-               {
-                  "name": "2112/rev99/amd64",
-                  "sha": "4a6836a2ab61bace0a8889aba5b66b804703f8a2",
-                  "body": "<p>chore: migrate snap to core20</p>\n",
-                  "timestamp": 1758892693,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2112%2Frev99%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2112%2Frev99%2Famd64"
-               },
-               {
-                  "name": "2111/rev102/arm64",
-                  "sha": "c0646e0c642fb93dd6929ca743f609aed67b3f54",
-                  "body": "<p>chore: migrate snap to core20</p>\n",
-                  "timestamp": 1758892787,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2111%2Frev102%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2111%2Frev102%2Farm64"
                }
             ],
             "commits": null,
@@ -4996,15 +4996,15 @@
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 100,
-                     "timestamp": 1758894026,
+                     "revision": 105,
+                     "timestamp": 1762338734,
                      "base": "core20"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 102,
-                     "timestamp": 1758894221,
+                     "revision": 106,
+                     "timestamp": 1762339042,
                      "base": "core20"
                   }
                ],
