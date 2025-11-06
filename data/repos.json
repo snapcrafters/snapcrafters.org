@@ -2011,164 +2011,6 @@
             }
          },
          {
-            "name": "gradle",
-            "newCommits": 0,
-            "url": "https://github.com/snapcrafters/gradle",
-            "releases": null,
-            "tags": null,
-            "commits": [
-               {
-                  "sha": "234cec1455421491b4eae7d1f45ad395e96751a8",
-                  "author": "Jon Seager",
-                  "timestamp": 1749753299,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/gradle/pull/35\">#35</a> from vpa1977/fix_certificate</p>\n\n<p>fix: copy correct certificate file</p>\n",
-                  "url": "https://github.com/snapcrafters/gradle/commit/234cec1455421491b4eae7d1f45ad395e96751a8"
-               },
-               {
-                  "sha": "e6c70c4c3e05e9d0526bce33f09e8cae9cfdd5e6",
-                  "author": "Vladimir Petko",
-                  "timestamp": 1749752670,
-                  "message": "<p>fix: force-copy certificates</p>\n",
-                  "url": "https://github.com/snapcrafters/gradle/commit/e6c70c4c3e05e9d0526bce33f09e8cae9cfdd5e6"
-               },
-               {
-                  "sha": "98dedad5772c6aafcdffc2936cf26453c51d7baa",
-                  "author": "Vladimir Petko",
-                  "timestamp": 1749752139,
-                  "message": "<p>chore: use JAVA_HOME to replace the certificate</p>\n\n<ul>\n<li>use readlink to find the installed java and set JAVA_HOME</li>\n<li>use JAVA_HOME when replacing CA certificates</li>\n</ul>\n",
-                  "url": "https://github.com/snapcrafters/gradle/commit/98dedad5772c6aafcdffc2936cf26453c51d7baa"
-               }
-            ],
-            "ciActions": [],
-            "charm": null,
-            "snap": {
-               "name": "gradle",
-               "url": "https://snapcraft.io/gradle",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 134,
-                     "timestamp": 1632928298,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 138,
-                     "timestamp": 1632928303,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 137,
-                     "timestamp": 1632928300,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 60,
-                     "timestamp": 1615995915,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 135,
-                     "timestamp": 1632928299,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 136,
-                     "timestamp": 1632928300,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 176,
-                     "timestamp": 1749807842,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 179,
-                     "timestamp": 1749808104,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 178,
-                     "timestamp": 1749808068,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 180,
-                     "timestamp": 1749808176,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 177,
-                     "timestamp": 1749808037,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "6.8.x",
-                     "channel": "stable",
-                     "revision": 87,
-                     "timestamp": 1622062738,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "6.8.x",
-                     "channel": "stable",
-                     "revision": 83,
-                     "timestamp": 1622062736,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "6.8.x",
-                     "channel": "stable",
-                     "revision": 84,
-                     "timestamp": 1622062736,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "6.8.x",
-                     "channel": "stable",
-                     "revision": 85,
-                     "timestamp": 1622062737,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "6.8.x",
-                     "channel": "stable",
-                     "revision": 86,
-                     "timestamp": 1622062737,
-                     "base": "core20"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest",
-                  "6.8.x"
-               ]
-            }
-         },
-         {
             "name": "helm",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/helm",
@@ -5591,6 +5433,39 @@
                   "latest"
                ]
             }
+         },
+         {
+            "name": "wethr",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/wethr",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "830ec042cf43221911bf648991d502cfdb785bab",
+                  "author": "Alan Pope",
+                  "timestamp": 1605620498,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/wethr/pull/6\">#6</a> from snapcrafters/core-migration</p>\n\n<p>Core migration</p>\n",
+                  "url": "https://github.com/snapcrafters/wethr/commit/830ec042cf43221911bf648991d502cfdb785bab"
+               },
+               {
+                  "sha": "678ac026fb03d42925eb585f376245ee073747ad",
+                  "author": "Alan Pope",
+                  "timestamp": 1605620186,
+                  "message": "<p>Core migration</p>\n",
+                  "url": "https://github.com/snapcrafters/wethr/commit/678ac026fb03d42925eb585f376245ee073747ad"
+               },
+               {
+                  "sha": "81c117a076234bc76b894cfd39010f8e152545db",
+                  "author": "Ubuntu",
+                  "timestamp": 1605226806,
+                  "message": "<p>Trigger build of wethr on 2020-11-13-00:18:18</p>\n",
+                  "url": "https://github.com/snapcrafters/wethr/commit/81c117a076234bc76b894cfd39010f8e152545db"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": null
          }
       ]
    }
