@@ -2938,10 +2938,26 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "6.0.0/rev811/arm64",
+                  "sha": "45b11c6f9725cc31478bd3de07e84da1186d6e43",
+                  "body": "<p>chore: bump mattermost-desktop to version 6.0.0</p>\n",
+                  "timestamp": 1763111413,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.0%2Frev811%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.0%2Frev811%2Farm64"
+               },
+               {
+                  "name": "6.0.0/rev810/amd64",
+                  "sha": "45b11c6f9725cc31478bd3de07e84da1186d6e43",
+                  "body": "<p>chore: bump mattermost-desktop to version 6.0.0</p>\n",
+                  "timestamp": 1763111413,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.0%2Frev810%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.0%2Frev810%2Famd64"
+               },
                {
                   "name": "5.13.2/rev809/arm64",
                   "sha": "2240dccde6d3ab8c6a9ec7700802e82fe62be636",
@@ -2949,22 +2965,6 @@
                   "timestamp": 1761905622,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.2%2Frev809%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.2%2Frev809%2Farm64"
-               },
-               {
-                  "name": "5.13.2/rev808/amd64",
-                  "sha": "2240dccde6d3ab8c6a9ec7700802e82fe62be636",
-                  "body": "<p>fix: allow the user to enable Wayland (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/146\">#146</a>)</p>\n\n<p>Forcing DISABLE_WAYLAND=1 makes the desktop command-chain hide the Wayland\nsocket. If you then call mattermost-desktop with &ndash;ozone-platform-hint=auto\nor with env ELECTRON_OZONE_PLATFORM_HINT=wayland, chromium will crash instead\nof falling back to x11.</p>\n\n<p>We can default to x11 while still allowing users to opt-in to Wayland by simply\nnot specifying any additional environment variables.</p>\n\n<p>Closes: <a href=\"https://github.com/snapcrafters/mattermost-desktop/issues/145\">https://github.com/snapcrafters/mattermost-desktop/issues/145</a></p>\n",
-                  "timestamp": 1761905622,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.2%2Frev808%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.2%2Frev808%2Famd64"
-               },
-               {
-                  "name": "5.13.2/rev807/arm64",
-                  "sha": "02b0dd72a253e0c003d39714126c8bdd0f3ecd08",
-                  "body": "<p>fix: Disable wayland to supress notification when switching focus fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/140\">#140</a> (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/143\">#143</a>)</p>\n",
-                  "timestamp": 1761655419,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/5.13.2%2Frev807%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...5.13.2%2Frev807%2Farm64"
                }
             ],
             "commits": null,
@@ -3002,15 +3002,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 808,
-                     "timestamp": 1761907059,
+                     "revision": 810,
+                     "timestamp": 1763113079,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 809,
-                     "timestamp": 1761908539,
+                     "revision": 811,
+                     "timestamp": 1763113491,
                      "base": "core24"
                   },
                   {
@@ -4195,7 +4195,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 163,
+            "newCommits": 164,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
