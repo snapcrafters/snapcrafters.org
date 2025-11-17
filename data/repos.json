@@ -4471,6 +4471,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.79.0/rev846/arm64",
+                  "sha": "decbcaa918967f60a5b49fa5de08bf9c960c0ea5",
+                  "body": "<p>build: use <code>pnpm -C</code> rather than <code>pnpm --prefix</code></p>\n",
+                  "timestamp": 1763409518,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev846%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev846%2Farm64"
+               },
+               {
                   "name": "7.79.0/rev845/amd64",
                   "sha": "decbcaa918967f60a5b49fa5de08bf9c960c0ea5",
                   "body": "<p>build: use <code>pnpm -C</code> rather than <code>pnpm --prefix</code></p>\n",
@@ -4485,14 +4493,6 @@
                   "timestamp": 1762423978,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.78.0%2Frev844%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.78.0%2Frev844%2Farm64"
-               },
-               {
-                  "name": "7.78.0/rev843/amd64",
-                  "sha": "542bed412acd7d5a234e6766a0aa311bfb080eb6",
-                  "body": "<p>chore: bump signal-desktop to version 7.78.0</p>\n",
-                  "timestamp": 1762423978,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.78.0%2Frev843%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.78.0%2Frev843%2Famd64"
                }
             ],
             "commits": null,
@@ -4530,8 +4530,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 844,
-                     "timestamp": 1762427266,
+                     "revision": 846,
+                     "timestamp": 1763412071,
                      "base": "core24"
                   }
                ],
