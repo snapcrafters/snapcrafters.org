@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2025.2.1.8-wallpapers/rev215/amd64",
+                  "sha": "aae7d474dcb77162c0eb70b38f7f4dbb290cefea",
+                  "body": "<p>chore: bump android-studio to version 2025.2.1.8-wallpapers</p>\n",
+                  "timestamp": 1763460681,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.2.1.8-wallpapers%2Frev215%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.2.1.8-wallpapers%2Frev215%2Famd64"
+               },
                {
                   "name": "2025.2.1.7-wallpapers/rev213/amd64",
                   "sha": "10a3feea48b980d844bc601f22eec48083c5fdab",
@@ -181,14 +189,6 @@
                   "timestamp": 1760090986,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.1.4.8-wallpapers%2Frev211%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.1.4.8-wallpapers%2Frev211%2Famd64"
-               },
-               {
-                  "name": "2025.1.3.7-wallpapers/rev209/amd64",
-                  "sha": "0fd9143c4aeff6c1410b663fff1c595acc26c9b8",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/android-studio/pull/166\">#166</a> from snapcrafters/update-maintainer</p>\n\n<p>Remove maintainer details</p>\n",
-                  "timestamp": 1758296781,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.1.3.7-wallpapers%2Frev209%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.1.3.7-wallpapers%2Frev209%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 213,
-                     "timestamp": 1761907659,
+                     "revision": 215,
+                     "timestamp": 1763462893,
                      "base": "core22"
                   },
                   {
@@ -4466,10 +4466,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.79.0/rev850/arm64",
+                  "sha": "209b2b93ff5a1a87209847d30878ae4fef751eff",
+                  "body": "<p>fix: move <code>mesa-utils</code> to <code>stage-packages</code></p>\n",
+                  "timestamp": 1763460367,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev850%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev850%2Farm64"
+               },
+               {
+                  "name": "7.79.0/rev849/amd64",
+                  "sha": "209b2b93ff5a1a87209847d30878ae4fef751eff",
+                  "body": "<p>fix: move <code>mesa-utils</code> to <code>stage-packages</code></p>\n",
+                  "timestamp": 1763460367,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev849%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev849%2Famd64"
+               },
                {
                   "name": "7.79.0/rev848/arm64",
                   "sha": "ae12cac38cf21618b6a57b274bfa251e06b1b907",
@@ -4477,22 +4493,6 @@
                   "timestamp": 1763456982,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev848%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev848%2Farm64"
-               },
-               {
-                  "name": "7.79.0/rev847/amd64",
-                  "sha": "ae12cac38cf21618b6a57b274bfa251e06b1b907",
-                  "body": "<p>fix: disable hw accel in software rendering environments</p>\n",
-                  "timestamp": 1763456982,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev847%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev847%2Famd64"
-               },
-               {
-                  "name": "7.79.0/rev846/arm64",
-                  "sha": "decbcaa918967f60a5b49fa5de08bf9c960c0ea5",
-                  "body": "<p>build: use <code>pnpm -C</code> rather than <code>pnpm --prefix</code></p>\n",
-                  "timestamp": 1763409518,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev846%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev846%2Farm64"
                }
             ],
             "commits": null,
@@ -4509,29 +4509,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 843,
-                     "timestamp": 1762436926,
+                     "revision": 849,
+                     "timestamp": 1763464621,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 844,
-                     "timestamp": 1762436929,
+                     "revision": 850,
+                     "timestamp": 1763464625,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 847,
-                     "timestamp": 1763458633,
+                     "revision": 849,
+                     "timestamp": 1763462089,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 848,
-                     "timestamp": 1763459778,
+                     "revision": 850,
+                     "timestamp": 1763463251,
                      "base": "core24"
                   }
                ],
