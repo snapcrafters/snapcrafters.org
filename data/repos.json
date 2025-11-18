@@ -162,7 +162,7 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
@@ -1555,7 +1555,7 @@
          },
          {
             "name": "ffmpeg-2404-sdk",
-            "newCommits": 4,
+            "newCommits": 5,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
@@ -4471,28 +4471,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "7.79.0/rev848/arm64",
+                  "sha": "ae12cac38cf21618b6a57b274bfa251e06b1b907",
+                  "body": "<p>fix: disable hw accel in software rendering environments</p>\n",
+                  "timestamp": 1763456982,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev848%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev848%2Farm64"
+               },
+               {
+                  "name": "7.79.0/rev847/amd64",
+                  "sha": "ae12cac38cf21618b6a57b274bfa251e06b1b907",
+                  "body": "<p>fix: disable hw accel in software rendering environments</p>\n",
+                  "timestamp": 1763456982,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev847%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev847%2Famd64"
+               },
+               {
                   "name": "7.79.0/rev846/arm64",
                   "sha": "decbcaa918967f60a5b49fa5de08bf9c960c0ea5",
                   "body": "<p>build: use <code>pnpm -C</code> rather than <code>pnpm --prefix</code></p>\n",
                   "timestamp": 1763409518,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev846%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev846%2Farm64"
-               },
-               {
-                  "name": "7.79.0/rev845/amd64",
-                  "sha": "decbcaa918967f60a5b49fa5de08bf9c960c0ea5",
-                  "body": "<p>build: use <code>pnpm -C</code> rather than <code>pnpm --prefix</code></p>\n",
-                  "timestamp": 1763409518,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev845%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev845%2Famd64"
-               },
-               {
-                  "name": "7.78.0/rev844/arm64",
-                  "sha": "542bed412acd7d5a234e6766a0aa311bfb080eb6",
-                  "body": "<p>chore: bump signal-desktop to version 7.78.0</p>\n",
-                  "timestamp": 1762423978,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.78.0%2Frev844%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.78.0%2Frev844%2Farm64"
                }
             ],
             "commits": null,
@@ -4523,15 +4523,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 845,
-                     "timestamp": 1763411173,
+                     "revision": 847,
+                     "timestamp": 1763458633,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 846,
-                     "timestamp": 1763412071,
+                     "revision": 848,
+                     "timestamp": 1763459778,
                      "base": "core24"
                   }
                ],
@@ -5275,7 +5275,7 @@
          },
          {
             "name": "webkitgtk-sdk",
-            "newCommits": 10,
+            "newCommits": 12,
             "url": "https://github.com/snapcrafters/webkitgtk-sdk",
             "releases": null,
             "tags": [
