@@ -1279,10 +1279,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.115/rev260/amd64",
+                  "sha": "f975fa22e0e661d9d6acefc2d766c668dabb58fb",
+                  "body": "<p>chore: bump discord to version 0.0.115</p>\n",
+                  "timestamp": 1763547254,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.115%2Frev260%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.115%2Frev260%2Famd64"
+               },
                {
                   "name": "0.0.114/rev259/amd64",
                   "sha": "118162275626916c1fcd42ddca84819f7c778210",
@@ -1298,14 +1306,6 @@
                   "timestamp": 1761646433,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.113%2Frev258%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.113%2Frev258%2Famd64"
-               },
-               {
-                  "name": "0.0.112/rev257/amd64",
-                  "sha": "6d9a035d0d3bb62e8c45e6475d6ea3acbfaf5909",
-                  "body": "<p>chore: bump discord to version 0.0.112</p>\n",
-                  "timestamp": 1760523220,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.112%2Frev257%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.112%2Frev257%2Famd64"
                }
             ],
             "commits": null,
@@ -1322,15 +1322,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 259,
-                     "timestamp": 1762941320,
+                     "revision": 260,
+                     "timestamp": 1763549962,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 259,
-                     "timestamp": 1762857662,
+                     "revision": 260,
+                     "timestamp": 1763548490,
                      "base": "core22"
                   }
                ],
@@ -2938,10 +2938,26 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "6.0.1/rev817/arm64",
+                  "sha": "fb9c357791f69436a77c6b0bded19ebce8fbc736",
+                  "body": "<p>chore: bump mattermost-desktop to version 6.0.1</p>\n",
+                  "timestamp": 1763547509,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.1%2Frev817%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.1%2Frev817%2Farm64"
+               },
+               {
+                  "name": "6.0.1/rev816/amd64",
+                  "sha": "fb9c357791f69436a77c6b0bded19ebce8fbc736",
+                  "body": "<p>chore: bump mattermost-desktop to version 6.0.1</p>\n",
+                  "timestamp": 1763547509,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.1%2Frev816%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.1%2Frev816%2Famd64"
+               },
                {
                   "name": "6.0.0/rev815/arm64",
                   "sha": "f4fc4ec748b0a080781efc9b67497811d54c1cf3",
@@ -2949,22 +2965,6 @@
                   "timestamp": 1763118295,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.0%2Frev815%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.0%2Frev815%2Farm64"
-               },
-               {
-                  "name": "6.0.0/rev814/amd64",
-                  "sha": "f4fc4ec748b0a080781efc9b67497811d54c1cf3",
-                  "body": "<p>fix: pre-emptively disable hw accel where required</p>\n",
-                  "timestamp": 1763118295,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.0%2Frev814%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.0%2Frev814%2Famd64"
-               },
-               {
-                  "name": "6.0.0/rev813/arm64",
-                  "sha": "7a71e3904f727853ef4c242d0dca9256c314d40b",
-                  "body": "<p>chore: bump mattermost-desktop to version 6.0.0</p>\n",
-                  "timestamp": 1763118574,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.0%2Frev813%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.0%2Frev813%2Farm64"
                }
             ],
             "commits": null,
@@ -2981,15 +2981,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 814,
-                     "timestamp": 1763144604,
+                     "revision": 816,
+                     "timestamp": 1763549974,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 815,
-                     "timestamp": 1763144610,
+                     "revision": 817,
+                     "timestamp": 1763549979,
                      "base": "core24"
                   },
                   {
@@ -3002,15 +3002,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 814,
-                     "timestamp": 1763143837,
+                     "revision": 816,
+                     "timestamp": 1763548771,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 815,
-                     "timestamp": 1763144147,
+                     "revision": 817,
+                     "timestamp": 1763549433,
                      "base": "core24"
                   },
                   {
