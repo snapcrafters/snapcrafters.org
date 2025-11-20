@@ -2527,7 +2527,7 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 5,
+            "newCommits": 6,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
@@ -4466,10 +4466,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.80.0/rev851/amd64",
+                  "sha": "a375d995268bc7c1734b1a781ecd94727f6652b6",
+                  "body": "<p>chore: bump signal-desktop to version 7.80.0</p>\n",
+                  "timestamp": 1763633526,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.80.0%2Frev851%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.80.0%2Frev851%2Famd64"
+               },
                {
                   "name": "7.79.0/rev850/arm64",
                   "sha": "209b2b93ff5a1a87209847d30878ae4fef751eff",
@@ -4485,14 +4493,6 @@
                   "timestamp": 1763460367,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev849%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev849%2Famd64"
-               },
-               {
-                  "name": "7.79.0/rev848/arm64",
-                  "sha": "ae12cac38cf21618b6a57b274bfa251e06b1b907",
-                  "body": "<p>fix: disable hw accel in software rendering environments</p>\n",
-                  "timestamp": 1763456982,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev848%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev848%2Farm64"
                }
             ],
             "commits": null,
@@ -4523,8 +4523,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 849,
-                     "timestamp": 1763462089,
+                     "revision": 851,
+                     "timestamp": 1763635221,
                      "base": "core24"
                   },
                   {
