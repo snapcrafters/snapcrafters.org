@@ -2938,10 +2938,26 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "6.0.1/rev819/arm64",
+                  "sha": "42624344764b5a5bc107b6ba13a44845ed236a34",
+                  "body": "<p>fix: change the gpu accel detection means</p>\n",
+                  "timestamp": 1763722865,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.1%2Frev819%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.1%2Frev819%2Farm64"
+               },
+               {
+                  "name": "6.0.1/rev818/amd64",
+                  "sha": "42624344764b5a5bc107b6ba13a44845ed236a34",
+                  "body": "<p>fix: change the gpu accel detection means</p>\n",
+                  "timestamp": 1763722865,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.1%2Frev818%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.1%2Frev818%2Famd64"
+               },
                {
                   "name": "6.0.1/rev817/arm64",
                   "sha": "fb9c357791f69436a77c6b0bded19ebce8fbc736",
@@ -2949,22 +2965,6 @@
                   "timestamp": 1763547509,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.1%2Frev817%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.1%2Frev817%2Farm64"
-               },
-               {
-                  "name": "6.0.1/rev816/amd64",
-                  "sha": "fb9c357791f69436a77c6b0bded19ebce8fbc736",
-                  "body": "<p>chore: bump mattermost-desktop to version 6.0.1</p>\n",
-                  "timestamp": 1763547509,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.1%2Frev816%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.1%2Frev816%2Famd64"
-               },
-               {
-                  "name": "6.0.0/rev815/arm64",
-                  "sha": "f4fc4ec748b0a080781efc9b67497811d54c1cf3",
-                  "body": "<p>fix: pre-emptively disable hw accel where required</p>\n",
-                  "timestamp": 1763118295,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.0%2Frev815%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.0%2Frev815%2Farm64"
                }
             ],
             "commits": null,
@@ -2981,15 +2981,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 816,
-                     "timestamp": 1763549974,
+                     "revision": 818,
+                     "timestamp": 1763725515,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 817,
-                     "timestamp": 1763549979,
+                     "revision": 819,
+                     "timestamp": 1763725519,
                      "base": "core24"
                   },
                   {
@@ -3002,15 +3002,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 816,
-                     "timestamp": 1763548771,
+                     "revision": 818,
+                     "timestamp": 1763724342,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 817,
-                     "timestamp": 1763549433,
+                     "revision": 819,
+                     "timestamp": 1763724924,
                      "base": "core24"
                   },
                   {
@@ -4466,10 +4466,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.80.0/rev854/arm64",
+                  "sha": "700de78e216e640ba72dd4a3c33723126a582814",
+                  "body": "<p>fix: change the gpu accel detection means</p>\n",
+                  "timestamp": 1763722808,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.80.0%2Frev854%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.80.0%2Frev854%2Farm64"
+               },
+               {
+                  "name": "7.80.0/rev853/amd64",
+                  "sha": "700de78e216e640ba72dd4a3c33723126a582814",
+                  "body": "<p>fix: change the gpu accel detection means</p>\n",
+                  "timestamp": 1763722808,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.80.0%2Frev853%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.80.0%2Frev853%2Famd64"
+               },
                {
                   "name": "7.80.0/rev852/arm64",
                   "sha": "a375d995268bc7c1734b1a781ecd94727f6652b6",
@@ -4477,22 +4493,6 @@
                   "timestamp": 1763633526,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.80.0%2Frev852%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.80.0%2Frev852%2Farm64"
-               },
-               {
-                  "name": "7.80.0/rev851/amd64",
-                  "sha": "a375d995268bc7c1734b1a781ecd94727f6652b6",
-                  "body": "<p>chore: bump signal-desktop to version 7.80.0</p>\n",
-                  "timestamp": 1763633526,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.80.0%2Frev851%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.80.0%2Frev851%2Famd64"
-               },
-               {
-                  "name": "7.79.0/rev850/arm64",
-                  "sha": "209b2b93ff5a1a87209847d30878ae4fef751eff",
-                  "body": "<p>fix: move <code>mesa-utils</code> to <code>stage-packages</code></p>\n",
-                  "timestamp": 1763460367,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.79.0%2Frev850%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.79.0%2Frev850%2Farm64"
                }
             ],
             "commits": null,
@@ -4509,29 +4509,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 849,
-                     "timestamp": 1763464621,
+                     "revision": 853,
+                     "timestamp": 1763726751,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 850,
-                     "timestamp": 1763464625,
+                     "revision": 854,
+                     "timestamp": 1763726755,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 851,
-                     "timestamp": 1763635221,
+                     "revision": 853,
+                     "timestamp": 1763724562,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 852,
-                     "timestamp": 1763719474,
+                     "revision": 854,
+                     "timestamp": 1763725451,
                      "base": "core24"
                   }
                ],
