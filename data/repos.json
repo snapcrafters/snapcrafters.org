@@ -1279,10 +1279,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.116/rev261/amd64",
+                  "sha": "63c2dda3e5037401ad5222c0eb47f02877ef43c2",
+                  "body": "<p>chore: bump discord to version 0.0.116</p>\n",
+                  "timestamp": 1764065702,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.116%2Frev261%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.116%2Frev261%2Famd64"
+               },
                {
                   "name": "0.0.115/rev260/amd64",
                   "sha": "f975fa22e0e661d9d6acefc2d766c668dabb58fb",
@@ -1298,14 +1306,6 @@
                   "timestamp": 1762856074,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.114%2Frev259%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.114%2Frev259%2Famd64"
-               },
-               {
-                  "name": "0.0.113/rev258/amd64",
-                  "sha": "85b39537d12523456eb08a9bad6db4be6ddd9d5f",
-                  "body": "<p>chore: bump discord to version 0.0.113</p>\n",
-                  "timestamp": 1761646433,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.113%2Frev258%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.113%2Frev258%2Famd64"
                }
             ],
             "commits": null,
@@ -1322,15 +1322,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 260,
-                     "timestamp": 1763549962,
+                     "revision": 261,
+                     "timestamp": 1764069398,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 260,
-                     "timestamp": 1763548490,
+                     "revision": 261,
+                     "timestamp": 1764067190,
                      "base": "core22"
                   }
                ],
@@ -2017,28 +2017,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "4.0.1/rev487/armhf",
+                  "sha": "f950c62c43474324e2917ed661c7a6bdec551aaf",
+                  "body": "<p>chore: bump helm to version 4.0.1</p>\n",
+                  "timestamp": 1764064847,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.0.1%2Frev487%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.0.1%2Frev487%2Farmhf"
+               },
+               {
+                  "name": "4.0.1/rev486/arm64",
+                  "sha": "f950c62c43474324e2917ed661c7a6bdec551aaf",
+                  "body": "<p>chore: bump helm to version 4.0.1</p>\n",
+                  "timestamp": 1764064847,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.0.1%2Frev486%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.0.1%2Frev486%2Farm64"
+               },
+               {
                   "name": "4.0.1/rev485/amd64",
                   "sha": "f950c62c43474324e2917ed661c7a6bdec551aaf",
                   "body": "<p>chore: bump helm to version 4.0.1</p>\n",
                   "timestamp": 1764064847,
                   "url": "https://github.com/snapcrafters/helm/releases/tag/4.0.1%2Frev485%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.0.1%2Frev485%2Famd64"
-               },
-               {
-                  "name": "4.0.0/rev484/arm64",
-                  "sha": "29afbbb919037b775b0192533f7cc766c8c22b3c",
-                  "body": "<p>chore: bump helm to version 4.0.0</p>\n",
-                  "timestamp": 1763028040,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.0.0%2Frev484%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.0.0%2Frev484%2Farm64"
-               },
-               {
-                  "name": "4.0.0/rev483/armhf",
-                  "sha": "29afbbb919037b775b0192533f7cc766c8c22b3c",
-                  "body": "<p>chore: bump helm to version 4.0.0</p>\n",
-                  "timestamp": 1763028040,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.0.0%2Frev483%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.0.0%2Frev483%2Farmhf"
                }
             ],
             "commits": null,
@@ -2055,22 +2055,22 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 482,
-                     "timestamp": 1763029636,
+                     "revision": 485,
+                     "timestamp": 1764069294,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 484,
-                     "timestamp": 1763029641,
+                     "revision": 486,
+                     "timestamp": 1764069298,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 483,
-                     "timestamp": 1763029645,
+                     "revision": 487,
+                     "timestamp": 1764069302,
                      "base": "core24"
                   },
                   {
@@ -2090,15 +2090,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 484,
-                     "timestamp": 1763028981,
+                     "revision": 486,
+                     "timestamp": 1764066599,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 483,
-                     "timestamp": 1763028924,
+                     "revision": 487,
+                     "timestamp": 1764066615,
                      "base": "core24"
                   },
                   {
