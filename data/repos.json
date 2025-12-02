@@ -3569,6 +3569,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "32.0.2/rev1317/amd64",
+                  "sha": "b630ad6e8eb0f4ecf517c887ecf3e8fc57ca64f7",
+                  "body": "<p>fix: include intel -dev graphics packages (<a target=\"_blank\" href=\"https://github.com/snapcrafters/obs-studio/pull/239\">#239</a>)</p>\n",
+                  "timestamp": 1764708347,
+                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.0.2%2Frev1317%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.0.2%2Frev1317%2Famd64"
+               },
+               {
                   "name": "32.0.2/rev1316/amd64",
                   "sha": "a06bba292f1566085e555076db820f73cf450e96",
                   "body": "<p>chore: bump obs-studio to version 32.0.2</p>\n",
@@ -3583,14 +3591,6 @@
                   "timestamp": 1761600408,
                   "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.0.0%2Frev1315%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.0.0%2Frev1315%2Famd64"
-               },
-               {
-                  "name": "32.0.0/rev1314/amd64",
-                  "sha": "e133354c03f7eb706aa53de557fa687478e30777",
-                  "body": "<p>chore: bump obs-studio to version 32.0.0</p>\n",
-                  "timestamp": 1758881810,
-                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.0.0%2Frev1314%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.0.0%2Frev1314%2Famd64"
                }
             ],
             "commits": null,
@@ -3614,8 +3614,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1316,
-                     "timestamp": 1761821607,
+                     "revision": 1317,
+                     "timestamp": 1764709903,
                      "base": "core24"
                   },
                   {
