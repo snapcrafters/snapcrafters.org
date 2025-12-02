@@ -1,0 +1,60 @@
+{{- define "main" }}
+<div class="blog-list-container">
+  {{- if not .IsHome | and .Title }}
+  <header class="blog-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="blog-page-title">{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="blog-page-description">
+      {{ .Description | markdownify | emojify | safeHTML}}
+    </div>
+    {{- end }}
+  </header>
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="blog-content">
+    {{ .Content | markdownify | emojify | safeHTML}}
+  </div>
+  {{- end }}
+
+  {{- $pages := slice }}
+  {{- if .IsHome }}
+    {{- $sections := site.Params.mainSections | default (slice "blogs") }}
+    {{- range site.RegularPages }}
+      {{- if (and (in $sections .Section) (not .Params.hiddenInHomeList)) }}
+        {{- $pages = $pages | append . }}
+      {{- end }}
+    {{- end }}
+  {{- else }}
+    {{- $pages = .RegularPages }}
+  {{- end }}
+
+  {{- $paginator := .Paginate $pages }}
+
+  {{- range $paginator.Pages }}
+  <article class="blog-card">
+    <a class="blog-card-link-wrapper" href="{{ .Permalink }}">
+      <header class="blog-card-header">
+        <h2 class="blog-card-title">
+          {{ .Title | emojify | safeHTML }}
+          {{- if .Draft }} <span class="draft-badge">[Draft]</span> {{- end }}
+        </h2>
+      </header>
+      
+      {{- if not .Params.hideSummary }}
+      <div class="blog-card-summary">
+        <p>{{ .Summary | plainify | htmlUnescape | emojify | truncate 250 | safeHTML}}{{ if .Truncated }}...{{ end }}</p>
+      </div>
+      {{- end }}
+
+      {{- if not .Params.hideMeta }}
+      <footer class="blog-card-meta">
+        {{- partial "blog-only-date.html" . }}
+      </footer>
+      {{- end }}
+    </a>
+  </article>
+  {{- end }}
+</div>
+{{- end }}
