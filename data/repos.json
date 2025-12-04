@@ -4466,10 +4466,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.81.0/rev858/arm64",
+                  "sha": "ddf13f681d0f5b515b4885840d6e9cfb92fbd6b1",
+                  "body": "<p>chore: bump signal-desktop to version 7.81.0</p>\n",
+                  "timestamp": 1764843231,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.81.0%2Frev858%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.81.0%2Frev858%2Farm64"
+               },
+               {
+                  "name": "7.81.0/rev857/amd64",
+                  "sha": "ddf13f681d0f5b515b4885840d6e9cfb92fbd6b1",
+                  "body": "<p>chore: bump signal-desktop to version 7.81.0</p>\n",
+                  "timestamp": 1764843231,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.81.0%2Frev857%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.81.0%2Frev857%2Famd64"
+               },
                {
                   "name": "7.80.1/rev856/arm64",
                   "sha": "1b5f1fd6985af902362a6c6d8e6060f72730be93",
@@ -4477,22 +4493,6 @@
                   "timestamp": 1764151990,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.80.1%2Frev856%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.80.1%2Frev856%2Farm64"
-               },
-               {
-                  "name": "7.80.1/rev855/amd64",
-                  "sha": "1b5f1fd6985af902362a6c6d8e6060f72730be93",
-                  "body": "<p>chore: bump signal-desktop to version 7.80.1</p>\n",
-                  "timestamp": 1764151990,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.80.1%2Frev855%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.80.1%2Frev855%2Famd64"
-               },
-               {
-                  "name": "7.80.0/rev854/arm64",
-                  "sha": "700de78e216e640ba72dd4a3c33723126a582814",
-                  "body": "<p>fix: change the gpu accel detection means</p>\n",
-                  "timestamp": 1763722808,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.80.0%2Frev854%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.80.0%2Frev854%2Farm64"
                }
             ],
             "commits": null,
@@ -4523,15 +4523,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 855,
-                     "timestamp": 1764153819,
+                     "revision": 857,
+                     "timestamp": 1764845141,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 856,
-                     "timestamp": 1764155300,
+                     "revision": 858,
+                     "timestamp": 1764846240,
                      "base": "core24"
                   }
                ],
