@@ -335,10 +335,26 @@
          },
          {
             "name": "audacity",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/audacity",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.7.7/rev1219/arm64",
+                  "sha": "7fb585af625cca8920b78f7bd8f64af7cdac792c",
+                  "body": "<p>new version 3.7.7 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/71\">#71</a>)</p>\n",
+                  "timestamp": 1765819661,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.7%2Frev1219%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.7%2Frev1219%2Farm64"
+               },
+               {
+                  "name": "3.7.7/rev1218/amd64",
+                  "sha": "7fb585af625cca8920b78f7bd8f64af7cdac792c",
+                  "body": "<p>new version 3.7.7 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/71\">#71</a>)</p>\n",
+                  "timestamp": 1765819661,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.7%2Frev1218%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.7%2Frev1218%2Famd64"
+               },
                {
                   "name": "3.7.5/rev1213/arm64",
                   "sha": "c697db3f55d9a2a3c204d0895f33851316b5bfa4",
@@ -346,22 +362,6 @@
                   "timestamp": 1761578976,
                   "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.5%2Frev1213%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.5%2Frev1213%2Farm64"
-               },
-               {
-                  "name": "3.7.5/rev1212/amd64",
-                  "sha": "c697db3f55d9a2a3c204d0895f33851316b5bfa4",
-                  "body": "<p>Bump new version to 3.7.5 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/65\">#65</a>)</p>\n",
-                  "timestamp": 1761578976,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.5%2Frev1212%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.5%2Frev1212%2Famd64"
-               },
-               {
-                  "name": "3.7.1/rev1209/arm64",
-                  "sha": "39a47caeeae3d3d3e277429d4054508ccc9909a1",
-                  "body": "<p>fix: add standard lib path back to LD_LIBRARY_PATH (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/61\">#61</a>)</p>\n\n<p>This directory was inadvertantly removed from the snap&rsquo;s library\nsearch path in a recent PR as snapcraft/snapd seem to only preserve\nthe directory in LD_LIBRARY_PATH if a user appends/prepends to the\nexisting LD_LIBRARY_PATH in apps.foobar.environment.</p>\n",
-                  "timestamp": 1750085908,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.1%2Frev1209%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.1%2Frev1209%2Farm64"
                }
             ],
             "commits": null,
@@ -406,15 +406,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1212,
-                     "timestamp": 1761582074,
+                     "revision": 1218,
+                     "timestamp": 1765824385,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1213,
-                     "timestamp": 1761582944,
+                     "revision": 1219,
+                     "timestamp": 1765824480,
                      "base": "core24"
                   },
                   {
