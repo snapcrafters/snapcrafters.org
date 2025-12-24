@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2025.2.2.8-wallpapers/rev221/amd64",
+                  "sha": "f63d42a097c87aea8368974ac0002fdd6e399e04",
+                  "body": "<p>chore: bump android-studio to version 2025.2.2.8-wallpapers</p>\n",
+                  "timestamp": 1766571009,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.2.2.8-wallpapers%2Frev221%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.2.2.8-wallpapers%2Frev221%2Famd64"
+               },
                {
                   "name": "2025.2.2.7-wallpapers/rev219/amd64",
                   "sha": "715af615a90467a082a6592e40964783fe2dc2cc",
@@ -181,14 +189,6 @@
                   "timestamp": 1764929425,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.2.2.7-wallpapers%2Frev217%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.2.2.7-wallpapers%2Frev217%2Famd64"
-               },
-               {
-                  "name": "2025.2.1.8-wallpapers/rev215/amd64",
-                  "sha": "aae7d474dcb77162c0eb70b38f7f4dbb290cefea",
-                  "body": "<p>chore: bump android-studio to version 2025.2.1.8-wallpapers</p>\n",
-                  "timestamp": 1763460681,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2025.2.1.8-wallpapers%2Frev215%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2025.2.1.8-wallpapers%2Frev215%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 219,
-                     "timestamp": 1766313938,
+                     "revision": 221,
+                     "timestamp": 1766573807,
                      "base": "core22"
                   },
                   {
@@ -2532,28 +2532,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "2.542/rev4976/arm64",
-                  "sha": "dddad45080de151bb56e83ebc85e25cac5942452",
-                  "body": "<p>chore: bump jenkins to version 2.542</p>\n",
-                  "timestamp": 1765967339,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.542%2Frev4976%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.542%2Frev4976%2Farm64"
+                  "name": "2.543/rev4979/arm64",
+                  "sha": "064c5775a8bac33ee6717a01bdc9b66b8a1c7ed2",
+                  "body": "<p>chore: bump jenkins to version 2.543</p>\n",
+                  "timestamp": 1766572010,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.543%2Frev4979%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.543%2Frev4979%2Farm64"
                },
                {
-                  "name": "2.542/rev4975/armhf",
-                  "sha": "dddad45080de151bb56e83ebc85e25cac5942452",
-                  "body": "<p>chore: bump jenkins to version 2.542</p>\n",
-                  "timestamp": 1765967339,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.542%2Frev4975%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.542%2Frev4975%2Farmhf"
+                  "name": "2.543/rev4978/armhf",
+                  "sha": "064c5775a8bac33ee6717a01bdc9b66b8a1c7ed2",
+                  "body": "<p>chore: bump jenkins to version 2.543</p>\n",
+                  "timestamp": 1766572010,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.543%2Frev4978%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.543%2Frev4978%2Farmhf"
                },
                {
-                  "name": "2.542/rev4974/amd64",
-                  "sha": "dddad45080de151bb56e83ebc85e25cac5942452",
-                  "body": "<p>chore: bump jenkins to version 2.542</p>\n",
-                  "timestamp": 1765967339,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.542%2Frev4974%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.542%2Frev4974%2Famd64"
+                  "name": "2.543/rev4977/amd64",
+                  "sha": "064c5775a8bac33ee6717a01bdc9b66b8a1c7ed2",
+                  "body": "<p>chore: bump jenkins to version 2.543</p>\n",
+                  "timestamp": 1766572010,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.543%2Frev4977%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.543%2Frev4977%2Famd64"
                }
             ],
             "commits": null,
@@ -2598,22 +2598,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4974,
-                     "timestamp": 1765968600,
+                     "revision": 4977,
+                     "timestamp": 1766573406,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4976,
-                     "timestamp": 1765968865,
+                     "revision": 4979,
+                     "timestamp": 1766573683,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 4975,
-                     "timestamp": 1765968817,
+                     "revision": 4978,
+                     "timestamp": 1766573601,
                      "base": "core22"
                   },
                   {
