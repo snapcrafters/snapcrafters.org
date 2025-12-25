@@ -4194,6 +4194,142 @@
             }
          },
          {
+            "name": "ruff",
+            "newCommits": 171,
+            "url": "https://github.com/snapcrafters/ruff",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "v0.1.11",
+                  "sha": "1ab66b641f43c5103b064755c2108414b1a451c1",
+                  "body": "<p>Sync upstream release v0.1.11 as v0.1.11</p>\n",
+                  "timestamp": 1704262640,
+                  "url": "https://github.com/snapcrafters/ruff/releases/tag/v0.1.11",
+                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/candidate...v0.1.11"
+               },
+               {
+                  "name": "v0.1.10",
+                  "sha": "b0933393097581122b5cdf770bc4c90a51bd5195",
+                  "body": "<p>Sync upstream release v0.1.10 as v0.1.10</p>\n",
+                  "timestamp": 1704262639,
+                  "url": "https://github.com/snapcrafters/ruff/releases/tag/v0.1.10",
+                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/candidate...v0.1.10"
+               },
+               {
+                  "name": "v0.1.9",
+                  "sha": "606ee6b425c9603c1c9c73067dc62e3f2968f345",
+                  "body": "<p>Sync upstream release v0.1.9 as v0.1.9</p>\n",
+                  "timestamp": 1703225837,
+                  "url": "https://github.com/snapcrafters/ruff/releases/tag/v0.1.9",
+                  "compareUrl": "https://github.com/snapcrafters/ruff/compare/candidate...v0.1.9"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/ruff/actions/workflows/sync-version-with-upstream.yaml",
+               "https://github.com/snapcrafters/ruff/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/ruff/actions/workflows/promote-to-stable.yaml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "ruff",
+               "url": "https://snapcraft.io/ruff",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1547,
+                     "timestamp": 1765556768,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1548,
+                     "timestamp": 1765556770,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1504,
+                     "timestamp": 1759941685,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1541,
+                     "timestamp": 1765556767,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1526,
+                     "timestamp": 1762810559,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1540,
+                     "timestamp": 1765556769,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1549,
+                     "timestamp": 1766141604,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1550,
+                     "timestamp": 1766141869,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1504,
+                     "timestamp": 1759867741,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1552,
+                     "timestamp": 1766142178,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1526,
+                     "timestamp": 1762810545,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1551,
+                     "timestamp": 1766141880,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
             "name": "s4a",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/s4a",
