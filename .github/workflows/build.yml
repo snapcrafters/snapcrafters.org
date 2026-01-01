@@ -18,7 +18,7 @@ jobs:
     environment: "github-pages"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
           token: ${{ secrets.SNAPCRAFTERS_BOT_COMMIT }}
