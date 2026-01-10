@@ -1555,10 +1555,18 @@
          },
          {
             "name": "ffmpeg-2404-sdk",
-            "newCommits": 10,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
+               {
+                  "name": "ffmpeg-2404-sdk-7.1.1/rev128/ppc64el",
+                  "sha": "ef0751e3085458076b7c03f42622aa645774961f",
+                  "body": "<p>snap: revert to ffmpeg 7.1.1 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/83\">#83</a>)</p>\n\n<ul>\n<li>snap: revert to ffmpeg 7.1.1</li>\n</ul>\n\n<p>Signed-off-by: Soumyadeep Ghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n\n<ul>\n<li>sdk: rely on stable version of rust</li>\n</ul>\n\n<p>Signed-off-by: Soumyadeep Ghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n\n<hr>\n\n<p>Signed-off-by: Soumyadeep Ghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n",
+                  "timestamp": 1768077056,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev128%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev128%2Fppc64el"
+               },
                {
                   "name": "ffmpeg-2404-sdk-7.1.1/rev127/riscv64",
                   "sha": "14b1ce0bc6fa7f94f7859d47e74f503925614f6c",
@@ -1574,14 +1582,6 @@
                   "timestamp": 1755252997,
                   "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev126%2Fppc64el",
                   "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev126%2Fppc64el"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-7.1.1/rev125/arm64",
-                  "sha": "14b1ce0bc6fa7f94f7859d47e74f503925614f6c",
-                  "body": "<p>chore: bump ffmpeg-2404-sdk dependencies</p>\n",
-                  "timestamp": 1755252997,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev125%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev125%2Farm64"
                }
             ],
             "commits": null,
@@ -1657,8 +1657,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 126,
-                     "timestamp": 1755255925,
+                     "revision": 128,
+                     "timestamp": 1768079355,
                      "base": "core24"
                   },
                   {
