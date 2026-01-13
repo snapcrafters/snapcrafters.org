@@ -1279,10 +1279,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.120/rev265/amd64",
+                  "sha": "d44784fbfdc915f66b5e0ed09905133cf333f312",
+                  "body": "<p>chore: bump discord to version 0.0.120</p>\n",
+                  "timestamp": 1768299357,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.120%2Frev265%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.120%2Frev265%2Famd64"
+               },
                {
                   "name": "0.0.119/rev264/amd64",
                   "sha": "c9f7199cbc1c885c8be3157b94f5246e6edf442b",
@@ -1298,14 +1306,6 @@
                   "timestamp": 1765275349,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.118%2Frev263%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.118%2Frev263%2Famd64"
-               },
-               {
-                  "name": "0.0.117/rev262/amd64",
-                  "sha": "62517b549d138aefad623305385458d25b45f6ec",
-                  "body": "<p>chore: bump discord to version 0.0.117</p>\n",
-                  "timestamp": 1764670487,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.117%2Frev262%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.117%2Frev262%2Famd64"
                }
             ],
             "commits": null,
@@ -1329,8 +1329,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 264,
-                     "timestamp": 1765881401,
+                     "revision": 265,
+                     "timestamp": 1768301047,
                      "base": "core22"
                   }
                ],
@@ -2527,7 +2527,7 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
