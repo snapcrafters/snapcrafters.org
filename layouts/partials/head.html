@@ -16,10 +16,7 @@
     property="og:image"
     content="https://assets.ubuntu.com/v1/eeb4c506-Canonical-Juju-logo-2022.svg"
   /> -->
-  <link
-    rel="stylesheet"
-    href="https://assets.ubuntu.com/v1/vanilla-framework-version-4.5.0.min.css"
-  />
+  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-4.5.0.min.css" />
   <style>
     .p-navigation__logo a:visited,
     .p-navigation__logo a:focus,
@@ -35,10 +32,10 @@
       align-self: center;
     }
 
-    .p-status-label > a,
-    .p-status-label--positive > a,
-    .p-status-label--caution > a,
-    .p-status-label--negative > a {
+    .p-status-label>a,
+    .p-status-label--positive>a,
+    .p-status-label--caution>a,
+    .p-status-label--negative>a {
       color: white;
     }
 
@@ -95,11 +92,275 @@
     }
 
     .repo-icon-gh {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0 100%), url({{absURL "github.svg"}});
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0 100%),
+      url({{absURL "github.svg"}});
     }
 
     .repo-icon-lp {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0 100%), url({{absURL "launchpad.svg"}});
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) 0 100%),
+      url({{absURL "launchpad.svg"}});
+    }
+
+    .breadcrumbs a {
+      font-size: 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: #666;
+    }
+
+    .breadcrumbs a:hover,
+    .breadcrumbs a:focus {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .breadcrumbs a:visited {
+      color: #666;
+    }
+
+    /* Container for the blog list */
+    .blog-list-container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    /* Header styling for blog pages */
+    .blog-header {
+      margin-bottom: 2rem;
+    }
+
+    /* Blog content sizing */
+    .blog-content {
+      font-size: 1.1rem;
+      /* Increased font size */
+      line-height: 1.8;
+      /* Increased line height for better readability */
+      max-width: 100%;
+      /* Ensure content uses full width */
+    }
+
+    /* Blog page title */
+    .blog-page-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    /* Description text under the title */
+    .blog-page-description {
+      margin-top: 0.7rem;
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+
+    /* Card styling for each blog entry */
+    .blog-card {
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      padding: 1rem;
+    }
+
+    /* Card title area */
+    .blog-card-title {
+      margin: 0;
+      line-height: 1.2;
+      font-weight: 700;
+      font-size: 1.6rem;
+      color: #333;
+    }
+
+    /* Summary styling within the card */
+    .blog-card-summary {
+      margin-top: 0.5rem;
+    }
+
+    .blog-card-summary p {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #555;
+    }
+
+    /* Hyperlink styling for the blog card */
+    .blog-card-link-wrapper {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .blog-card-link-wrapper:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .blog-card-link-wrapper:hover,
+    .blog-card-link-wrapper:focus,
+    .blog-card-link-wrapper:visited:hover,
+    .blog-card-link-wrapper:visited:focus {
+      color: #0052cc;
+      text-decoration: none;
+    }
+
+    /* Draft status badge */
+    .draft-badge {
+      font-size: 0.85rem;
+      color: #999;
+    }
+
+    /* Footer metadata area within the blog card */
+    .blog-card-meta {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .blog-single-container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 1.2rem;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      list-style: none;
+      padding: 0rem;
+    }
+
+    .tag-card {
+      background-color: #e0e0e0;
+      border-radius: 4px;
+      padding: 0.5rem 1rem;
+    }
+
+    .tag-card a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .tag-card a:hover,
+    .tag-card a:focus {
+      color: #0052cc;
+    }
+
+    .blog-meta {
+      font-size: 1rem;
+      color: #2f2d2d;
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .blog-meta span {
+      margin-right: 0.5rem;
+    }
+
+    .blog-canonical a {
+      color: #333;
+      /* Neutral color */
+      text-decoration: underline;
+      /* Always underline */
+    }
+
+    .blog-canonical a:visited {
+      color: #333;
+      /* Remove purple color once clicked */
+    }
+
+    .blog-canonical a:hover,
+    .blog-canonical a:focus {
+      color: #0052cc;
+      /* Blue on hover/focus */
+    }
+
+    .toc-card {
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 0.5rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .toc-title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .toc-content {
+      margin-top: 0.5rem;
+    }
+
+    .toc-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .toc-item a {
+      color: #333;
+      /* Always black */
+      text-decoration: none;
+      /* No underline */
+    }
+
+    .toc-item a:visited {
+      color: #333;
+      /* Remove purple color once clicked */
+    }
+
+    .toc-item a:hover,
+    .toc-item a:focus {
+      color: #0052cc;
+      /* Blue on hover/focus */
+      text-decoration: none;
+      /* No underline */
+    }
+
+    .footer-nav-card {
+      display: flex;
+      justify-content: space-between;
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .footer-nav-link {
+      flex: 1;
+      text-align: center;
+      padding: 0.5rem;
+      color: #333;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .footer-nav-link:hover,
+    .footer-nav-link:focus {
+      background-color: #dcdcdc;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .footer-nav-prev {
+      border-right: 1px solid #ccc;
+    }
+
+    .footer-nav-next {
+      border-left: 1px solid #ccc;
+    }
+
+    .footer-nav-text {
+      display: block;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-nav-title {
+      display: block;
+      font-size: 1rem;
+      font-weight: 700;
     }
   </style>
 </head>
