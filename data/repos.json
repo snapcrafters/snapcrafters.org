@@ -2938,10 +2938,18 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "6.0.4/rev824/arm64",
+                  "sha": "b2be5c1ef1d49026a1e77ae705b599caadbd5157",
+                  "body": "<p>chore: bump mattermost-desktop to version 6.0.4</p>\n",
+                  "timestamp": 1768991074,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.4%2Frev824%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.4%2Frev824%2Farm64"
+               },
                {
                   "name": "6.0.3/rev823/arm64",
                   "sha": "ba5e02186fad59103b4220ee747865bb686d2b7e",
@@ -2957,14 +2965,6 @@
                   "timestamp": 1768645026,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.3%2Frev822%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.3%2Frev822%2Famd64"
-               },
-               {
-                  "name": "6.0.2/rev821/arm64",
-                  "sha": "8bf886af1e48ae881cb153ec41bc8f10a3bb4871",
-                  "body": "<p>chore: bump mattermost-desktop to version 6.0.2</p>\n",
-                  "timestamp": 1765448413,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.2%2Frev821%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.2%2Frev821%2Farm64"
                }
             ],
             "commits": null,
@@ -3009,8 +3009,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 823,
-                     "timestamp": 1768646710,
+                     "revision": 824,
+                     "timestamp": 1769002248,
                      "base": "core24"
                   },
                   {
