@@ -1279,10 +1279,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.0.121/rev266/amd64",
+                  "sha": "eaafa431bf63d9974230d9acc2ad66d4b4893796",
+                  "body": "<p>chore: bump discord to version 0.0.121</p>\n",
+                  "timestamp": 1768990716,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.121%2Frev266%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.121%2Frev266%2Famd64"
+               },
                {
                   "name": "0.0.120/rev265/amd64",
                   "sha": "d44784fbfdc915f66b5e0ed09905133cf333f312",
@@ -1298,14 +1306,6 @@
                   "timestamp": 1765880125,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.119%2Frev264%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.119%2Frev264%2Famd64"
-               },
-               {
-                  "name": "0.0.118/rev263/amd64",
-                  "sha": "6c7f2e8f348cd7968c531bd31481676edc5e9e73",
-                  "body": "<p>chore: bump discord to version 0.0.118</p>\n",
-                  "timestamp": 1765275349,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/0.0.118%2Frev263%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...0.0.118%2Frev263%2Famd64"
                }
             ],
             "commits": null,
@@ -1329,8 +1329,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 265,
-                     "timestamp": 1768301047,
+                     "revision": 266,
+                     "timestamp": 1769003765,
                      "base": "core22"
                   }
                ],
@@ -2943,6 +2943,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "6.0.4/rev825/amd64",
+                  "sha": "b2be5c1ef1d49026a1e77ae705b599caadbd5157",
+                  "body": "<p>chore: bump mattermost-desktop to version 6.0.4</p>\n",
+                  "timestamp": 1768991074,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.4%2Frev825%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.4%2Frev825%2Famd64"
+               },
+               {
                   "name": "6.0.4/rev824/arm64",
                   "sha": "b2be5c1ef1d49026a1e77ae705b599caadbd5157",
                   "body": "<p>chore: bump mattermost-desktop to version 6.0.4</p>\n",
@@ -2957,14 +2965,6 @@
                   "timestamp": 1768645026,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.3%2Frev823%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.3%2Frev823%2Farm64"
-               },
-               {
-                  "name": "6.0.3/rev822/amd64",
-                  "sha": "ba5e02186fad59103b4220ee747865bb686d2b7e",
-                  "body": "<p>chore: bump mattermost-desktop to version 6.0.3</p>\n",
-                  "timestamp": 1768645026,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.0.3%2Frev822%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.0.3%2Frev822%2Famd64"
                }
             ],
             "commits": null,
@@ -3002,8 +3002,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 822,
-                     "timestamp": 1768646300,
+                     "revision": 825,
+                     "timestamp": 1769004077,
                      "base": "core24"
                   },
                   {
