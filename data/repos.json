@@ -1560,6 +1560,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "ffmpeg-2404-sdk-7.1.1/rev132/amd64",
+                  "sha": "47f35dd9fc83e825e05b179c22f80f3ee16c346b",
+                  "body": "<p>sdk: revert some stripping</p>\n\n<p>Signed-off-by: Soumyadeep Ghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n",
+                  "timestamp": 1769097932,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev132%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev132%2Famd64"
+               },
+               {
                   "name": "ffmpeg-2404-sdk-7.1.1/rev131/ppc64el",
                   "sha": "47f35dd9fc83e825e05b179c22f80f3ee16c346b",
                   "body": "<p>sdk: revert some stripping</p>\n\n<p>Signed-off-by: Soumyadeep Ghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n",
@@ -1574,14 +1582,6 @@
                   "timestamp": 1768077056,
                   "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev130%2Friscv64",
                   "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev130%2Friscv64"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-7.1.1/rev129/amd64",
-                  "sha": "ef0751e3085458076b7c03f42622aa645774961f",
-                  "body": "<p>snap: revert to ffmpeg 7.1.1 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/83\">#83</a>)</p>\n\n<ul>\n<li>snap: revert to ffmpeg 7.1.1</li>\n</ul>\n\n<p>Signed-off-by: Soumyadeep Ghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n\n<ul>\n<li>sdk: rely on stable version of rust</li>\n</ul>\n\n<p>Signed-off-by: Soumyadeep Ghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n\n<hr>\n\n<p>Signed-off-by: Soumyadeep Ghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n",
-                  "timestamp": 1768077056,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev129%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev129%2Famd64"
                }
             ],
             "commits": null,
@@ -1636,8 +1636,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 129,
-                     "timestamp": 1768170265,
+                     "revision": 132,
+                     "timestamp": 1769623887,
                      "base": "core24"
                   },
                   {
