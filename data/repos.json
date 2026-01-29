@@ -4466,10 +4466,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "7.87.0/rev869/amd64",
+                  "sha": "af808a327c8b055ed9f9faddbde825b48d8a8b9c",
+                  "body": "<p>chore: bump signal-desktop to version 7.87.0</p>\n",
+                  "timestamp": 1769682354,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.87.0%2Frev869%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.87.0%2Frev869%2Famd64"
+               },
                {
                   "name": "7.86.0/rev868/arm64",
                   "sha": "27c304c2999b6735552d6863464663a10d3b03e9",
@@ -4485,14 +4493,6 @@
                   "timestamp": 1769077028,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.86.0%2Frev867%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.86.0%2Frev867%2Famd64"
-               },
-               {
-                  "name": "7.85.0/rev866/arm64",
-                  "sha": "6bda8f4e765fe2e9bbe1be6b0bdd1bc235c534e9",
-                  "body": "<p>chore: bump signal-desktop to version 7.85.0</p>\n",
-                  "timestamp": 1768472011,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/7.85.0%2Frev866%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...7.85.0%2Frev866%2Farm64"
                }
             ],
             "commits": null,
@@ -4523,8 +4523,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 867,
-                     "timestamp": 1769078653,
+                     "revision": 869,
+                     "timestamp": 1769684147,
                      "base": "core24"
                   },
                   {
@@ -5054,10 +5054,18 @@
          },
          {
             "name": "terraform",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/terraform",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.14.4/rev840/amd64",
+                  "sha": "b81eaee2d3604c1e0b9fbfdca321b225c7a55ab5",
+                  "body": "<p>chore: bump terraform to version 1.14.4</p>\n",
+                  "timestamp": 1769682914,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.14.4%2Frev840%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.14.4%2Frev840%2Famd64"
+               },
                {
                   "name": "1.14.3/rev839/armhf",
                   "sha": "dd6265cc03bcc9a0056148c63702169568ae9543",
@@ -5073,14 +5081,6 @@
                   "timestamp": 1766869193,
                   "url": "https://github.com/snapcrafters/terraform/releases/tag/1.14.3%2Frev838%2Fppc64el",
                   "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.14.3%2Frev838%2Fppc64el"
-               },
-               {
-                  "name": "1.14.3/rev837/amd64",
-                  "sha": "dd6265cc03bcc9a0056148c63702169568ae9543",
-                  "body": "<p>chore: bump terraform to version 1.14.3</p>\n",
-                  "timestamp": 1766869193,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.14.3%2Frev837%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.14.3%2Frev837%2Famd64"
                }
             ],
             "commits": null,
@@ -5132,8 +5132,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 837,
-                     "timestamp": 1766870689,
+                     "revision": 840,
+                     "timestamp": 1769684230,
                      "base": "core24"
                   },
                   {
