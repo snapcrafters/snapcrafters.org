@@ -1,0 +1,8 @@
+{{ if and (.Params.CanonicalLink) (.Params.DisplayCanonicalLink ) -}}
+{{ $url := urls.Parse .Params.CanonicalLink }}
+
+<span class="blog-canonical">
+    {{- (site.Params.CanonicalLinkText | default .Params.CanonicalLinkText) | default "Read more at" -}}
+    &nbsp;<a href="{{ trim .Params.CanonicalLink " " }}" title="{{ trim .Params.CanonicalLink " " }}" target="_blank" rel="noopener noreferrer">{{ $url.Host }}</a>
+</span>
+{{- end }}
