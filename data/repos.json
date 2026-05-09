@@ -1284,6 +1284,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.0.137/rev282/amd64",
+                  "sha": "ffc9407f5eec4e10e16d66a2e55c6e857e0fa937",
+                  "body": "<p>fix: update discord modules location, use standalone modules</p>\n",
+                  "timestamp": 1778346914,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.137%2Frev282%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.137%2Frev282%2Famd64"
+               },
+               {
                   "name": "1.0.137/rev281/amd64",
                   "sha": "a53e91133ceaa024175224be2840eb8be5d13d31",
                   "body": "<p>chore: bump discord to version 1.0.137</p>\n",
@@ -1298,14 +1306,6 @@
                   "timestamp": 1778334002,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.137%2Frev280%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.137%2Frev280%2Famd64"
-               },
-               {
-                  "name": "1.0.137/rev279/amd64",
-                  "sha": "006856e04b1f856555ddf9cdd7a7aedfd02b8188",
-                  "body": "<p>fix: remove broken patch, app.asar no longer in bundle</p>\n",
-                  "timestamp": 1778258544,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.137%2Frev279%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.137%2Frev279%2Famd64"
                }
             ],
             "commits": null,
@@ -1322,15 +1322,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 278,
-                     "timestamp": 1777377788,
+                     "revision": 282,
+                     "timestamp": 1778348705,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 281,
-                     "timestamp": 1778336565,
+                     "revision": 282,
+                     "timestamp": 1778347645,
                      "base": "core22"
                   }
                ],
