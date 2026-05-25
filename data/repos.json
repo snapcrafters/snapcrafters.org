@@ -242,30 +242,68 @@
             "tags": null,
             "commits": [
                {
-                  "sha": "2f3dc1d4d6073caadb98d86e5bd57112b9a198bd",
-                  "author": "Alan Pope",
-                  "timestamp": 1746543846,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/android-studio-canary/pull/17\">#17</a> from anas40/master</p>\n\n<p>Automatically update and release canary version to snapcraft store</p>\n",
-                  "url": "https://github.com/snapcrafters/android-studio-canary/commit/2f3dc1d4d6073caadb98d86e5bd57112b9a198bd"
+                  "sha": "108d36af633bd4e624e176817458e602c6b594f2",
+                  "author": "Jon Seager",
+                  "timestamp": 1779728930,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/android-studio-canary/pull/19\">#19</a> from clwsgruk/fix-broken-header-image</p>\n\n<p>docs: fix broken header image in README</p>\n",
+                  "url": "https://github.com/snapcrafters/android-studio-canary/commit/108d36af633bd4e624e176817458e602c6b594f2"
                },
                {
-                  "sha": "3f21790a4c90445c0a252c9b3958d815d6d2b690",
-                  "author": "Mohd Anas",
-                  "timestamp": 1746206734,
-                  "message": "<p>Added script to automatically release on snapcraft, similar to stable repo</p>\n",
-                  "url": "https://github.com/snapcrafters/android-studio-canary/commit/3f21790a4c90445c0a252c9b3958d815d6d2b690"
+                  "sha": "1ba14099dd65a9443808fc5f1226fd6126245ef4",
+                  "author": "R2",
+                  "timestamp": 1779728853,
+                  "message": "<p>docs: fix broken header image in README</p>\n\n<p>The image previously referenced:\n  <a href=\"https://dashboard.snapcraft.io/site_media/appmedia/android-studio-canary.png\">https://dashboard.snapcraft.io/site_media/appmedia/android-studio-canary.png</a></p>\n\n<p>This URL returns a 404. Replace it with the official Android Studio\nCanary icon from Google&rsquo;s Android developer site:\n  <a href=\"https://developer.android.com/static/studio/images/android-studio-canary.svg\">https://developer.android.com/static/studio/images/android-studio-canary.svg</a></p>\n\n<p>This is the correct Canary-specific icon (outlined A on the 2023 design\nsystem), distinct from the stable release icon (solid A). Also adds an\nexplicit title text and dimensions to match the snapcrafters/android-studio\nREADME style.</p>\n",
+                  "url": "https://github.com/snapcrafters/android-studio-canary/commit/1ba14099dd65a9443808fc5f1226fd6126245ef4"
                },
                {
-                  "sha": "01690a7ab128a628c03a8fd77bdb665f06f6c542",
-                  "author": "Mohd Anas",
-                  "timestamp": 1746206702,
-                  "message": "<p>Added script to automatically update canary version</p>\n",
-                  "url": "https://github.com/snapcrafters/android-studio-canary/commit/01690a7ab128a628c03a8fd77bdb665f06f6c542"
+                  "sha": "65d49ac08f46c6f7f9968a805b56f7f91735bb1e",
+                  "author": "Jon Seager",
+                  "timestamp": 1779728526,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/android-studio-canary/pull/18\">#18</a> from clwsgruk/chore/standard-ci</p>\n\n<p>chore: update CI to standard Snapcrafters pattern</p>\n",
+                  "url": "https://github.com/snapcrafters/android-studio-canary/commit/65d49ac08f46c6f7f9968a805b56f7f91735bb1e"
                }
             ],
-            "ciActions": [],
+            "ciActions": [
+               "https://github.com/snapcrafters/android-studio-canary/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/android-studio-canary/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/android-studio-canary/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "android-studio-canary",
+               "url": "https://snapcraft.io/android-studio-canary",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 37,
+                     "timestamp": 1697639655,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 39,
+                     "timestamp": 1779730992,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 38,
+                     "timestamp": 1746600019,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "arduino",
