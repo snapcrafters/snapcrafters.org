@@ -301,39 +301,6 @@
             "snap": null
          },
          {
-            "name": "atom",
-            "newCommits": 0,
-            "url": "https://github.com/snapcrafters/atom",
-            "releases": null,
-            "tags": null,
-            "commits": [
-               {
-                  "sha": "bc206cb345c2123fde5e94919b99e8749378fae2",
-                  "author": "Merlijn Sebrechts",
-                  "timestamp": 1699392079,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/atom/pull/73\">#73</a> from popey/remove-cruft</p>\n\n<p>remove cruft</p>\n",
-                  "url": "https://github.com/snapcrafters/atom/commit/bc206cb345c2123fde5e94919b99e8749378fae2"
-               },
-               {
-                  "sha": "5cb7b50b3fa16c7f963d060dde1e6e21e0b67ced",
-                  "author": "Alan Pope",
-                  "timestamp": 1699190619,
-                  "message": "<p>remove cruft</p>\n",
-                  "url": "https://github.com/snapcrafters/atom/commit/5cb7b50b3fa16c7f963d060dde1e6e21e0b67ced"
-               },
-               {
-                  "sha": "35e23c6ce948b57f363f381ac39a466df147f3a1",
-                  "author": "Alan Pope",
-                  "timestamp": 1618825624,
-                  "message": "<p>Update snapcraft.yaml</p>\n\n<p>Remove duplicate library</p>\n",
-                  "url": "https://github.com/snapcrafters/atom/commit/35e23c6ce948b57f363f381ac39a466df147f3a1"
-               }
-            ],
-            "ciActions": [],
-            "charm": null,
-            "snap": null
-         },
-         {
             "name": "audacity",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/audacity",
@@ -627,39 +594,6 @@
                   "latest"
                ]
             }
-         },
-         {
-            "name": "brackets",
-            "newCommits": 0,
-            "url": "https://github.com/snapcrafters/brackets",
-            "releases": null,
-            "tags": null,
-            "commits": [
-               {
-                  "sha": "dc51df853c375dc6bc288d1178ff71a7d67b09ae",
-                  "author": "Ubuntu",
-                  "timestamp": 1618570942,
-                  "message": "<p>Trigger build of brackets on 2021-04-16-11:00:26</p>\n",
-                  "url": "https://github.com/snapcrafters/brackets/commit/dc51df853c375dc6bc288d1178ff71a7d67b09ae"
-               },
-               {
-                  "sha": "9898a256721bc182f698178412ea42b1e603d340",
-                  "author": "Ubuntu",
-                  "timestamp": 1614329325,
-                  "message": "<p>Trigger build of brackets on 2021-02-26-08:47:58</p>\n",
-                  "url": "https://github.com/snapcrafters/brackets/commit/9898a256721bc182f698178412ea42b1e603d340"
-               },
-               {
-                  "sha": "bcdb5dc2333899b90e00e405ee48164fbd81edbf",
-                  "author": "Ubuntu",
-                  "timestamp": 1612865510,
-                  "message": "<p>Trigger build of brackets on 2021-02-09-10:11:15</p>\n",
-                  "url": "https://github.com/snapcrafters/brackets/commit/bcdb5dc2333899b90e00e405ee48164fbd81edbf"
-               }
-            ],
-            "ciActions": [],
-            "charm": null,
-            "snap": null
          },
          {
             "name": "bridge-designer",
@@ -4551,6 +4485,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2.26.0/rev630/amd64",
+                  "sha": "fe14f5ee47dbc27d89d006010b94c472ef1efbcc",
+                  "body": "<p>chore: bump simplenote to version 2.26.0</p>\n",
+                  "timestamp": 1779715887,
+                  "url": "https://github.com/snapcrafters/simplenote/releases/tag/2.26.0%2Frev630%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/simplenote/compare/candidate...2.26.0%2Frev630%2Famd64"
+               },
+               {
                   "name": "2.26.0/rev629/arm64",
                   "sha": "fe14f5ee47dbc27d89d006010b94c472ef1efbcc",
                   "body": "<p>chore: bump simplenote to version 2.26.0</p>\n",
@@ -4565,14 +4507,6 @@
                   "timestamp": 1779367581,
                   "url": "https://github.com/snapcrafters/simplenote/releases/tag/2.25.0%2Frev628%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/simplenote/compare/candidate...2.25.0%2Frev628%2Farm64"
-               },
-               {
-                  "name": "2.25.0/rev627/amd64",
-                  "sha": "37b0d1ede72cd25fb2572dc0d0e6cc183370926b",
-                  "body": "<p>chore: bump simplenote to version 2.25.0</p>\n",
-                  "timestamp": 1779367581,
-                  "url": "https://github.com/snapcrafters/simplenote/releases/tag/2.25.0%2Frev627%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/simplenote/compare/candidate...2.25.0%2Frev627%2Famd64"
                }
             ],
             "commits": null,
@@ -4603,8 +4537,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 627,
-                     "timestamp": 1779368280,
+                     "revision": 630,
+                     "timestamp": 1779719083,
                      "base": "core24"
                   },
                   {
@@ -4623,39 +4557,6 @@
                   "latest"
                ]
             }
-         },
-         {
-            "name": "slack-term",
-            "newCommits": 0,
-            "url": "https://github.com/snapcrafters/slack-term",
-            "releases": null,
-            "tags": null,
-            "commits": [
-               {
-                  "sha": "bc06b79b758cb52feba473bb8ced316d571aacd1",
-                  "author": "Ubuntu",
-                  "timestamp": 1607076184,
-                  "message": "<p>Trigger build of slack-term on 2020-12-04-10:02:20</p>\n",
-                  "url": "https://github.com/snapcrafters/slack-term/commit/bc06b79b758cb52feba473bb8ced316d571aacd1"
-               },
-               {
-                  "sha": "bca6333f64297a1c117b8fc9560eb92b427e0ea7",
-                  "author": "Alan Pope",
-                  "timestamp": 1605561701,
-                  "message": "<p>Modify core</p>\n",
-                  "url": "https://github.com/snapcrafters/slack-term/commit/bca6333f64297a1c117b8fc9560eb92b427e0ea7"
-               },
-               {
-                  "sha": "6e6a18423fce22ff22df12e9ab928234b6665341",
-                  "author": "Ubuntu",
-                  "timestamp": 1605226792,
-                  "message": "<p>Trigger build of slack-term on 2020-11-13-00:18:18</p>\n",
-                  "url": "https://github.com/snapcrafters/slack-term/commit/6e6a18423fce22ff22df12e9ab928234b6665341"
-               }
-            ],
-            "ciActions": [],
-            "charm": null,
-            "snap": null
          },
          {
             "name": "sommelier",
@@ -5176,33 +5077,33 @@
          },
          {
             "name": "terragrunt",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/terragrunt",
             "releases": null,
             "tags": [
                {
-                  "name": "1.0.5/rev50/armhf",
-                  "sha": "e1b0ccdbaa38071cf8cc73c16f9b8746b8228701",
-                  "body": "<p>chore: bump terragrunt to version 1.0.5</p>\n",
-                  "timestamp": 1779194718,
-                  "url": "https://github.com/snapcrafters/terragrunt/releases/tag/1.0.5%2Frev50%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terragrunt/compare/candidate...1.0.5%2Frev50%2Farmhf"
+                  "name": "1.0.6/rev54/amd64",
+                  "sha": "ce441231702a32403a366fd6f1e51d19a76a0cae",
+                  "body": "<p>chore: bump terragrunt to version 1.0.6</p>\n",
+                  "timestamp": 1779716016,
+                  "url": "https://github.com/snapcrafters/terragrunt/releases/tag/1.0.6%2Frev54%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/terragrunt/compare/candidate...1.0.6%2Frev54%2Famd64"
                },
                {
-                  "name": "1.0.5/rev49/ppc64el",
-                  "sha": "e1b0ccdbaa38071cf8cc73c16f9b8746b8228701",
-                  "body": "<p>chore: bump terragrunt to version 1.0.5</p>\n",
-                  "timestamp": 1779194718,
-                  "url": "https://github.com/snapcrafters/terragrunt/releases/tag/1.0.5%2Frev49%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/terragrunt/compare/candidate...1.0.5%2Frev49%2Fppc64el"
+                  "name": "1.0.6/rev53/ppc64el",
+                  "sha": "ce441231702a32403a366fd6f1e51d19a76a0cae",
+                  "body": "<p>chore: bump terragrunt to version 1.0.6</p>\n",
+                  "timestamp": 1779716016,
+                  "url": "https://github.com/snapcrafters/terragrunt/releases/tag/1.0.6%2Frev53%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/terragrunt/compare/candidate...1.0.6%2Frev53%2Fppc64el"
                },
                {
-                  "name": "1.0.5/rev48/s390x",
-                  "sha": "e1b0ccdbaa38071cf8cc73c16f9b8746b8228701",
-                  "body": "<p>chore: bump terragrunt to version 1.0.5</p>\n",
-                  "timestamp": 1779194718,
-                  "url": "https://github.com/snapcrafters/terragrunt/releases/tag/1.0.5%2Frev48%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/terragrunt/compare/candidate...1.0.5%2Frev48%2Fs390x"
+                  "name": "1.0.6/rev52/arm64",
+                  "sha": "ce441231702a32403a366fd6f1e51d19a76a0cae",
+                  "body": "<p>chore: bump terragrunt to version 1.0.6</p>\n",
+                  "timestamp": 1779716016,
+                  "url": "https://github.com/snapcrafters/terragrunt/releases/tag/1.0.6%2Frev52%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terragrunt/compare/candidate...1.0.6%2Frev52%2Farm64"
                }
             ],
             "commits": null,
@@ -5254,29 +5155,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 47,
-                     "timestamp": 1779195630,
+                     "revision": 54,
+                     "timestamp": 1779719789,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 46,
-                     "timestamp": 1779195580,
+                     "revision": 52,
+                     "timestamp": 1779718002,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 50,
-                     "timestamp": 1779195750,
+                     "revision": 51,
+                     "timestamp": 1779717989,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 49,
-                     "timestamp": 1779195730,
+                     "revision": 53,
+                     "timestamp": 1779719773,
                      "base": "core24"
                   },
                   {
