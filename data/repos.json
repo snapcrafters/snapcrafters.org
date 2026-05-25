@@ -239,30 +239,17 @@
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio-canary",
             "releases": null,
-            "tags": null,
-            "commits": [
+            "tags": [
                {
+                  "name": "2026.1.2.2/rev40/amd64",
                   "sha": "108d36af633bd4e624e176817458e602c6b594f2",
-                  "author": "Jon Seager",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/android-studio-canary/pull/19\">#19</a> from clwsgruk/fix-broken-header-image</p>\n\n<p>docs: fix broken header image in README</p>\n",
                   "timestamp": 1779728930,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/android-studio-canary/pull/19\">#19</a> from clwsgruk/fix-broken-header-image</p>\n\n<p>docs: fix broken header image in README</p>\n",
-                  "url": "https://github.com/snapcrafters/android-studio-canary/commit/108d36af633bd4e624e176817458e602c6b594f2"
-               },
-               {
-                  "sha": "1ba14099dd65a9443808fc5f1226fd6126245ef4",
-                  "author": "R2",
-                  "timestamp": 1779728853,
-                  "message": "<p>docs: fix broken header image in README</p>\n\n<p>The image previously referenced:\n  <a href=\"https://dashboard.snapcraft.io/site_media/appmedia/android-studio-canary.png\">https://dashboard.snapcraft.io/site_media/appmedia/android-studio-canary.png</a></p>\n\n<p>This URL returns a 404. Replace it with the official Android Studio\nCanary icon from Google&rsquo;s Android developer site:\n  <a href=\"https://developer.android.com/static/studio/images/android-studio-canary.svg\">https://developer.android.com/static/studio/images/android-studio-canary.svg</a></p>\n\n<p>This is the correct Canary-specific icon (outlined A on the 2023 design\nsystem), distinct from the stable release icon (solid A). Also adds an\nexplicit title text and dimensions to match the snapcrafters/android-studio\nREADME style.</p>\n",
-                  "url": "https://github.com/snapcrafters/android-studio-canary/commit/1ba14099dd65a9443808fc5f1226fd6126245ef4"
-               },
-               {
-                  "sha": "65d49ac08f46c6f7f9968a805b56f7f91735bb1e",
-                  "author": "Jon Seager",
-                  "timestamp": 1779728526,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/android-studio-canary/pull/18\">#18</a> from clwsgruk/chore/standard-ci</p>\n\n<p>chore: update CI to standard Snapcrafters pattern</p>\n",
-                  "url": "https://github.com/snapcrafters/android-studio-canary/commit/65d49ac08f46c6f7f9968a805b56f7f91735bb1e"
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.2.2%2Frev40%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.2.2%2Frev40%2Famd64"
                }
             ],
+            "commits": null,
             "ciActions": [
                "https://github.com/snapcrafters/android-studio-canary/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/android-studio-canary/actions/workflows/release-to-candidate.yaml",
@@ -283,8 +270,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 39,
-                     "timestamp": 1779730992,
+                     "revision": 40,
+                     "timestamp": 1779737784,
                      "base": "core22"
                   },
                   {
@@ -4438,10 +4425,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.11.0/rev906/arm64",
+                  "sha": "a25e57f264a7de134fe1e86e5668b35a806db9f5",
+                  "body": "<p>build: update fs-extra patch for v11.3.4</p>\n",
+                  "timestamp": 1779735495,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.11.0%2Frev906%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.11.0%2Frev906%2Farm64"
+               },
+               {
+                  "name": "8.11.0/rev905/amd64",
+                  "sha": "a25e57f264a7de134fe1e86e5668b35a806db9f5",
+                  "body": "<p>build: update fs-extra patch for v11.3.4</p>\n",
+                  "timestamp": 1779735495,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.11.0%2Frev905%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.11.0%2Frev905%2Famd64"
+               },
                {
                   "name": "8.10.0/rev904/amd64",
                   "sha": "3ac642ee48dd353ee3a684b73cef5fd4428fd84a",
@@ -4449,22 +4452,6 @@
                   "timestamp": 1778673220,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.10.0%2Frev904%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.10.0%2Frev904%2Famd64"
-               },
-               {
-                  "name": "8.10.0/rev903/arm64",
-                  "sha": "3ac642ee48dd353ee3a684b73cef5fd4428fd84a",
-                  "body": "<p>chore: bump signal-desktop to version 8.10.0</p>\n",
-                  "timestamp": 1778673220,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.10.0%2Frev903%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.10.0%2Frev903%2Farm64"
-               },
-               {
-                  "name": "8.10.0/rev902/amd64",
-                  "sha": "3ac642ee48dd353ee3a684b73cef5fd4428fd84a",
-                  "body": "<p>chore: bump signal-desktop to version 8.10.0</p>\n",
-                  "timestamp": 1778673220,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.10.0%2Frev902%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.10.0%2Frev902%2Famd64"
                }
             ],
             "commits": null,
@@ -4495,15 +4482,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 904,
-                     "timestamp": 1778767134,
+                     "revision": 905,
+                     "timestamp": 1779737617,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 903,
-                     "timestamp": 1778765988,
+                     "revision": 906,
+                     "timestamp": 1779739009,
                      "base": "core24"
                   }
                ],
