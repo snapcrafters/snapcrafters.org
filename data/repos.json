@@ -3495,7 +3495,7 @@
          },
          {
             "name": "nano",
-            "newCommits": 83,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/nano",
             "releases": null,
             "tags": [
@@ -3525,7 +3525,7 @@
                }
             ],
             "commits": null,
-            "ciActions": [],
+            "ciActions": null,
             "charm": null,
             "snap": null
          },
@@ -4205,15 +4205,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1580,
-                     "timestamp": 1773670210,
+                     "revision": 1610,
+                     "timestamp": 1779873509,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1583,
-                     "timestamp": 1773670209,
+                     "revision": 1611,
+                     "timestamp": 1779873514,
                      "base": "core24"
                   },
                   {
@@ -4226,8 +4226,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1581,
-                     "timestamp": 1773670211,
+                     "revision": 1612,
+                     "timestamp": 1779873512,
                      "base": "core24"
                   },
                   {
@@ -4240,8 +4240,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1582,
-                     "timestamp": 1773670211,
+                     "revision": 1609,
+                     "timestamp": 1779873510,
                      "base": "core24"
                   },
                   {
@@ -4543,53 +4543,9 @@
                }
             ],
             "commits": null,
-            "ciActions": [
-               "https://github.com/snapcrafters/simplenote/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/simplenote/actions/workflows/release-to-candidate.yml",
-               "https://github.com/snapcrafters/simplenote/actions/workflows/promote-to-stable.yml"
-            ],
+            "ciActions": null,
             "charm": null,
-            "snap": {
-               "name": "simplenote",
-               "url": "https://snapcraft.io/simplenote",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 630,
-                     "timestamp": 1779866898,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 629,
-                     "timestamp": 1779866903,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 630,
-                     "timestamp": 1779719083,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 629,
-                     "timestamp": 1779717033,
-                     "base": "core24"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "sommelier",
