@@ -3495,7 +3495,7 @@
          },
          {
             "name": "nano",
-            "newCommits": 0,
+            "newCommits": 83,
             "url": "https://github.com/snapcrafters/nano",
             "releases": null,
             "tags": [
@@ -3525,7 +3525,7 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [],
             "charm": null,
             "snap": null
          },
@@ -4543,9 +4543,53 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/simplenote/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/simplenote/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/simplenote/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "simplenote",
+               "url": "https://snapcraft.io/simplenote",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 630,
+                     "timestamp": 1779866898,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 629,
+                     "timestamp": 1779866903,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 630,
+                     "timestamp": 1779719083,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 629,
+                     "timestamp": 1779717033,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "sommelier",
