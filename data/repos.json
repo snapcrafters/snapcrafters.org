@@ -1259,6 +1259,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.0.141/rev286/amd64",
+                  "sha": "7825130eb174a75e520d5b83091283aa298133db",
+                  "body": "<p>chore: bump discord to version 1.0.141</p>\n",
+                  "timestamp": 1780408325,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.141%2Frev286%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.141%2Frev286%2Famd64"
+               },
+               {
                   "name": "1.0.139/rev285/amd64",
                   "sha": "d599e2b83051cf5a8d507798924c9e1c30ba04fb",
                   "body": "<p>fix: gate version sync on CDN availability and revert to 1.0.139 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/332\">#332</a>)</p>\n\n<ul>\n<li>chore: revert to 1.0.139</li>\n</ul>\n\n<p>1.0.140 was bumped before the CDN had propagated, causing the build\nto fail. 1.0.139 is the last known-good version.</p>\n\n<ul>\n<li>ci: gate version sync on CDN availability</li>\n</ul>\n\n<p>Replace the discord.com/api/updates/stable check with a direct HEAD\nrequest against the versioned tarball on dl.discordapp.net. The API\nendpoint reflects a separate backend that can propagate ahead of the\nCDN, as demonstrated when 1.0.140 was bumped based on the API\nreporting the new version, but the build subsequently failed because\nthe bootstrapper could not fetch it from the CDN.</p>\n\n<p>Checking for the tarball directly confirms the exact artifact the\nbuild needs is available.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/329\">#329</a></p>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jnsgruk@ubuntu.com\">jnsgruk@ubuntu.com</a></p>\n",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1779194010,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.139%2Frev284%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.139%2Frev284%2Famd64"
-               },
-               {
-                  "name": "1.0.138/rev283/amd64",
-                  "sha": "f888b5366e77327d8757c5976a30c820a6e4add5",
-                  "body": "<p>fix: use a wildcard to match app version in build stage</p>\n",
-                  "timestamp": 1778765928,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.138%2Frev283%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.138%2Frev283%2Famd64"
                }
             ],
             "commits": null,
@@ -1297,15 +1297,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 285,
-                     "timestamp": 1779966953,
+                     "revision": 286,
+                     "timestamp": 1780424470,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 285,
-                     "timestamp": 1779966429,
+                     "revision": 286,
+                     "timestamp": 1780423873,
                      "base": "core22"
                   }
                ],
