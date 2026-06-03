@@ -1254,10 +1254,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.0.141/rev287/amd64",
+                  "sha": "5fc3abc2e2c38b23486e193b73e619d246cf0b20",
+                  "body": "<p>fix: respect proxy env for remote build in manifest script</p>\n",
+                  "timestamp": 1780479852,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.141%2Frev287%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.141%2Frev287%2Famd64"
+               },
                {
                   "name": "1.0.141/rev286/amd64",
                   "sha": "7825130eb174a75e520d5b83091283aa298133db",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1779965188,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.139%2Frev285%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.139%2Frev285%2Famd64"
-               },
-               {
-                  "name": "1.0.139/rev284/amd64",
-                  "sha": "726690fba2362f68245d0fec4d43dee50a54db1d",
-                  "body": "<p>chore: bump discord to version 1.0.139</p>\n",
-                  "timestamp": 1779194010,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.139%2Frev284%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.139%2Frev284%2Famd64"
                }
             ],
             "commits": null,
@@ -1297,15 +1297,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 286,
-                     "timestamp": 1780424470,
+                     "revision": 287,
+                     "timestamp": 1780484100,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 286,
-                     "timestamp": 1780423873,
+                     "revision": 287,
+                     "timestamp": 1780483646,
                      "base": "core22"
                   }
                ],
@@ -4213,8 +4213,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1610,
-                     "timestamp": 1779873509,
+                     "revision": 1613,
+                     "timestamp": 1780481186,
                      "base": "core24"
                   },
                   {
