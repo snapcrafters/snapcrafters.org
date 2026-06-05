@@ -1726,6 +1726,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.36/rev535/amd64",
+                  "sha": "1f369b640e0c4e68e583af9c716247f8c92a6109",
+                  "body": "<p>fix: use noble Berkeley DB runtime package (<a target=\"_blank\" href=\"https://github.com/snapcrafters/get-iplayer/pull/20\">#20</a>)</p>\n",
+                  "timestamp": 1780674470,
+                  "url": "https://github.com/snapcrafters/get-iplayer/releases/tag/3.36%2Frev535%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/get-iplayer/compare/candidate...3.36%2Frev535%2Famd64"
+               },
+               {
                   "name": "3.36/rev534/ppc64el",
                   "sha": "1f369b640e0c4e68e583af9c716247f8c92a6109",
                   "body": "<p>fix: use noble Berkeley DB runtime package (<a target=\"_blank\" href=\"https://github.com/snapcrafters/get-iplayer/pull/20\">#20</a>)</p>\n",
@@ -1740,14 +1748,6 @@
                   "timestamp": 1780674470,
                   "url": "https://github.com/snapcrafters/get-iplayer/releases/tag/3.36%2Frev533%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/get-iplayer/compare/candidate...3.36%2Frev533%2Farm64"
-               },
-               {
-                  "name": "3.36/rev532/armhf",
-                  "sha": "1f369b640e0c4e68e583af9c716247f8c92a6109",
-                  "body": "<p>fix: use noble Berkeley DB runtime package (<a target=\"_blank\" href=\"https://github.com/snapcrafters/get-iplayer/pull/20\">#20</a>)</p>\n",
-                  "timestamp": 1780674470,
-                  "url": "https://github.com/snapcrafters/get-iplayer/releases/tag/3.36%2Frev532%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/get-iplayer/compare/candidate...3.36%2Frev532%2Farmhf"
                }
             ],
             "commits": null,
@@ -1799,9 +1799,9 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 529,
-                     "timestamp": 1780664403,
-                     "base": "core22"
+                     "revision": 535,
+                     "timestamp": 1780684331,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
