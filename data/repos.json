@@ -9,6 +9,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "0.17.0/rev164/s390x",
+                  "sha": "ecc27dbad5e346c78d9c8c700edac480fadb4fb0",
+                  "body": "<p>fix: wrong cursor loaded for x11 apps opened from alacritty (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/41\">#41</a>)</p>\n",
+                  "timestamp": 1779805407,
+                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.17.0%2Frev164%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.17.0%2Frev164%2Fs390x"
+               },
+               {
                   "name": "0.17.0/rev163/arm64",
                   "sha": "ecc27dbad5e346c78d9c8c700edac480fadb4fb0",
                   "body": "<p>fix: wrong cursor loaded for x11 apps opened from alacritty (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/41\">#41</a>)</p>\n",
@@ -23,14 +31,6 @@
                   "timestamp": 1779805407,
                   "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.17.0%2Frev162%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.17.0%2Frev162%2Farmhf"
-               },
-               {
-                  "name": "0.17.0/rev161/ppc64el",
-                  "sha": "ecc27dbad5e346c78d9c8c700edac480fadb4fb0",
-                  "body": "<p>fix: wrong cursor loaded for x11 apps opened from alacritty (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/41\">#41</a>)</p>\n",
-                  "timestamp": 1779805407,
-                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.17.0%2Frev161%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.17.0%2Frev161%2Fppc64el"
                }
             ],
             "commits": null,
@@ -110,8 +110,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 156,
-                     "timestamp": 1775680664,
+                     "revision": 164,
+                     "timestamp": 1780650226,
                      "base": "core22"
                   },
                   {
@@ -3288,7 +3288,7 @@
          },
          {
             "name": "mutt",
-            "newCommits": 2,
+            "newCommits": 3,
             "url": "https://github.com/snapcrafters/mutt",
             "releases": null,
             "tags": [
@@ -3503,7 +3503,7 @@
          },
          {
             "name": "nano",
-            "newCommits": 83,
+            "newCommits": 84,
             "url": "https://github.com/snapcrafters/nano",
             "releases": null,
             "tags": [
