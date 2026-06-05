@@ -1721,10 +1721,18 @@
          },
          {
             "name": "get-iplayer",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/get-iplayer",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.36/rev528/amd64",
+                  "sha": "3139313230559d03b5a52c055eadda62941a176f",
+                  "body": "<p>chore: remove redundant <code>assumes</code></p>\n",
+                  "timestamp": 1758895379,
+                  "url": "https://github.com/snapcrafters/get-iplayer/releases/tag/3.36%2Frev528%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/get-iplayer/compare/candidate...3.36%2Frev528%2Famd64"
+               },
                {
                   "name": "3.35/rev527/s390x",
                   "sha": "98e149de19d72717fff5fa11a037fc5aec89b082",
@@ -1740,14 +1748,6 @@
                   "timestamp": 1707992453,
                   "url": "https://github.com/snapcrafters/get-iplayer/releases/tag/3.35%2Frev526%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/get-iplayer/compare/candidate...3.35%2Frev526%2Farmhf"
-               },
-               {
-                  "name": "3.35/rev525/ppc64el",
-                  "sha": "98e149de19d72717fff5fa11a037fc5aec89b082",
-                  "body": "<p>fix: ensure version number is properly quoted when updated by CI</p>\n",
-                  "timestamp": 1707992453,
-                  "url": "https://github.com/snapcrafters/get-iplayer/releases/tag/3.35%2Frev525%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/get-iplayer/compare/candidate...3.35%2Frev525%2Fppc64el"
                }
             ],
             "commits": null,
@@ -1799,8 +1799,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 523,
-                     "timestamp": 1707993014,
+                     "revision": 528,
+                     "timestamp": 1780652749,
                      "base": "core22"
                   },
                   {
@@ -4811,6 +4811,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "4200/rev219/amd64",
+                  "sha": "afc731459dc1d3da0de1640abc9bbd7518d04ab8",
+                  "body": "<p>chore: add <code>.gitignore</code></p>\n",
+                  "timestamp": 1758295554,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev219%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev219%2Famd64"
+               },
+               {
                   "name": "4200/rev218/arm64",
                   "sha": "afc731459dc1d3da0de1640abc9bbd7518d04ab8",
                   "body": "<p>chore: add <code>.gitignore</code></p>\n",
@@ -4825,14 +4833,6 @@
                   "timestamp": 1758295554,
                   "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev217%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev217%2Famd64"
-               },
-               {
-                  "name": "4200/rev215/arm64",
-                  "sha": "afc731459dc1d3da0de1640abc9bbd7518d04ab8",
-                  "body": "<p>chore: add <code>.gitignore</code></p>\n",
-                  "timestamp": 1758295554,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev215%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev215%2Farm64"
                }
             ],
             "commits": null,
@@ -4863,8 +4863,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 217,
-                     "timestamp": 1758384766,
+                     "revision": 219,
+                     "timestamp": 1780652872,
                      "base": "core20"
                   },
                   {
