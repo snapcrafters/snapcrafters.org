@@ -47,36 +47,36 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 155,
-                     "timestamp": 1775720550,
+                     "revision": 160,
+                     "timestamp": 1780653458,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 158,
-                     "timestamp": 1775720553,
+                     "revision": 163,
+                     "timestamp": 1780653462,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 157,
-                     "timestamp": 1775720557,
+                     "revision": 162,
+                     "timestamp": 1780653465,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 159,
-                     "timestamp": 1775720562,
+                     "revision": 161,
+                     "timestamp": 1780653470,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 156,
-                     "timestamp": 1775720566,
+                     "revision": 164,
+                     "timestamp": 1780653474,
                      "base": "core22"
                   },
                   {
@@ -205,8 +205,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 225,
-                     "timestamp": 1779866888,
+                     "revision": 227,
+                     "timestamp": 1780653795,
                      "base": "core22"
                   },
                   {
@@ -236,7 +236,7 @@
          },
          {
             "name": "android-studio-canary",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio-canary",
             "releases": null,
             "tags": [
@@ -279,8 +279,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 42,
-                     "timestamp": 1779808647,
+                     "revision": 44,
+                     "timestamp": 1780653789,
                      "base": "core22"
                   },
                   {
@@ -1096,22 +1096,22 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 849,
-                     "timestamp": 1779866967,
+                     "revision": 855,
+                     "timestamp": 1780653786,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 851,
-                     "timestamp": 1779866971,
+                     "revision": 856,
+                     "timestamp": 1780653789,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 850,
-                     "timestamp": 1779866976,
+                     "revision": 857,
+                     "timestamp": 1780653794,
                      "base": "core22"
                   },
                   {
@@ -3288,10 +3288,18 @@
          },
          {
             "name": "mutt",
-            "newCommits": 3,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mutt",
             "releases": null,
             "tags": [
+               {
+                  "name": "2-3-2-rel/rev321/amd64",
+                  "sha": "0c198e574e70057192169bf6770f0d5c53aee93a",
+                  "body": "<p>fix: flatten mutt ppc64el platform (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mutt/pull/20\">#20</a>)</p>\n",
+                  "timestamp": 1780652371,
+                  "url": "https://github.com/snapcrafters/mutt/releases/tag/2-3-2-rel%2Frev321%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mutt/compare/candidate...2-3-2-rel%2Frev321%2Famd64"
+               },
                {
                   "name": "2-2-13-rel/rev320/ppc64el",
                   "sha": "3ccb6f24da0e6fc9cea7679208f1ffd57fa5163b",
@@ -3307,14 +3315,6 @@
                   "timestamp": 1722002074,
                   "url": "https://github.com/snapcrafters/mutt/releases/tag/2-2-13-rel%2Frev319%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/mutt/compare/candidate...2-2-13-rel%2Frev319%2Farmhf"
-               },
-               {
-                  "name": "2-2-13-rel/rev318/arm64",
-                  "sha": "3ccb6f24da0e6fc9cea7679208f1ffd57fa5163b",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/mutt/pull/17\">#17</a> from snapcrafters/core24-fix</p>\n",
-                  "timestamp": 1722002074,
-                  "url": "https://github.com/snapcrafters/mutt/releases/tag/2-2-13-rel%2Frev318%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mutt/compare/candidate...2-2-13-rel%2Frev318%2Farm64"
                }
             ],
             "commits": null,
@@ -3373,8 +3373,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 316,
-                     "timestamp": 1722002798,
+                     "revision": 321,
+                     "timestamp": 1780653429,
                      "base": "core24"
                   },
                   {
@@ -4170,7 +4170,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 189,
+            "newCommits": 190,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
@@ -4255,8 +4255,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1613,
-                     "timestamp": 1780066277,
+                     "revision": 1614,
+                     "timestamp": 1780662089,
                      "base": "core24"
                   },
                   {
@@ -4441,10 +4441,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.13.0/rev909/amd64",
+                  "sha": "f3abdda54eafd1affce06f493a8d9cdd47d28fea",
+                  "body": "<p>chore: bump signal-desktop to version 8.13.0</p>\n",
+                  "timestamp": 1780572696,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.13.0%2Frev909%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.13.0%2Frev909%2Famd64"
+               },
                {
                   "name": "8.12.0/rev908/arm64",
                   "sha": "d74750a8fffb9bc1f8c2aba9235a1146a6606240",
@@ -4460,14 +4468,6 @@
                   "timestamp": 1779975512,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.12.0%2Frev907%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.12.0%2Frev907%2Famd64"
-               },
-               {
-                  "name": "8.11.0/rev906/arm64",
-                  "sha": "a25e57f264a7de134fe1e86e5668b35a806db9f5",
-                  "body": "<p>build: update fs-extra patch for v11.3.4</p>\n",
-                  "timestamp": 1779735495,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.11.0%2Frev906%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.11.0%2Frev906%2Farm64"
                }
             ],
             "commits": null,
@@ -4498,8 +4498,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 907,
-                     "timestamp": 1779977868,
+                     "revision": 909,
+                     "timestamp": 1780653544,
                      "base": "core24"
                   },
                   {
@@ -5161,36 +5161,36 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 47,
-                     "timestamp": 1779266682,
+                     "revision": 56,
+                     "timestamp": 1780653795,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 46,
-                     "timestamp": 1779266685,
+                     "revision": 57,
+                     "timestamp": 1780653798,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 50,
-                     "timestamp": 1779266688,
+                     "revision": 58,
+                     "timestamp": 1780653801,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 49,
-                     "timestamp": 1779266691,
+                     "revision": 59,
+                     "timestamp": 1780653805,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 48,
-                     "timestamp": 1779266694,
+                     "revision": 55,
+                     "timestamp": 1780653808,
                      "base": "core24"
                   },
                   {
