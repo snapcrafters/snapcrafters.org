@@ -855,9 +855,9 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 53,
-                     "timestamp": 1716556097,
-                     "base": "core22"
+                     "revision": 60,
+                     "timestamp": 1780861135,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
@@ -1535,28 +1535,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "ffmpeg-2404-sdk-8.1.1/rev136/ppc64el",
+                  "sha": "a4f86b13b560651fd5be02f8894dcd1915550a24",
+                  "body": "<p>fix: repair ffmpeg 2404 SDK release builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/88\">#88</a>)</p>\n",
+                  "timestamp": 1780854093,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev136%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev136%2Fppc64el"
+               },
+               {
+                  "name": "ffmpeg-2404-sdk-8.1.1/rev135/arm64",
+                  "sha": "a4f86b13b560651fd5be02f8894dcd1915550a24",
+                  "body": "<p>fix: repair ffmpeg 2404 SDK release builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/88\">#88</a>)</p>\n",
+                  "timestamp": 1780854093,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev135%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev135%2Farm64"
+               },
+               {
                   "name": "ffmpeg-2404-sdk-8.1.1/rev134/amd64",
                   "sha": "a4f86b13b560651fd5be02f8894dcd1915550a24",
                   "body": "<p>fix: repair ffmpeg 2404 SDK release builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/88\">#88</a>)</p>\n",
                   "timestamp": 1780854093,
                   "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev134%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev134%2Famd64"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-7.1.1/rev133/riscv64",
-                  "sha": "47f35dd9fc83e825e05b179c22f80f3ee16c346b",
-                  "body": "<p>sdk: revert some stripping</p>\n\n<p>Signed-off-by: Soumyadeep Ghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n",
-                  "timestamp": 1769097932,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev133%2Friscv64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev133%2Friscv64"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-7.1.1/rev132/amd64",
-                  "sha": "47f35dd9fc83e825e05b179c22f80f3ee16c346b",
-                  "body": "<p>sdk: revert some stripping</p>\n\n<p>Signed-off-by: Soumyadeep Ghosh <a href=\"mailto:soumyadeepghosh2004@zohomail.in\">soumyadeepghosh2004@zohomail.in</a></p>\n",
-                  "timestamp": 1769097932,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-7.1.1%2Frev132%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-7.1.1%2Frev132%2Famd64"
                }
             ],
             "commits": null,
@@ -1618,8 +1618,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 125,
-                     "timestamp": 1755255681,
+                     "revision": 135,
+                     "timestamp": 1780857243,
                      "base": "core24"
                   },
                   {
@@ -1632,8 +1632,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 131,
-                     "timestamp": 1769321785,
+                     "revision": 136,
+                     "timestamp": 1780861093,
                      "base": "core24"
                   },
                   {
@@ -5339,7 +5339,7 @@
          },
          {
             "name": "webkitgtk-sdk",
-            "newCommits": 20,
+            "newCommits": 21,
             "url": "https://github.com/snapcrafters/webkitgtk-sdk",
             "releases": null,
             "tags": [
