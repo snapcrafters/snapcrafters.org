@@ -848,9 +848,9 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 54,
-                     "timestamp": 1716557507,
-                     "base": "core22"
+                     "revision": 61,
+                     "timestamp": 1780868703,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
@@ -5339,10 +5339,18 @@
          },
          {
             "name": "webkitgtk-sdk",
-            "newCommits": 21,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/webkitgtk-sdk",
             "releases": null,
             "tags": [
+               {
+                  "name": "webkitgtk-6-gnome-2404-sdk-2.53.3/rev101/amd64",
+                  "sha": "a8dcfd2ea09151d40a825c77a8c004779ba47839",
+                  "body": "<p>fix: remove stale WebKit build patch (<a target=\"_blank\" href=\"https://github.com/snapcrafters/webkitgtk-sdk/pull/43\">#43</a>)</p>\n",
+                  "timestamp": 1780861439,
+                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev101%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev101%2Famd64"
+               },
                {
                   "name": "webkitgtk-6-gnome-2404-sdk-2.49.2/rev100/ppc64el",
                   "sha": "178ecef124c5416d166fc6d6453434572c284df2",
@@ -5358,14 +5366,6 @@
                   "timestamp": 1749367342,
                   "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.49.2%2Frev99%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.49.2%2Frev99%2Famd64"
-               },
-               {
-                  "name": "webkitgtk-6-gnome-2404-sdk-2.49.2/rev98/armhf",
-                  "sha": "178ecef124c5416d166fc6d6453434572c284df2",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/webkitgtk-sdk/pull/39\">#39</a> from soumyaDghosh/2404</p>\n\n<p>fix(sdk): fix build for s390x and ppc64el</p>\n",
-                  "timestamp": 1749367342,
-                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.49.2%2Frev98%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.49.2%2Frev98%2Farmhf"
                }
             ],
             "commits": null,
