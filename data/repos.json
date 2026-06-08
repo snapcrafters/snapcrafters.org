@@ -241,6 +241,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2026.1.2.6/rev48/amd64",
+                  "sha": "becb61f534dfcf89382299b7583d8ee23c0fb093",
+                  "body": "<p>chore: bump android-studio-canary to version 2026.1.2.6</p>\n",
+                  "timestamp": 1780927515,
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.2.6%2Frev48%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.2.6%2Frev48%2Famd64"
+               },
+               {
                   "name": "2026.1.2.5/rev46/amd64",
                   "sha": "fe5b6bc6e718d62861355c0973b834ecbeb3fca3",
                   "body": "<p>chore: bump android-studio-canary to version 2026.1.2.5</p>\n",
@@ -255,14 +263,6 @@
                   "timestamp": 1780139935,
                   "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.2.4%2Frev44%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.2.4%2Frev44%2Famd64"
-               },
-               {
-                  "name": "2026.1.2.2/rev42/amd64",
-                  "sha": "108d36af633bd4e624e176817458e602c6b594f2",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/android-studio-canary/pull/19\">#19</a> from clwsgruk/fix-broken-header-image</p>\n\n<p>docs: fix broken header image in README</p>\n",
-                  "timestamp": 1779728930,
-                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.2.2%2Frev42%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.2.2%2Frev42%2Famd64"
                }
             ],
             "commits": null,
@@ -286,8 +286,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 46,
-                     "timestamp": 1780664800,
+                     "revision": 48,
+                     "timestamp": 1780929686,
                      "base": "core22"
                   },
                   {
@@ -1419,7 +1419,7 @@
          },
          {
             "name": "ffmpeg-2204-sdk",
-            "newCommits": 13,
+            "newCommits": 14,
             "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk",
             "releases": null,
             "tags": [
@@ -1493,29 +1493,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 150,
-                     "timestamp": 1780908890,
+                     "revision": 152,
+                     "timestamp": 1780916260,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 151,
-                     "timestamp": 1780911146,
+                     "revision": 153,
+                     "timestamp": 1780918760,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 147,
-                     "timestamp": 1727261328,
+                     "revision": 154,
+                     "timestamp": 1780921659,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 146,
-                     "timestamp": 1727261194,
+                     "revision": 155,
+                     "timestamp": 1780924266,
                      "base": "core22"
                   }
                ],
@@ -1530,7 +1530,7 @@
          },
          {
             "name": "ffmpeg-2404-sdk",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
@@ -5351,6 +5351,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "webkitgtk-6-gnome-2404-sdk-2.53.3/rev106/armhf",
+                  "sha": "dd6f41c662e7b0a0b2cbe0d7dafa6cf91ed78b82",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/webkitgtk-sdk/pull/44\">#44</a> from snapcrafters/skia-s390x-big-endian</p>\n",
+                  "timestamp": 1780903446,
+                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev106%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev106%2Farmhf"
+               },
+               {
                   "name": "webkitgtk-6-gnome-2404-sdk-2.53.3/rev105/amd64",
                   "sha": "dd6f41c662e7b0a0b2cbe0d7dafa6cf91ed78b82",
                   "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/webkitgtk-sdk/pull/44\">#44</a> from snapcrafters/skia-s390x-big-endian</p>\n",
@@ -5365,145 +5373,12 @@
                   "timestamp": 1780861439,
                   "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev104%2Fppc64el",
                   "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev104%2Fppc64el"
-               },
-               {
-                  "name": "webkitgtk-6-gnome-2404-sdk-2.53.3/rev103/armhf",
-                  "sha": "a8dcfd2ea09151d40a825c77a8c004779ba47839",
-                  "body": "<p>fix: remove stale WebKit build patch (<a target=\"_blank\" href=\"https://github.com/snapcrafters/webkitgtk-sdk/pull/43\">#43</a>)</p>\n",
-                  "timestamp": 1780861439,
-                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev103%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev103%2Farmhf"
                }
             ],
             "commits": null,
-            "ciActions": [
-               "https://github.com/snapcrafters/webkitgtk-sdk/actions/workflows/update-snap.yml",
-               "https://github.com/snapcrafters/webkitgtk-sdk/actions/workflows/release-sdk-to-candidate.yml",
-               "https://github.com/snapcrafters/webkitgtk-sdk/actions/workflows/promote-to-stable.yml",
-               "https://github.com/snapcrafters/webkitgtk-sdk/actions/workflows/update-snap.yml",
-               "https://github.com/snapcrafters/webkitgtk-sdk/actions/workflows/release-content-to-candidate.yml",
-               "https://github.com/snapcrafters/webkitgtk-sdk/actions/workflows/promote-to-stable.yml"
-            ],
+            "ciActions": null,
             "charm": null,
-            "snap": {
-               "name": "webkitgtk-6-gnome-2204-sdk",
-               "url": "https://snapcraft.io/webkitgtk-6-gnome-2204-sdk",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 112,
-                     "timestamp": 1717139415,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 116,
-                     "timestamp": 1717139418,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 113,
-                     "timestamp": 1717139421,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 114,
-                     "timestamp": 1717139424,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 115,
-                     "timestamp": 1717139427,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 112,
-                     "timestamp": 1719144786,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 116,
-                     "timestamp": 1717019032,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 113,
-                     "timestamp": 1719144787,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 114,
-                     "timestamp": 1719144787,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 115,
-                     "timestamp": 1719144788,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 101,
-                     "timestamp": 1699694812,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 109,
-                     "timestamp": 1712206974,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 110,
-                     "timestamp": 1712207448,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 108,
-                     "timestamp": 1712177128,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 111,
-                     "timestamp": 1712253295,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          }
       ]
    }
