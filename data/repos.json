@@ -1535,6 +1535,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "ffmpeg-2404-sdk-8.1.1/rev148/riscv64",
+                  "sha": "6ecb3d84daf0d2b2043ebe9ba5670ca7f4a3cf6f",
+                  "body": "<p>fix: use stable SRT releases for SDK builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/92\">#92</a>)</p>\n\n<p>The unfiltered SRT tag lookup selected Haivision&rsquo;s historical x1.2.0 tag, which breaks current ffmpeg-2404-sdk release builds. Pin the recipe back to the latest stable v-prefixed SRT release and filter future syncs to stable v tags.</p>\n",
+                  "timestamp": 1781006017,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev148%2Friscv64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev148%2Friscv64"
+               },
+               {
                   "name": "ffmpeg-2404-sdk-8.1.1/rev147/s390x",
                   "sha": "6ecb3d84daf0d2b2043ebe9ba5670ca7f4a3cf6f",
                   "body": "<p>fix: use stable SRT releases for SDK builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/92\">#92</a>)</p>\n\n<p>The unfiltered SRT tag lookup selected Haivision&rsquo;s historical x1.2.0 tag, which breaks current ffmpeg-2404-sdk release builds. Pin the recipe back to the latest stable v-prefixed SRT release and filter future syncs to stable v tags.</p>\n",
@@ -1549,14 +1557,6 @@
                   "timestamp": 1781006017,
                   "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev146%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev146%2Farm64"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-8.1.1/rev145/ppc64el",
-                  "sha": "6ecb3d84daf0d2b2043ebe9ba5670ca7f4a3cf6f",
-                  "body": "<p>fix: use stable SRT releases for SDK builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/92\">#92</a>)</p>\n\n<p>The unfiltered SRT tag lookup selected Haivision&rsquo;s historical x1.2.0 tag, which breaks current ffmpeg-2404-sdk release builds. Pin the recipe back to the latest stable v-prefixed SRT release and filter future syncs to stable v tags.</p>\n",
-                  "timestamp": 1781006017,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev145%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev145%2Fppc64el"
                }
             ],
             "commits": null,
@@ -1639,8 +1639,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 137,
-                     "timestamp": 1780888582,
+                     "revision": 148,
+                     "timestamp": 1781040329,
                      "base": "core24"
                   },
                   {
