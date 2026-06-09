@@ -1254,10 +1254,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.0.142/rev288/amd64",
+                  "sha": "252a26c9e785cdb1c6506e4a6a493347af2fcf16",
+                  "body": "<p>chore: bump discord to version 1.0.142</p>\n",
+                  "timestamp": 1781008223,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.142%2Frev288%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.142%2Frev288%2Famd64"
+               },
                {
                   "name": "1.0.141/rev287/amd64",
                   "sha": "5fc3abc2e2c38b23486e193b73e619d246cf0b20",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1780408325,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.141%2Frev286%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.141%2Frev286%2Famd64"
-               },
-               {
-                  "name": "1.0.139/rev285/amd64",
-                  "sha": "d599e2b83051cf5a8d507798924c9e1c30ba04fb",
-                  "body": "<p>fix: gate version sync on CDN availability and revert to 1.0.139 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/332\">#332</a>)</p>\n\n<ul>\n<li>chore: revert to 1.0.139</li>\n</ul>\n\n<p>1.0.140 was bumped before the CDN had propagated, causing the build\nto fail. 1.0.139 is the last known-good version.</p>\n\n<ul>\n<li>ci: gate version sync on CDN availability</li>\n</ul>\n\n<p>Replace the discord.com/api/updates/stable check with a direct HEAD\nrequest against the versioned tarball on dl.discordapp.net. The API\nendpoint reflects a separate backend that can propagate ahead of the\nCDN, as demonstrated when 1.0.140 was bumped based on the API\nreporting the new version, but the build subsequently failed because\nthe bootstrapper could not fetch it from the CDN.</p>\n\n<p>Checking for the tarball directly confirms the exact artifact the\nbuild needs is available.</p>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/329\">#329</a></p>\n\n<hr>\n\n<p>Co-authored-by: Jon Seager <a href=\"mailto:jnsgruk@ubuntu.com\">jnsgruk@ubuntu.com</a></p>\n",
-                  "timestamp": 1779965188,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.139%2Frev285%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.139%2Frev285%2Famd64"
                }
             ],
             "commits": null,
@@ -1297,15 +1297,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 287,
-                     "timestamp": 1780484100,
+                     "revision": 288,
+                     "timestamp": 1781011046,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 287,
-                     "timestamp": 1780483646,
+                     "revision": 288,
+                     "timestamp": 1781009083,
                      "base": "core22"
                   }
                ],
@@ -1530,33 +1530,33 @@
          },
          {
             "name": "ffmpeg-2404-sdk",
-            "newCommits": 4,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
                {
-                  "name": "ffmpeg-2404-sdk-8.1.1/rev142/ppc64el",
-                  "sha": "0c1f3f65ba6b9b64bf3e7b7fc17c503436f6a86e",
-                  "body": "<p>fix: resolve armhf x264 soname cleanup (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/89\">#89</a>)</p>\n",
-                  "timestamp": 1780903480,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev142%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev142%2Fppc64el"
+                  "name": "ffmpeg-2404-sdk-8.1.1/rev147/s390x",
+                  "sha": "6ecb3d84daf0d2b2043ebe9ba5670ca7f4a3cf6f",
+                  "body": "<p>fix: use stable SRT releases for SDK builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/92\">#92</a>)</p>\n\n<p>The unfiltered SRT tag lookup selected Haivision&rsquo;s historical x1.2.0 tag, which breaks current ffmpeg-2404-sdk release builds. Pin the recipe back to the latest stable v-prefixed SRT release and filter future syncs to stable v tags.</p>\n",
+                  "timestamp": 1781006017,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev147%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev147%2Fs390x"
                },
                {
-                  "name": "ffmpeg-2404-sdk-8.1.1/rev141/armhf",
-                  "sha": "0c1f3f65ba6b9b64bf3e7b7fc17c503436f6a86e",
-                  "body": "<p>fix: resolve armhf x264 soname cleanup (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/89\">#89</a>)</p>\n",
-                  "timestamp": 1780903480,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev141%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev141%2Farmhf"
+                  "name": "ffmpeg-2404-sdk-8.1.1/rev146/arm64",
+                  "sha": "6ecb3d84daf0d2b2043ebe9ba5670ca7f4a3cf6f",
+                  "body": "<p>fix: use stable SRT releases for SDK builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/92\">#92</a>)</p>\n\n<p>The unfiltered SRT tag lookup selected Haivision&rsquo;s historical x1.2.0 tag, which breaks current ffmpeg-2404-sdk release builds. Pin the recipe back to the latest stable v-prefixed SRT release and filter future syncs to stable v tags.</p>\n",
+                  "timestamp": 1781006017,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev146%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev146%2Farm64"
                },
                {
-                  "name": "ffmpeg-2404-sdk-8.1.1/rev140/arm64",
-                  "sha": "0c1f3f65ba6b9b64bf3e7b7fc17c503436f6a86e",
-                  "body": "<p>fix: resolve armhf x264 soname cleanup (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/89\">#89</a>)</p>\n",
-                  "timestamp": 1780903480,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev140%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev140%2Farm64"
+                  "name": "ffmpeg-2404-sdk-8.1.1/rev145/ppc64el",
+                  "sha": "6ecb3d84daf0d2b2043ebe9ba5670ca7f4a3cf6f",
+                  "body": "<p>fix: use stable SRT releases for SDK builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/92\">#92</a>)</p>\n\n<p>The unfiltered SRT tag lookup selected Haivision&rsquo;s historical x1.2.0 tag, which breaks current ffmpeg-2404-sdk release builds. Pin the recipe back to the latest stable v-prefixed SRT release and filter future syncs to stable v tags.</p>\n",
+                  "timestamp": 1781006017,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev145%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev145%2Fppc64el"
                }
             ],
             "commits": null,
@@ -1611,29 +1611,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 139,
-                     "timestamp": 1780905303,
+                     "revision": 144,
+                     "timestamp": 1781009726,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 140,
-                     "timestamp": 1780909851,
+                     "revision": 146,
+                     "timestamp": 1781009920,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 141,
-                     "timestamp": 1780912475,
+                     "revision": 143,
+                     "timestamp": 1781009677,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 142,
-                     "timestamp": 1780915023,
+                     "revision": 145,
+                     "timestamp": 1781009869,
                      "base": "core24"
                   },
                   {
@@ -1646,8 +1646,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 138,
-                     "timestamp": 1780889913,
+                     "revision": 147,
+                     "timestamp": 1781012618,
                      "base": "core24"
                   }
                ],
@@ -5346,7 +5346,7 @@
          },
          {
             "name": "webkitgtk-sdk",
-            "newCommits": 2,
+            "newCommits": 4,
             "url": "https://github.com/snapcrafters/webkitgtk-sdk",
             "releases": null,
             "tags": [
