@@ -5351,6 +5351,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "webkitgtk-6-gnome-2404-sdk-2.53.3/rev108/arm64",
+                  "sha": "f9f42af71c32f005f855977ee9878da42d9897e6",
+                  "body": "<p>fix: drop s390x WebKitGTK 2.53 builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/webkitgtk-sdk/pull/48\">#48</a>)</p>\n\n<p>WebKitGTK 2.53.3 now builds the web process compositor with Skia. The s390x release fails in Skia&rsquo;s big-endian guard despite the local patch being applied, so stop advertising s390x for the SDK and content snaps until upstream supports this path.</p>\n",
+                  "timestamp": 1781015081,
+                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev108%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev108%2Farm64"
+               },
+               {
                   "name": "webkitgtk-6-gnome-2404-sdk-2.53.3/rev107/armhf",
                   "sha": "f9f42af71c32f005f855977ee9878da42d9897e6",
                   "body": "<p>fix: drop s390x WebKitGTK 2.53 builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/webkitgtk-sdk/pull/48\">#48</a>)</p>\n\n<p>WebKitGTK 2.53.3 now builds the web process compositor with Skia. The s390x release fails in Skia&rsquo;s big-endian guard despite the local patch being applied, so stop advertising s390x for the SDK and content snaps until upstream supports this path.</p>\n",
@@ -5365,14 +5373,6 @@
                   "timestamp": 1780903446,
                   "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev106%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev106%2Farmhf"
-               },
-               {
-                  "name": "webkitgtk-6-gnome-2404-sdk-2.53.3/rev105/amd64",
-                  "sha": "dd6f41c662e7b0a0b2cbe0d7dafa6cf91ed78b82",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/webkitgtk-sdk/pull/44\">#44</a> from snapcrafters/skia-s390x-big-endian</p>\n",
-                  "timestamp": 1780903446,
-                  "url": "https://github.com/snapcrafters/webkitgtk-sdk/releases/tag/webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev105%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/webkitgtk-sdk/compare/2404...webkitgtk-6-gnome-2404-sdk-2.53.3%2Frev105%2Famd64"
                }
             ],
             "commits": null,
