@@ -4,7 +4,7 @@
       "repos": [
          {
             "name": "alacritty",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/alacritty",
             "releases": null,
             "tags": [
@@ -35,7 +35,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/alacritty/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/alacritty/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/alacritty/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/alacritty/actions/workflows/promote-to-stable.yml"
             ],
@@ -162,7 +162,7 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
@@ -193,7 +193,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/android-studio/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/android-studio/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/android-studio/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/android-studio/actions/workflows/promote-to-stable.yml"
             ],
@@ -236,7 +236,7 @@
          },
          {
             "name": "android-studio-canary",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/android-studio-canary",
             "releases": null,
             "tags": [
@@ -268,7 +268,7 @@
             "commits": null,
             "ciActions": [
                "https://github.com/snapcrafters/android-studio-canary/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/android-studio-canary/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/android-studio-canary/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/android-studio-canary/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
@@ -466,7 +466,7 @@
          },
          {
             "name": "axel",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/axel",
             "releases": null,
             "tags": [
@@ -497,7 +497,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/axel/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/axel/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/axel/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/axel/actions/workflows/promote-to-stable.yml"
             ],
@@ -737,7 +737,7 @@
          },
          {
             "name": "codespell",
-            "newCommits": 29,
+            "newCommits": 30,
             "url": "https://github.com/snapcrafters/codespell",
             "releases": null,
             "tags": [
@@ -768,7 +768,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/codespell/actions/workflows/release-to-candidate.yaml"
+               "https://github.com/snapcrafters/codespell/actions/workflows/release-to-candidate.yml"
             ],
             "charm": null,
             "snap": {
@@ -979,7 +979,7 @@
          },
          {
             "name": "cumulonimbus",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/cumulonimbus",
             "releases": null,
             "tags": [
@@ -1053,7 +1053,7 @@
          },
          {
             "name": "ddgr",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/ddgr",
             "releases": null,
             "tags": [
@@ -1254,7 +1254,7 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
@@ -1286,7 +1286,7 @@
             "commits": null,
             "ciActions": [
                "https://github.com/snapcrafters/discord/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/discord/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/discord/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/discord/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
@@ -1419,7 +1419,7 @@
          },
          {
             "name": "ffmpeg-2204-sdk",
-            "newCommits": 16,
+            "newCommits": 17,
             "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk",
             "releases": null,
             "tags": [
@@ -1530,7 +1530,7 @@
          },
          {
             "name": "ffmpeg-2404-sdk",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
@@ -1936,7 +1936,7 @@
          },
          {
             "name": "ghvmctl",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/ghvmctl",
             "releases": null,
             "tags": [
@@ -1967,7 +1967,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/ghvmctl/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/ghvmctl/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/ghvmctl/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
@@ -2001,7 +2001,7 @@
          },
          {
             "name": "helm",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/helm",
             "releases": null,
             "tags": [
@@ -2033,7 +2033,7 @@
             "commits": null,
             "ciActions": [
                "https://github.com/snapcrafters/helm/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/helm/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/helm/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/helm/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
@@ -2516,7 +2516,7 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
@@ -2733,7 +2733,7 @@
          },
          {
             "name": "luanti",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/luanti",
             "releases": null,
             "tags": [
@@ -2764,7 +2764,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/luanti/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/luanti/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/luanti/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/luanti/actions/workflows/promote-to-stable.yml"
             ],
@@ -2927,7 +2927,7 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
@@ -2959,7 +2959,7 @@
             "commits": null,
             "ciActions": [
                "https://github.com/snapcrafters/mattermost-desktop/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/mattermost-desktop/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/mattermost-desktop/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/mattermost-desktop/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
@@ -3054,7 +3054,7 @@
          },
          {
             "name": "mosaic",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/mosaic",
             "releases": null,
             "tags": [
@@ -3085,8 +3085,8 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/mosaic/actions/workflows/release-to-candidate.yaml",
-               "https://github.com/snapcrafters/mosaic/actions/workflows/promote-to-stable.yaml"
+               "https://github.com/snapcrafters/mosaic/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/mosaic/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
             "snap": {
@@ -3302,7 +3302,7 @@
          },
          {
             "name": "mutt",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/mutt",
             "releases": null,
             "tags": [
@@ -3333,8 +3333,8 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/mutt/actions/workflows/sync-upstream.yml",
-               "https://github.com/snapcrafters/mutt/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/mutt/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/mutt/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/mutt/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
@@ -3553,7 +3553,7 @@
          },
          {
             "name": "obs-studio",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/obs-studio",
             "releases": null,
             "tags": [
@@ -3584,7 +3584,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/obs-studio/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/obs-studio/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/obs-studio/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/obs-studio/actions/workflows/promote-to-stable.yml"
             ],
@@ -3726,7 +3726,7 @@
          },
          {
             "name": "opentyrian",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/opentyrian",
             "releases": null,
             "tags": [
@@ -3757,7 +3757,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/opentyrian/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/opentyrian/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/opentyrian/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/opentyrian/actions/workflows/promote-to-stable.yml"
             ],
@@ -3917,7 +3917,7 @@
          },
          {
             "name": "pogo",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/pogo",
             "releases": null,
             "tags": [
@@ -3932,7 +3932,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/pogo/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/pogo/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/pogo/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/pogo/actions/workflows/promote-to-stable.yml"
             ],
@@ -3983,7 +3983,7 @@
          },
          {
             "name": "pyradio",
-            "newCommits": 17,
+            "newCommits": 18,
             "url": "https://github.com/snapcrafters/pyradio",
             "releases": null,
             "tags": [
@@ -4184,7 +4184,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 191,
+            "newCommits": 192,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
@@ -4215,9 +4215,9 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/ruff/actions/workflows/sync-version-with-upstream.yaml",
-               "https://github.com/snapcrafters/ruff/actions/workflows/release-to-candidate.yaml",
-               "https://github.com/snapcrafters/ruff/actions/workflows/promote-to-stable.yaml"
+               "https://github.com/snapcrafters/ruff/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/ruff/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/ruff/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
             "snap": {
@@ -4455,7 +4455,7 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
@@ -4487,7 +4487,7 @@
             "commits": null,
             "ciActions": [
                "https://github.com/snapcrafters/signal-desktop/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/signal-desktop/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/signal-desktop/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/signal-desktop/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
@@ -4681,7 +4681,7 @@
          },
          {
             "name": "sublime-merge",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/sublime-merge",
             "releases": null,
             "tags": [
@@ -4712,7 +4712,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/sublime-merge/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/sublime-merge/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/sublime-merge/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/sublime-merge/actions/workflows/promote-to-stable.yml"
             ],
@@ -4820,7 +4820,7 @@
          },
          {
             "name": "sublime-text",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/sublime-text",
             "releases": null,
             "tags": [
@@ -4851,7 +4851,7 @@
             ],
             "commits": null,
             "ciActions": [
-               "https://github.com/snapcrafters/sublime-text/actions/workflows/sync-upstream.yml",
+               "https://github.com/snapcrafters/sublime-text/actions/workflows/sync-version-with-upstream.yml",
                "https://github.com/snapcrafters/sublime-text/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/sublime-text/actions/workflows/promote-to-stable.yml"
             ],
@@ -5010,7 +5010,7 @@
          },
          {
             "name": "terraform",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/terraform",
             "releases": null,
             "tags": [
@@ -5042,7 +5042,7 @@
             "commits": null,
             "ciActions": [
                "https://github.com/snapcrafters/terraform/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/terraform/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/terraform/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/terraform/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
@@ -5132,7 +5132,7 @@
          },
          {
             "name": "terragrunt",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/terragrunt",
             "releases": null,
             "tags": [
@@ -5164,7 +5164,7 @@
             "commits": null,
             "ciActions": [
                "https://github.com/snapcrafters/terragrunt/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/terragrunt/actions/workflows/release-to-candidate.yaml",
+               "https://github.com/snapcrafters/terragrunt/actions/workflows/release-to-candidate.yml",
                "https://github.com/snapcrafters/terragrunt/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
@@ -5353,7 +5353,7 @@
          },
          {
             "name": "webkitgtk-sdk",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/webkitgtk-sdk",
             "releases": null,
             "tags": [
