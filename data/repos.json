@@ -4,7 +4,7 @@
       "repos": [
          {
             "name": "alacritty",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/alacritty",
             "releases": null,
             "tags": [
@@ -162,7 +162,7 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
@@ -236,7 +236,7 @@
          },
          {
             "name": "android-studio-canary",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio-canary",
             "releases": null,
             "tags": [
@@ -466,7 +466,7 @@
          },
          {
             "name": "axel",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/axel",
             "releases": null,
             "tags": [
@@ -737,7 +737,7 @@
          },
          {
             "name": "codespell",
-            "newCommits": 28,
+            "newCommits": 29,
             "url": "https://github.com/snapcrafters/codespell",
             "releases": null,
             "tags": [
@@ -1254,7 +1254,7 @@
          },
          {
             "name": "discord",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
@@ -1936,7 +1936,7 @@
          },
          {
             "name": "ghvmctl",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/ghvmctl",
             "releases": null,
             "tags": [
@@ -2001,7 +2001,7 @@
          },
          {
             "name": "helm",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/helm",
             "releases": null,
             "tags": [
@@ -2516,7 +2516,7 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
@@ -2733,7 +2733,7 @@
          },
          {
             "name": "luanti",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/luanti",
             "releases": null,
             "tags": [
@@ -2927,7 +2927,7 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
@@ -3054,7 +3054,7 @@
          },
          {
             "name": "mosaic",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/mosaic",
             "releases": null,
             "tags": [
@@ -3302,7 +3302,7 @@
          },
          {
             "name": "mutt",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/mutt",
             "releases": null,
             "tags": [
@@ -3517,7 +3517,7 @@
          },
          {
             "name": "nano",
-            "newCommits": 84,
+            "newCommits": 85,
             "url": "https://github.com/snapcrafters/nano",
             "releases": null,
             "tags": [
@@ -3558,6 +3558,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "32.1.2/rev1321/amd64",
+                  "sha": "4f9cc00effe8dbc026cc02eecf888c7e7edd271f",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/obs-studio/pull/248\">#248</a> from snapcrafters/chore/standardise-workflow-filenames</p>\n\n<p>chore: standardise workflow filenames</p>\n",
+                  "timestamp": 1781087863,
+                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.1.2%2Frev1321%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.1.2%2Frev1321%2Famd64"
+               },
+               {
                   "name": "32.1.2/rev1320/amd64",
                   "sha": "1ce27fc8775b7bad9efb9e9ddda05115941ecfe5",
                   "body": "<p>chore: bump obs-studio to version 32.1.2</p>\n",
@@ -3572,14 +3580,6 @@
                   "timestamp": 1773631325,
                   "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.1.0%2Frev1319%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.1.0%2Frev1319%2Famd64"
-               },
-               {
-                  "name": "32.1.0/rev1318/amd64",
-                  "sha": "364918a2908efc9016dd0f527e5184dfe0cdd24d",
-                  "body": "<p>chore: bump obs-studio to version 32.1.0</p>\n",
-                  "timestamp": 1773311762,
-                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.1.0%2Frev1318%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.1.0%2Frev1318%2Famd64"
                }
             ],
             "commits": null,
@@ -3596,15 +3596,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1320,
-                     "timestamp": 1779866970,
+                     "revision": 1321,
+                     "timestamp": 1781091689,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1320,
-                     "timestamp": 1777462877,
+                     "revision": 1321,
+                     "timestamp": 1781090936,
                      "base": "core24"
                   },
                   {
@@ -3726,7 +3726,7 @@
          },
          {
             "name": "opentyrian",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/opentyrian",
             "releases": null,
             "tags": [
@@ -3917,7 +3917,7 @@
          },
          {
             "name": "pogo",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/pogo",
             "releases": null,
             "tags": [
@@ -4184,7 +4184,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 190,
+            "newCommits": 191,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
@@ -4455,7 +4455,7 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
@@ -4681,7 +4681,7 @@
          },
          {
             "name": "sublime-merge",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/sublime-merge",
             "releases": null,
             "tags": [
@@ -4820,7 +4820,7 @@
          },
          {
             "name": "sublime-text",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/sublime-text",
             "releases": null,
             "tags": [
@@ -5015,28 +5015,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "1.15.5/rev897/armhf",
-                  "sha": "7f3a7cb1afcbf5c99dda46fca89b2ffbacb6ebc6",
-                  "body": "<p>chore: bump terraform to version 1.15.5</p>\n",
-                  "timestamp": 1779976002,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.5%2Frev897%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.5%2Frev897%2Farmhf"
+                  "name": "1.15.6/rev901/armhf",
+                  "sha": "9a1ae521b200a18c6cf98e57e80179d8260c2788",
+                  "body": "<p>chore: bump terraform to version 1.15.6</p>\n",
+                  "timestamp": 1781096117,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.6%2Frev901%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.6%2Frev901%2Farmhf"
                },
                {
-                  "name": "1.15.5/rev896/amd64",
-                  "sha": "7f3a7cb1afcbf5c99dda46fca89b2ffbacb6ebc6",
-                  "body": "<p>chore: bump terraform to version 1.15.5</p>\n",
-                  "timestamp": 1779976002,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.5%2Frev896%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.5%2Frev896%2Famd64"
+                  "name": "1.15.6/rev900/arm64",
+                  "sha": "9a1ae521b200a18c6cf98e57e80179d8260c2788",
+                  "body": "<p>chore: bump terraform to version 1.15.6</p>\n",
+                  "timestamp": 1781096117,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.6%2Frev900%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.6%2Frev900%2Farm64"
                },
                {
-                  "name": "1.15.5/rev895/arm64",
-                  "sha": "7f3a7cb1afcbf5c99dda46fca89b2ffbacb6ebc6",
-                  "body": "<p>chore: bump terraform to version 1.15.5</p>\n",
-                  "timestamp": 1779976002,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.5%2Frev895%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.5%2Frev895%2Farm64"
+                  "name": "1.15.6/rev899/ppc64el",
+                  "sha": "9a1ae521b200a18c6cf98e57e80179d8260c2788",
+                  "body": "<p>chore: bump terraform to version 1.15.6</p>\n",
+                  "timestamp": 1781096117,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.6%2Frev899%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.6%2Frev899%2Fppc64el"
                }
             ],
             "commits": null,
@@ -5088,29 +5088,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 896,
-                     "timestamp": 1779978379,
+                     "revision": 898,
+                     "timestamp": 1781097275,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 895,
-                     "timestamp": 1779978370,
+                     "revision": 900,
+                     "timestamp": 1781097832,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 897,
-                     "timestamp": 1779978387,
+                     "revision": 901,
+                     "timestamp": 1781097865,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 894,
-                     "timestamp": 1779978358,
+                     "revision": 899,
+                     "timestamp": 1781097590,
                      "base": "core24"
                   },
                   {
@@ -5132,7 +5132,7 @@
          },
          {
             "name": "terragrunt",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/terragrunt",
             "releases": null,
             "tags": [
