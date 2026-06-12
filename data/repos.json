@@ -3517,7 +3517,7 @@
          },
          {
             "name": "nano",
-            "newCommits": 85,
+            "newCommits": 86,
             "url": "https://github.com/snapcrafters/nano",
             "releases": null,
             "tags": [
@@ -3547,7 +3547,11 @@
                }
             ],
             "commits": null,
-            "ciActions": [],
+            "ciActions": [
+               "https://github.com/snapcrafters/nano/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/nano/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/nano/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
             "snap": null
          },
