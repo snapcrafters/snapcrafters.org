@@ -2006,6 +2006,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "4.2.0/rev515/amd64",
+                  "sha": "e10dbac32ba038804bf52b4f8c374db76b53cd9c",
+                  "body": "<p>feat: add s390x platform (<a target=\"_blank\" href=\"https://github.com/snapcrafters/helm/pull/130\">#130</a>)</p>\n",
+                  "timestamp": 1781299209,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev515%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev515%2Famd64"
+               },
+               {
                   "name": "4.2.0/rev514/arm64",
                   "sha": "e10dbac32ba038804bf52b4f8c374db76b53cd9c",
                   "body": "<p>feat: add s390x platform (<a target=\"_blank\" href=\"https://github.com/snapcrafters/helm/pull/130\">#130</a>)</p>\n",
@@ -2020,14 +2028,6 @@
                   "timestamp": 1781299209,
                   "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev513%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev513%2Farmhf"
-               },
-               {
-                  "name": "4.2.0/rev512/armhf",
-                  "sha": "1cedf37f948bb9c99c0582862361093ee1629e60",
-                  "body": "<p>chore: bump helm to version 4.2.0</p>\n",
-                  "timestamp": 1778758166,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev512%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev512%2Farmhf"
                }
             ],
             "commits": null,
@@ -2072,8 +2072,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 510,
-                     "timestamp": 1778759894,
+                     "revision": 515,
+                     "timestamp": 1781301400,
                      "base": "core24"
                   },
                   {
