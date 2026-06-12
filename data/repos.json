@@ -2001,10 +2001,26 @@
          },
          {
             "name": "helm",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/helm",
             "releases": null,
             "tags": [
+               {
+                  "name": "4.2.0/rev514/arm64",
+                  "sha": "e10dbac32ba038804bf52b4f8c374db76b53cd9c",
+                  "body": "<p>feat: add s390x platform (<a target=\"_blank\" href=\"https://github.com/snapcrafters/helm/pull/130\">#130</a>)</p>\n",
+                  "timestamp": 1781299209,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev514%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev514%2Farm64"
+               },
+               {
+                  "name": "4.2.0/rev513/armhf",
+                  "sha": "e10dbac32ba038804bf52b4f8c374db76b53cd9c",
+                  "body": "<p>feat: add s390x platform (<a target=\"_blank\" href=\"https://github.com/snapcrafters/helm/pull/130\">#130</a>)</p>\n",
+                  "timestamp": 1781299209,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev513%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev513%2Farmhf"
+               },
                {
                   "name": "4.2.0/rev512/armhf",
                   "sha": "1cedf37f948bb9c99c0582862361093ee1629e60",
@@ -2012,22 +2028,6 @@
                   "timestamp": 1778758166,
                   "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev512%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev512%2Farmhf"
-               },
-               {
-                  "name": "4.2.0/rev511/arm64",
-                  "sha": "1cedf37f948bb9c99c0582862361093ee1629e60",
-                  "body": "<p>chore: bump helm to version 4.2.0</p>\n",
-                  "timestamp": 1778758166,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev511%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev511%2Farm64"
-               },
-               {
-                  "name": "4.2.0/rev510/amd64",
-                  "sha": "1cedf37f948bb9c99c0582862361093ee1629e60",
-                  "body": "<p>chore: bump helm to version 4.2.0</p>\n",
-                  "timestamp": 1778758166,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev510%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev510%2Famd64"
                }
             ],
             "commits": null,
@@ -2079,15 +2079,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 511,
-                     "timestamp": 1778759947,
+                     "revision": 514,
+                     "timestamp": 1781299904,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 512,
-                     "timestamp": 1778759974,
+                     "revision": 513,
+                     "timestamp": 1781299896,
                      "base": "core24"
                   },
                   {
