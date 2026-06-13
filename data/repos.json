@@ -2006,6 +2006,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "4.2.0/rev516/s390x",
+                  "sha": "e10dbac32ba038804bf52b4f8c374db76b53cd9c",
+                  "body": "<p>feat: add s390x platform (<a target=\"_blank\" href=\"https://github.com/snapcrafters/helm/pull/130\">#130</a>)</p>\n",
+                  "timestamp": 1781299209,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev516%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev516%2Fs390x"
+               },
+               {
                   "name": "4.2.0/rev515/amd64",
                   "sha": "e10dbac32ba038804bf52b4f8c374db76b53cd9c",
                   "body": "<p>feat: add s390x platform (<a target=\"_blank\" href=\"https://github.com/snapcrafters/helm/pull/130\">#130</a>)</p>\n",
@@ -2020,14 +2028,6 @@
                   "timestamp": 1781299209,
                   "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev514%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev514%2Farm64"
-               },
-               {
-                  "name": "4.2.0/rev513/armhf",
-                  "sha": "e10dbac32ba038804bf52b4f8c374db76b53cd9c",
-                  "body": "<p>feat: add s390x platform (<a target=\"_blank\" href=\"https://github.com/snapcrafters/helm/pull/130\">#130</a>)</p>\n",
-                  "timestamp": 1781299209,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.0%2Frev513%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.0%2Frev513%2Farmhf"
                }
             ],
             "commits": null,
@@ -2088,6 +2088,13 @@
                      "channel": "candidate",
                      "revision": 513,
                      "timestamp": 1781299896,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 516,
+                     "timestamp": 1781314399,
                      "base": "core24"
                   },
                   {
