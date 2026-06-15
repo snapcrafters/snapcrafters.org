@@ -1254,10 +1254,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 3,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.0.142/rev289/amd64",
+                  "sha": "75e4994ab7892a808635f6a573f9b1fb49b3d939",
+                  "body": "<p>fix: expose standalone modules to electron (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/344\">#344</a>)</p>\n",
+                  "timestamp": 1781559260,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.142%2Frev289%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.142%2Frev289%2Famd64"
+               },
                {
                   "name": "1.0.142/rev288/amd64",
                   "sha": "252a26c9e785cdb1c6506e4a6a493347af2fcf16",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1780479852,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.141%2Frev287%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.141%2Frev287%2Famd64"
-               },
-               {
-                  "name": "1.0.141/rev286/amd64",
-                  "sha": "7825130eb174a75e520d5b83091283aa298133db",
-                  "body": "<p>chore: bump discord to version 1.0.141</p>\n",
-                  "timestamp": 1780408325,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.141%2Frev286%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.141%2Frev286%2Famd64"
                }
             ],
             "commits": null,
@@ -1304,8 +1304,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 288,
-                     "timestamp": 1781009083,
+                     "revision": 289,
+                     "timestamp": 1781560417,
                      "base": "core22"
                   }
                ],
