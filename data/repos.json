@@ -1254,10 +1254,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.0.143/rev290/amd64",
+                  "sha": "5ebb09e9dad3115980981872a4c58d103ecce3bb",
+                  "body": "<p>chore: bump discord to version 1.0.143</p>\n",
+                  "timestamp": 1781621513,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.143%2Frev290%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.143%2Frev290%2Famd64"
+               },
                {
                   "name": "1.0.142/rev289/amd64",
                   "sha": "75e4994ab7892a808635f6a573f9b1fb49b3d939",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1781008223,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.142%2Frev288%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.142%2Frev288%2Famd64"
-               },
-               {
-                  "name": "1.0.141/rev287/amd64",
-                  "sha": "5fc3abc2e2c38b23486e193b73e619d246cf0b20",
-                  "body": "<p>fix: respect proxy env for remote build in manifest script</p>\n",
-                  "timestamp": 1780479852,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.141%2Frev287%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.141%2Frev287%2Famd64"
                }
             ],
             "commits": null,
@@ -1304,8 +1304,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 289,
-                     "timestamp": 1781560417,
+                     "revision": 290,
+                     "timestamp": 1781632709,
                      "base": "core22"
                   }
                ],
@@ -2530,10 +2530,18 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
+               {
+                  "name": "2.569/rev5047/amd64",
+                  "sha": "124a9b94b706c684cf69ea64add437868251c6bf",
+                  "body": "<p>chore: bump jenkins to version 2.569</p>\n",
+                  "timestamp": 1781622676,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.569%2Frev5047%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.569%2Frev5047%2Famd64"
+               },
                {
                   "name": "2.568/rev5046/arm64",
                   "sha": "c53540194cf3a117f456706eb2610b9fd4785f57",
@@ -2549,14 +2557,6 @@
                   "timestamp": 1781098454,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.568%2Frev5043%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.568%2Frev5043%2Farmhf"
-               },
-               {
-                  "name": "2.568/rev5042/amd64",
-                  "sha": "c53540194cf3a117f456706eb2610b9fd4785f57",
-                  "body": "<p>chore: bump jenkins to version 2.568</p>\n",
-                  "timestamp": 1781098454,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.568%2Frev5042%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.568%2Frev5042%2Famd64"
                }
             ],
             "commits": null,
@@ -2601,8 +2601,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5042,
-                     "timestamp": 1781099550,
+                     "revision": 5047,
+                     "timestamp": 1781634243,
                      "base": "core22"
                   },
                   {
