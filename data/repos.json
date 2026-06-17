@@ -979,7 +979,7 @@
          },
          {
             "name": "cumulonimbus",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/cumulonimbus",
             "releases": null,
             "tags": [
@@ -1009,9 +1009,47 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "cumulonimbus",
+               "url": "https://snapcraft.io/cumulonimbus",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 91,
+                     "timestamp": 1729790747,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 92,
+                     "timestamp": 1729834233,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 94,
+                     "timestamp": 1781170082,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "ddgr",
@@ -1497,6 +1535,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "ffmpeg-2404-sdk-8.1.2/rev152/arm64",
+                  "sha": "eebfecb36fc98086ca5235ab96e436eea9f78496",
+                  "body": "<p>chore: bump ffmpeg-2404-sdk to version 8.1.2</p>\n",
+                  "timestamp": 1781703432,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.2%2Frev152%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.2%2Frev152%2Farm64"
+               },
+               {
                   "name": "ffmpeg-2404-sdk-8.1.2/rev151/armhf",
                   "sha": "eebfecb36fc98086ca5235ab96e436eea9f78496",
                   "body": "<p>chore: bump ffmpeg-2404-sdk to version 8.1.2</p>\n",
@@ -1511,14 +1557,6 @@
                   "timestamp": 1781703432,
                   "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.2%2Frev150%2Fs390x",
                   "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.2%2Frev150%2Fs390x"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-8.1.2/rev149/amd64",
-                  "sha": "eebfecb36fc98086ca5235ab96e436eea9f78496",
-                  "body": "<p>chore: bump ffmpeg-2404-sdk to version 8.1.2</p>\n",
-                  "timestamp": 1781703432,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.2%2Frev149%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.2%2Frev149%2Famd64"
                }
             ],
             "commits": null,
