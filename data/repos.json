@@ -979,7 +979,7 @@
          },
          {
             "name": "cumulonimbus",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/cumulonimbus",
             "releases": null,
             "tags": [
@@ -1009,47 +1009,9 @@
                }
             ],
             "commits": null,
-            "ciActions": [
-               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/release-to-candidate.yml",
-               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/promote-to-stable.yml"
-            ],
+            "ciActions": null,
             "charm": null,
-            "snap": {
-               "name": "cumulonimbus",
-               "url": "https://snapcraft.io/cumulonimbus",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 91,
-                     "timestamp": 1729790747,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 92,
-                     "timestamp": 1729834233,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 94,
-                     "timestamp": 1781170082,
-                     "base": "core24"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "ddgr",
@@ -1535,28 +1497,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "ffmpeg-2404-sdk-8.1.2/rev151/armhf",
+                  "sha": "eebfecb36fc98086ca5235ab96e436eea9f78496",
+                  "body": "<p>chore: bump ffmpeg-2404-sdk to version 8.1.2</p>\n",
+                  "timestamp": 1781703432,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.2%2Frev151%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.2%2Frev151%2Farmhf"
+               },
+               {
+                  "name": "ffmpeg-2404-sdk-8.1.2/rev150/s390x",
+                  "sha": "eebfecb36fc98086ca5235ab96e436eea9f78496",
+                  "body": "<p>chore: bump ffmpeg-2404-sdk to version 8.1.2</p>\n",
+                  "timestamp": 1781703432,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.2%2Frev150%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.2%2Frev150%2Fs390x"
+               },
+               {
                   "name": "ffmpeg-2404-sdk-8.1.2/rev149/amd64",
                   "sha": "eebfecb36fc98086ca5235ab96e436eea9f78496",
                   "body": "<p>chore: bump ffmpeg-2404-sdk to version 8.1.2</p>\n",
                   "timestamp": 1781703432,
                   "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.2%2Frev149%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.2%2Frev149%2Famd64"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-8.1.1/rev148/riscv64",
-                  "sha": "6ecb3d84daf0d2b2043ebe9ba5670ca7f4a3cf6f",
-                  "body": "<p>fix: use stable SRT releases for SDK builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/92\">#92</a>)</p>\n\n<p>The unfiltered SRT tag lookup selected Haivision&rsquo;s historical x1.2.0 tag, which breaks current ffmpeg-2404-sdk release builds. Pin the recipe back to the latest stable v-prefixed SRT release and filter future syncs to stable v tags.</p>\n",
-                  "timestamp": 1781006017,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev148%2Friscv64",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev148%2Friscv64"
-               },
-               {
-                  "name": "ffmpeg-2404-sdk-8.1.1/rev147/s390x",
-                  "sha": "6ecb3d84daf0d2b2043ebe9ba5670ca7f4a3cf6f",
-                  "body": "<p>fix: use stable SRT releases for SDK builds (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg-2404-sdk/pull/92\">#92</a>)</p>\n\n<p>The unfiltered SRT tag lookup selected Haivision&rsquo;s historical x1.2.0 tag, which breaks current ffmpeg-2404-sdk release builds. Pin the recipe back to the latest stable v-prefixed SRT release and filter future syncs to stable v tags.</p>\n",
-                  "timestamp": 1781006017,
-                  "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk/releases/tag/ffmpeg-2404-sdk-8.1.1%2Frev147%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2404-sdk/compare/2404...ffmpeg-2404-sdk-8.1.1%2Frev147%2Fs390x"
                }
             ],
             "commits": null,
@@ -1625,15 +1587,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 146,
-                     "timestamp": 1781009920,
+                     "revision": 152,
+                     "timestamp": 1781730309,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 143,
-                     "timestamp": 1781009677,
+                     "revision": 151,
+                     "timestamp": 1781730296,
                      "base": "core24"
                   },
                   {
@@ -1653,8 +1615,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 147,
-                     "timestamp": 1781012618,
+                     "revision": 150,
+                     "timestamp": 1781729680,
                      "base": "core24"
                   }
                ],
