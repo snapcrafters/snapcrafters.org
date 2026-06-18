@@ -343,10 +343,26 @@
          },
          {
             "name": "audacity",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/audacity",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.7.8/rev1226/amd64",
+                  "sha": "475d1d6247a4f98a17d0933e68745e2b4b023d2b",
+                  "body": "<p>ci: schedule daily upstream version sync (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/82\">#82</a>)</p>\n",
+                  "timestamp": 1781784939,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.8%2Frev1226%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.8%2Frev1226%2Famd64"
+               },
+               {
+                  "name": "3.7.8/rev1225/arm64",
+                  "sha": "475d1d6247a4f98a17d0933e68745e2b4b023d2b",
+                  "body": "<p>ci: schedule daily upstream version sync (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/82\">#82</a>)</p>\n",
+                  "timestamp": 1781784939,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.8%2Frev1225%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.8%2Frev1225%2Farm64"
+               },
                {
                   "name": "3.7.7/rev1222/amd64",
                   "sha": "038ee7db337d85f1a84833e27e612c1deb1ab03b",
@@ -354,22 +370,6 @@
                   "timestamp": 1776875375,
                   "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.7%2Frev1222%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.7%2Frev1222%2Famd64"
-               },
-               {
-                  "name": "3.7.7/rev1221/arm64",
-                  "sha": "038ee7db337d85f1a84833e27e612c1deb1ab03b",
-                  "body": "<p>build: add strip for small .so (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/79\">#79</a>)</p>\n",
-                  "timestamp": 1776875375,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.7%2Frev1221%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.7%2Frev1221%2Farm64"
-               },
-               {
-                  "name": "3.7.7/rev1219/arm64",
-                  "sha": "7fb585af625cca8920b78f7bd8f64af7cdac792c",
-                  "body": "<p>new version 3.7.7 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/71\">#71</a>)</p>\n",
-                  "timestamp": 1765819661,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.7%2Frev1219%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.7%2Frev1219%2Farm64"
                }
             ],
             "commits": null,
@@ -386,15 +386,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1222,
-                     "timestamp": 1779866959,
+                     "revision": 1226,
+                     "timestamp": 1781793534,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1221,
-                     "timestamp": 1779866965,
+                     "revision": 1225,
+                     "timestamp": 1781793539,
                      "base": "core24"
                   },
                   {
@@ -414,15 +414,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1222,
-                     "timestamp": 1776877981,
+                     "revision": 1226,
+                     "timestamp": 1781791708,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1221,
-                     "timestamp": 1776877085,
+                     "revision": 1225,
+                     "timestamp": 1781790329,
                      "base": "core24"
                   },
                   {
@@ -2006,28 +2006,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "4.2.1/rev520/s390x",
-                  "sha": "efbd18097a2ed3792a739328bb53dce066de9fca",
-                  "body": "<p>chore: bump helm to version 4.2.1</p>\n",
-                  "timestamp": 1781351020,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.1%2Frev520%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.1%2Frev520%2Fs390x"
+                  "name": "4.2.2/rev523/arm64",
+                  "sha": "43dde951aaa17d18038fd93420fdbe3227fe72d4",
+                  "body": "<p>chore: bump helm to version 4.2.2</p>\n",
+                  "timestamp": 1781786558,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.2%2Frev523%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.2%2Frev523%2Farm64"
                },
                {
-                  "name": "4.2.1/rev519/arm64",
-                  "sha": "efbd18097a2ed3792a739328bb53dce066de9fca",
-                  "body": "<p>chore: bump helm to version 4.2.1</p>\n",
-                  "timestamp": 1781351020,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.1%2Frev519%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.1%2Frev519%2Farm64"
+                  "name": "4.2.2/rev522/amd64",
+                  "sha": "43dde951aaa17d18038fd93420fdbe3227fe72d4",
+                  "body": "<p>chore: bump helm to version 4.2.2</p>\n",
+                  "timestamp": 1781786558,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.2%2Frev522%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.2%2Frev522%2Famd64"
                },
                {
-                  "name": "4.2.1/rev518/armhf",
-                  "sha": "efbd18097a2ed3792a739328bb53dce066de9fca",
-                  "body": "<p>chore: bump helm to version 4.2.1</p>\n",
-                  "timestamp": 1781351020,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.1%2Frev518%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.1%2Frev518%2Farmhf"
+                  "name": "4.2.2/rev521/armhf",
+                  "sha": "43dde951aaa17d18038fd93420fdbe3227fe72d4",
+                  "body": "<p>chore: bump helm to version 4.2.2</p>\n",
+                  "timestamp": 1781786558,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.2%2Frev521%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.2%2Frev521%2Farmhf"
                }
             ],
             "commits": null,
@@ -2079,22 +2079,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 517,
-                     "timestamp": 1781351673,
+                     "revision": 522,
+                     "timestamp": 1781790551,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 519,
-                     "timestamp": 1781351917,
+                     "revision": 523,
+                     "timestamp": 1781790809,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 518,
-                     "timestamp": 1781351766,
+                     "revision": 521,
+                     "timestamp": 1781790353,
                      "base": "core24"
                   },
                   {
@@ -4478,28 +4478,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "8.15.0/rev914/arm64",
+                  "sha": "cd40cddcaf7d332d4d500fcc62716408fbec3b27",
+                  "body": "<p>chore: bump signal-desktop to version 8.15.0</p>\n",
+                  "timestamp": 1781786634,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.15.0%2Frev914%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.15.0%2Frev914%2Farm64"
+               },
+               {
+                  "name": "8.15.0/rev913/amd64",
+                  "sha": "cd40cddcaf7d332d4d500fcc62716408fbec3b27",
+                  "body": "<p>chore: bump signal-desktop to version 8.15.0</p>\n",
+                  "timestamp": 1781786634,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.15.0%2Frev913%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.15.0%2Frev913%2Famd64"
+               },
+               {
                   "name": "8.14.0/rev912/arm64",
                   "sha": "dcd585c582845f7a29f43bb177f516470e36b603",
                   "body": "<p>chore: bump signal-desktop to version 8.14.0</p>\n",
                   "timestamp": 1781185813,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.14.0%2Frev912%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.14.0%2Frev912%2Farm64"
-               },
-               {
-                  "name": "8.14.0/rev911/amd64",
-                  "sha": "dcd585c582845f7a29f43bb177f516470e36b603",
-                  "body": "<p>chore: bump signal-desktop to version 8.14.0</p>\n",
-                  "timestamp": 1781185813,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.14.0%2Frev911%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.14.0%2Frev911%2Famd64"
-               },
-               {
-                  "name": "8.13.0/rev910/arm64",
-                  "sha": "f3abdda54eafd1affce06f493a8d9cdd47d28fea",
-                  "body": "<p>chore: bump signal-desktop to version 8.13.0</p>\n",
-                  "timestamp": 1780572696,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.13.0%2Frev910%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.13.0%2Frev910%2Farm64"
                }
             ],
             "commits": null,
@@ -4516,29 +4516,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 911,
-                     "timestamp": 1781189915,
+                     "revision": 913,
+                     "timestamp": 1781793818,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 912,
-                     "timestamp": 1781189919,
+                     "revision": 914,
+                     "timestamp": 1781793821,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 911,
-                     "timestamp": 1781187526,
+                     "revision": 913,
+                     "timestamp": 1781791174,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 912,
-                     "timestamp": 1781188108,
+                     "revision": 914,
+                     "timestamp": 1781792063,
                      "base": "core24"
                   }
                ],
