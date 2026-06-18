@@ -205,8 +205,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 230,
-                     "timestamp": 1781278761,
+                     "revision": 232,
+                     "timestamp": 1781783954,
                      "base": "core22"
                   },
                   {
@@ -343,7 +343,7 @@
          },
          {
             "name": "audacity",
-            "newCommits": 0,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/audacity",
             "releases": null,
             "tags": [
@@ -1259,6 +1259,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.0.143/rev291/amd64",
+                  "sha": "5ca9a309b8c8926fe0746facd34cb19afdb4a6f4",
+                  "body": "<p>fix: ensure Krisp KMS logs directory exists (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/347\">#347</a>)</p>\n\n<ul>\n<li>fix: ensure Krisp KMS logs directory exists</li>\n</ul>\n\n<p>Krisp fails during global initialisation with error code -4 if the KMS/logs directory is missing relative to the discord_krisp module. Create the expected directory during build and fail early if the Krisp module is not present at the expected standalone module path.</p>\n\n<ul>\n<li>fix: simplify Krisp logs directory creation</li>\n</ul>\n",
+                  "timestamp": 1781773264,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.143%2Frev291%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.143%2Frev291%2Famd64"
+               },
+               {
                   "name": "1.0.143/rev290/amd64",
                   "sha": "5ebb09e9dad3115980981872a4c58d103ecce3bb",
                   "body": "<p>chore: bump discord to version 1.0.143</p>\n",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1781559260,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.142%2Frev289%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.142%2Frev289%2Famd64"
-               },
-               {
-                  "name": "1.0.142/rev288/amd64",
-                  "sha": "252a26c9e785cdb1c6506e4a6a493347af2fcf16",
-                  "body": "<p>chore: bump discord to version 1.0.142</p>\n",
-                  "timestamp": 1781008223,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.142%2Frev288%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.142%2Frev288%2Famd64"
                }
             ],
             "commits": null,
@@ -1297,15 +1297,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 290,
-                     "timestamp": 1781642852,
+                     "revision": 291,
+                     "timestamp": 1781776682,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 290,
-                     "timestamp": 1781632709,
+                     "revision": 291,
+                     "timestamp": 1781774031,
                      "base": "core22"
                   }
                ],
