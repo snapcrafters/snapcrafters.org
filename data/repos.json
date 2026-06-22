@@ -1259,6 +1259,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.0.143/rev292/amd64",
+                  "sha": "d1db524c5bc0ab9d19d5f227ce19c590516f04b0",
+                  "body": "<p>fix: add discord scheme handler to desktop file (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/350\">#350</a>)</p>\n\n<p>Upstream Discord desktop file is missing the x-scheme-handler/discord MimeType, which breaks the ability for browsers to hand off discord:// invite links to the snap via xdg-open. This adds a sed patch to the build step to inject the missing MIME type.</p>\n",
+                  "timestamp": 1782151521,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.143%2Frev292%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.143%2Frev292%2Famd64"
+               },
+               {
                   "name": "1.0.143/rev291/amd64",
                   "sha": "5ca9a309b8c8926fe0746facd34cb19afdb4a6f4",
                   "body": "<p>fix: ensure Krisp KMS logs directory exists (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/347\">#347</a>)</p>\n\n<ul>\n<li>fix: ensure Krisp KMS logs directory exists</li>\n</ul>\n\n<p>Krisp fails during global initialisation with error code -4 if the KMS/logs directory is missing relative to the discord_krisp module. Create the expected directory during build and fail early if the Krisp module is not present at the expected standalone module path.</p>\n\n<ul>\n<li>fix: simplify Krisp logs directory creation</li>\n</ul>\n",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1781621513,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.143%2Frev290%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.143%2Frev290%2Famd64"
-               },
-               {
-                  "name": "1.0.142/rev289/amd64",
-                  "sha": "75e4994ab7892a808635f6a573f9b1fb49b3d939",
-                  "body": "<p>fix: expose standalone modules to electron (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/344\">#344</a>)</p>\n",
-                  "timestamp": 1781559260,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.142%2Frev289%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.142%2Frev289%2Famd64"
                }
             ],
             "commits": null,
@@ -1297,15 +1297,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 291,
-                     "timestamp": 1781776682,
+                     "revision": 292,
+                     "timestamp": 1782154932,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 291,
-                     "timestamp": 1781774031,
+                     "revision": 292,
+                     "timestamp": 1782153700,
                      "base": "core22"
                   }
                ],
