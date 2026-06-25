@@ -949,7 +949,33 @@
             ],
             "ciActions": [],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "cryptool",
+               "url": "https://snapcraft.io/cryptool",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 4,
+                     "timestamp": 1663694170,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 7,
+                     "timestamp": 1700144008,
+                     "base": "core18"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "cumulonimbus",
@@ -5007,28 +5033,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "1.15.7/rev907/amd64",
+                  "name": "1.15.7/rev911/armhf",
                   "sha": "55a13198ebde4feaf6df75c2822674d4820349ad",
                   "body": "<p>chore: bump terraform to version 1.15.7</p>\n",
                   "timestamp": 1782389832,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.7%2Frev907%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.7%2Frev907%2Famd64"
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.7%2Frev911%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.7%2Frev911%2Farmhf"
                },
                {
-                  "name": "1.15.6/rev906/s390x",
-                  "sha": "3e7f00fc7558a4be371b8918021d734b5988a868",
-                  "body": "<p>docs: update workflow badge links <a href=\"a target=&quot;_blank&quot; href=&quot;https://github.com/snapcrafters/terraform/pull/155&quot;&gt;#155&lt;/a\">skip ci</a></p>\n",
-                  "timestamp": 1781123538,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.6%2Frev906%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.6%2Frev906%2Fs390x"
+                  "name": "1.15.7/rev910/ppc64el",
+                  "sha": "55a13198ebde4feaf6df75c2822674d4820349ad",
+                  "body": "<p>chore: bump terraform to version 1.15.7</p>\n",
+                  "timestamp": 1782389832,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.7%2Frev910%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.7%2Frev910%2Fppc64el"
                },
                {
-                  "name": "1.15.6/rev905/armhf",
-                  "sha": "3e7f00fc7558a4be371b8918021d734b5988a868",
-                  "body": "<p>docs: update workflow badge links <a href=\"a target=&quot;_blank&quot; href=&quot;https://github.com/snapcrafters/terraform/pull/155&quot;&gt;#155&lt;/a\">skip ci</a></p>\n",
-                  "timestamp": 1781123538,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.6%2Frev905%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.6%2Frev905%2Farmhf"
+                  "name": "1.15.7/rev909/arm64",
+                  "sha": "55a13198ebde4feaf6df75c2822674d4820349ad",
+                  "body": "<p>chore: bump terraform to version 1.15.7</p>\n",
+                  "timestamp": 1782389832,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.7%2Frev909%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.7%2Frev909%2Farm64"
                }
             ],
             "commits": null,
@@ -5087,29 +5113,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 903,
-                     "timestamp": 1781162765,
+                     "revision": 909,
+                     "timestamp": 1782390872,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 905,
-                     "timestamp": 1781163010,
+                     "revision": 911,
+                     "timestamp": 1782390935,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 904,
-                     "timestamp": 1781162950,
+                     "revision": 910,
+                     "timestamp": 1782390897,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 906,
-                     "timestamp": 1781163548,
+                     "revision": 908,
+                     "timestamp": 1782390830,
                      "base": "core24"
                   }
                ],
