@@ -979,7 +979,7 @@
          },
          {
             "name": "cumulonimbus",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/cumulonimbus",
             "releases": null,
             "tags": [
@@ -990,66 +990,12 @@
                   "timestamp": 1729833697,
                   "url": "https://github.com/snapcrafters/cumulonimbus/releases/tag/1.28.2%2Frev92%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/cumulonimbus/compare/candidate...1.28.2%2Frev92%2Famd64"
-               },
-               {
-                  "name": "1.28.2/rev91/amd64",
-                  "sha": "6a942fc755c2f903194b500757cc0bc072cf77aa",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/cumulonimbus/pull/15\">#15</a> from kz6fittycent/candidate</p>\n\n<p>Core24 upgrade</p>\n",
-                  "timestamp": 1729790091,
-                  "url": "https://github.com/snapcrafters/cumulonimbus/releases/tag/1.28.2%2Frev91%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/cumulonimbus/compare/candidate...1.28.2%2Frev91%2Famd64"
-               },
-               {
-                  "name": "1.28.2/rev90/amd64",
-                  "sha": "d91f30de94ce7c66d6b5546779aae84ae249431e",
-                  "body": "<p>ci: add repo-token to the release flow</p>\n",
-                  "timestamp": 1706197808,
-                  "url": "https://github.com/snapcrafters/cumulonimbus/releases/tag/1.28.2%2Frev90%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/cumulonimbus/compare/candidate...1.28.2%2Frev90%2Famd64"
                }
             ],
             "commits": null,
-            "ciActions": [
-               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/release-to-candidate.yml",
-               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/promote-to-stable.yml"
-            ],
+            "ciActions": null,
             "charm": null,
-            "snap": {
-               "name": "cumulonimbus",
-               "url": "https://snapcraft.io/cumulonimbus",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 91,
-                     "timestamp": 1729790747,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 92,
-                     "timestamp": 1729834233,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 94,
-                     "timestamp": 1781170082,
-                     "base": "core24"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "ddgr",
@@ -3103,7 +3049,110 @@
                "https://github.com/snapcrafters/mosaic/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "mosaic",
+               "url": "https://snapcraft.io/mosaic",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 94,
+                     "timestamp": 1707409310,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 96,
+                     "timestamp": 1707409313,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 98,
+                     "timestamp": 1707409315,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 69,
+                     "timestamp": 1696767705,
+                     "base": ""
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 95,
+                     "timestamp": 1707409317,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 99,
+                     "timestamp": 1707409319,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 97,
+                     "timestamp": 1707409322,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 94,
+                     "timestamp": 1707405910,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 96,
+                     "timestamp": 1707406021,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 98,
+                     "timestamp": 1707406310,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 95,
+                     "timestamp": 1707406008,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 99,
+                     "timestamp": 1707408829,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 97,
+                     "timestamp": 1707406028,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "mrrescue",
@@ -4406,47 +4455,7 @@
                "https://github.com/snapcrafters/signal-desktop/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "signal-desktop",
-               "url": "https://snapcraft.io/signal-desktop",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 913,
-                     "timestamp": 1781793818,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 914,
-                     "timestamp": 1781793821,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 913,
-                     "timestamp": 1781791174,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 914,
-                     "timestamp": 1781792063,
-                     "base": "core24"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "simplenote",
