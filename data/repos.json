@@ -4553,10 +4553,18 @@
          },
          {
             "name": "simplenote",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/simplenote",
             "releases": null,
             "tags": [
+               {
+                  "name": "2.27.1/rev633/amd64",
+                  "sha": "98f6d75235a49d0f9247b2bae2adff944037c8c8",
+                  "body": "<p>chore: bump simplenote to version 2.27.1</p>\n",
+                  "timestamp": 1782909335,
+                  "url": "https://github.com/snapcrafters/simplenote/releases/tag/2.27.1%2Frev633%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/simplenote/compare/candidate...2.27.1%2Frev633%2Famd64"
+               },
                {
                   "name": "2.26.1/rev632/arm64",
                   "sha": "dcde90bb0d128e0a66526c1937d58c6e974b0aca",
@@ -4572,14 +4580,6 @@
                   "timestamp": 1781186516,
                   "url": "https://github.com/snapcrafters/simplenote/releases/tag/2.26.1%2Frev631%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/simplenote/compare/candidate...2.26.1%2Frev631%2Famd64"
-               },
-               {
-                  "name": "2.26.0/rev630/amd64",
-                  "sha": "fe14f5ee47dbc27d89d006010b94c472ef1efbcc",
-                  "body": "<p>chore: bump simplenote to version 2.26.0</p>\n",
-                  "timestamp": 1779715887,
-                  "url": "https://github.com/snapcrafters/simplenote/releases/tag/2.26.0%2Frev630%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/simplenote/compare/candidate...2.26.0%2Frev630%2Famd64"
                }
             ],
             "commits": null,
@@ -4610,8 +4610,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 631,
-                     "timestamp": 1781187320,
+                     "revision": 633,
+                     "timestamp": 1782923382,
                      "base": "core24"
                   },
                   {
