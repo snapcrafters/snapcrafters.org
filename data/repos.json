@@ -236,10 +236,18 @@
          },
          {
             "name": "android-studio-canary",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio-canary",
             "releases": null,
             "tags": [
+               {
+                  "name": "2026.1.3.3/rev57/amd64",
+                  "sha": "289244bb78697522a157feb2af1e9a4cfd055802",
+                  "body": "<p>chore: bump android-studio-canary to version 2026.1.3.3</p>\n",
+                  "timestamp": 1783080473,
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.3.3%2Frev57%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.3.3%2Frev57%2Famd64"
+               },
                {
                   "name": "2026.1.3.2/rev55/amd64",
                   "sha": "60a4659fb50920e4a4aa928ca0588044ac6a5383",
@@ -255,14 +263,6 @@
                   "timestamp": 1781876043,
                   "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.3.1%2Frev53%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.3.1%2Frev53%2Famd64"
-               },
-               {
-                  "name": "2026.1.2.7/rev51/amd64",
-                  "sha": "f09810865301894e7ed42ee05e493e19bb8e010a",
-                  "body": "<p>chore: bump android-studio-canary to version 2026.1.2.7</p>\n",
-                  "timestamp": 1781268795,
-                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.2.7%2Frev51%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.2.7%2Frev51%2Famd64"
                }
             ],
             "commits": null,
@@ -286,8 +286,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 55,
-                     "timestamp": 1782482117,
+                     "revision": 57,
+                     "timestamp": 1783095412,
                      "base": "core22"
                   },
                   {
