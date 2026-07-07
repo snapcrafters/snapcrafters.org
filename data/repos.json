@@ -3607,7 +3607,41 @@
                "https://github.com/snapcrafters/obs-studio/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "obs-studio",
+               "url": "https://snapcraft.io/obs-studio",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1321,
+                     "timestamp": 1781091689,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1321,
+                     "timestamp": 1781090936,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1296,
+                     "timestamp": 1703262889,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "offlineimap",
