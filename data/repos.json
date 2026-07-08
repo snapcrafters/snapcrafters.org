@@ -771,7 +771,119 @@
                "https://github.com/snapcrafters/codespell/actions/workflows/release-to-candidate.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "codespell",
+               "url": "https://snapcraft.io/codespell",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 57,
+                     "timestamp": 1780901631,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 58,
+                     "timestamp": 1780901635,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 56,
+                     "timestamp": 1780901641,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 59,
+                     "timestamp": 1780901645,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 61,
+                     "timestamp": 1780901650,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 60,
+                     "timestamp": 1780901655,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 57,
+                     "timestamp": 1780850060,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 58,
+                     "timestamp": 1780850079,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 56,
+                     "timestamp": 1780850046,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 59,
+                     "timestamp": 1780850085,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 61,
+                     "timestamp": 1780868703,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 60,
+                     "timestamp": 1780861135,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 2,
+                     "timestamp": 1512586274,
+                     "base": ""
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1,
+                     "timestamp": 1512585944,
+                     "base": ""
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "beta",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "corsixth",
@@ -837,33 +949,7 @@
             ],
             "ciActions": [],
             "charm": null,
-            "snap": {
-               "name": "cryptool",
-               "url": "https://snapcraft.io/cryptool",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 4,
-                     "timestamp": 1663694170,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 7,
-                     "timestamp": 1700144008,
-                     "base": "core18"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "cumulonimbus",
