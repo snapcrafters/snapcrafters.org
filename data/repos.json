@@ -5028,10 +5028,18 @@
          },
          {
             "name": "terraform",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/terraform",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.15.8/rev912/amd64",
+                  "sha": "122ae576ec31adc98d4bf61bf4fdfa3f4e774b7e",
+                  "body": "<p>chore: bump terraform to version 1.15.8</p>\n",
+                  "timestamp": 1783603297,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.8%2Frev912%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.8%2Frev912%2Famd64"
+               },
                {
                   "name": "1.15.7/rev911/armhf",
                   "sha": "55a13198ebde4feaf6df75c2822674d4820349ad",
@@ -5047,14 +5055,6 @@
                   "timestamp": 1782389832,
                   "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.7%2Frev910%2Fppc64el",
                   "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.7%2Frev910%2Fppc64el"
-               },
-               {
-                  "name": "1.15.7/rev909/arm64",
-                  "sha": "55a13198ebde4feaf6df75c2822674d4820349ad",
-                  "body": "<p>chore: bump terraform to version 1.15.7</p>\n",
-                  "timestamp": 1782389832,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.7%2Frev909%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.7%2Frev909%2Farm64"
                }
             ],
             "commits": null,
@@ -5106,8 +5106,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 907,
-                     "timestamp": 1782390701,
+                     "revision": 912,
+                     "timestamp": 1783607557,
                      "base": "core24"
                   },
                   {
