@@ -241,6 +241,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2026.1.3.4/rev59/amd64",
+                  "sha": "7e79776bfa26b9ab4c48bd1b06aaffa1db85fff4",
+                  "body": "<p>chore: bump android-studio-canary to version 2026.1.3.4</p>\n",
+                  "timestamp": 1783686234,
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.3.4%2Frev59%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.3.4%2Frev59%2Famd64"
+               },
+               {
                   "name": "2026.1.3.3/rev57/amd64",
                   "sha": "289244bb78697522a157feb2af1e9a4cfd055802",
                   "body": "<p>chore: bump android-studio-canary to version 2026.1.3.3</p>\n",
@@ -255,14 +263,6 @@
                   "timestamp": 1782475788,
                   "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.3.2%2Frev55%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.3.2%2Frev55%2Famd64"
-               },
-               {
-                  "name": "2026.1.3.1/rev53/amd64",
-                  "sha": "fc41b6ab436cfcc96448db205e2e3cded6ecc44a",
-                  "body": "<p>chore: bump android-studio-canary to version 2026.1.3.1</p>\n",
-                  "timestamp": 1781876043,
-                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.3.1%2Frev53%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.3.1%2Frev53%2Famd64"
                }
             ],
             "commits": null,
@@ -286,8 +286,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 57,
-                     "timestamp": 1783095412,
+                     "revision": 59,
+                     "timestamp": 1783691703,
                      "base": "core22"
                   },
                   {
@@ -2006,6 +2006,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "4.2.3/rev532/amd64",
+                  "sha": "574a3d809b0962621545dc469ec2ad7c325672d3",
+                  "body": "<p>chore: bump helm to version 4.2.3</p>\n",
+                  "timestamp": 1783685745,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.3%2Frev532%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.3%2Frev532%2Famd64"
+               },
+               {
                   "name": "4.2.2/rev531/amd64",
                   "sha": "349208edf85859d91dcd4f2a2611241f7a6bf798",
                   "body": "<p>fix: prevent Helm version downgrades</p>\n",
@@ -2020,14 +2028,6 @@
                   "timestamp": 1782131630,
                   "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.2%2Frev530%2Fs390x",
                   "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.2%2Frev530%2Fs390x"
-               },
-               {
-                  "name": "4.2.2/rev529/arm64",
-                  "sha": "349208edf85859d91dcd4f2a2611241f7a6bf798",
-                  "body": "<p>fix: prevent Helm version downgrades</p>\n",
-                  "timestamp": 1782131630,
-                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.2%2Frev529%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.2%2Frev529%2Farm64"
                }
             ],
             "commits": null,
@@ -2079,8 +2079,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 531,
-                     "timestamp": 1782137734,
+                     "revision": 532,
+                     "timestamp": 1783689506,
                      "base": "core24"
                   },
                   {
@@ -2650,8 +2650,8 @@
                   {
                      "track": "lts",
                      "channel": "candidate",
-                     "revision": 5041,
-                     "timestamp": 1781099519,
+                     "revision": 5057,
+                     "timestamp": 1783691627,
                      "base": "core22"
                   },
                   {
@@ -4202,7 +4202,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 196,
+            "newCommits": 197,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
@@ -4308,8 +4308,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1643,
-                     "timestamp": 1782477709,
+                     "revision": 1646,
+                     "timestamp": 1783690448,
                      "base": "core24"
                   },
                   {
@@ -4473,7 +4473,7 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
