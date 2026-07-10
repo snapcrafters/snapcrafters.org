@@ -4473,10 +4473,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.18.0/rev919/amd64",
+                  "sha": "bed81ddd4002ccc5516bf29e18b390d005aee196",
+                  "body": "<p>chore: bump signal-desktop to version 8.18.0</p>\n",
+                  "timestamp": 1783685905,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.18.0%2Frev919%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.18.0%2Frev919%2Famd64"
+               },
                {
                   "name": "8.17.0/rev918/arm64",
                   "sha": "0216b90314b479c8d61f6b73b05105fd64a18f0c",
@@ -4492,14 +4500,6 @@
                   "timestamp": 1782993656,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.17.0%2Frev917%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.17.0%2Frev917%2Famd64"
-               },
-               {
-                  "name": "8.16.0/rev916/arm64",
-                  "sha": "688035bb91465821d37dfe131c2611c8c9dcdeca",
-                  "body": "<p>fix: install pnpm outside signal workspace (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/452\">#452</a>)</p>\n",
-                  "timestamp": 1782403345,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.16.0%2Frev916%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.16.0%2Frev916%2Farm64"
                }
             ],
             "commits": null,
@@ -4530,8 +4530,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 917,
-                     "timestamp": 1783010769,
+                     "revision": 919,
+                     "timestamp": 1783701870,
                      "base": "core24"
                   },
                   {
