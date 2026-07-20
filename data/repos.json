@@ -3,6 +3,640 @@
       "team": "snapcrafters",
       "repos": [
          {
+            "name": "alacritty",
+            "newCommits": 2,
+            "url": "https://github.com/snapcrafters/alacritty",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "0.17.0/rev164/s390x",
+                  "sha": "ecc27dbad5e346c78d9c8c700edac480fadb4fb0",
+                  "body": "<p>fix: wrong cursor loaded for x11 apps opened from alacritty (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/41\">#41</a>)</p>\n",
+                  "timestamp": 1779805407,
+                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.17.0%2Frev164%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.17.0%2Frev164%2Fs390x"
+               },
+               {
+                  "name": "0.17.0/rev163/arm64",
+                  "sha": "ecc27dbad5e346c78d9c8c700edac480fadb4fb0",
+                  "body": "<p>fix: wrong cursor loaded for x11 apps opened from alacritty (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/41\">#41</a>)</p>\n",
+                  "timestamp": 1779805407,
+                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.17.0%2Frev163%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.17.0%2Frev163%2Farm64"
+               },
+               {
+                  "name": "0.17.0/rev162/armhf",
+                  "sha": "ecc27dbad5e346c78d9c8c700edac480fadb4fb0",
+                  "body": "<p>fix: wrong cursor loaded for x11 apps opened from alacritty (<a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/41\">#41</a>)</p>\n",
+                  "timestamp": 1779805407,
+                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.17.0%2Frev162%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.17.0%2Frev162%2Farmhf"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/alacritty/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/alacritty/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/alacritty/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "alacritty",
+               "url": "https://snapcraft.io/alacritty",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 160,
+                     "timestamp": 1780653458,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 163,
+                     "timestamp": 1780653462,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 162,
+                     "timestamp": 1780653465,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 161,
+                     "timestamp": 1780653470,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 164,
+                     "timestamp": 1780653474,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 160,
+                     "timestamp": 1779807416,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 163,
+                     "timestamp": 1779807675,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 162,
+                     "timestamp": 1779807610,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 161,
+                     "timestamp": 1779807546,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 164,
+                     "timestamp": 1780650226,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 105,
+                     "timestamp": 1708535161,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 106,
+                     "timestamp": 1708535191,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 107,
+                     "timestamp": 1708535209,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 108,
+                     "timestamp": 1708535383,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 109,
+                     "timestamp": 1708535406,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "android-studio",
+            "newCommits": 1,
+            "url": "https://github.com/snapcrafters/android-studio",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "2026.1.1.10-quail1-patch2/rev232/amd64",
+                  "sha": "401e7959407286fd1691bd776663ab62703a9e65",
+                  "body": "<p>chore: bump android-studio to version 2026.1.1.10-quail1-patch2</p>\n",
+                  "timestamp": 1781703358,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.1.10-quail1-patch2%2Frev232%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.1.10-quail1-patch2%2Frev232%2Famd64"
+               },
+               {
+                  "name": "2026.1.1.9-quail1-patch1/rev230/amd64",
+                  "sha": "4f498a099077e3843fbac9763b57fadffdc8f035",
+                  "body": "<p>chore: bump android-studio to version 2026.1.1.9-quail1-patch1</p>\n",
+                  "timestamp": 1781268562,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.1.9-quail1-patch1%2Frev230%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.1.9-quail1-patch1%2Frev230%2Famd64"
+               },
+               {
+                  "name": "2026.1.1.8-quail1/rev227/amd64",
+                  "sha": "32acec08cbcf771218fe8804c4ac626883fe7002",
+                  "body": "<p>chore: bump android-studio to version 2026.1.1.8-quail1</p>\n",
+                  "timestamp": 1780408487,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.1.8-quail1%2Frev227%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.1.8-quail1%2Frev227%2Famd64"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/android-studio/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/android-studio/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/android-studio/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "android-studio",
+               "url": "https://snapcraft.io/android-studio",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 232,
+                     "timestamp": 1781783954,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 232,
+                     "timestamp": 1781707157,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 234,
+                     "timestamp": 1784229132,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "android-studio-canary",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/android-studio-canary",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "2026.1.4.1/rev61/amd64",
+                  "sha": "d7d6c8b28f0488e2231ab211bdd67c2e23151243",
+                  "body": "<p>chore: bump android-studio-canary to version 2026.1.4.1</p>\n",
+                  "timestamp": 1784287171,
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.4.1%2Frev61%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.4.1%2Frev61%2Famd64"
+               },
+               {
+                  "name": "2026.1.3.4/rev59/amd64",
+                  "sha": "7e79776bfa26b9ab4c48bd1b06aaffa1db85fff4",
+                  "body": "<p>chore: bump android-studio-canary to version 2026.1.3.4</p>\n",
+                  "timestamp": 1783686234,
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.3.4%2Frev59%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.3.4%2Frev59%2Famd64"
+               },
+               {
+                  "name": "2026.1.3.3/rev57/amd64",
+                  "sha": "289244bb78697522a157feb2af1e9a4cfd055802",
+                  "body": "<p>chore: bump android-studio-canary to version 2026.1.3.3</p>\n",
+                  "timestamp": 1783080473,
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.3.3%2Frev57%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.3.3%2Frev57%2Famd64"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/android-studio-canary/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/android-studio-canary/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/android-studio-canary/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "android-studio-canary",
+               "url": "https://snapcraft.io/android-studio-canary",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 59,
+                     "timestamp": 1783867129,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 61,
+                     "timestamp": 1784298195,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 62,
+                     "timestamp": 1784357916,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "arduino",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/arduino",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "bbe53009af8f4efa98cc13d3be6f3842013e77e5",
+                  "author": "Dani Llewellyn",
+                  "timestamp": 1670536919,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/arduino/pull/31\">#31</a> from merlijn-sebrechts/other-arch</p>\n\n<p>remove blacklist for other arches too</p>\n",
+                  "url": "https://github.com/snapcrafters/arduino/commit/bbe53009af8f4efa98cc13d3be6f3842013e77e5"
+               },
+               {
+                  "sha": "779dc0aef8d146c7bf6803ecd577cf5deacc67a7",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1670084647,
+                  "message": "<p>remove blacklist for other arches too</p>\n",
+                  "url": "https://github.com/snapcrafters/arduino/commit/779dc0aef8d146c7bf6803ecd577cf5deacc67a7"
+               },
+               {
+                  "sha": "d0d21aa1e607279a9e89034f84ef30f7b49ae974",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1667931514,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/arduino/pull/29\">#29</a> from galgalesh/adafruit-nrfutil</p>\n\n<p>Add .local to the path so adafruit-nrfutil plugin works</p>\n",
+                  "url": "https://github.com/snapcrafters/arduino/commit/d0d21aa1e607279a9e89034f84ef30f7b49ae974"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": null
+         },
+         {
+            "name": "audacity",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/audacity",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "3.7.8/rev1226/amd64",
+                  "sha": "475d1d6247a4f98a17d0933e68745e2b4b023d2b",
+                  "body": "<p>ci: schedule daily upstream version sync (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/82\">#82</a>)</p>\n",
+                  "timestamp": 1781784939,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.8%2Frev1226%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.8%2Frev1226%2Famd64"
+               },
+               {
+                  "name": "3.7.8/rev1225/arm64",
+                  "sha": "475d1d6247a4f98a17d0933e68745e2b4b023d2b",
+                  "body": "<p>ci: schedule daily upstream version sync (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/82\">#82</a>)</p>\n",
+                  "timestamp": 1781784939,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.8%2Frev1225%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.8%2Frev1225%2Farm64"
+               },
+               {
+                  "name": "3.7.7/rev1222/amd64",
+                  "sha": "038ee7db337d85f1a84833e27e612c1deb1ab03b",
+                  "body": "<p>build: add strip for small .so (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/79\">#79</a>)</p>\n",
+                  "timestamp": 1776875375,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.7%2Frev1222%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.7%2Frev1222%2Famd64"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/audacity/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/audacity/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/audacity/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "audacity",
+               "url": "https://snapcraft.io/audacity",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1226,
+                     "timestamp": 1781793534,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1225,
+                     "timestamp": 1781793539,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 911,
+                     "timestamp": 1626103156,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 906,
+                     "timestamp": 1633698067,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1226,
+                     "timestamp": 1781791708,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1225,
+                     "timestamp": 1781790329,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1228,
+                     "timestamp": 1781861410,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1227,
+                     "timestamp": 1781860707,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1176,
+                     "timestamp": 1676959286,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 906,
+                     "timestamp": 1625636983,
+                     "base": "core18"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "axel",
+            "newCommits": 2,
+            "url": "https://github.com/snapcrafters/axel",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "2.17.14/rev216/armhf",
+                  "sha": "36d7f25ec7113bbb5ac9638fed59d12eff1a0c1a",
+                  "body": "<p>fix: use autotools 2.72 for build (<a target=\"_blank\" href=\"https://github.com/snapcrafters/axel/pull/25\">#25</a>)</p>\n",
+                  "timestamp": 1714040832,
+                  "url": "https://github.com/snapcrafters/axel/releases/tag/2.17.14%2Frev216%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/axel/compare/candidate...2.17.14%2Frev216%2Farmhf"
+               },
+               {
+                  "name": "2.17.14/rev215/arm64",
+                  "sha": "36d7f25ec7113bbb5ac9638fed59d12eff1a0c1a",
+                  "body": "<p>fix: use autotools 2.72 for build (<a target=\"_blank\" href=\"https://github.com/snapcrafters/axel/pull/25\">#25</a>)</p>\n",
+                  "timestamp": 1714040832,
+                  "url": "https://github.com/snapcrafters/axel/releases/tag/2.17.14%2Frev215%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/axel/compare/candidate...2.17.14%2Frev215%2Farm64"
+               },
+               {
+                  "name": "2.17.14/rev214/s390x",
+                  "sha": "36d7f25ec7113bbb5ac9638fed59d12eff1a0c1a",
+                  "body": "<p>fix: use autotools 2.72 for build (<a target=\"_blank\" href=\"https://github.com/snapcrafters/axel/pull/25\">#25</a>)</p>\n",
+                  "timestamp": 1714040832,
+                  "url": "https://github.com/snapcrafters/axel/releases/tag/2.17.14%2Frev214%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/axel/compare/candidate...2.17.14%2Frev214%2Fs390x"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/axel/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/axel/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/axel/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "axel",
+               "url": "https://snapcraft.io/axel",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 212,
+                     "timestamp": 1714732919,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 215,
+                     "timestamp": 1714732922,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 216,
+                     "timestamp": 1714732925,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 108,
+                     "timestamp": 1678034890,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 213,
+                     "timestamp": 1714732928,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 214,
+                     "timestamp": 1714732931,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 212,
+                     "timestamp": 1714041189,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 215,
+                     "timestamp": 1714041359,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 216,
+                     "timestamp": 1714042367,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 213,
+                     "timestamp": 1714041214,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 214,
+                     "timestamp": 1714041333,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 217,
+                     "timestamp": 1714119917,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 220,
+                     "timestamp": 1714123110,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 221,
+                     "timestamp": 1714123339,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 117,
+                     "timestamp": 1702037118,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 218,
+                     "timestamp": 1714119979,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 219,
+                     "timestamp": 1714120095,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
             "name": "bridge-designer",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/bridge-designer",
@@ -31,9 +665,225 @@
                   "url": "https://github.com/snapcrafters/bridge-designer/commit/539d11dd6aebfc1e0f4ba809b066ec654ace9f4b"
                }
             ],
+            "ciActions": [],
+            "charm": null,
+            "snap": null
+         },
+         {
+            "name": "cassandra",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/cassandra",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "ff04ed3b8addecfccffc9160e569d5db02af62ca",
+                  "author": "Athos Ribeiro",
+                  "timestamp": 1664453523,
+                  "message": "<p>Document existence of the Launchpad repository</p>\n",
+                  "url": "https://github.com/snapcrafters/cassandra/commit/ff04ed3b8addecfccffc9160e569d5db02af62ca"
+               },
+               {
+                  "sha": "89f04e2c4eb4435e9903563ae7ec75db29309770",
+                  "author": "Athos Ribeiro",
+                  "timestamp": 1624559253,
+                  "message": "<p>Increase memory limits</p>\n\n<ul>\n<li>Set JVM maximum heap size</li>\n<li>Increase javadoc build max memory limit</li>\n</ul>\n\n<p>This helps preventing build failures due to OOM errors in different\nplatforms.</p>\n\n<p>Signed-off-by: Athos Ribeiro <a href=\"mailto:athos.ribeiro@canonical.com\">athos.ribeiro@canonical.com</a></p>\n",
+                  "url": "https://github.com/snapcrafters/cassandra/commit/89f04e2c4eb4435e9903563ae7ec75db29309770"
+               },
+               {
+                  "sha": "615c2e0336c79a4325ec58e670d6dea3d7aa3eb6",
+                  "author": "Athos Ribeiro",
+                  "timestamp": 1624474388,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/cassandra/pull/5\">#5</a> from snapcrafters/initial-review</p>\n\n<p>Un-archiving Cassandra snap</p>\n",
+                  "url": "https://github.com/snapcrafters/cassandra/commit/615c2e0336c79a4325ec58e670d6dea3d7aa3eb6"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": null
+         },
+         {
+            "name": "climate-trail",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/climate-trail",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "e6c1fd194425a3d9ce0850ea0bafc9e4f223dc04",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1593372045,
+                  "message": "<p>upgrade to 2.1</p>\n",
+                  "url": "https://github.com/snapcrafters/climate-trail/commit/e6c1fd194425a3d9ce0850ea0bafc9e4f223dc04"
+               },
+               {
+                  "sha": "5c8ff0881883b087a2ee3f41eba428eef1120893",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1584225528,
+                  "message": "<p>update to 2.0</p>\n",
+                  "url": "https://github.com/snapcrafters/climate-trail/commit/5c8ff0881883b087a2ee3f41eba428eef1120893"
+               },
+               {
+                  "sha": "215e1ceb8788ae06026015a19c54ff8094139d70",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1581972258,
+                  "message": "<p>port to gnome extension and add cleanup part</p>\n",
+                  "url": "https://github.com/snapcrafters/climate-trail/commit/215e1ceb8788ae06026015a19c54ff8094139d70"
+               }
+            ],
             "ciActions": null,
             "charm": null,
             "snap": null
+         },
+         {
+            "name": "codespell",
+            "newCommits": 31,
+            "url": "https://github.com/snapcrafters/codespell",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "v2.2.6/rev94/armhf",
+                  "sha": "b8978d5faab6199d1f518a41b207e77c20974eeb",
+                  "body": "<p>ope</p>\n",
+                  "timestamp": 1706666523,
+                  "url": "https://github.com/snapcrafters/codespell/releases/tag/v2.2.6%2Frev94%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/codespell/compare/candidate...v2.2.6%2Frev94%2Farmhf"
+               },
+               {
+                  "name": "v2.2.6/rev93/arm64",
+                  "sha": "b8978d5faab6199d1f518a41b207e77c20974eeb",
+                  "body": "<p>ope</p>\n",
+                  "timestamp": 1706666523,
+                  "url": "https://github.com/snapcrafters/codespell/releases/tag/v2.2.6%2Frev93%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/codespell/compare/candidate...v2.2.6%2Frev93%2Farm64"
+               },
+               {
+                  "name": "v2.2.6/rev92/ppc64el",
+                  "sha": "b8978d5faab6199d1f518a41b207e77c20974eeb",
+                  "body": "<p>ope</p>\n",
+                  "timestamp": 1706666523,
+                  "url": "https://github.com/snapcrafters/codespell/releases/tag/v2.2.6%2Frev92%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/codespell/compare/candidate...v2.2.6%2Frev92%2Fppc64el"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/codespell/actions/workflows/release-to-candidate.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "codespell",
+               "url": "https://snapcraft.io/codespell",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 57,
+                     "timestamp": 1780901631,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 58,
+                     "timestamp": 1780901635,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 56,
+                     "timestamp": 1780901641,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 59,
+                     "timestamp": 1780901645,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 61,
+                     "timestamp": 1780901650,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 60,
+                     "timestamp": 1780901655,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 57,
+                     "timestamp": 1780850060,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 58,
+                     "timestamp": 1780850079,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 56,
+                     "timestamp": 1780850046,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 59,
+                     "timestamp": 1780850085,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 61,
+                     "timestamp": 1780868703,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 60,
+                     "timestamp": 1780861135,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 2,
+                     "timestamp": 1512586274,
+                     "base": ""
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1,
+                     "timestamp": 1512585944,
+                     "base": ""
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "beta",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "corsixth",
@@ -69,8 +919,141 @@
             "snap": null
          },
          {
-            "name": "ddgr",
+            "name": "cryptool",
             "newCommits": 0,
+            "url": "https://github.com/snapcrafters/cryptool",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "10366204262f34c8aae33dc98d9f45403c4262fe",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1663751096,
+                  "message": "<p>update metadata</p>\n",
+                  "url": "https://github.com/snapcrafters/cryptool/commit/10366204262f34c8aae33dc98d9f45403c4262fe"
+               },
+               {
+                  "sha": "9ae74654d37b4d007bb9cd0b80a9fbabfa711fc0",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1663694142,
+                  "message": "<p>add more metadata</p>\n",
+                  "url": "https://github.com/snapcrafters/cryptool/commit/9ae74654d37b4d007bb9cd0b80a9fbabfa711fc0"
+               },
+               {
+                  "sha": "43bca2a1cba24a2295786decaf5b1b28eb6cfe20",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1663693538,
+                  "message": "<p>add license to metadata</p>\n",
+                  "url": "https://github.com/snapcrafters/cryptool/commit/43bca2a1cba24a2295786decaf5b1b28eb6cfe20"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": {
+               "name": "cryptool",
+               "url": "https://snapcraft.io/cryptool",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 4,
+                     "timestamp": 1663694170,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 7,
+                     "timestamp": 1700144008,
+                     "base": "core18"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "cumulonimbus",
+            "newCommits": 3,
+            "url": "https://github.com/snapcrafters/cumulonimbus",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "1.28.2/rev92/amd64",
+                  "sha": "026d1bf04b25a498b8f2b4877347554849a05131",
+                  "body": "<p>ci: disable screenshot workflow</p>\n\n<p>This doesnt work at the moment, but we shouldn&rsquo;t stop releasing new versions, since they can still be manually tested, until such time as the underlying issue is investigated.</p>\n",
+                  "timestamp": 1729833697,
+                  "url": "https://github.com/snapcrafters/cumulonimbus/releases/tag/1.28.2%2Frev92%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/cumulonimbus/compare/candidate...1.28.2%2Frev92%2Famd64"
+               },
+               {
+                  "name": "1.28.2/rev91/amd64",
+                  "sha": "6a942fc755c2f903194b500757cc0bc072cf77aa",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/cumulonimbus/pull/15\">#15</a> from kz6fittycent/candidate</p>\n\n<p>Core24 upgrade</p>\n",
+                  "timestamp": 1729790091,
+                  "url": "https://github.com/snapcrafters/cumulonimbus/releases/tag/1.28.2%2Frev91%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/cumulonimbus/compare/candidate...1.28.2%2Frev91%2Famd64"
+               },
+               {
+                  "name": "1.28.2/rev90/amd64",
+                  "sha": "d91f30de94ce7c66d6b5546779aae84ae249431e",
+                  "body": "<p>ci: add repo-token to the release flow</p>\n",
+                  "timestamp": 1706197808,
+                  "url": "https://github.com/snapcrafters/cumulonimbus/releases/tag/1.28.2%2Frev90%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/cumulonimbus/compare/candidate...1.28.2%2Frev90%2Famd64"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/cumulonimbus/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "cumulonimbus",
+               "url": "https://snapcraft.io/cumulonimbus",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 91,
+                     "timestamp": 1729790747,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 92,
+                     "timestamp": 1729834233,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 95,
+                     "timestamp": 1784229428,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "ddgr",
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/ddgr",
             "releases": null,
             "tags": [
@@ -100,9 +1083,174 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/ddgr/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/ddgr/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/ddgr/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "ddgr",
+               "url": "https://snapcraft.io/ddgr",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 855,
+                     "timestamp": 1780653786,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 856,
+                     "timestamp": 1780653789,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 857,
+                     "timestamp": 1780653794,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 594,
+                     "timestamp": 1612461022,
+                     "base": ""
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 818,
+                     "timestamp": 1696718024,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 819,
+                     "timestamp": 1696718025,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 855,
+                     "timestamp": 1780140256,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 856,
+                     "timestamp": 1780140435,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 857,
+                     "timestamp": 1780140451,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 817,
+                     "timestamp": 1696718024,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 821,
+                     "timestamp": 1696718028,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 820,
+                     "timestamp": 1696718026,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 594,
+                     "timestamp": 1656792291,
+                     "base": ""
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 818,
+                     "timestamp": 1696718024,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 819,
+                     "timestamp": 1696718025,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 861,
+                     "timestamp": 1781157109,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 862,
+                     "timestamp": 1781157169,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 863,
+                     "timestamp": 1781157172,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 594,
+                     "timestamp": 1605227013,
+                     "base": ""
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 830,
+                     "timestamp": 1703085104,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 823,
+                     "timestamp": 1702446148,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "beta",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "discord",
@@ -136,13 +1284,253 @@
                }
             ],
             "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/discord/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/discord/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/discord/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "discord",
+               "url": "https://snapcraft.io/discord",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 297,
+                     "timestamp": 1784301300,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 297,
+                     "timestamp": 1784296820,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "dosbox-x",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/dosbox-x",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "b2ddf0f556563cfa12b2f77579cf47c4524a0b63",
+                  "author": "Ken VanDine",
+                  "timestamp": 1677725207,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/dosbox-x/pull/40\">#40</a> from snapcrafters/new-logo</p>\n\n<p>meta: use dosbox-x.svg icon with transparent background</p>\n",
+                  "url": "https://github.com/snapcrafters/dosbox-x/commit/b2ddf0f556563cfa12b2f77579cf47c4524a0b63"
+               },
+               {
+                  "sha": "e66a41c0403f8bc43a1d987765b22ab58bfb432c",
+                  "author": "Callahan Kovacs",
+                  "timestamp": 1677695170,
+                  "message": "<p>meta: use dosbox-x.svg icon with transparent background</p>\n\n<p>Signed-off-by: Callahan Kovacs <a href=\"mailto:callahankovacs@gmail.com\">callahankovacs@gmail.com</a></p>\n",
+                  "url": "https://github.com/snapcrafters/dosbox-x/commit/e66a41c0403f8bc43a1d987765b22ab58bfb432c"
+               },
+               {
+                  "sha": "3b3426c0804c494c1c19bf8ed2ac031f8c77b663",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1676751131,
+                  "message": "<p>Add USB and serial port plugs`</p>\n\n<p>for users that want to connect DOS to serial or USB devices.</p>\n",
+                  "url": "https://github.com/snapcrafters/dosbox-x/commit/3b3426c0804c494c1c19bf8ed2ac031f8c77b663"
+               }
+            ],
             "ciActions": null,
             "charm": null,
             "snap": null
          },
          {
-            "name": "ffmpeg-2404-sdk",
+            "name": "duckmarines",
             "newCommits": 0,
+            "url": "https://github.com/snapcrafters/duckmarines",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "92522cf4f0afff69ad848113eaafbf7c379ec9ed",
+                  "author": "Ubuntu",
+                  "timestamp": 1618570988,
+                  "message": "<p>Trigger build of duckmarines on 2021-04-16-11:00:26</p>\n",
+                  "url": "https://github.com/snapcrafters/duckmarines/commit/92522cf4f0afff69ad848113eaafbf7c379ec9ed"
+               },
+               {
+                  "sha": "a0c72d3a20bbf9d434a1706fa14ed7304fb430a4",
+                  "author": "Ubuntu",
+                  "timestamp": 1614329358,
+                  "message": "<p>Trigger build of duckmarines on 2021-02-26-08:47:58</p>\n",
+                  "url": "https://github.com/snapcrafters/duckmarines/commit/a0c72d3a20bbf9d434a1706fa14ed7304fb430a4"
+               },
+               {
+                  "sha": "3302fb237275aebabb4430364ba69c54153b7fbe",
+                  "author": "Ubuntu",
+                  "timestamp": 1607509584,
+                  "message": "<p>Trigger build of duckmarines on 2020-12-09-10:24:33</p>\n",
+                  "url": "https://github.com/snapcrafters/duckmarines/commit/3302fb237275aebabb4430364ba69c54153b7fbe"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": null
+         },
+         {
+            "name": "ffmpeg",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/ffmpeg",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "53af5531ac37c2dd7256a8a54bca03912e4603a4",
+                  "author": "Jon Seager",
+                  "timestamp": 1774436746,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg/pull/83\">#83</a> from brlin-tw/content-snap</p>\n\n<p>Migrate to use the FFmpeg content snap</p>\n",
+                  "url": "https://github.com/snapcrafters/ffmpeg/commit/53af5531ac37c2dd7256a8a54bca03912e4603a4"
+               },
+               {
+                  "sha": "6264dfdf07be99a6b8a134ee852dd370131e8f12",
+                  "author": "林博仁(Buo-ren Lin)",
+                  "timestamp": 1769348585,
+                  "message": "<p>Migrate to use the FFmpeg content snap</p>\n\n<p>This patch:</p>\n\n<ul>\n<li>Migrates the base to core24</li>\n<li>Replaces FFmpeg and its dependencies with the FFmpeg Content Snap, which ships a more recent version(7.1.1 at the moment)</li>\n<li>Replaces mesa packages with the ones provided by the mesa-2404 content snap</li>\n<li>Introduces a wrapper to bypass Snapcraft&rsquo;s application executable existence checks as the app commands are now provided by the content snaps</li>\n</ul>\n\n<p>Fixes <a target=\"_blank\" href=\"https://github.com/snapcrafters/ffmpeg/pull/77\">#77</a>.</p>\n\n<p>Signed-off-by: 林博仁(Buo-ren Lin) <a href=\"mailto:buo.ren.lin@gmail.com\">buo.ren.lin@gmail.com</a></p>\n",
+                  "url": "https://github.com/snapcrafters/ffmpeg/commit/6264dfdf07be99a6b8a134ee852dd370131e8f12"
+               },
+               {
+                  "sha": "a61ec15e54a7badcec2b5ecfefe94103bcd85007",
+                  "author": "林博仁(Buo-ren Lin)",
+                  "timestamp": 1769340955,
+                  "message": "<p>Simplify command-chain configuration by using YAML anchors and aliases</p>\n\n<p>Signed-off-by: 林博仁(Buo-ren Lin) <a href=\"mailto:buo.ren.lin@gmail.com\">buo.ren.lin@gmail.com</a></p>\n",
+                  "url": "https://github.com/snapcrafters/ffmpeg/commit/a61ec15e54a7badcec2b5ecfefe94103bcd85007"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": null
+         },
+         {
+            "name": "ffmpeg-2204-sdk",
+            "newCommits": 19,
+            "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "ffmpeg-2404-sdk-7.0.1/rev20/ppc64el",
+                  "sha": "b013fb044dd5fd0ba500a01cbd76a19ecaad5791",
+                  "body": "<p>misc: update for <code>core24</code> release</p>\n",
+                  "timestamp": 1720701286,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev20%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2204-sdk/compare/2204...ffmpeg-2404-sdk-7.0.1%2Frev20%2Fppc64el"
+               },
+               {
+                  "name": "ffmpeg-2404-sdk-7.0.1/rev19/amd64",
+                  "sha": "b013fb044dd5fd0ba500a01cbd76a19ecaad5791",
+                  "body": "<p>misc: update for <code>core24</code> release</p>\n",
+                  "timestamp": 1720701286,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev19%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2204-sdk/compare/2204...ffmpeg-2404-sdk-7.0.1%2Frev19%2Famd64"
+               },
+               {
+                  "name": "ffmpeg-2404-sdk-7.0.1/rev18/armhf",
+                  "sha": "931845de57f3390ceaa28c2c63f4bdfec81a9b63",
+                  "body": "<p>docs: update README</p>\n",
+                  "timestamp": 1718643537,
+                  "url": "https://github.com/snapcrafters/ffmpeg-2204-sdk/releases/tag/ffmpeg-2404-sdk-7.0.1%2Frev18%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/ffmpeg-2204-sdk/compare/2204...ffmpeg-2404-sdk-7.0.1%2Frev18%2Farmhf"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/update-sdk-snap.yml",
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/release-sdk-to-candidate.yml",
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/promote-to-stable.yml",
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/update-sdk-snap.yml",
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/release-content-to-candidate.yml",
+               "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "ffmpeg-2204-sdk",
+               "url": "https://snapcraft.io/ffmpeg-2204-sdk",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 169,
+                     "timestamp": 1782893470,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 166,
+                     "timestamp": 1782893475,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 168,
+                     "timestamp": 1782893479,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 167,
+                     "timestamp": 1782893485,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 169,
+                     "timestamp": 1782814502,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 166,
+                     "timestamp": 1782811750,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 168,
+                     "timestamp": 1782814488,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 167,
+                     "timestamp": 1782811870,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "ffmpeg-2404-sdk",
+            "newCommits": 6,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
@@ -172,7 +1560,143 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/update-sdk-snap.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/release-sdk-to-candidate.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/promote-to-stable.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/update-sdk-snap.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/release-content-to-candidate.yml",
+               "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "ffmpeg-2404-sdk",
+               "url": "https://snapcraft.io/ffmpeg-2404-sdk",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 172,
+                     "timestamp": 1784066109,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 174,
+                     "timestamp": 1784066112,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 173,
+                     "timestamp": 1784066115,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 177,
+                     "timestamp": 1784066118,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 176,
+                     "timestamp": 1784066121,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 175,
+                     "timestamp": 1784066124,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 172,
+                     "timestamp": 1784034431,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 174,
+                     "timestamp": 1784037611,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 173,
+                     "timestamp": 1784034498,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 177,
+                     "timestamp": 1784065526,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 176,
+                     "timestamp": 1784061948,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 175,
+                     "timestamp": 1784055119,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "fkill",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/fkill",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "82d3823cd6bf66ebde6b8230296ff3db9b43026c",
+                  "author": "Dani Llewellyn",
+                  "timestamp": 1656799153,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/fkill/pull/6\">#6</a> from popey/patch-1</p>\n\n<p>Update for core20</p>\n",
+                  "url": "https://github.com/snapcrafters/fkill/commit/82d3823cd6bf66ebde6b8230296ff3db9b43026c"
+               },
+               {
+                  "sha": "7dd16b3a7b386841a525d56cb119eaf81b515e17",
+                  "author": "Dani Llewellyn",
+                  "timestamp": 1656799096,
+                  "message": "<p>Create test-snap-can-build.yml</p>\n",
+                  "url": "https://github.com/snapcrafters/fkill/commit/7dd16b3a7b386841a525d56cb119eaf81b515e17"
+               },
+               {
+                  "sha": "64096c565c6fb086e713c314a23586cea6874c51",
+                  "author": "Alan Pope",
+                  "timestamp": 1656798195,
+                  "message": "<p>Update for core20</p>\n\n<p>Needed updatng format for npm plugin.</p>\n",
+                  "url": "https://github.com/snapcrafters/fkill/commit/64096c565c6fb086e713c314a23586cea6874c51"
+               }
+            ],
+            "ciActions": [],
             "charm": null,
             "snap": null
          },
@@ -205,7 +1729,7 @@
                   "url": "https://github.com/snapcrafters/flightgear/commit/f3b090add60b6a095e4e82914311fd18ce50b514"
                }
             ],
-            "ciActions": null,
+            "ciActions": [],
             "charm": null,
             "snap": null
          },
@@ -241,13 +1765,178 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/get-iplayer/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/get-iplayer/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/get-iplayer/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "get-iplayer",
+               "url": "https://snapcraft.io/get-iplayer",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 537,
+                     "timestamp": 1780752180,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 539,
+                     "timestamp": 1780752184,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 540,
+                     "timestamp": 1780752187,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 541,
+                     "timestamp": 1780752191,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 538,
+                     "timestamp": 1780752194,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 537,
+                     "timestamp": 1780737955,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 539,
+                     "timestamp": 1780738219,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 540,
+                     "timestamp": 1780738272,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 541,
+                     "timestamp": 1780738354,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 538,
+                     "timestamp": 1780738150,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 516,
+                     "timestamp": 1706191014,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 519,
+                     "timestamp": 1706191016,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 517,
+                     "timestamp": 1706191015,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 518,
+                     "timestamp": 1706191015,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 520,
+                     "timestamp": 1706191017,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 516,
+                     "timestamp": 1705304854,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 519,
+                     "timestamp": 1705305163,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 517,
+                     "timestamp": 1705305028,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 505,
+                     "timestamp": 1702713375,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 518,
+                     "timestamp": 1705305098,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 520,
+                     "timestamp": 1705305230,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "beta",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "ghvmctl",
-            "newCommits": 0,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/ghvmctl",
             "releases": null,
             "tags": [
@@ -277,9 +1966,501 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/ghvmctl/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/ghvmctl/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "ghvmctl",
+               "url": "https://snapcraft.io/ghvmctl",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 16,
+                     "timestamp": 1717074734,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 16,
+                     "timestamp": 1717074602,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "helm",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/helm",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "4.2.3/rev535/arm64",
+                  "sha": "574a3d809b0962621545dc469ec2ad7c325672d3",
+                  "body": "<p>chore: bump helm to version 4.2.3</p>\n",
+                  "timestamp": 1783685745,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.3%2Frev535%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.3%2Frev535%2Farm64"
+               },
+               {
+                  "name": "4.2.3/rev534/armhf",
+                  "sha": "574a3d809b0962621545dc469ec2ad7c325672d3",
+                  "body": "<p>chore: bump helm to version 4.2.3</p>\n",
+                  "timestamp": 1783685745,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.3%2Frev534%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.3%2Frev534%2Farmhf"
+               },
+               {
+                  "name": "4.2.3/rev533/s390x",
+                  "sha": "574a3d809b0962621545dc469ec2ad7c325672d3",
+                  "body": "<p>chore: bump helm to version 4.2.3</p>\n",
+                  "timestamp": 1783685745,
+                  "url": "https://github.com/snapcrafters/helm/releases/tag/4.2.3%2Frev533%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/helm/compare/candidate...4.2.3%2Frev533%2Fs390x"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/helm/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/helm/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/helm/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "helm",
+               "url": "https://snapcraft.io/helm",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 532,
+                     "timestamp": 1783864414,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 535,
+                     "timestamp": 1783864418,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 534,
+                     "timestamp": 1783864422,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 373,
+                     "timestamp": 1676749918,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 533,
+                     "timestamp": 1783864427,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 532,
+                     "timestamp": 1783689506,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 535,
+                     "timestamp": 1783849045,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 534,
+                     "timestamp": 1783849037,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 533,
+                     "timestamp": 1783848916,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 384,
+                     "timestamp": 1705650993,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 387,
+                     "timestamp": 1705651109,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 386,
+                     "timestamp": 1705651058,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 385,
+                     "timestamp": 1705651052,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.7",
+                     "channel": "stable",
+                     "revision": 353,
+                     "timestamp": 1631795191,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.7",
+                     "channel": "stable",
+                     "revision": 355,
+                     "timestamp": 1631795192,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.7",
+                     "channel": "stable",
+                     "revision": 352,
+                     "timestamp": 1631795190,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.7",
+                     "channel": "stable",
+                     "revision": 354,
+                     "timestamp": 1631795192,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.6",
+                     "channel": "stable",
+                     "revision": 350,
+                     "timestamp": 1626291504,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.6",
+                     "channel": "stable",
+                     "revision": 349,
+                     "timestamp": 1626291504,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.6",
+                     "channel": "stable",
+                     "revision": 351,
+                     "timestamp": 1626291505,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.6",
+                     "channel": "stable",
+                     "revision": 348,
+                     "timestamp": 1626291503,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.5",
+                     "channel": "stable",
+                     "revision": 336,
+                     "timestamp": 1618491154,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.5",
+                     "channel": "stable",
+                     "revision": 339,
+                     "timestamp": 1618491157,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.5",
+                     "channel": "stable",
+                     "revision": 337,
+                     "timestamp": 1618491156,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.5",
+                     "channel": "stable",
+                     "revision": 338,
+                     "timestamp": 1618491157,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.4",
+                     "channel": "stable",
+                     "revision": 317,
+                     "timestamp": 1607713911,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.4",
+                     "channel": "stable",
+                     "revision": 319,
+                     "timestamp": 1607719317,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.4",
+                     "channel": "stable",
+                     "revision": 318,
+                     "timestamp": 1607719317,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.4",
+                     "channel": "stable",
+                     "revision": 316,
+                     "timestamp": 1607713910,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.3",
+                     "channel": "stable",
+                     "revision": 292,
+                     "timestamp": 1600821729,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.3",
+                     "channel": "stable",
+                     "revision": 294,
+                     "timestamp": 1600821730,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.3",
+                     "channel": "stable",
+                     "revision": 295,
+                     "timestamp": 1600821729,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.3",
+                     "channel": "stable",
+                     "revision": 293,
+                     "timestamp": 1600821730,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.2",
+                     "channel": "stable",
+                     "revision": 244,
+                     "timestamp": 1591707615,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.2",
+                     "channel": "stable",
+                     "revision": 247,
+                     "timestamp": 1591707618,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.2",
+                     "channel": "stable",
+                     "revision": 246,
+                     "timestamp": 1591707617,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.2",
+                     "channel": "stable",
+                     "revision": 245,
+                     "timestamp": 1591707616,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.1",
+                     "channel": "stable",
+                     "revision": 226,
+                     "timestamp": 1587747235,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.1",
+                     "channel": "stable",
+                     "revision": 224,
+                     "timestamp": 1587747110,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.1",
+                     "channel": "stable",
+                     "revision": 225,
+                     "timestamp": 1587747167,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.1",
+                     "channel": "stable",
+                     "revision": 227,
+                     "timestamp": 1587747294,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.0",
+                     "channel": "stable",
+                     "revision": 181,
+                     "timestamp": 1581526274,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.0",
+                     "channel": "stable",
+                     "revision": 183,
+                     "timestamp": 1581526276,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.0",
+                     "channel": "stable",
+                     "revision": 182,
+                     "timestamp": 1581526275,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "3.0",
+                     "channel": "stable",
+                     "revision": 180,
+                     "timestamp": 1581526273,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.17",
+                     "channel": "stable",
+                     "revision": 298,
+                     "timestamp": 1603892360,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.17",
+                     "channel": "stable",
+                     "revision": 296,
+                     "timestamp": 1603892275,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.17",
+                     "channel": "stable",
+                     "revision": 297,
+                     "timestamp": 1603892314,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.17",
+                     "channel": "stable",
+                     "revision": 299,
+                     "timestamp": 1603892399,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.16",
+                     "channel": "stable",
+                     "revision": 290,
+                     "timestamp": 1600453427,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.16",
+                     "channel": "stable",
+                     "revision": 288,
+                     "timestamp": 1600453359,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.16",
+                     "channel": "stable",
+                     "revision": 289,
+                     "timestamp": 1600453393,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.16",
+                     "channel": "stable",
+                     "revision": 291,
+                     "timestamp": 1600453463,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.15",
+                     "channel": "stable",
+                     "revision": 174,
+                     "timestamp": 1576271079,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.15",
+                     "channel": "stable",
+                     "revision": 172,
+                     "timestamp": 1576270930,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.15",
+                     "channel": "stable",
+                     "revision": 173,
+                     "timestamp": 1576271004,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "2.15",
+                     "channel": "stable",
+                     "revision": 175,
+                     "timestamp": 1576271153,
+                     "base": "core18"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest",
+                  "3.7",
+                  "3.6",
+                  "3.5",
+                  "3.4",
+                  "3.3",
+                  "3.2",
+                  "3.1",
+                  "3.0",
+                  "2.17",
+                  "2.16",
+                  "2.15"
+               ]
+            }
          },
          {
             "name": "inadyn",
@@ -379,9 +2560,124 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/jenkins/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/jenkins/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/jenkins/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "jenkins",
+               "url": "https://snapcraft.io/jenkins",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 5060,
+                     "timestamp": 1784039964,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 5062,
+                     "timestamp": 1784039970,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 5061,
+                     "timestamp": 1784039976,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 4912,
+                     "timestamp": 1753716416,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 5060,
+                     "timestamp": 1784032860,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 5062,
+                     "timestamp": 1784036530,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 5061,
+                     "timestamp": 1784035113,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 4912,
+                     "timestamp": 1753395621,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "stable",
+                     "revision": 5041,
+                     "timestamp": 1781103940,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "stable",
+                     "revision": 5045,
+                     "timestamp": 1781103944,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "stable",
+                     "revision": 5044,
+                     "timestamp": 1781103947,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "candidate",
+                     "revision": 5057,
+                     "timestamp": 1783691627,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "candidate",
+                     "revision": 5045,
+                     "timestamp": 1781099749,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "candidate",
+                     "revision": 5044,
+                     "timestamp": 1781099683,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest",
+                  "lts"
+               ]
+            }
          },
          {
             "name": "kompozer",
@@ -450,6 +2746,108 @@
             "snap": null
          },
          {
+            "name": "luanti",
+            "newCommits": 2,
+            "url": "https://github.com/snapcrafters/luanti",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "5.16.1/rev25/amd64",
+                  "sha": "f5713b34f171cb67d93e5037c8559227b378374e",
+                  "body": "<p>chore: bump luanti to version 5.16.1</p>\n",
+                  "timestamp": 1778503270,
+                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.16.1%2Frev25%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.16.1%2Frev25%2Famd64"
+               },
+               {
+                  "name": "5.16.1/rev24/armhf",
+                  "sha": "f5713b34f171cb67d93e5037c8559227b378374e",
+                  "body": "<p>chore: bump luanti to version 5.16.1</p>\n",
+                  "timestamp": 1778503270,
+                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.16.1%2Frev24%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.16.1%2Frev24%2Farmhf"
+               },
+               {
+                  "name": "5.16.1/rev23/arm64",
+                  "sha": "f5713b34f171cb67d93e5037c8559227b378374e",
+                  "body": "<p>chore: bump luanti to version 5.16.1</p>\n",
+                  "timestamp": 1778503270,
+                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.16.1%2Frev23%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.16.1%2Frev23%2Farm64"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/luanti/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/luanti/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/luanti/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "luanti",
+               "url": "https://snapcraft.io/luanti",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 25,
+                     "timestamp": 1779866930,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 23,
+                     "timestamp": 1779866935,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 24,
+                     "timestamp": 1779866939,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 25,
+                     "timestamp": 1778767123,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 23,
+                     "timestamp": 1778765753,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 24,
+                     "timestamp": 1778765777,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 3,
+                     "timestamp": 1748653723,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
             "name": "magic-wormhole",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/magic-wormhole",
@@ -481,6 +2879,65 @@
             "ciActions": [],
             "charm": null,
             "snap": null
+         },
+         {
+            "name": "marktext",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/marktext",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "1a9af61d28f995c871422ef3a035b69fd1d76027",
+                  "author": "Jason Nucciarone",
+                  "timestamp": 1711309265,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/marktext/pull/8\">#8</a> from soumyaDghosh/master</p>\n\n<p>feat: Port to core22 base</p>\n",
+                  "url": "https://github.com/snapcrafters/marktext/commit/1a9af61d28f995c871422ef3a035b69fd1d76027"
+               },
+               {
+                  "sha": "0414fd0091d30839b16992299599a12fffd10d18",
+                  "author": "soumyadghosh",
+                  "timestamp": 1711260770,
+                  "message": "<p>port to core22</p>\n",
+                  "url": "https://github.com/snapcrafters/marktext/commit/0414fd0091d30839b16992299599a12fffd10d18"
+               },
+               {
+                  "sha": "9f20c9d7db0086e8861e127eb3f57320c7d39708",
+                  "author": "Jason Nucciarone",
+                  "timestamp": 1660050638,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/marktext/pull/7\">#7</a> from NucciTheBoss/update-1</p>\n\n<p>Updates to marktext snap</p>\n",
+                  "url": "https://github.com/snapcrafters/marktext/commit/9f20c9d7db0086e8861e127eb3f57320c7d39708"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": {
+               "name": "marktext",
+               "url": "https://snapcraft.io/marktext",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 9,
+                     "timestamp": 1660057179,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 11,
+                     "timestamp": 1711343623,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "mattermost-desktop",
@@ -752,6 +3209,112 @@
             }
          },
          {
+            "name": "mrrescue",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/mrrescue",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "a9dd847da3cb9bb10b9f38c81d32586053964ed6",
+                  "author": "Ubuntu",
+                  "timestamp": 1614329453,
+                  "message": "<p>Trigger build of mrrescue on 2021-02-26-08:47:58</p>\n",
+                  "url": "https://github.com/snapcrafters/mrrescue/commit/a9dd847da3cb9bb10b9f38c81d32586053964ed6"
+               },
+               {
+                  "sha": "dd0f783bfb01e5f787472366b17f89a468702534",
+                  "author": "Ubuntu",
+                  "timestamp": 1607075003,
+                  "message": "<p>Trigger build of mrrescue on 2020-12-04-09:41:34</p>\n",
+                  "url": "https://github.com/snapcrafters/mrrescue/commit/dd0f783bfb01e5f787472366b17f89a468702534"
+               },
+               {
+                  "sha": "669af82694142fb455aa68eebfe49fa039b225de",
+                  "author": "Alan Pope",
+                  "timestamp": 1605556581,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/mrrescue/pull/6\">#6</a> from snapcrafters/core-migration</p>\n\n<p>Migrate core</p>\n",
+                  "url": "https://github.com/snapcrafters/mrrescue/commit/669af82694142fb455aa68eebfe49fa039b225de"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": null
+         },
+         {
+            "name": "mumble",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/mumble",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "769452383f1c9f628bf379edbeb2dd99f1330191",
+                  "author": "Jon Seager",
+                  "timestamp": 1711560552,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/mumble/pull/30\">#30</a> from soumyaDghosh/master</p>\n\n<p>ported to core22 and update to latest version</p>\n",
+                  "url": "https://github.com/snapcrafters/mumble/commit/769452383f1c9f628bf379edbeb2dd99f1330191"
+               },
+               {
+                  "sha": "b192a6f98a18c3ddf1495622116ce09272b89758",
+                  "author": "soumyadghosh",
+                  "timestamp": 1711555413,
+                  "message": "<p>fix: readd the version field for CI</p>\n",
+                  "url": "https://github.com/snapcrafters/mumble/commit/b192a6f98a18c3ddf1495622116ce09272b89758"
+               },
+               {
+                  "sha": "f79bcd337a3eb968d9585b103a08bae0fe9dd3b0",
+                  "author": "soumyadghosh",
+                  "timestamp": 1711261210,
+                  "message": "<p>ported to core22 and update to latest version</p>\n",
+                  "url": "https://github.com/snapcrafters/mumble/commit/f79bcd337a3eb968d9585b103a08bae0fe9dd3b0"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": {
+               "name": "mumble",
+               "url": "https://snapcraft.io/mumble",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1731,
+                     "timestamp": 1678809119,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1732,
+                     "timestamp": 1678809122,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1797,
+                     "timestamp": 1711602835,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1798,
+                     "timestamp": 1711602989,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
             "name": "mutt",
             "newCommits": 1,
             "url": "https://github.com/snapcrafters/mutt",
@@ -783,7 +3346,226 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/mutt/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/mutt/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/mutt/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "mutt",
+               "url": "https://snapcraft.io/mutt",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 336,
+                     "timestamp": 1783864467,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 340,
+                     "timestamp": 1783864471,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 339,
+                     "timestamp": 1783864474,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 278,
+                     "timestamp": 1655206763,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 337,
+                     "timestamp": 1783864477,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 338,
+                     "timestamp": 1783864480,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 336,
+                     "timestamp": 1783582422,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 340,
+                     "timestamp": 1783850136,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 339,
+                     "timestamp": 1783849977,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 337,
+                     "timestamp": 1783653783,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 338,
+                     "timestamp": 1783849838,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 277,
+                     "timestamp": 1655206761,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 282,
+                     "timestamp": 1655206780,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 281,
+                     "timestamp": 1655206777,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 278,
+                     "timestamp": 1655206765,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 280,
+                     "timestamp": 1655206773,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 279,
+                     "timestamp": 1655206768,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 277,
+                     "timestamp": 1655205474,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 282,
+                     "timestamp": 1655205643,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 281,
+                     "timestamp": 1655205615,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 278,
+                     "timestamp": 1655205505,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 280,
+                     "timestamp": 1655205589,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 279,
+                     "timestamp": 1655205547,
+                     "base": "core18"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "beta",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "nano",
+            "newCommits": 87,
+            "url": "https://github.com/snapcrafters/nano",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "v3.7.1",
+                  "sha": "800adff7278d8e8e2130f95726e18c93a72fc234",
+                  "body": "<p>Move git tracking ignore rules out of the snap directory</p>\n\n<p>Signed-off-by: 林博仁(Buo-ren, Lin) <a href=\"mailto:Buo.Ren.Lin@gmail.com\">Buo.Ren.Lin@gmail.com</a></p>\n",
+                  "timestamp": 1543720368,
+                  "url": "https://github.com/snapcrafters/nano/releases/tag/v3.7.1",
+                  "compareUrl": "https://github.com/snapcrafters/nano/compare/candidate...v3.7.1"
+               },
+               {
+                  "name": "v3.7.0",
+                  "sha": "0efb179cd954315804da2936a99054148d682e54",
+                  "body": "<p>Drop classic-launch launcher in favor of classic-launch remote part</p>\n\n<p>Signed-off-by: 林博仁(Buo-ren, Lin) <a href=\"mailto:Buo.Ren.Lin@gmail.com\">Buo.Ren.Lin@gmail.com</a></p>\n",
+                  "timestamp": 1542682354,
+                  "url": "https://github.com/snapcrafters/nano/releases/tag/v3.7.0",
+                  "compareUrl": "https://github.com/snapcrafters/nano/compare/candidate...v3.7.0"
+               },
+               {
+                  "name": "v3.6.0",
+                  "sha": "40dab578eda6e1bb3d60aaa6a49fe8714c5ccbc5",
+                  "body": "<p>classic-launch: Separate SNAP_ARCH_TRIPLET generation to remote part</p>\n\n<p>Signed-off-by: 林博仁(Buo-ren, Lin) <a href=\"mailto:Buo.Ren.Lin@gmail.com\">Buo.Ren.Lin@gmail.com</a></p>\n",
+                  "timestamp": 1542681424,
+                  "url": "https://github.com/snapcrafters/nano/releases/tag/v3.6.0",
+                  "compareUrl": "https://github.com/snapcrafters/nano/compare/candidate...v3.6.0"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/nano/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/nano/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/nano/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
             "snap": null
          },
@@ -819,9 +3601,47 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/obs-studio/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/obs-studio/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/obs-studio/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "obs-studio",
+               "url": "https://snapcraft.io/obs-studio",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1321,
+                     "timestamp": 1781091689,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1321,
+                     "timestamp": 1781090936,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 1296,
+                     "timestamp": 1703262889,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "offlineimap",
@@ -923,6 +3743,197 @@
             "snap": null
          },
          {
+            "name": "opentyrian",
+            "newCommits": 2,
+            "url": "https://github.com/snapcrafters/opentyrian",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "2.1.20221123/rev392/arm64",
+                  "sha": "34c4beb6fdecaac7bf7a42e27d5b525b526b908f",
+                  "body": "<p>fix: remove <code>ppc64el</code> support</p>\n\n<p>The gnome sdk snap is not available</p>\n",
+                  "timestamp": 1710753609,
+                  "url": "https://github.com/snapcrafters/opentyrian/releases/tag/2.1.20221123%2Frev392%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/opentyrian/compare/candidate...2.1.20221123%2Frev392%2Farm64"
+               },
+               {
+                  "name": "2.1.20221123/rev391/armhf",
+                  "sha": "34c4beb6fdecaac7bf7a42e27d5b525b526b908f",
+                  "body": "<p>fix: remove <code>ppc64el</code> support</p>\n\n<p>The gnome sdk snap is not available</p>\n",
+                  "timestamp": 1710753609,
+                  "url": "https://github.com/snapcrafters/opentyrian/releases/tag/2.1.20221123%2Frev391%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/opentyrian/compare/candidate...2.1.20221123%2Frev391%2Farmhf"
+               },
+               {
+                  "name": "2.1.20221123/rev390/amd64",
+                  "sha": "34c4beb6fdecaac7bf7a42e27d5b525b526b908f",
+                  "body": "<p>fix: remove <code>ppc64el</code> support</p>\n\n<p>The gnome sdk snap is not available</p>\n",
+                  "timestamp": 1710753609,
+                  "url": "https://github.com/snapcrafters/opentyrian/releases/tag/2.1.20221123%2Frev390%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/opentyrian/compare/candidate...2.1.20221123%2Frev390%2Famd64"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/opentyrian/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/opentyrian/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/opentyrian/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "opentyrian",
+               "url": "https://snapcraft.io/opentyrian",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 390,
+                     "timestamp": 1710754784,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 392,
+                     "timestamp": 1710754787,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 391,
+                     "timestamp": 1710754790,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 310,
+                     "timestamp": 1645742834,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 313,
+                     "timestamp": 1645742838,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 312,
+                     "timestamp": 1645742837,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 390,
+                     "timestamp": 1710754069,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 392,
+                     "timestamp": 1710754318,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 391,
+                     "timestamp": 1710754253,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 415,
+                     "timestamp": 1781156568,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 416,
+                     "timestamp": 1781156624,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 417,
+                     "timestamp": 1781156633,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 380,
+                     "timestamp": 1701560863,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 387,
+                     "timestamp": 1708856978,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 388,
+                     "timestamp": 1708857005,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
+         },
+         {
+            "name": "photoscape",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/photoscape",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "5d45b10403d4eaee9824be7fc5fb87cc2fa4a7c8",
+                  "author": "Dani Llewellyn",
+                  "timestamp": 1668428649,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/photoscape/pull/9\">#9</a> from snapcrafters/galgalesh-patch-1</p>\n\n<p>Create test-snap-can-build.yml</p>\n",
+                  "url": "https://github.com/snapcrafters/photoscape/commit/5d45b10403d4eaee9824be7fc5fb87cc2fa4a7c8"
+               },
+               {
+                  "sha": "d96a03999f5e669d4244392a4817f557dba92121",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1667933237,
+                  "message": "<p>Create test-snap-can-build.yml</p>\n",
+                  "url": "https://github.com/snapcrafters/photoscape/commit/d96a03999f5e669d4244392a4817f557dba92121"
+               },
+               {
+                  "sha": "efc0bd574b151625dfbe3be6bfb641fa84f43ec7",
+                  "author": "Dani Llewellyn",
+                  "timestamp": 1663702200,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/photoscape/pull/8\">#8</a> from galgalesh/cups</p>\n\n<p>Only use <code>cups</code> interface since <code>cups-control</code> isn&rsquo;t needed and is giving snap lint errors.</p>\n",
+                  "url": "https://github.com/snapcrafters/photoscape/commit/efc0bd574b151625dfbe3be6bfb641fa84f43ec7"
+               }
+            ],
+            "ciActions": [],
+            "charm": null,
+            "snap": null
+         },
+         {
             "name": "pogo",
             "newCommits": 2,
             "url": "https://github.com/snapcrafters/pogo",
@@ -938,9 +3949,55 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/pogo/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/pogo/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/pogo/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "pogo",
+               "url": "https://snapcraft.io/pogo",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 6,
+                     "timestamp": 1708712869,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 6,
+                     "timestamp": 1708712391,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "beta",
+                     "revision": 5,
+                     "timestamp": 1631702911,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 3,
+                     "timestamp": 1631159090,
+                     "base": "core20"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "beta",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "pyradio",
@@ -1145,7 +4202,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 0,
+            "newCommits": 198,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
@@ -1175,9 +4232,109 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/ruff/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/ruff/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/ruff/actions/workflows/promote-to-stable.yml"
+            ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "ruff",
+               "url": "https://snapcraft.io/ruff",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1649,
+                     "timestamp": 1783884063,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1647,
+                     "timestamp": 1783884067,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1504,
+                     "timestamp": 1759941685,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1646,
+                     "timestamp": 1783884070,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1650,
+                     "timestamp": 1783884073,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 1648,
+                     "timestamp": 1783884077,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1651,
+                     "timestamp": 1784296630,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1652,
+                     "timestamp": 1784297348,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1504,
+                     "timestamp": 1759867741,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1654,
+                     "timestamp": 1784304099,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1650,
+                     "timestamp": 1783871228,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 1653,
+                     "timestamp": 1784300630,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "s4a",
@@ -1209,6 +4366,39 @@
                }
             ],
             "ciActions": null,
+            "charm": null,
+            "snap": null
+         },
+         {
+            "name": "scummvm",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/scummvm",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "3197177b61df0d3abc6cdfde3557eca1ded04330",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1699392136,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/scummvm/pull/37\">#37</a> from popey/remove-cruft</p>\n\n<p>remove cruft</p>\n",
+                  "url": "https://github.com/snapcrafters/scummvm/commit/3197177b61df0d3abc6cdfde3557eca1ded04330"
+               },
+               {
+                  "sha": "79871e55b71ee3eff28213a811de256f04b8ac9e",
+                  "author": "Alan Pope",
+                  "timestamp": 1699190599,
+                  "message": "<p>remove cruft</p>\n",
+                  "url": "https://github.com/snapcrafters/scummvm/commit/79871e55b71ee3eff28213a811de256f04b8ac9e"
+               },
+               {
+                  "sha": "94ab8ec4c3b23e436347d82dbb05b736b333460f",
+                  "author": "Merlijn Sebrechts",
+                  "timestamp": 1697657058,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/scummvm/pull/36\">#36</a> from snapcrafters/merlijn-sebrechts-patch-1</p>\n\n<p>Add automatic building of PRs</p>\n",
+                  "url": "https://github.com/snapcrafters/scummvm/commit/94ab8ec4c3b23e436347d82dbb05b736b333460f"
+               }
+            ],
+            "ciActions": [],
             "charm": null,
             "snap": null
          },
@@ -1247,7 +4437,7 @@
          },
          {
             "name": "sentry",
-            "newCommits": 0,
+            "newCommits": 84,
             "url": "https://github.com/snapcrafters/sentry",
             "releases": null,
             "tags": [
@@ -1277,9 +4467,89 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [],
             "charm": null,
             "snap": null
+         },
+         {
+            "name": "signal-desktop",
+            "newCommits": 1,
+            "url": "https://github.com/snapcrafters/signal-desktop",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "8.18.0/rev920/arm64",
+                  "sha": "bed81ddd4002ccc5516bf29e18b390d005aee196",
+                  "body": "<p>chore: bump signal-desktop to version 8.18.0</p>\n",
+                  "timestamp": 1783685905,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.18.0%2Frev920%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.18.0%2Frev920%2Farm64"
+               },
+               {
+                  "name": "8.18.0/rev919/amd64",
+                  "sha": "bed81ddd4002ccc5516bf29e18b390d005aee196",
+                  "body": "<p>chore: bump signal-desktop to version 8.18.0</p>\n",
+                  "timestamp": 1783685905,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.18.0%2Frev919%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.18.0%2Frev919%2Famd64"
+               },
+               {
+                  "name": "8.17.0/rev918/arm64",
+                  "sha": "0216b90314b479c8d61f6b73b05105fd64a18f0c",
+                  "body": "<p>chore: bump signal-desktop to version 8.17.0</p>\n",
+                  "timestamp": 1782993656,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.17.0%2Frev918%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.17.0%2Frev918%2Farm64"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/signal-desktop/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/signal-desktop/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/signal-desktop/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "signal-desktop",
+               "url": "https://snapcraft.io/signal-desktop",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 919,
+                     "timestamp": 1783864447,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 920,
+                     "timestamp": 1783864450,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 919,
+                     "timestamp": 1783701870,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 920,
+                     "timestamp": 1783849438,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "simplenote",
@@ -1568,7 +4838,7 @@
          },
          {
             "name": "sublime-text",
-            "newCommits": 0,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/sublime-text",
             "releases": null,
             "tags": [
@@ -1598,7 +4868,128 @@
                }
             ],
             "commits": null,
-            "ciActions": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/sublime-text/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/sublime-text/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/sublime-text/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "sublime-text",
+               "url": "https://snapcraft.io/sublime-text",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 219,
+                     "timestamp": 1780664238,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 220,
+                     "timestamp": 1780664243,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 219,
+                     "timestamp": 1780652872,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 220,
+                     "timestamp": 1780663567,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 221,
+                     "timestamp": 1781157875,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 221,
+                     "timestamp": 1781157875,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "dev",
+                     "channel": "stable",
+                     "revision": 208,
+                     "timestamp": 1747836134,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "dev",
+                     "channel": "stable",
+                     "revision": 211,
+                     "timestamp": 1747836137,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "dev",
+                     "channel": "candidate",
+                     "revision": 208,
+                     "timestamp": 1747835529,
+                     "base": "core20"
+                  },
+                  {
+                     "track": "dev",
+                     "channel": "candidate",
+                     "revision": 211,
+                     "timestamp": 1747835637,
+                     "base": "core20"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest",
+                  "dev"
+               ]
+            }
+         },
+         {
+            "name": "tcpie",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/tcpie",
+            "releases": null,
+            "tags": null,
+            "commits": [
+               {
+                  "sha": "fdddb59c2848bc975c7d432baad5a186bd6aa74f",
+                  "author": "Ubuntu",
+                  "timestamp": 1607076214,
+                  "message": "<p>Trigger build of tcpie on 2020-12-04-10:02:20</p>\n",
+                  "url": "https://github.com/snapcrafters/tcpie/commit/fdddb59c2848bc975c7d432baad5a186bd6aa74f"
+               },
+               {
+                  "sha": "26bf7f1bc9d403b6c8833b9928636359d1b94080",
+                  "author": "Ubuntu",
+                  "timestamp": 1605226749,
+                  "message": "<p>Trigger build of tcpie on 2020-11-13-00:18:18</p>\n",
+                  "url": "https://github.com/snapcrafters/tcpie/commit/26bf7f1bc9d403b6c8833b9928636359d1b94080"
+               },
+               {
+                  "sha": "3a8c511f5b035178ab5872bbca229151fbf9bdf3",
+                  "author": "Alan Pope",
+                  "timestamp": 1597422436,
+                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/tcpie/pull/6\">#6</a> from snapcrafters/remove-i386-build</p>\n\n<p>Update snapcraft.yaml</p>\n",
+                  "url": "https://github.com/snapcrafters/tcpie/commit/3a8c511f5b035178ab5872bbca229151fbf9bdf3"
+               }
+            ],
+            "ciActions": [],
             "charm": null,
             "snap": null
          },
@@ -1634,6 +5025,128 @@
             "ciActions": [],
             "charm": null,
             "snap": null
+         },
+         {
+            "name": "terraform",
+            "newCommits": 0,
+            "url": "https://github.com/snapcrafters/terraform",
+            "releases": null,
+            "tags": [
+               {
+                  "name": "1.15.8/rev916/s390x",
+                  "sha": "122ae576ec31adc98d4bf61bf4fdfa3f4e774b7e",
+                  "body": "<p>chore: bump terraform to version 1.15.8</p>\n",
+                  "timestamp": 1783603297,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.8%2Frev916%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.8%2Frev916%2Fs390x"
+               },
+               {
+                  "name": "1.15.8/rev915/arm64",
+                  "sha": "122ae576ec31adc98d4bf61bf4fdfa3f4e774b7e",
+                  "body": "<p>chore: bump terraform to version 1.15.8</p>\n",
+                  "timestamp": 1783603297,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.8%2Frev915%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.8%2Frev915%2Farm64"
+               },
+               {
+                  "name": "1.15.8/rev914/armhf",
+                  "sha": "122ae576ec31adc98d4bf61bf4fdfa3f4e774b7e",
+                  "body": "<p>chore: bump terraform to version 1.15.8</p>\n",
+                  "timestamp": 1783603297,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.8%2Frev914%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.8%2Frev914%2Farmhf"
+               }
+            ],
+            "commits": null,
+            "ciActions": [
+               "https://github.com/snapcrafters/terraform/actions/workflows/sync-version-with-upstream.yml",
+               "https://github.com/snapcrafters/terraform/actions/workflows/release-to-candidate.yml",
+               "https://github.com/snapcrafters/terraform/actions/workflows/promote-to-stable.yml"
+            ],
+            "charm": null,
+            "snap": {
+               "name": "terraform",
+               "url": "https://snapcraft.io/terraform",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 912,
+                     "timestamp": 1783864424,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 915,
+                     "timestamp": 1783864428,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 914,
+                     "timestamp": 1783864432,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 913,
+                     "timestamp": 1783864436,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 916,
+                     "timestamp": 1783864440,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 912,
+                     "timestamp": 1783607557,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 915,
+                     "timestamp": 1783849393,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 914,
+                     "timestamp": 1783849071,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 913,
+                     "timestamp": 1783656077,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 916,
+                     "timestamp": 1783849408,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "terragrunt",
@@ -1819,7 +5332,7 @@
                   "url": "https://github.com/snapcrafters/tmnationsforever/commit/46e34bde4a9e2733ce937c560a09b930eb394311"
                }
             ],
-            "ciActions": null,
+            "ciActions": [],
             "charm": null,
             "snap": null
          },
