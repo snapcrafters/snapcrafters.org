@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2026.1.2.10-quail2/rev235/amd64",
+                  "sha": "1cd3b3b58da26eb0df2e33279515b2d37908453f",
+                  "body": "<p>chore: bump android-studio to version 2026.1.2.10-quail2</p>\n",
+                  "timestamp": 1784114419,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.2.10-quail2%2Frev235%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.2.10-quail2%2Frev235%2Famd64"
+               },
                {
                   "name": "2026.1.1.10-quail1-patch2/rev232/amd64",
                   "sha": "401e7959407286fd1691bd776663ab62703a9e65",
@@ -181,14 +189,6 @@
                   "timestamp": 1781268562,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.1.9-quail1-patch1%2Frev230%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.1.9-quail1-patch1%2Frev230%2Famd64"
-               },
-               {
-                  "name": "2026.1.1.8-quail1/rev227/amd64",
-                  "sha": "32acec08cbcf771218fe8804c4ac626883fe7002",
-                  "body": "<p>chore: bump android-studio to version 2026.1.1.8-quail1</p>\n",
-                  "timestamp": 1780408487,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.1.8-quail1%2Frev227%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.1.8-quail1%2Frev227%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 232,
-                     "timestamp": 1781707157,
+                     "revision": 235,
+                     "timestamp": 1784643652,
                      "base": "core22"
                   },
                   {
@@ -820,29 +820,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 57,
-                     "timestamp": 1780850060,
+                     "revision": 62,
+                     "timestamp": 1784642798,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 58,
-                     "timestamp": 1780850079,
+                     "revision": 63,
+                     "timestamp": 1784642867,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 56,
-                     "timestamp": 1780850046,
+                     "revision": 64,
+                     "timestamp": 1784643020,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 59,
-                     "timestamp": 1780850085,
+                     "revision": 65,
+                     "timestamp": 1784644566,
                      "base": "core24"
                   },
                   {
@@ -855,8 +855,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 60,
-                     "timestamp": 1780861135,
+                     "revision": 66,
+                     "timestamp": 1784644683,
                      "base": "core24"
                   },
                   {
@@ -979,10 +979,18 @@
          },
          {
             "name": "cumulonimbus",
-            "newCommits": 3,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/cumulonimbus",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.28.2/rev96/amd64",
+                  "sha": "4a59a9615cd011e31828a447bf11dc28999b656a",
+                  "body": "<p>fix: guard upstream version updates (<a target=\"_blank\" href=\"https://github.com/snapcrafters/cumulonimbus/pull/19\">#19</a>)</p>\n",
+                  "timestamp": 1784183670,
+                  "url": "https://github.com/snapcrafters/cumulonimbus/releases/tag/1.28.2%2Frev96%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/cumulonimbus/compare/candidate...1.28.2%2Frev96%2Famd64"
+               },
                {
                   "name": "1.28.2/rev92/amd64",
                   "sha": "026d1bf04b25a498b8f2b4877347554849a05131",
@@ -998,14 +1006,6 @@
                   "timestamp": 1729790091,
                   "url": "https://github.com/snapcrafters/cumulonimbus/releases/tag/1.28.2%2Frev91%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/cumulonimbus/compare/candidate...1.28.2%2Frev91%2Famd64"
-               },
-               {
-                  "name": "1.28.2/rev90/amd64",
-                  "sha": "d91f30de94ce7c66d6b5546779aae84ae249431e",
-                  "body": "<p>ci: add repo-token to the release flow</p>\n",
-                  "timestamp": 1706197808,
-                  "url": "https://github.com/snapcrafters/cumulonimbus/releases/tag/1.28.2%2Frev90%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/cumulonimbus/compare/candidate...1.28.2%2Frev90%2Famd64"
                }
             ],
             "commits": null,
@@ -1029,8 +1029,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 92,
-                     "timestamp": 1729834233,
+                     "revision": 96,
+                     "timestamp": 1784642899,
                      "base": "core24"
                   },
                   {
