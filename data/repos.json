@@ -3571,10 +3571,18 @@
          },
          {
             "name": "obs-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/obs-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "32.2.0/rev1322/amd64",
+                  "sha": "70d4f32295994192f05d82bae60f2176803ee7f1",
+                  "body": "<p>chore: bump obs-studio to version 32.2.0</p>\n",
+                  "timestamp": 1784807568,
+                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.2.0%2Frev1322%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.2.0%2Frev1322%2Famd64"
+               },
                {
                   "name": "32.1.2/rev1321/amd64",
                   "sha": "4f9cc00effe8dbc026cc02eecf888c7e7edd271f",
@@ -3590,14 +3598,6 @@
                   "timestamp": 1777461972,
                   "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.1.2%2Frev1320%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.1.2%2Frev1320%2Famd64"
-               },
-               {
-                  "name": "32.1.0/rev1319/amd64",
-                  "sha": "625c973935fc31c847e1a32f469c07a36d5fb3a3",
-                  "body": "<p>Adding the HOME variable</p>\n",
-                  "timestamp": 1773631325,
-                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.1.0%2Frev1319%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.1.0%2Frev1319%2Famd64"
                }
             ],
             "commits": null,
@@ -3621,8 +3621,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1321,
-                     "timestamp": 1781090936,
+                     "revision": 1322,
+                     "timestamp": 1784808754,
                      "base": "core24"
                   },
                   {
@@ -4478,28 +4478,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "8.20.0/rev924/arm64",
+                  "sha": "0a58ce9006c91379cf9a0afeee55b391e1b518bf",
+                  "body": "<p>chore: bump signal-desktop to version 8.20.0</p>\n",
+                  "timestamp": 1784807067,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.20.0%2Frev924%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.20.0%2Frev924%2Farm64"
+               },
+               {
+                  "name": "8.20.0/rev923/amd64",
+                  "sha": "0a58ce9006c91379cf9a0afeee55b391e1b518bf",
+                  "body": "<p>chore: bump signal-desktop to version 8.20.0</p>\n",
+                  "timestamp": 1784807067,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.20.0%2Frev923%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.20.0%2Frev923%2Famd64"
+               },
+               {
                   "name": "8.19.0/rev922/arm64",
                   "sha": "188a32dc7fefb4571be41db8a00d326b4c9110ba",
                   "body": "<p>chore: bump signal-desktop to version 8.19.0</p>\n",
                   "timestamp": 1784201146,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.19.0%2Frev922%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.19.0%2Frev922%2Farm64"
-               },
-               {
-                  "name": "8.19.0/rev921/amd64",
-                  "sha": "188a32dc7fefb4571be41db8a00d326b4c9110ba",
-                  "body": "<p>chore: bump signal-desktop to version 8.19.0</p>\n",
-                  "timestamp": 1784201146,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.19.0%2Frev921%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.19.0%2Frev921%2Famd64"
-               },
-               {
-                  "name": "8.18.0/rev920/arm64",
-                  "sha": "bed81ddd4002ccc5516bf29e18b390d005aee196",
-                  "body": "<p>chore: bump signal-desktop to version 8.18.0</p>\n",
-                  "timestamp": 1783685905,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.18.0%2Frev920%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.18.0%2Frev920%2Farm64"
                }
             ],
             "commits": null,
@@ -4530,15 +4530,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 921,
-                     "timestamp": 1784683959,
+                     "revision": 923,
+                     "timestamp": 1784812152,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 922,
-                     "timestamp": 1784684292,
+                     "revision": 924,
+                     "timestamp": 1784813995,
                      "base": "core24"
                   }
                ],
