@@ -1254,10 +1254,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.0.151/rev300/amd64",
+                  "sha": "49cf3a6a80c717dbbbd64def0dca30fd8861d0c5",
+                  "body": "<p>fix: preserve global key bindings with X11 default (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/363\">#363</a>)</p>\n\n<ul>\n<li>fix: preserve X11 by default</li>\n</ul>\n",
+                  "timestamp": 1785334827,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.151%2Frev300%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.151%2Frev300%2Famd64"
+               },
                {
                   "name": "1.0.151/rev299/amd64",
                   "sha": "5132b5aa3db27d5278e6a9bfd5be226684e34ac4",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1784634123,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.150%2Frev298%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.150%2Frev298%2Famd64"
-               },
-               {
-                  "name": "1.0.149/rev297/amd64",
-                  "sha": "491fcd2ef452a7f162e8f57b1fb7d51e26782023",
-                  "body": "<p>chore: bump discord to version 1.0.149</p>\n",
-                  "timestamp": 1784286924,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.149%2Frev297%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.149%2Frev297%2Famd64"
                }
             ],
             "commits": null,
@@ -1304,8 +1304,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 299,
-                     "timestamp": 1785240724,
+                     "revision": 300,
+                     "timestamp": 1785352729,
                      "base": "core22"
                   }
                ],
