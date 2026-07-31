@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2026.1.3.7-quail3/rev238/amd64",
+                  "sha": "ea6d75e61011ea92e4571fc3affc99339939ba62",
+                  "body": "<p>chore: bump android-studio to version 2026.1.3.7-quail3</p>\n",
+                  "timestamp": 1785498692,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.3.7-quail3%2Frev238%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.3.7-quail3%2Frev238%2Famd64"
+               },
                {
                   "name": "2026.1.2.11-quail2-patch1/rev236/amd64",
                   "sha": "838cd8b71ef5cb1325cbf94b1dcb57d92589777d",
@@ -181,14 +189,6 @@
                   "timestamp": 1784114419,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.2.10-quail2%2Frev235%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.2.10-quail2%2Frev235%2Famd64"
-               },
-               {
-                  "name": "2026.1.1.10-quail1-patch2/rev232/amd64",
-                  "sha": "401e7959407286fd1691bd776663ab62703a9e65",
-                  "body": "<p>chore: bump android-studio to version 2026.1.1.10-quail1-patch2</p>\n",
-                  "timestamp": 1781703358,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.1.10-quail1-patch2%2Frev232%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.1.10-quail1-patch2%2Frev232%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 236,
-                     "timestamp": 1784896743,
+                     "revision": 238,
+                     "timestamp": 1785514083,
                      "base": "core22"
                   },
                   {
@@ -4473,10 +4473,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.21.0/rev928/arm64",
+                  "sha": "21c25a1dd55701da623b0a9ae06dcea6f0e16443",
+                  "body": "<p>chore: bump signal-desktop to version 8.21.0</p>\n",
+                  "timestamp": 1785498665,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.21.0%2Frev928%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.21.0%2Frev928%2Farm64"
+               },
+               {
+                  "name": "8.21.0/rev927/amd64",
+                  "sha": "21c25a1dd55701da623b0a9ae06dcea6f0e16443",
+                  "body": "<p>chore: bump signal-desktop to version 8.21.0</p>\n",
+                  "timestamp": 1785498665,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.21.0%2Frev927%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.21.0%2Frev927%2Famd64"
+               },
                {
                   "name": "8.20.0/rev926/arm64",
                   "sha": "42b3ec23bc771cf29ced15937a917327b213f32a",
@@ -4484,22 +4500,6 @@
                   "timestamp": 1785414375,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.20.0%2Frev926%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.20.0%2Frev926%2Farm64"
-               },
-               {
-                  "name": "8.20.0/rev925/amd64",
-                  "sha": "42b3ec23bc771cf29ced15937a917327b213f32a",
-                  "body": "<p>fix: more robust ARM64 image patch registration (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/461\">#461</a>)</p>\n",
-                  "timestamp": 1785414375,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.20.0%2Frev925%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.20.0%2Frev925%2Famd64"
-               },
-               {
-                  "name": "8.20.0/rev924/arm64",
-                  "sha": "0a58ce9006c91379cf9a0afeee55b391e1b518bf",
-                  "body": "<p>chore: bump signal-desktop to version 8.20.0</p>\n",
-                  "timestamp": 1784807067,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.20.0%2Frev924%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.20.0%2Frev924%2Farm64"
                }
             ],
             "commits": null,
@@ -4516,29 +4516,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 925,
-                     "timestamp": 1785445853,
+                     "revision": 927,
+                     "timestamp": 1785515937,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 926,
-                     "timestamp": 1785445857,
+                     "revision": 928,
+                     "timestamp": 1785515940,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 925,
-                     "timestamp": 1785418155,
+                     "revision": 927,
+                     "timestamp": 1785508735,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 926,
-                     "timestamp": 1785418631,
+                     "revision": 928,
+                     "timestamp": 1785510726,
                      "base": "core24"
                   }
                ],
