@@ -379,90 +379,7 @@
                "https://github.com/snapcrafters/audacity/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "audacity",
-               "url": "https://snapcraft.io/audacity",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 1226,
-                     "timestamp": 1781793534,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 1225,
-                     "timestamp": 1781793539,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 911,
-                     "timestamp": 1626103156,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 906,
-                     "timestamp": 1633698067,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1226,
-                     "timestamp": 1781791708,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 1225,
-                     "timestamp": 1781790329,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1228,
-                     "timestamp": 1781861410,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1227,
-                     "timestamp": 1781860707,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1176,
-                     "timestamp": 1676959286,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 906,
-                     "timestamp": 1625636983,
-                     "base": "core18"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "axel",
@@ -1254,10 +1171,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.0.153/rev303/amd64",
+                  "sha": "0913a938717944ddd5089856e02961088d320296",
+                  "body": "<p>chore: bump discord to version 1.0.153</p>\n",
+                  "timestamp": 1786531973,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.153%2Frev303%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.153%2Frev303%2Famd64"
+               },
                {
                   "name": "1.0.152/rev302/amd64",
                   "sha": "1dea035fd417aa90b6bb705a83fcc339c71b83fc",
@@ -1273,14 +1198,6 @@
                   "timestamp": 1785844617,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.152%2Frev301%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.152%2Frev301%2Famd64"
-               },
-               {
-                  "name": "1.0.151/rev300/amd64",
-                  "sha": "49cf3a6a80c717dbbbd64def0dca30fd8861d0c5",
-                  "body": "<p>fix: preserve global key bindings with X11 default (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/363\">#363</a>)</p>\n\n<ul>\n<li>fix: preserve X11 by default</li>\n</ul>\n",
-                  "timestamp": 1785334827,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.151%2Frev300%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.151%2Frev300%2Famd64"
                }
             ],
             "commits": null,
@@ -1304,8 +1221,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 302,
-                     "timestamp": 1786100680,
+                     "revision": 303,
+                     "timestamp": 1786536118,
                      "base": "core22"
                   }
                ],
@@ -4735,106 +4652,7 @@
                "https://github.com/snapcrafters/sublime-merge/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "sublime-merge",
-               "url": "https://snapcraft.io/sublime-merge",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 127,
-                     "timestamp": 1776165939,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 128,
-                     "timestamp": 1776165942,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 127,
-                     "timestamp": 1776165117,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 128,
-                     "timestamp": 1776165265,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 38,
-                     "timestamp": 1697038915,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 39,
-                     "timestamp": 1697038916,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 131,
-                     "timestamp": 1781170224,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 132,
-                     "timestamp": 1781170304,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "stable",
-                     "revision": 125,
-                     "timestamp": 1775052139,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "stable",
-                     "revision": 126,
-                     "timestamp": 1775052142,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "candidate",
-                     "revision": 125,
-                     "timestamp": 1775042094,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "candidate",
-                     "revision": 126,
-                     "timestamp": 1775042677,
-                     "base": "core20"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "beta",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest",
-                  "dev"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "sublime-text",
