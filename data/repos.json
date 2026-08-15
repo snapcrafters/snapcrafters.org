@@ -2941,10 +2941,26 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "6.3.0/rev848/arm64",
+                  "sha": "1cd3d33226f4cb146235dfdddf79c31972a56657",
+                  "body": "<p>chore: bump mattermost-desktop to version 6.3.0</p>\n",
+                  "timestamp": 1786618645,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.0%2Frev848%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.0%2Frev848%2Farm64"
+               },
+               {
+                  "name": "6.3.0/rev847/amd64",
+                  "sha": "1cd3d33226f4cb146235dfdddf79c31972a56657",
+                  "body": "<p>chore: bump mattermost-desktop to version 6.3.0</p>\n",
+                  "timestamp": 1786618645,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.0%2Frev847%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.0%2Frev847%2Famd64"
+               },
                {
                   "name": "6.2.2/rev846/arm64",
                   "sha": "8f432669a01c45fec0ad2dcf74eacd5d70bcc7d1",
@@ -2952,22 +2968,6 @@
                   "timestamp": 1782217784,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.2.2%2Frev846%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.2.2%2Frev846%2Farm64"
-               },
-               {
-                  "name": "6.2.2/rev845/amd64",
-                  "sha": "8f432669a01c45fec0ad2dcf74eacd5d70bcc7d1",
-                  "body": "<p>chore: bump mattermost-desktop to version 6.2.2</p>\n",
-                  "timestamp": 1782217784,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.2.2%2Frev845%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.2.2%2Frev845%2Famd64"
-               },
-               {
-                  "name": "6.2.1/rev844/arm64",
-                  "sha": "ec91dff6b02abf64bbb55bb4dedc537b6b8a04f6",
-                  "body": "<p>chore: bump mattermost-desktop to version 6.2.1</p>\n",
-                  "timestamp": 1781703522,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.2.1%2Frev844%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.2.1%2Frev844%2Farm64"
                }
             ],
             "commits": null,
@@ -2984,15 +2984,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 845,
-                     "timestamp": 1782223364,
+                     "revision": 847,
+                     "timestamp": 1786804999,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 846,
-                     "timestamp": 1782223369,
+                     "revision": 848,
+                     "timestamp": 1786805003,
                      "base": "core24"
                   },
                   {
@@ -3005,15 +3005,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 845,
-                     "timestamp": 1782218880,
+                     "revision": 847,
+                     "timestamp": 1786804217,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 846,
-                     "timestamp": 1782221352,
+                     "revision": 848,
+                     "timestamp": 1786804263,
                      "base": "core24"
                   },
                   {
@@ -3571,10 +3571,18 @@
          },
          {
             "name": "obs-studio",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/obs-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "32.2.0/rev1324/amd64",
+                  "sha": "c3f35786b7bf1408e985a13b3f16450f89b26770",
+                  "body": "<p>fix: cleanup dangling files properly upon disconnect (<a target=\"_blank\" href=\"https://github.com/snapcrafters/obs-studio/pull/256\">#256</a>)</p>\n\n<p>Fix gh-255.</p>\n\n<p>Assisted-by: OpenRouter:z-ai/glm-5.2 opencode</p>\n",
+                  "timestamp": 1786803383,
+                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.2.0%2Frev1324%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.2.0%2Frev1324%2Famd64"
+               },
                {
                   "name": "32.2.0/rev1323/amd64",
                   "sha": "4fc333291fac6a64f5884a842b18730c4a5760ed",
@@ -3590,14 +3598,6 @@
                   "timestamp": 1784807568,
                   "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.2.0%2Frev1322%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.2.0%2Frev1322%2Famd64"
-               },
-               {
-                  "name": "32.1.2/rev1321/amd64",
-                  "sha": "4f9cc00effe8dbc026cc02eecf888c7e7edd271f",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/obs-studio/pull/248\">#248</a> from snapcrafters/chore/standardise-workflow-filenames</p>\n\n<p>chore: standardise workflow filenames</p>\n",
-                  "timestamp": 1781087863,
-                  "url": "https://github.com/snapcrafters/obs-studio/releases/tag/32.1.2%2Frev1321%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/obs-studio/compare/candidate...32.1.2%2Frev1321%2Famd64"
                }
             ],
             "commits": null,
@@ -3614,15 +3614,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1323,
-                     "timestamp": 1786803387,
+                     "revision": 1324,
+                     "timestamp": 1786805276,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1323,
-                     "timestamp": 1786014709,
+                     "revision": 1324,
+                     "timestamp": 1786804507,
                      "base": "core24"
                   },
                   {
@@ -4473,7 +4473,7 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
