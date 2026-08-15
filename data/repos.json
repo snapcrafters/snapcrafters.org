@@ -4473,10 +4473,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.23.0/rev932/arm64",
+                  "sha": "a4f75ffddf4725932c0bcddf619e3eb428c06ea1",
+                  "body": "<p>fix: backport xmldom deprecation allowance (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/466\">#466</a>)</p>\n",
+                  "timestamp": 1786806785,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.23.0%2Frev932%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.23.0%2Frev932%2Farm64"
+               },
+               {
+                  "name": "8.23.0/rev931/amd64",
+                  "sha": "a4f75ffddf4725932c0bcddf619e3eb428c06ea1",
+                  "body": "<p>fix: backport xmldom deprecation allowance (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/466\">#466</a>)</p>\n",
+                  "timestamp": 1786806785,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.23.0%2Frev931%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.23.0%2Frev931%2Famd64"
+               },
                {
                   "name": "8.22.0/rev930/arm64",
                   "sha": "1daaf32484a21be9e82189a0c04ffcdbfab2b767",
@@ -4484,22 +4500,6 @@
                   "timestamp": 1786017345,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.22.0%2Frev930%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.22.0%2Frev930%2Farm64"
-               },
-               {
-                  "name": "8.22.0/rev929/amd64",
-                  "sha": "1daaf32484a21be9e82189a0c04ffcdbfab2b767",
-                  "body": "<p>chore: bump signal-desktop to version 8.22.0</p>\n",
-                  "timestamp": 1786017345,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.22.0%2Frev929%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.22.0%2Frev929%2Famd64"
-               },
-               {
-                  "name": "8.21.0/rev928/arm64",
-                  "sha": "21c25a1dd55701da623b0a9ae06dcea6f0e16443",
-                  "body": "<p>chore: bump signal-desktop to version 8.21.0</p>\n",
-                  "timestamp": 1785498665,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.21.0%2Frev928%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.21.0%2Frev928%2Farm64"
                }
             ],
             "commits": null,
@@ -4530,15 +4530,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 929,
-                     "timestamp": 1786024377,
+                     "revision": 931,
+                     "timestamp": 1786807826,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 930,
-                     "timestamp": 1786031049,
+                     "revision": 932,
+                     "timestamp": 1786808757,
                      "base": "core24"
                   }
                ],
