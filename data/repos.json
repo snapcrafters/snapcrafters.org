@@ -236,10 +236,18 @@
          },
          {
             "name": "android-studio-canary",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio-canary",
             "releases": null,
             "tags": [
+               {
+                  "name": "2026.2.1.1/rev69/amd64",
+                  "sha": "0bdb56fe8d439cf31fae6a18f6227f4dfeea6c48",
+                  "body": "<p>chore: bump android-studio-canary to version 2026.2.1.1</p>\n",
+                  "timestamp": 1787048689,
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.2.1.1%2Frev69%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.2.1.1%2Frev69%2Famd64"
+               },
                {
                   "name": "2026.1.4.4/rev67/amd64",
                   "sha": "e0669b820780603117ba69f80280d105bbebab23",
@@ -255,14 +263,6 @@
                   "timestamp": 1785499058,
                   "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.4.3%2Frev65%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.4.3%2Frev65%2Famd64"
-               },
-               {
-                  "name": "2026.1.4.2/rev63/amd64",
-                  "sha": "8244fa7a333d8338fa8156d77ca65a9e26e52654",
-                  "body": "<p>chore: bump android-studio-canary to version 2026.1.4.2</p>\n",
-                  "timestamp": 1784893206,
-                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.1.4.2%2Frev63%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.1.4.2%2Frev63%2Famd64"
                }
             ],
             "commits": null,
@@ -286,8 +286,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 67,
-                     "timestamp": 1786102009,
+                     "revision": 69,
+                     "timestamp": 1787053534,
                      "base": "core22"
                   },
                   {
@@ -2977,61 +2977,7 @@
                "https://github.com/snapcrafters/mattermost-desktop/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "mattermost-desktop",
-               "url": "https://snapcraft.io/mattermost-desktop",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 847,
-                     "timestamp": 1786804999,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 848,
-                     "timestamp": 1786805003,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 426,
-                     "timestamp": 1657611201,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 847,
-                     "timestamp": 1786804217,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 848,
-                     "timestamp": 1786804263,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 426,
-                     "timestamp": 1656360600,
-                     "base": "core18"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "mdl",
@@ -3352,182 +3298,7 @@
                "https://github.com/snapcrafters/mutt/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "mutt",
-               "url": "https://snapcraft.io/mutt",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 336,
-                     "timestamp": 1783864467,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 340,
-                     "timestamp": 1783864471,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 339,
-                     "timestamp": 1783864474,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 278,
-                     "timestamp": 1655206763,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 337,
-                     "timestamp": 1783864477,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 338,
-                     "timestamp": 1783864480,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 336,
-                     "timestamp": 1783582422,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 340,
-                     "timestamp": 1783850136,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 339,
-                     "timestamp": 1783849977,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 337,
-                     "timestamp": 1783653783,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 338,
-                     "timestamp": 1783849838,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 277,
-                     "timestamp": 1655206761,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 282,
-                     "timestamp": 1655206780,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 281,
-                     "timestamp": 1655206777,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 278,
-                     "timestamp": 1655206765,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 280,
-                     "timestamp": 1655206773,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 279,
-                     "timestamp": 1655206768,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 277,
-                     "timestamp": 1655205474,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 282,
-                     "timestamp": 1655205643,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 281,
-                     "timestamp": 1655205615,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 278,
-                     "timestamp": 1655205505,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 280,
-                     "timestamp": 1655205589,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 279,
-                     "timestamp": 1655205547,
-                     "base": "core18"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "beta",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "nano",
