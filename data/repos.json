@@ -1458,75 +1458,7 @@
                "https://github.com/snapcrafters/ffmpeg-2204-sdk/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "ffmpeg-2204-sdk",
-               "url": "https://snapcraft.io/ffmpeg-2204-sdk",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 169,
-                     "timestamp": 1782893470,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 166,
-                     "timestamp": 1782893475,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 168,
-                     "timestamp": 1782893479,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 167,
-                     "timestamp": 1782893485,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 169,
-                     "timestamp": 1782814502,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 166,
-                     "timestamp": 1782811750,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 168,
-                     "timestamp": 1782814488,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 167,
-                     "timestamp": 1782811870,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "ffmpeg-2404-sdk",
@@ -4478,6 +4410,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "8.23.0/rev934/amd64",
+                  "sha": "c19c9c777bde5f5c2fab68ac4c8c93576b77ffeb",
+                  "body": "<p>fix: update icon; ensure the same icon is shown while the app is running (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/469\">#469</a>)</p>\n\n<ul>\n<li><p>Use newer Signal icon in desktop launcher</p></li>\n\n<li><p>Set <code>StartupWMClass=signal-desktop</code> in desktop file</p></li>\n</ul>\n\n<hr>\n\n<p>Co-authored-by: constancies <a href=\"mailto:wanted-judo-rind@duck.com\">wanted-judo-rind@duck.com</a></p>\n",
+                  "timestamp": 1787156707,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.23.0%2Frev934%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.23.0%2Frev934%2Famd64"
+               },
+               {
                   "name": "8.23.0/rev933/arm64",
                   "sha": "c19c9c777bde5f5c2fab68ac4c8c93576b77ffeb",
                   "body": "<p>fix: update icon; ensure the same icon is shown while the app is running (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/469\">#469</a>)</p>\n\n<ul>\n<li><p>Use newer Signal icon in desktop launcher</p></li>\n\n<li><p>Set <code>StartupWMClass=signal-desktop</code> in desktop file</p></li>\n</ul>\n\n<hr>\n\n<p>Co-authored-by: constancies <a href=\"mailto:wanted-judo-rind@duck.com\">wanted-judo-rind@duck.com</a></p>\n",
@@ -4492,14 +4432,6 @@
                   "timestamp": 1786806785,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.23.0%2Frev932%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.23.0%2Frev932%2Farm64"
-               },
-               {
-                  "name": "8.23.0/rev931/amd64",
-                  "sha": "a4f75ffddf4725932c0bcddf619e3eb428c06ea1",
-                  "body": "<p>fix: backport xmldom deprecation allowance (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/466\">#466</a>)</p>\n",
-                  "timestamp": 1786806785,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.23.0%2Frev931%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.23.0%2Frev931%2Famd64"
                }
             ],
             "commits": null,
@@ -4516,22 +4448,22 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 931,
-                     "timestamp": 1786813459,
+                     "revision": 934,
+                     "timestamp": 1787163747,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 932,
-                     "timestamp": 1786813463,
+                     "revision": 933,
+                     "timestamp": 1787163751,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 931,
-                     "timestamp": 1786807826,
+                     "revision": 934,
+                     "timestamp": 1787162724,
                      "base": "core24"
                   },
                   {
