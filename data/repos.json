@@ -4473,10 +4473,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.23.0/rev933/arm64",
+                  "sha": "c19c9c777bde5f5c2fab68ac4c8c93576b77ffeb",
+                  "body": "<p>fix: update icon; ensure the same icon is shown while the app is running (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/469\">#469</a>)</p>\n\n<ul>\n<li><p>Use newer Signal icon in desktop launcher</p></li>\n\n<li><p>Set <code>StartupWMClass=signal-desktop</code> in desktop file</p></li>\n</ul>\n\n<hr>\n\n<p>Co-authored-by: constancies <a href=\"mailto:wanted-judo-rind@duck.com\">wanted-judo-rind@duck.com</a></p>\n",
+                  "timestamp": 1787156707,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.23.0%2Frev933%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.23.0%2Frev933%2Farm64"
+               },
                {
                   "name": "8.23.0/rev932/arm64",
                   "sha": "a4f75ffddf4725932c0bcddf619e3eb428c06ea1",
@@ -4492,14 +4500,6 @@
                   "timestamp": 1786806785,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.23.0%2Frev931%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.23.0%2Frev931%2Famd64"
-               },
-               {
-                  "name": "8.22.0/rev930/arm64",
-                  "sha": "1daaf32484a21be9e82189a0c04ffcdbfab2b767",
-                  "body": "<p>chore: bump signal-desktop to version 8.22.0</p>\n",
-                  "timestamp": 1786017345,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.22.0%2Frev930%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.22.0%2Frev930%2Farm64"
                }
             ],
             "commits": null,
@@ -4537,8 +4537,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 932,
-                     "timestamp": 1786808757,
+                     "revision": 933,
+                     "timestamp": 1787159480,
                      "base": "core24"
                   }
                ],
