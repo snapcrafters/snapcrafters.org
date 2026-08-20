@@ -4473,10 +4473,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.24.0/rev935/arm64",
+                  "sha": "70021ecc3bb95c3d495604f317de084cc8d464c2",
+                  "body": "<p>chore: bump signal-desktop to version 8.24.0</p>\n",
+                  "timestamp": 1787221101,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.24.0%2Frev935%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.24.0%2Frev935%2Farm64"
+               },
                {
                   "name": "8.23.0/rev934/amd64",
                   "sha": "c19c9c777bde5f5c2fab68ac4c8c93576b77ffeb",
@@ -4492,14 +4500,6 @@
                   "timestamp": 1787156707,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.23.0%2Frev933%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.23.0%2Frev933%2Farm64"
-               },
-               {
-                  "name": "8.23.0/rev932/arm64",
-                  "sha": "a4f75ffddf4725932c0bcddf619e3eb428c06ea1",
-                  "body": "<p>fix: backport xmldom deprecation allowance (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/466\">#466</a>)</p>\n",
-                  "timestamp": 1786806785,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.23.0%2Frev932%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.23.0%2Frev932%2Farm64"
                }
             ],
             "commits": null,
@@ -4537,8 +4537,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 933,
-                     "timestamp": 1787159480,
+                     "revision": 935,
+                     "timestamp": 1787263840,
                      "base": "core24"
                   }
                ],
