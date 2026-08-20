@@ -949,33 +949,7 @@
             ],
             "ciActions": [],
             "charm": null,
-            "snap": {
-               "name": "cryptool",
-               "url": "https://snapcraft.io/cryptool",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 4,
-                     "timestamp": 1663694170,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 7,
-                     "timestamp": 1700144008,
-                     "base": "core18"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "cumulonimbus",
@@ -5028,10 +5002,18 @@
          },
          {
             "name": "terraform",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/terraform",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.15.9/rev917/s390x",
+                  "sha": "98cb0ec31c79b15a6180fa3fcb6d89b6433b8173",
+                  "body": "<p>chore: bump terraform to version 1.15.9</p>\n",
+                  "timestamp": 1787221598,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.9%2Frev917%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.9%2Frev917%2Fs390x"
+               },
                {
                   "name": "1.15.8/rev916/s390x",
                   "sha": "122ae576ec31adc98d4bf61bf4fdfa3f4e774b7e",
@@ -5047,14 +5029,6 @@
                   "timestamp": 1783603297,
                   "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.8%2Frev915%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.8%2Frev915%2Farm64"
-               },
-               {
-                  "name": "1.15.8/rev914/armhf",
-                  "sha": "122ae576ec31adc98d4bf61bf4fdfa3f4e774b7e",
-                  "body": "<p>chore: bump terraform to version 1.15.8</p>\n",
-                  "timestamp": 1783603297,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.8%2Frev914%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.8%2Frev914%2Farmhf"
                }
             ],
             "commits": null,
@@ -5134,8 +5108,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 916,
-                     "timestamp": 1783849408,
+                     "revision": 917,
+                     "timestamp": 1787228339,
                      "base": "core24"
                   }
                ],
