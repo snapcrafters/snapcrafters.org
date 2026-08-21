@@ -2752,6 +2752,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "5.17.0/rev28/amd64",
+                  "sha": "5bb64d3ec93c7b5e72c561a83cc23c35697a865c",
+                  "body": "<p>chore: bump luanti to version 5.17.0</p>\n",
+                  "timestamp": 1787307824,
+                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.17.0%2Frev28%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.17.0%2Frev28%2Famd64"
+               },
+               {
                   "name": "5.17.0/rev27/armhf",
                   "sha": "5bb64d3ec93c7b5e72c561a83cc23c35697a865c",
                   "body": "<p>chore: bump luanti to version 5.17.0</p>\n",
@@ -2766,14 +2774,6 @@
                   "timestamp": 1787307824,
                   "url": "https://github.com/snapcrafters/luanti/releases/tag/5.17.0%2Frev26%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.17.0%2Frev26%2Farm64"
-               },
-               {
-                  "name": "5.16.1/rev25/amd64",
-                  "sha": "f5713b34f171cb67d93e5037c8559227b378374e",
-                  "body": "<p>chore: bump luanti to version 5.16.1</p>\n",
-                  "timestamp": 1778503270,
-                  "url": "https://github.com/snapcrafters/luanti/releases/tag/5.16.1%2Frev25%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/luanti/compare/candidate...5.16.1%2Frev25%2Famd64"
                }
             ],
             "commits": null,
@@ -2811,8 +2811,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 25,
-                     "timestamp": 1778767123,
+                     "revision": 28,
+                     "timestamp": 1787352305,
                      "base": "core24"
                   },
                   {
@@ -4287,8 +4287,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1667,
-                     "timestamp": 1786705991,
+                     "revision": 1675,
+                     "timestamp": 1787352302,
                      "base": "core24"
                   },
                   {
@@ -4478,6 +4478,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "8.24.1/rev938/amd64",
+                  "sha": "9129763f7efdf868e6c9f9b5b19de35db7744388",
+                  "body": "<p>chore: remove xmldom deprecation workaround (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/471\">#471</a>)</p>\n",
+                  "timestamp": 1787313513,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.24.1%2Frev938%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.24.1%2Frev938%2Famd64"
+               },
+               {
                   "name": "8.24.1/rev937/arm64",
                   "sha": "9129763f7efdf868e6c9f9b5b19de35db7744388",
                   "body": "<p>chore: remove xmldom deprecation workaround (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/471\">#471</a>)</p>\n",
@@ -4492,14 +4500,6 @@
                   "timestamp": 1787307514,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.24.1%2Frev936%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.24.1%2Frev936%2Farm64"
-               },
-               {
-                  "name": "8.24.0/rev935/arm64",
-                  "sha": "70021ecc3bb95c3d495604f317de084cc8d464c2",
-                  "body": "<p>chore: bump signal-desktop to version 8.24.0</p>\n",
-                  "timestamp": 1787221101,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.24.0%2Frev935%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.24.0%2Frev935%2Farm64"
                }
             ],
             "commits": null,
@@ -4530,8 +4530,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 934,
-                     "timestamp": 1787162724,
+                     "revision": 938,
+                     "timestamp": 1787352306,
                      "base": "core24"
                   },
                   {
@@ -5033,6 +5033,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.15.9/rev921/amd64",
+                  "sha": "98cb0ec31c79b15a6180fa3fcb6d89b6433b8173",
+                  "body": "<p>chore: bump terraform to version 1.15.9</p>\n",
+                  "timestamp": 1787221598,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.9%2Frev921%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.9%2Frev921%2Famd64"
+               },
+               {
                   "name": "1.15.9/rev920/arm64",
                   "sha": "98cb0ec31c79b15a6180fa3fcb6d89b6433b8173",
                   "body": "<p>chore: bump terraform to version 1.15.9</p>\n",
@@ -5047,14 +5055,6 @@
                   "timestamp": 1787221598,
                   "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.9%2Frev919%2Farmhf",
                   "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.9%2Frev919%2Farmhf"
-               },
-               {
-                  "name": "1.15.9/rev918/ppc64el",
-                  "sha": "98cb0ec31c79b15a6180fa3fcb6d89b6433b8173",
-                  "body": "<p>chore: bump terraform to version 1.15.9</p>\n",
-                  "timestamp": 1787221598,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.9%2Frev918%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.9%2Frev918%2Fppc64el"
                }
             ],
             "commits": null,
@@ -5106,8 +5106,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 912,
-                     "timestamp": 1783607557,
+                     "revision": 921,
+                     "timestamp": 1787352356,
                      "base": "core24"
                   },
                   {
