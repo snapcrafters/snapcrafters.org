@@ -4478,6 +4478,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "8.24.1/rev937/arm64",
+                  "sha": "9129763f7efdf868e6c9f9b5b19de35db7744388",
+                  "body": "<p>chore: remove xmldom deprecation workaround (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/471\">#471</a>)</p>\n",
+                  "timestamp": 1787313513,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.24.1%2Frev937%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.24.1%2Frev937%2Farm64"
+               },
+               {
                   "name": "8.24.1/rev936/arm64",
                   "sha": "9398c14584d8fb0edc8095cd4020410218fb8442",
                   "body": "<p>chore: bump signal-desktop to version 8.24.1</p>\n",
@@ -4492,14 +4500,6 @@
                   "timestamp": 1787221101,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.24.0%2Frev935%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.24.0%2Frev935%2Farm64"
-               },
-               {
-                  "name": "8.23.0/rev934/amd64",
-                  "sha": "c19c9c777bde5f5c2fab68ac4c8c93576b77ffeb",
-                  "body": "<p>fix: update icon; ensure the same icon is shown while the app is running (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/469\">#469</a>)</p>\n\n<ul>\n<li><p>Use newer Signal icon in desktop launcher</p></li>\n\n<li><p>Set <code>StartupWMClass=signal-desktop</code> in desktop file</p></li>\n</ul>\n\n<hr>\n\n<p>Co-authored-by: constancies <a href=\"mailto:wanted-judo-rind@duck.com\">wanted-judo-rind@duck.com</a></p>\n",
-                  "timestamp": 1787156707,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.23.0%2Frev934%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.23.0%2Frev934%2Famd64"
                }
             ],
             "commits": null,
@@ -4537,8 +4537,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 936,
-                     "timestamp": 1787309715,
+                     "revision": 937,
+                     "timestamp": 1787315774,
                      "base": "core24"
                   }
                ],
@@ -5033,28 +5033,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.15.9/rev920/arm64",
+                  "sha": "98cb0ec31c79b15a6180fa3fcb6d89b6433b8173",
+                  "body": "<p>chore: bump terraform to version 1.15.9</p>\n",
+                  "timestamp": 1787221598,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.9%2Frev920%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.9%2Frev920%2Farm64"
+               },
+               {
+                  "name": "1.15.9/rev919/armhf",
+                  "sha": "98cb0ec31c79b15a6180fa3fcb6d89b6433b8173",
+                  "body": "<p>chore: bump terraform to version 1.15.9</p>\n",
+                  "timestamp": 1787221598,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.9%2Frev919%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.9%2Frev919%2Farmhf"
+               },
+               {
                   "name": "1.15.9/rev918/ppc64el",
                   "sha": "98cb0ec31c79b15a6180fa3fcb6d89b6433b8173",
                   "body": "<p>chore: bump terraform to version 1.15.9</p>\n",
                   "timestamp": 1787221598,
                   "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.9%2Frev918%2Fppc64el",
                   "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.9%2Frev918%2Fppc64el"
-               },
-               {
-                  "name": "1.15.9/rev917/s390x",
-                  "sha": "98cb0ec31c79b15a6180fa3fcb6d89b6433b8173",
-                  "body": "<p>chore: bump terraform to version 1.15.9</p>\n",
-                  "timestamp": 1787221598,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.9%2Frev917%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.9%2Frev917%2Fs390x"
-               },
-               {
-                  "name": "1.15.8/rev916/s390x",
-                  "sha": "122ae576ec31adc98d4bf61bf4fdfa3f4e774b7e",
-                  "body": "<p>chore: bump terraform to version 1.15.8</p>\n",
-                  "timestamp": 1783603297,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.15.8%2Frev916%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.15.8%2Frev916%2Fs390x"
                }
             ],
             "commits": null,
@@ -5113,15 +5113,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 915,
-                     "timestamp": 1783849393,
+                     "revision": 920,
+                     "timestamp": 1787315375,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 914,
-                     "timestamp": 1783849071,
+                     "revision": 919,
+                     "timestamp": 1787314950,
                      "base": "core24"
                   },
                   {
