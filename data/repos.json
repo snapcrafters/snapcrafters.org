@@ -348,6 +348,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.7.8/rev1229/arm64",
+                  "sha": "b2bc553367383e41de5756c5be3cfcce3f0f08fa",
+                  "body": "<p>fix: harden upstream version sync (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/85\">#85</a>)</p>\n",
+                  "timestamp": 1787568101,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.8%2Frev1229%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.8%2Frev1229%2Farm64"
+               },
+               {
                   "name": "3.7.8/rev1226/amd64",
                   "sha": "475d1d6247a4f98a17d0933e68745e2b4b023d2b",
                   "body": "<p>ci: schedule daily upstream version sync (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/82\">#82</a>)</p>\n",
@@ -362,14 +370,6 @@
                   "timestamp": 1781784939,
                   "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.8%2Frev1225%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.8%2Frev1225%2Farm64"
-               },
-               {
-                  "name": "3.7.7/rev1222/amd64",
-                  "sha": "038ee7db337d85f1a84833e27e612c1deb1ab03b",
-                  "body": "<p>build: add strip for small .so (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/79\">#79</a>)</p>\n",
-                  "timestamp": 1776875375,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.7%2Frev1222%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.7%2Frev1222%2Famd64"
                }
             ],
             "commits": null,
@@ -421,8 +421,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1225,
-                     "timestamp": 1781790329,
+                     "revision": 1229,
+                     "timestamp": 1787570547,
                      "base": "core24"
                   },
                   {
