@@ -1254,10 +1254,18 @@
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.0.155/rev305/amd64",
+                  "sha": "ef40899bb38b7b80f002d1669287ad8267f6d3ce",
+                  "body": "<p>chore: bump discord to version 1.0.155</p>\n",
+                  "timestamp": 1787653321,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.155%2Frev305%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.155%2Frev305%2Famd64"
+               },
                {
                   "name": "1.0.154/rev304/amd64",
                   "sha": "4796c8d944bece0936c10f5cf35756dbbed6c6ac",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1786531973,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.153%2Frev303%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.153%2Frev303%2Famd64"
-               },
-               {
-                  "name": "1.0.152/rev302/amd64",
-                  "sha": "1dea035fd417aa90b6bb705a83fcc339c71b83fc",
-                  "body": "<p>chore: bump discord dependencies</p>\n",
-                  "timestamp": 1786099386,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.152%2Frev302%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.152%2Frev302%2Famd64"
                }
             ],
             "commits": null,
@@ -1304,8 +1304,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 304,
-                     "timestamp": 1786789953,
+                     "revision": 305,
+                     "timestamp": 1787654539,
                      "base": "core22"
                   }
                ],
