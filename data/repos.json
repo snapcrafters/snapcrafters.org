@@ -348,6 +348,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.7.9/rev1233/arm64",
+                  "sha": "515e0d47c183581a36600b060909ed59ca255200",
+                  "body": "<p>chore: bump audacity to version 3.7.9</p>\n",
+                  "timestamp": 1788357611,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.9%2Frev1233%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.9%2Frev1233%2Farm64"
+               },
+               {
                   "name": "3.7.8/rev1230/amd64",
                   "sha": "b2bc553367383e41de5756c5be3cfcce3f0f08fa",
                   "body": "<p>fix: harden upstream version sync (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/85\">#85</a>)</p>\n",
@@ -362,14 +370,6 @@
                   "timestamp": 1787568101,
                   "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.8%2Frev1229%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.8%2Frev1229%2Farm64"
-               },
-               {
-                  "name": "3.7.8/rev1226/amd64",
-                  "sha": "475d1d6247a4f98a17d0933e68745e2b4b023d2b",
-                  "body": "<p>ci: schedule daily upstream version sync (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/82\">#82</a>)</p>\n",
-                  "timestamp": 1781784939,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.8%2Frev1226%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.8%2Frev1226%2Famd64"
                }
             ],
             "commits": null,
@@ -421,8 +421,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1229,
-                     "timestamp": 1787570547,
+                     "revision": 1233,
+                     "timestamp": 1788360699,
                      "base": "core24"
                   },
                   {
@@ -2946,6 +2946,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "6.3.0/rev849/arm64",
+                  "sha": "01c334153efd250a1db49accb57d3199d3d5c6a6",
+                  "body": "<p>chore: remove redundant gpu cleanup part (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/179\">#179</a>)</p>\n\n<p>Snapcraft&rsquo;s GNOME extension now supplies the gpu-2404 wrapper, content plug, mount target, and Mesa cleanup after all application parts. Remove the duplicate dump part and its accidentally primed helper files.</p>\n",
+                  "timestamp": 1788357144,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.0%2Frev849%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.0%2Frev849%2Farm64"
+               },
+               {
                   "name": "6.3.0/rev848/arm64",
                   "sha": "1cd3d33226f4cb146235dfdddf79c31972a56657",
                   "body": "<p>chore: bump mattermost-desktop to version 6.3.0</p>\n",
@@ -2960,14 +2968,6 @@
                   "timestamp": 1786618645,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.0%2Frev847%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.0%2Frev847%2Famd64"
-               },
-               {
-                  "name": "6.2.2/rev846/arm64",
-                  "sha": "8f432669a01c45fec0ad2dcf74eacd5d70bcc7d1",
-                  "body": "<p>chore: bump mattermost-desktop to version 6.2.2</p>\n",
-                  "timestamp": 1782217784,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.2.2%2Frev846%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.2.2%2Frev846%2Farm64"
                }
             ],
             "commits": null,
@@ -3012,8 +3012,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 848,
-                     "timestamp": 1786804263,
+                     "revision": 849,
+                     "timestamp": 1788359161,
                      "base": "core24"
                   },
                   {
@@ -4473,10 +4473,18 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.25.0/rev941/arm64",
+                  "sha": "b070189933a9727d86b50a84f4ffa3806d63c904",
+                  "body": "<p>fix: pin pnpm before workspace build (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/476\">#476</a>)</p>\n\n<p>Run pnpm self-update outside Signal&rsquo;s workspace, verify that the installed CLI matches the upstream packageManager declaration, and make nested invocations fail instead of downloading another version.</p>\n",
+                  "timestamp": 1788356147,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.25.0%2Frev941%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.25.0%2Frev941%2Farm64"
+               },
                {
                   "name": "8.25.0/rev940/amd64",
                   "sha": "80c7a0601e3005d81c7ebfe324082d5f3ffb746e",
@@ -4492,14 +4500,6 @@
                   "timestamp": 1787860982,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.25.0%2Frev939%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.25.0%2Frev939%2Farm64"
-               },
-               {
-                  "name": "8.24.1/rev938/amd64",
-                  "sha": "9129763f7efdf868e6c9f9b5b19de35db7744388",
-                  "body": "<p>chore: remove xmldom deprecation workaround (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/471\">#471</a>)</p>\n",
-                  "timestamp": 1787313513,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.24.1%2Frev938%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.24.1%2Frev938%2Famd64"
                }
             ],
             "commits": null,
@@ -4537,8 +4537,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 939,
-                     "timestamp": 1787863304,
+                     "revision": 941,
+                     "timestamp": 1788360422,
                      "base": "core24"
                   }
                ],
