@@ -348,6 +348,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "3.7.9/rev1234/amd64",
+                  "sha": "515e0d47c183581a36600b060909ed59ca255200",
+                  "body": "<p>chore: bump audacity to version 3.7.9</p>\n",
+                  "timestamp": 1788357611,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.9%2Frev1234%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.9%2Frev1234%2Famd64"
+               },
+               {
                   "name": "3.7.9/rev1233/arm64",
                   "sha": "515e0d47c183581a36600b060909ed59ca255200",
                   "body": "<p>chore: bump audacity to version 3.7.9</p>\n",
@@ -362,14 +370,6 @@
                   "timestamp": 1787568101,
                   "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.8%2Frev1230%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.8%2Frev1230%2Famd64"
-               },
-               {
-                  "name": "3.7.8/rev1229/arm64",
-                  "sha": "b2bc553367383e41de5756c5be3cfcce3f0f08fa",
-                  "body": "<p>fix: harden upstream version sync (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/85\">#85</a>)</p>\n",
-                  "timestamp": 1787568101,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.8%2Frev1229%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.8%2Frev1229%2Farm64"
                }
             ],
             "commits": null,
@@ -386,15 +386,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1230,
-                     "timestamp": 1787592623,
+                     "revision": 1234,
+                     "timestamp": 1788377187,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1229,
-                     "timestamp": 1787592628,
+                     "revision": 1233,
+                     "timestamp": 1788377191,
                      "base": "core24"
                   },
                   {
@@ -414,8 +414,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1230,
-                     "timestamp": 1787571506,
+                     "revision": 1234,
+                     "timestamp": 1788375677,
                      "base": "core24"
                   },
                   {
@@ -2946,6 +2946,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "6.3.0/rev850/amd64",
+                  "sha": "01c334153efd250a1db49accb57d3199d3d5c6a6",
+                  "body": "<p>chore: remove redundant gpu cleanup part (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/179\">#179</a>)</p>\n\n<p>Snapcraft&rsquo;s GNOME extension now supplies the gpu-2404 wrapper, content plug, mount target, and Mesa cleanup after all application parts. Remove the duplicate dump part and its accidentally primed helper files.</p>\n",
+                  "timestamp": 1788357144,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.0%2Frev850%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.0%2Frev850%2Famd64"
+               },
+               {
                   "name": "6.3.0/rev849/arm64",
                   "sha": "01c334153efd250a1db49accb57d3199d3d5c6a6",
                   "body": "<p>chore: remove redundant gpu cleanup part (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/179\">#179</a>)</p>\n\n<p>Snapcraft&rsquo;s GNOME extension now supplies the gpu-2404 wrapper, content plug, mount target, and Mesa cleanup after all application parts. Remove the duplicate dump part and its accidentally primed helper files.</p>\n",
@@ -2960,14 +2968,6 @@
                   "timestamp": 1786618645,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.0%2Frev848%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.0%2Frev848%2Farm64"
-               },
-               {
-                  "name": "6.3.0/rev847/amd64",
-                  "sha": "1cd3d33226f4cb146235dfdddf79c31972a56657",
-                  "body": "<p>chore: bump mattermost-desktop to version 6.3.0</p>\n",
-                  "timestamp": 1786618645,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.0%2Frev847%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.0%2Frev847%2Famd64"
                }
             ],
             "commits": null,
@@ -2984,15 +2984,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 847,
-                     "timestamp": 1786804999,
+                     "revision": 850,
+                     "timestamp": 1788376228,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 848,
-                     "timestamp": 1786805003,
+                     "revision": 849,
+                     "timestamp": 1788376232,
                      "base": "core24"
                   },
                   {
@@ -3005,8 +3005,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 847,
-                     "timestamp": 1786804217,
+                     "revision": 850,
+                     "timestamp": 1788373807,
                      "base": "core24"
                   },
                   {
