@@ -4478,6 +4478,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "8.25.0/rev942/amd64",
+                  "sha": "b070189933a9727d86b50a84f4ffa3806d63c904",
+                  "body": "<p>fix: pin pnpm before workspace build (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/476\">#476</a>)</p>\n\n<p>Run pnpm self-update outside Signal&rsquo;s workspace, verify that the installed CLI matches the upstream packageManager declaration, and make nested invocations fail instead of downloading another version.</p>\n",
+                  "timestamp": 1788356147,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.25.0%2Frev942%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.25.0%2Frev942%2Famd64"
+               },
+               {
                   "name": "8.25.0/rev941/arm64",
                   "sha": "b070189933a9727d86b50a84f4ffa3806d63c904",
                   "body": "<p>fix: pin pnpm before workspace build (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/476\">#476</a>)</p>\n\n<p>Run pnpm self-update outside Signal&rsquo;s workspace, verify that the installed CLI matches the upstream packageManager declaration, and make nested invocations fail instead of downloading another version.</p>\n",
@@ -4492,14 +4500,6 @@
                   "timestamp": 1787860982,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.25.0%2Frev940%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.25.0%2Frev940%2Famd64"
-               },
-               {
-                  "name": "8.25.0/rev939/arm64",
-                  "sha": "80c7a0601e3005d81c7ebfe324082d5f3ffb746e",
-                  "body": "<p>chore: bump signal-desktop to version 8.25.0</p>\n",
-                  "timestamp": 1787860982,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.25.0%2Frev939%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.25.0%2Frev939%2Farm64"
                }
             ],
             "commits": null,
@@ -4530,8 +4530,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 940,
-                     "timestamp": 1787875516,
+                     "revision": 942,
+                     "timestamp": 1788389530,
                      "base": "core24"
                   },
                   {
