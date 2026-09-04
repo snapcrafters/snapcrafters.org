@@ -2566,7 +2566,118 @@
                "https://github.com/snapcrafters/jenkins/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "jenkins",
+               "url": "https://snapcraft.io/jenkins",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 5085,
+                     "timestamp": 1788516218,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 5087,
+                     "timestamp": 1788516223,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 5086,
+                     "timestamp": 1788516228,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 4912,
+                     "timestamp": 1753716416,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 5085,
+                     "timestamp": 1788509979,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 5087,
+                     "timestamp": 1788513351,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 5086,
+                     "timestamp": 1788511385,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 4912,
+                     "timestamp": 1753395621,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "stable",
+                     "revision": 5063,
+                     "timestamp": 1784653997,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "stable",
+                     "revision": 5064,
+                     "timestamp": 1784654001,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "stable",
+                     "revision": 5065,
+                     "timestamp": 1784654004,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "candidate",
+                     "revision": 5063,
+                     "timestamp": 1784650975,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "candidate",
+                     "revision": 5064,
+                     "timestamp": 1784651027,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "lts",
+                     "channel": "candidate",
+                     "revision": 5065,
+                     "timestamp": 1784653689,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest",
+                  "lts"
+               ]
+            }
          },
          {
             "name": "kompozer",
