@@ -198,41 +198,7 @@
                "https://github.com/snapcrafters/android-studio/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "android-studio",
-               "url": "https://snapcraft.io/android-studio",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 242,
-                     "timestamp": 1788288581,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 242,
-                     "timestamp": 1788283741,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 243,
-                     "timestamp": 1788330355,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "android-studio-canary",
@@ -1618,29 +1584,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 191,
-                     "timestamp": 1787744746,
+                     "revision": 195,
+                     "timestamp": 1788510096,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 192,
-                     "timestamp": 1787746141,
+                     "revision": 196,
+                     "timestamp": 1788511964,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 193,
-                     "timestamp": 1787746455,
+                     "revision": 197,
+                     "timestamp": 1788512017,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 194,
-                     "timestamp": 1787746580,
+                     "revision": 198,
+                     "timestamp": 1788523931,
                      "base": "core24"
                   },
                   {
@@ -1653,8 +1619,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 190,
-                     "timestamp": 1787742414,
+                     "revision": 199,
+                     "timestamp": 1788524144,
                      "base": "core24"
                   }
                ],
@@ -1936,10 +1902,18 @@
          },
          {
             "name": "ghvmctl",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/ghvmctl",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.4.1/rev17/amd64",
+                  "sha": "6150c50646550024648331f570702998c245fbdc",
+                  "body": "<p>fix: install each requested snap once (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ghvmctl/pull/18\">#18</a>)</p>\n",
+                  "timestamp": 1788517615,
+                  "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.1%2Frev17%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.1%2Frev17%2Famd64"
+               },
                {
                   "name": "0.4.1/rev16/amd64",
                   "sha": "4a75002b2a547097fcdddcb670925e0a9932325f",
@@ -1955,14 +1929,6 @@
                   "timestamp": 1715153253,
                   "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.0%2Frev14%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.0%2Frev14%2Famd64"
-               },
-               {
-                  "name": "0.4.0/rev13/amd64",
-                  "sha": "20a49f97f58d74328831068cc3330c8c6930aab6",
-                  "body": "<p>fix: don&rsquo;t fail removing non-existent lxd remote</p>\n",
-                  "timestamp": 1715152076,
-                  "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.0%2Frev13%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.0%2Frev13%2Famd64"
                }
             ],
             "commits": null,
@@ -1978,15 +1944,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 16,
-                     "timestamp": 1717074734,
+                     "revision": 17,
+                     "timestamp": 1788518371,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 16,
-                     "timestamp": 1717074602,
+                     "revision": 17,
+                     "timestamp": 1788518089,
                      "base": "core22"
                   }
                ],
@@ -2535,28 +2501,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "2.580/rev5084/amd64",
+                  "name": "2.580/rev5087/arm64",
                   "sha": "7cd075e3e59327f19f523397267436d1f3142cfd",
                   "body": "<p>chore: bump jenkins to version 2.580</p>\n",
                   "timestamp": 1788444916,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.580%2Frev5084%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.580%2Frev5084%2Famd64"
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.580%2Frev5087%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.580%2Frev5087%2Farm64"
                },
                {
-                  "name": "2.579/rev5083/armhf",
-                  "sha": "88326e38d32d3381e6ccb8ce2378255ed5f50c86",
-                  "body": "<p>chore: bump jenkins to version 2.579</p>\n",
-                  "timestamp": 1787740694,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.579%2Frev5083%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.579%2Frev5083%2Farmhf"
+                  "name": "2.580/rev5086/armhf",
+                  "sha": "7cd075e3e59327f19f523397267436d1f3142cfd",
+                  "body": "<p>chore: bump jenkins to version 2.580</p>\n",
+                  "timestamp": 1788444916,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.580%2Frev5086%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.580%2Frev5086%2Farmhf"
                },
                {
-                  "name": "2.579/rev5082/arm64",
-                  "sha": "88326e38d32d3381e6ccb8ce2378255ed5f50c86",
-                  "body": "<p>chore: bump jenkins to version 2.579</p>\n",
-                  "timestamp": 1787740694,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.579%2Frev5082%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.579%2Frev5082%2Farm64"
+                  "name": "2.580/rev5085/amd64",
+                  "sha": "7cd075e3e59327f19f523397267436d1f3142cfd",
+                  "body": "<p>chore: bump jenkins to version 2.580</p>\n",
+                  "timestamp": 1788444916,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.580%2Frev5085%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.580%2Frev5085%2Famd64"
                }
             ],
             "commits": null,
@@ -2573,22 +2539,22 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 5081,
-                     "timestamp": 1787753565,
+                     "revision": 5085,
+                     "timestamp": 1788516218,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 5082,
-                     "timestamp": 1787753570,
+                     "revision": 5087,
+                     "timestamp": 1788516223,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 5083,
-                     "timestamp": 1787753574,
+                     "revision": 5086,
+                     "timestamp": 1788516228,
                      "base": "core22"
                   },
                   {
@@ -2601,22 +2567,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5084,
-                     "timestamp": 1788460924,
+                     "revision": 5085,
+                     "timestamp": 1788509979,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5082,
-                     "timestamp": 1787746014,
+                     "revision": 5087,
+                     "timestamp": 1788513351,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5083,
-                     "timestamp": 1787746062,
+                     "revision": 5086,
+                     "timestamp": 1788511385,
                      "base": "core22"
                   },
                   {
@@ -4699,10 +4665,26 @@
          },
          {
             "name": "sublime-merge",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/sublime-merge",
             "releases": null,
             "tags": [
+               {
+                  "name": "2125/rev135/arm64",
+                  "sha": "15c47f4d037d796951ad6ec0d05cd9fd29d228bc",
+                  "body": "<p>fix: use simple architectures list</p>\n",
+                  "timestamp": 1788510635,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2125%2Frev135%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2125%2Frev135%2Farm64"
+               },
+               {
+                  "name": "2125/rev133/amd64",
+                  "sha": "15c47f4d037d796951ad6ec0d05cd9fd29d228bc",
+                  "body": "<p>fix: use simple architectures list</p>\n",
+                  "timestamp": 1788510635,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2125%2Frev133%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2125%2Frev133%2Famd64"
+               },
                {
                   "name": "2125/rev128/arm64",
                   "sha": "98450897a7de0ebef5723d621481e7f49693e04b",
@@ -4710,22 +4692,6 @@
                   "timestamp": 1776164356,
                   "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2125%2Frev128%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2125%2Frev128%2Farm64"
-               },
-               {
-                  "name": "2125/rev127/amd64",
-                  "sha": "98450897a7de0ebef5723d621481e7f49693e04b",
-                  "body": "<p>chore: bump sublime-merge to version 2125</p>\n",
-                  "timestamp": 1776164356,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2125%2Frev127%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2125%2Frev127%2Famd64"
-               },
-               {
-                  "name": "2124/rev126/arm64",
-                  "sha": "1aa66c33eb6beb75f1479b677ac42882270255a4",
-                  "body": "<p>chore: bump sublime-merge to version 2124</p>\n",
-                  "timestamp": 1775040663,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2124%2Frev126%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2124%2Frev126%2Farm64"
                }
             ],
             "commits": null,
@@ -4742,30 +4708,30 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 127,
-                     "timestamp": 1776165939,
-                     "base": "core20"
+                     "revision": 133,
+                     "timestamp": 1788519565,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 128,
-                     "timestamp": 1776165942,
-                     "base": "core20"
+                     "revision": 135,
+                     "timestamp": 1788519569,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 127,
-                     "timestamp": 1776165117,
-                     "base": "core20"
+                     "revision": 133,
+                     "timestamp": 1788511440,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 128,
-                     "timestamp": 1776165265,
-                     "base": "core20"
+                     "revision": 135,
+                     "timestamp": 1788518532,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
@@ -4784,9 +4750,9 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 131,
-                     "timestamp": 1781170224,
-                     "base": "core20"
+                     "revision": 134,
+                     "timestamp": 1788514085,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
@@ -4838,33 +4804,33 @@
          },
          {
             "name": "sublime-text",
-            "newCommits": 3,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/sublime-text",
             "releases": null,
             "tags": [
                {
-                  "name": "4200/rev220/arm64",
-                  "sha": "afc731459dc1d3da0de1640abc9bbd7518d04ab8",
-                  "body": "<p>chore: add <code>.gitignore</code></p>\n",
-                  "timestamp": 1758295554,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev220%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev220%2Farm64"
+                  "name": "4200/rev224/arm64",
+                  "sha": "1a87aa77ff07305393bfc37813770629d0ad33a8",
+                  "body": "<p>build: migrate candidate to core22 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-text/pull/92\">#92</a>)</p>\n",
+                  "timestamp": 1788508707,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev224%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev224%2Farm64"
                },
                {
-                  "name": "4200/rev219/amd64",
-                  "sha": "afc731459dc1d3da0de1640abc9bbd7518d04ab8",
-                  "body": "<p>chore: add <code>.gitignore</code></p>\n",
-                  "timestamp": 1758295554,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev219%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev219%2Famd64"
+                  "name": "4200/rev223/amd64",
+                  "sha": "1a87aa77ff07305393bfc37813770629d0ad33a8",
+                  "body": "<p>build: migrate candidate to core22 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-text/pull/92\">#92</a>)</p>\n",
+                  "timestamp": 1788508707,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev223%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev223%2Famd64"
                },
                {
-                  "name": "4200/rev218/arm64",
-                  "sha": "afc731459dc1d3da0de1640abc9bbd7518d04ab8",
-                  "body": "<p>chore: add <code>.gitignore</code></p>\n",
-                  "timestamp": 1758295554,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev218%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev218%2Farm64"
+                  "name": "4200/rev222/amd64",
+                  "sha": "1a87aa77ff07305393bfc37813770629d0ad33a8",
+                  "body": "<p>build: migrate candidate to core22 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-text/pull/92\">#92</a>)</p>\n",
+                  "timestamp": 1788508707,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4200%2Frev222%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4200%2Frev222%2Famd64"
                }
             ],
             "commits": null,
@@ -4881,30 +4847,30 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 219,
-                     "timestamp": 1780664238,
-                     "base": "core20"
+                     "revision": 223,
+                     "timestamp": 1788519576,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 220,
-                     "timestamp": 1780664243,
-                     "base": "core20"
+                     "revision": 224,
+                     "timestamp": 1788519581,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 219,
-                     "timestamp": 1780652872,
-                     "base": "core20"
+                     "revision": 223,
+                     "timestamp": 1788512769,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 220,
-                     "timestamp": 1780663567,
-                     "base": "core20"
+                     "revision": 224,
+                     "timestamp": 1788513647,
+                     "base": "core22"
                   },
                   {
                      "track": "latest",
@@ -5033,28 +4999,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "1.16.1/rev927/amd64",
+                  "name": "1.16.1/rev930/armhf",
                   "sha": "9e846fca102d3d6112e8856e810db045ddb5b7e5",
                   "body": "<p>chore: bump terraform to version 1.16.1</p>\n",
                   "timestamp": 1788444460,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.1%2Frev927%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.1%2Frev927%2Famd64"
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.1%2Frev930%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.1%2Frev930%2Farmhf"
                },
                {
-                  "name": "1.16.0/rev926/amd64",
-                  "sha": "b4fec7790a06864e14c3e6646af99ba554b51c99",
-                  "body": "<p>chore: bump terraform to version 1.16.0</p>\n",
-                  "timestamp": 1787861307,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.0%2Frev926%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.0%2Frev926%2Famd64"
+                  "name": "1.16.1/rev929/arm64",
+                  "sha": "9e846fca102d3d6112e8856e810db045ddb5b7e5",
+                  "body": "<p>chore: bump terraform to version 1.16.1</p>\n",
+                  "timestamp": 1788444460,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.1%2Frev929%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.1%2Frev929%2Farm64"
                },
                {
-                  "name": "1.16.0/rev925/ppc64el",
-                  "sha": "b4fec7790a06864e14c3e6646af99ba554b51c99",
-                  "body": "<p>chore: bump terraform to version 1.16.0</p>\n",
-                  "timestamp": 1787861307,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.0%2Frev925%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.0%2Frev925%2Fppc64el"
+                  "name": "1.16.1/rev928/amd64",
+                  "sha": "9e846fca102d3d6112e8856e810db045ddb5b7e5",
+                  "body": "<p>chore: bump terraform to version 1.16.1</p>\n",
+                  "timestamp": 1788444460,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.1%2Frev928%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.1%2Frev928%2Famd64"
                }
             ],
             "commits": null,
@@ -5106,22 +5072,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 927,
-                     "timestamp": 1788460690,
+                     "revision": 928,
+                     "timestamp": 1788509736,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 922,
-                     "timestamp": 1787862636,
+                     "revision": 929,
+                     "timestamp": 1788510865,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 923,
-                     "timestamp": 1787862743,
+                     "revision": 930,
+                     "timestamp": 1788510878,
                      "base": "core24"
                   },
                   {
