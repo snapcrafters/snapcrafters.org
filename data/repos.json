@@ -279,8 +279,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 73,
-                     "timestamp": 1787906078,
+                     "revision": 75,
+                     "timestamp": 1788613783,
                      "base": "core22"
                   },
                   {
@@ -343,10 +343,26 @@
          },
          {
             "name": "audacity",
-            "newCommits": 2,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/audacity",
             "releases": null,
             "tags": [
+               {
+                  "name": "3.7.9/rev1240/arm64",
+                  "sha": "238df5c19e6ac4462ad4df41ecc19380343ed4db",
+                  "body": "<p>chore: revert to 3.7.9 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/92\">#92</a>)</p>\n\n<ul>\n<li><p>ci: disable cron updates</p></li>\n\n<li><p>chore: revert to stable 3.7.9</p></li>\n\n<li><p>fix: initialize git-lfs for music sep models</p></li>\n</ul>\n",
+                  "timestamp": 1788601459,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.9%2Frev1240%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.9%2Frev1240%2Farm64"
+               },
+               {
+                  "name": "3.7.9/rev1239/amd64",
+                  "sha": "238df5c19e6ac4462ad4df41ecc19380343ed4db",
+                  "body": "<p>chore: revert to 3.7.9 (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/92\">#92</a>)</p>\n\n<ul>\n<li><p>ci: disable cron updates</p></li>\n\n<li><p>chore: revert to stable 3.7.9</p></li>\n\n<li><p>fix: initialize git-lfs for music sep models</p></li>\n</ul>\n",
+                  "timestamp": 1788601459,
+                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.9%2Frev1239%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.9%2Frev1239%2Famd64"
+               },
                {
                   "name": "3.7.9/rev1236/arm64",
                   "sha": "a9d66d1d1c44321d47b67419c309a8308cad1b9b",
@@ -354,22 +370,6 @@
                   "timestamp": 1788414925,
                   "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.9%2Frev1236%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.9%2Frev1236%2Farm64"
-               },
-               {
-                  "name": "3.7.9/rev1235/amd64",
-                  "sha": "a9d66d1d1c44321d47b67419c309a8308cad1b9b",
-                  "body": "<p>fix: avoid conflicts with libs from mesa-2404 snap (<a target=\"_blank\" href=\"https://github.com/snapcrafters/audacity/pull/89\">#89</a>)</p>\n",
-                  "timestamp": 1788414925,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.9%2Frev1235%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.9%2Frev1235%2Famd64"
-               },
-               {
-                  "name": "3.7.9/rev1234/amd64",
-                  "sha": "515e0d47c183581a36600b060909ed59ca255200",
-                  "body": "<p>chore: bump audacity to version 3.7.9</p>\n",
-                  "timestamp": 1788357611,
-                  "url": "https://github.com/snapcrafters/audacity/releases/tag/3.7.9%2Frev1234%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/audacity/compare/candidate...3.7.9%2Frev1234%2Famd64"
                }
             ],
             "commits": null,
@@ -386,15 +386,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1235,
-                     "timestamp": 1788427027,
+                     "revision": 1239,
+                     "timestamp": 1788613827,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1236,
-                     "timestamp": 1788427032,
+                     "revision": 1240,
+                     "timestamp": 1788613832,
                      "base": "core24"
                   },
                   {
@@ -414,15 +414,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1235,
-                     "timestamp": 1788416983,
+                     "revision": 1239,
+                     "timestamp": 1788604326,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1236,
-                     "timestamp": 1788417326,
+                     "revision": 1240,
+                     "timestamp": 1788610358,
                      "base": "core24"
                   },
                   {
@@ -2470,6 +2470,13 @@
             "tags": null,
             "commits": [
                {
+                  "sha": "9880700854afba5f2707bd24d85e970428ea2b77",
+                  "author": "Oliver Calder",
+                  "timestamp": 1788607485,
+                  "message": "<p>fix: inadyn.configpath compute path at runtime, not snap build time (<a target=\"_blank\" href=\"https://github.com/snapcrafters/inadyn/pull/8\">#8</a>)</p>\n\n<p>Signed-off-by: Oliver Calder <a href=\"mailto:oliver@calder.dev\">oliver@calder.dev</a></p>\n",
+                  "url": "https://github.com/snapcrafters/inadyn/commit/9880700854afba5f2707bd24d85e970428ea2b77"
+               },
+               {
                   "sha": "8ac57e77b7bc4a0b2abe05d2033dfbf052b1abb4",
                   "author": "Ubuntu",
                   "timestamp": 1618571145,
@@ -2482,13 +2489,6 @@
                   "timestamp": 1607074937,
                   "message": "<p>Trigger build of inadyn on 2020-12-04-09:41:34</p>\n",
                   "url": "https://github.com/snapcrafters/inadyn/commit/b2cac9c7f0496cd8d93766ff0bae39dd967e1f27"
-               },
-               {
-                  "sha": "fc2fba7ce3fe0f27f5426e57d7db7c2eb4ef2035",
-                  "author": "Alan Pope",
-                  "timestamp": 1605620226,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/inadyn/pull/5\">#5</a> from snapcrafters/core-migration</p>\n\n<p>Core migration</p>\n",
-                  "url": "https://github.com/snapcrafters/inadyn/commit/fc2fba7ce3fe0f27f5426e57d7db7c2eb4ef2035"
                }
             ],
             "ciActions": [],
