@@ -1259,6 +1259,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.0.158/rev308/amd64",
+                  "sha": "1d21b1105b0d8fda3b8a9ce7df4b97afeae178b4",
+                  "body": "<p>chore: bump discord to version 1.0.158</p>\n",
+                  "timestamp": 1789482812,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.158%2Frev308%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.158%2Frev308%2Famd64"
+               },
+               {
                   "name": "1.0.157/rev307/amd64",
                   "sha": "bb16b6b22798e7825f6ebe26309a24c0b7495569",
                   "body": "<p>chore: bump discord to version 1.0.157</p>\n",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1788272696,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.156%2Frev306%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.156%2Frev306%2Famd64"
-               },
-               {
-                  "name": "1.0.155/rev305/amd64",
-                  "sha": "ef40899bb38b7b80f002d1669287ad8267f6d3ce",
-                  "body": "<p>chore: bump discord to version 1.0.155</p>\n",
-                  "timestamp": 1787653321,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.155%2Frev305%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.155%2Frev305%2Famd64"
                }
             ],
             "commits": null,
@@ -1304,8 +1304,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 307,
-                     "timestamp": 1788970405,
+                     "revision": 308,
+                     "timestamp": 1789487180,
                      "base": "core22"
                   }
                ],
@@ -1569,103 +1569,7 @@
                "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "ffmpeg-2404-sdk",
-               "url": "https://snapcraft.io/ffmpeg-2404-sdk",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 195,
-                     "timestamp": 1788951791,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 196,
-                     "timestamp": 1788951795,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 197,
-                     "timestamp": 1788951798,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 198,
-                     "timestamp": 1788951802,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 200,
-                     "timestamp": 1788951808,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 199,
-                     "timestamp": 1788951815,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 195,
-                     "timestamp": 1788510096,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 196,
-                     "timestamp": 1788511964,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 197,
-                     "timestamp": 1788512017,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 198,
-                     "timestamp": 1788523931,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 200,
-                     "timestamp": 1788812809,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 199,
-                     "timestamp": 1788524144,
-                     "base": "core24"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "fkill",
@@ -5150,7 +5054,7 @@
          },
          {
             "name": "terragrunt",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/terragrunt",
             "releases": null,
             "tags": [
