@@ -4589,47 +4589,7 @@
                "https://github.com/snapcrafters/simplenote/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "simplenote",
-               "url": "https://snapcraft.io/simplenote",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 633,
-                     "timestamp": 1782979274,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 634,
-                     "timestamp": 1782979278,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 633,
-                     "timestamp": 1782923382,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 634,
-                     "timestamp": 1782934149,
-                     "base": "core24"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "sommelier",
@@ -4699,10 +4659,26 @@
          },
          {
             "name": "sublime-merge",
-            "newCommits": 0,
+            "newCommits": 18,
             "url": "https://github.com/snapcrafters/sublime-merge",
             "releases": null,
             "tags": [
+               {
+                  "name": "2131/rev154/arm64",
+                  "sha": "506125b815fd60deb2dcfe3e20ac11257fa64791",
+                  "body": "<p>chore: bump sublime-merge to version 2131</p>\n",
+                  "timestamp": 1789569722,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2131%2Frev154%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2131%2Frev154%2Farm64"
+               },
+               {
+                  "name": "2131/rev153/amd64",
+                  "sha": "506125b815fd60deb2dcfe3e20ac11257fa64791",
+                  "body": "<p>chore: bump sublime-merge to version 2131</p>\n",
+                  "timestamp": 1789569722,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2131%2Frev153%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2131%2Frev153%2Famd64"
+               },
                {
                   "name": "2130/rev150/arm64",
                   "sha": "f002bb09450b25dc378f0a77e3a9c925d87a71bd",
@@ -4710,22 +4686,6 @@
                   "timestamp": 1789402427,
                   "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2130%2Frev150%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2130%2Frev150%2Farm64"
-               },
-               {
-                  "name": "2130/rev149/amd64",
-                  "sha": "f002bb09450b25dc378f0a77e3a9c925d87a71bd",
-                  "body": "<p>chore: bump sublime-merge to version 2130</p>\n",
-                  "timestamp": 1789402427,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2130%2Frev149%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2130%2Frev149%2Famd64"
-               },
-               {
-                  "name": "2129/rev148/amd64",
-                  "sha": "f8db0e63bf2e521a5264ade1d815ea21391e2e54",
-                  "body": "<p>chore: bump sublime-merge to version 2129</p>\n",
-                  "timestamp": 1789135652,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2129%2Frev148%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2129%2Frev148%2Famd64"
                }
             ],
             "commits": null,
@@ -4798,29 +4758,29 @@
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 148,
-                     "timestamp": 1789142725,
+                     "revision": 153,
+                     "timestamp": 1789575831,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 147,
-                     "timestamp": 1789142729,
+                     "revision": 154,
+                     "timestamp": 1789575835,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 148,
-                     "timestamp": 1789136790,
+                     "revision": 153,
+                     "timestamp": 1789571365,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 147,
-                     "timestamp": 1789136541,
+                     "revision": 154,
+                     "timestamp": 1789574407,
                      "base": "core24"
                   }
                ],
@@ -4843,28 +4803,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "4212/rev238/arm64",
+                  "sha": "2335e8acc90c214dd8acb74ad89ddd6d01574364",
+                  "body": "<p>chore: bump sublime-text to version 4212</p>\n",
+                  "timestamp": 1789569924,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4212%2Frev238%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4212%2Frev238%2Farm64"
+               },
+               {
+                  "name": "4212/rev237/amd64",
+                  "sha": "2335e8acc90c214dd8acb74ad89ddd6d01574364",
+                  "body": "<p>chore: bump sublime-text to version 4212</p>\n",
+                  "timestamp": 1789569924,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4212%2Frev237%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4212%2Frev237%2Famd64"
+               },
+               {
                   "name": "4211/rev236/arm64",
                   "sha": "12cf7fd7f4fca0cff44bc4f4baf010a4ac60e4e7",
                   "body": "<p>chore: bump sublime-text to version 4211</p>\n",
                   "timestamp": 1789135990,
                   "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4211%2Frev236%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4211%2Frev236%2Farm64"
-               },
-               {
-                  "name": "4211/rev235/amd64",
-                  "sha": "12cf7fd7f4fca0cff44bc4f4baf010a4ac60e4e7",
-                  "body": "<p>chore: bump sublime-text to version 4211</p>\n",
-                  "timestamp": 1789135990,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4211%2Frev235%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4211%2Frev235%2Famd64"
-               },
-               {
-                  "name": "4207/rev232/arm64",
-                  "sha": "1d2212c5c82d41cfd0b3261df9f1a5851e77f8f5",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-text/pull/99\">#99</a> from clwsgruk/build/dev-core24</p>\n",
-                  "timestamp": 1788688832,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4207%2Frev232%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4207%2Frev232%2Farm64"
                }
             ],
             "commits": null,
@@ -4923,29 +4883,29 @@
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 235,
-                     "timestamp": 1789142730,
+                     "revision": 237,
+                     "timestamp": 1789572426,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 236,
-                     "timestamp": 1789142733,
+                     "revision": 238,
+                     "timestamp": 1789572429,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 235,
-                     "timestamp": 1789137297,
+                     "revision": 237,
+                     "timestamp": 1789571338,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 236,
-                     "timestamp": 1789137746,
+                     "revision": 238,
+                     "timestamp": 1789571584,
                      "base": "core24"
                   }
                ],
@@ -5033,28 +4993,28 @@
             "releases": null,
             "tags": [
                {
-                  "name": "1.16.2/rev937/ppc64el",
-                  "sha": "ff6c3caddec49a65a0b98b5b355ac3e7b9e8e0a2",
-                  "body": "<p>chore: bump terraform to version 1.16.2</p>\n",
-                  "timestamp": 1788962938,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.2%2Frev937%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.2%2Frev937%2Fppc64el"
+                  "name": "1.16.3/rev941/s390x",
+                  "sha": "5caa9c43c5f150c6df1725781827ede6677b2b21",
+                  "body": "<p>chore: bump terraform to version 1.16.3</p>\n",
+                  "timestamp": 1789569303,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.3%2Frev941%2Fs390x",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.3%2Frev941%2Fs390x"
                },
                {
-                  "name": "1.16.2/rev936/s390x",
-                  "sha": "ff6c3caddec49a65a0b98b5b355ac3e7b9e8e0a2",
-                  "body": "<p>chore: bump terraform to version 1.16.2</p>\n",
-                  "timestamp": 1788962938,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.2%2Frev936%2Fs390x",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.2%2Frev936%2Fs390x"
+                  "name": "1.16.3/rev940/ppc64el",
+                  "sha": "5caa9c43c5f150c6df1725781827ede6677b2b21",
+                  "body": "<p>chore: bump terraform to version 1.16.3</p>\n",
+                  "timestamp": 1789569303,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.3%2Frev940%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.3%2Frev940%2Fppc64el"
                },
                {
-                  "name": "1.16.2/rev935/arm64",
-                  "sha": "ff6c3caddec49a65a0b98b5b355ac3e7b9e8e0a2",
-                  "body": "<p>chore: bump terraform to version 1.16.2</p>\n",
-                  "timestamp": 1788962938,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.2%2Frev935%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.2%2Frev935%2Farm64"
+                  "name": "1.16.3/rev939/armhf",
+                  "sha": "5caa9c43c5f150c6df1725781827ede6677b2b21",
+                  "body": "<p>chore: bump terraform to version 1.16.3</p>\n",
+                  "timestamp": 1789569303,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.3%2Frev939%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.3%2Frev939%2Farmhf"
                }
             ],
             "commits": null,
@@ -5106,8 +5066,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 933,
-                     "timestamp": 1789147601,
+                     "revision": 938,
+                     "timestamp": 1789570494,
                      "base": "core24"
                   },
                   {
@@ -5120,22 +5080,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 934,
-                     "timestamp": 1789147748,
+                     "revision": 939,
+                     "timestamp": 1789574722,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 937,
-                     "timestamp": 1789148726,
+                     "revision": 940,
+                     "timestamp": 1789575147,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 936,
-                     "timestamp": 1789148377,
+                     "revision": 941,
+                     "timestamp": 1789575552,
                      "base": "core24"
                   }
                ],
@@ -5371,7 +5331,7 @@
          },
          {
             "name": "webkitgtk-sdk",
-            "newCommits": 1,
+            "newCommits": 3,
             "url": "https://github.com/snapcrafters/webkitgtk-sdk",
             "releases": null,
             "tags": [
