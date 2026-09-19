@@ -293,8 +293,8 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 78,
-                     "timestamp": 1789196234,
+                     "revision": 80,
+                     "timestamp": 1789801102,
                      "base": "core22"
                   }
                ],
@@ -4704,28 +4704,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2132/rev160/arm64",
+                  "sha": "617f95088887bf26be1dddc56f1be9d76ba3aaa0",
+                  "body": "<p>fix: preserve Gallium OpenGL runtime (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-merge/pull/80\">#80</a>)</p>\n",
+                  "timestamp": 1789806242,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2132%2Frev160%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2132%2Frev160%2Farm64"
+               },
+               {
+                  "name": "2132/rev157/amd64",
+                  "sha": "617f95088887bf26be1dddc56f1be9d76ba3aaa0",
+                  "body": "<p>fix: preserve Gallium OpenGL runtime (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-merge/pull/80\">#80</a>)</p>\n",
+                  "timestamp": 1789806242,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2132%2Frev157%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2132%2Frev157%2Famd64"
+               },
+               {
                   "name": "2132/rev156/arm64",
                   "sha": "94a9da4b3c88ef43b2d8c7d3508132061600567a",
                   "body": "<p>chore: bump sublime-merge to version 2132</p>\n",
                   "timestamp": 1789740788,
                   "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2132%2Frev156%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2132%2Frev156%2Farm64"
-               },
-               {
-                  "name": "2132/rev155/amd64",
-                  "sha": "94a9da4b3c88ef43b2d8c7d3508132061600567a",
-                  "body": "<p>chore: bump sublime-merge to version 2132</p>\n",
-                  "timestamp": 1789740788,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2132%2Frev155%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2132%2Frev155%2Famd64"
-               },
-               {
-                  "name": "2131/rev154/arm64",
-                  "sha": "506125b815fd60deb2dcfe3e20ac11257fa64791",
-                  "body": "<p>chore: bump sublime-merge to version 2131</p>\n",
-                  "timestamp": 1789569722,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2131%2Frev154%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2131%2Frev154%2Farm64"
                }
             ],
             "commits": null,
@@ -4742,29 +4742,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 155,
-                     "timestamp": 1789750497,
+                     "revision": 157,
+                     "timestamp": 1789809169,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 156,
-                     "timestamp": 1789750500,
+                     "revision": 160,
+                     "timestamp": 1789809172,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 155,
-                     "timestamp": 1789747991,
+                     "revision": 157,
+                     "timestamp": 1789806996,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 156,
-                     "timestamp": 1789748282,
+                     "revision": 160,
+                     "timestamp": 1789807323,
                      "base": "core24"
                   },
                   {
@@ -4784,43 +4784,43 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 151,
-                     "timestamp": 1789469007,
+                     "revision": 161,
+                     "timestamp": 1789808050,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 152,
-                     "timestamp": 1789469612,
+                     "revision": 162,
+                     "timestamp": 1789808499,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 153,
-                     "timestamp": 1789575831,
+                     "revision": 158,
+                     "timestamp": 1789809138,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 154,
-                     "timestamp": 1789575835,
+                     "revision": 159,
+                     "timestamp": 1789809142,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 153,
-                     "timestamp": 1789571365,
+                     "revision": 158,
+                     "timestamp": 1789807059,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 154,
-                     "timestamp": 1789574407,
+                     "revision": 159,
+                     "timestamp": 1789807271,
                      "base": "core24"
                   }
                ],
@@ -4838,10 +4838,26 @@
          },
          {
             "name": "sublime-text",
-            "newCommits": 14,
+            "newCommits": 15,
             "url": "https://github.com/snapcrafters/sublime-text",
             "releases": null,
             "tags": [
+               {
+                  "name": "4212/rev242/arm64",
+                  "sha": "06b8b702f41be5a1a6e64a1dbf5b3c0384ff29c9",
+                  "body": "<p>fix: preserve Gallium OpenGL runtime (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-text/pull/106\">#106</a>)</p>\n",
+                  "timestamp": 1789806239,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4212%2Frev242%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4212%2Frev242%2Farm64"
+               },
+               {
+                  "name": "4212/rev240/amd64",
+                  "sha": "06b8b702f41be5a1a6e64a1dbf5b3c0384ff29c9",
+                  "body": "<p>fix: preserve Gallium OpenGL runtime (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-text/pull/106\">#106</a>)</p>\n",
+                  "timestamp": 1789806239,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4212%2Frev240%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4212%2Frev240%2Famd64"
+               },
                {
                   "name": "4212/rev238/arm64",
                   "sha": "2335e8acc90c214dd8acb74ad89ddd6d01574364",
@@ -4849,22 +4865,6 @@
                   "timestamp": 1789569924,
                   "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4212%2Frev238%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4212%2Frev238%2Farm64"
-               },
-               {
-                  "name": "4212/rev237/amd64",
-                  "sha": "2335e8acc90c214dd8acb74ad89ddd6d01574364",
-                  "body": "<p>chore: bump sublime-text to version 4212</p>\n",
-                  "timestamp": 1789569924,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4212%2Frev237%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4212%2Frev237%2Famd64"
-               },
-               {
-                  "name": "4211/rev236/arm64",
-                  "sha": "12cf7fd7f4fca0cff44bc4f4baf010a4ac60e4e7",
-                  "body": "<p>chore: bump sublime-text to version 4211</p>\n",
-                  "timestamp": 1789135990,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4211%2Frev236%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4211%2Frev236%2Farm64"
                }
             ],
             "commits": null,
@@ -4881,29 +4881,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 229,
-                     "timestamp": 1788691909,
+                     "revision": 239,
+                     "timestamp": 1789809114,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 231,
-                     "timestamp": 1788691913,
+                     "revision": 241,
+                     "timestamp": 1789809118,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 229,
-                     "timestamp": 1788689432,
+                     "revision": 239,
+                     "timestamp": 1789806871,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 231,
-                     "timestamp": 1788689766,
+                     "revision": 241,
+                     "timestamp": 1789807249,
                      "base": "core24"
                   },
                   {
@@ -4923,29 +4923,29 @@
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 237,
-                     "timestamp": 1789572426,
+                     "revision": 240,
+                     "timestamp": 1789809140,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 238,
-                     "timestamp": 1789572429,
+                     "revision": 242,
+                     "timestamp": 1789809143,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 237,
-                     "timestamp": 1789571338,
+                     "revision": 240,
+                     "timestamp": 1789806999,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 238,
-                     "timestamp": 1789571584,
+                     "revision": 242,
+                     "timestamp": 1789807316,
                      "base": "core24"
                   }
                ],
