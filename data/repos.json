@@ -1053,7 +1053,7 @@
          },
          {
             "name": "ddgr",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/ddgr",
             "releases": null,
             "tags": [
@@ -1083,181 +1083,24 @@
                }
             ],
             "commits": null,
-            "ciActions": [
-               "https://github.com/snapcrafters/ddgr/actions/workflows/sync-version-with-upstream.yml",
-               "https://github.com/snapcrafters/ddgr/actions/workflows/release-to-candidate.yml",
-               "https://github.com/snapcrafters/ddgr/actions/workflows/promote-to-stable.yml"
-            ],
+            "ciActions": null,
             "charm": null,
-            "snap": {
-               "name": "ddgr",
-               "url": "https://snapcraft.io/ddgr",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 855,
-                     "timestamp": 1780653786,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 856,
-                     "timestamp": 1780653789,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 857,
-                     "timestamp": 1780653794,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 594,
-                     "timestamp": 1612461022,
-                     "base": ""
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 818,
-                     "timestamp": 1696718024,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 819,
-                     "timestamp": 1696718025,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 855,
-                     "timestamp": 1780140256,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 856,
-                     "timestamp": 1780140435,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 857,
-                     "timestamp": 1780140451,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 817,
-                     "timestamp": 1696718024,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 821,
-                     "timestamp": 1696718028,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 820,
-                     "timestamp": 1696718026,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 594,
-                     "timestamp": 1656792291,
-                     "base": ""
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 818,
-                     "timestamp": 1696718024,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 819,
-                     "timestamp": 1696718025,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 861,
-                     "timestamp": 1781157109,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 862,
-                     "timestamp": 1781157169,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 863,
-                     "timestamp": 1781157172,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 594,
-                     "timestamp": 1605227013,
-                     "base": ""
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 830,
-                     "timestamp": 1703085104,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 823,
-                     "timestamp": 1702446148,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "beta",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "discord",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/discord",
             "releases": null,
             "tags": [
+               {
+                  "name": "1.0.159/rev309/amd64",
+                  "sha": "3f2298157f59f88e282ca76021716ccb1787a0fd",
+                  "body": "<p>chore: bump discord to version 1.0.159</p>\n",
+                  "timestamp": 1790086566,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.159%2Frev309%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.159%2Frev309%2Famd64"
+               },
                {
                   "name": "1.0.158/rev308/amd64",
                   "sha": "1d21b1105b0d8fda3b8a9ce7df4b97afeae178b4",
@@ -1273,14 +1116,6 @@
                   "timestamp": 1788962582,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.157%2Frev307%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.157%2Frev307%2Famd64"
-               },
-               {
-                  "name": "1.0.156/rev306/amd64",
-                  "sha": "80e65300496569600543d53e131e97b2ecf42cf1",
-                  "body": "<p>chore: bump discord to version 1.0.156</p>\n",
-                  "timestamp": 1788272696,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.156%2Frev306%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.156%2Frev306%2Famd64"
                }
             ],
             "commits": null,
@@ -1304,8 +1139,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 308,
-                     "timestamp": 1789487180,
+                     "revision": 309,
+                     "timestamp": 1790108948,
                      "base": "core22"
                   }
                ],
@@ -2530,33 +2365,33 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
                {
-                  "name": "2.582/rev5093/arm64",
-                  "sha": "90285e753aad2e320dca2e8cdaf208c9783104e2",
-                  "body": "<p>chore: bump jenkins to version 2.582</p>\n",
-                  "timestamp": 1790007590,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.582%2Frev5093%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.582%2Frev5093%2Farm64"
+                  "name": "2.583/rev5096/armhf",
+                  "sha": "2a2522b97d240ea84aa7a7141bf10ba0a1f03163",
+                  "body": "<p>chore: bump jenkins to version 2.583</p>\n",
+                  "timestamp": 1790087434,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.583%2Frev5096%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.583%2Frev5096%2Farmhf"
                },
                {
-                  "name": "2.582/rev5092/armhf",
-                  "sha": "90285e753aad2e320dca2e8cdaf208c9783104e2",
-                  "body": "<p>chore: bump jenkins to version 2.582</p>\n",
-                  "timestamp": 1790007590,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.582%2Frev5092%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.582%2Frev5092%2Farmhf"
+                  "name": "2.583/rev5095/arm64",
+                  "sha": "2a2522b97d240ea84aa7a7141bf10ba0a1f03163",
+                  "body": "<p>chore: bump jenkins to version 2.583</p>\n",
+                  "timestamp": 1790087434,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.583%2Frev5095%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.583%2Frev5095%2Farm64"
                },
                {
-                  "name": "2.582/rev5091/amd64",
-                  "sha": "90285e753aad2e320dca2e8cdaf208c9783104e2",
-                  "body": "<p>chore: bump jenkins to version 2.582</p>\n",
-                  "timestamp": 1790007590,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.582%2Frev5091%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.582%2Frev5091%2Famd64"
+                  "name": "2.583/rev5094/amd64",
+                  "sha": "2a2522b97d240ea84aa7a7141bf10ba0a1f03163",
+                  "body": "<p>chore: bump jenkins to version 2.583</p>\n",
+                  "timestamp": 1790087434,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.583%2Frev5094%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.583%2Frev5094%2Famd64"
                }
             ],
             "commits": null,
@@ -2601,22 +2436,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5091,
-                     "timestamp": 1790008953,
+                     "revision": 5094,
+                     "timestamp": 1790108969,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5093,
-                     "timestamp": 1790010570,
+                     "revision": 5095,
+                     "timestamp": 1790109237,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5092,
-                     "timestamp": 1790009750,
+                     "revision": 5096,
+                     "timestamp": 1790109299,
                      "base": "core22"
                   },
                   {
