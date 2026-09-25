@@ -241,6 +241,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2026.2.2.2/rev81/amd64",
+                  "sha": "6686611681ca067e2518186ec679b208e1d9c0c7",
+                  "body": "<p>chore: bump android-studio-canary to version 2026.2.2.2</p>\n",
+                  "timestamp": 1790348346,
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.2.2.2%2Frev81%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.2.2.2%2Frev81%2Famd64"
+               },
+               {
                   "name": "2026.2.2.1/rev79/amd64",
                   "sha": "7b9dbbae56c583fc203287a42642065adc9a6f16",
                   "body": "<p>chore: bump android-studio-canary to version 2026.2.2.1</p>\n",
@@ -255,14 +263,6 @@
                   "timestamp": 1789135381,
                   "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.2.1.5%2Frev77%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.2.1.5%2Frev77%2Famd64"
-               },
-               {
-                  "name": "2026.2.1.4/rev75/amd64",
-                  "sha": "c6fe42a4a92e25040a59377951021942cbaf25d9",
-                  "body": "<p>chore: bump android-studio-canary to version 2026.2.1.4</p>\n",
-                  "timestamp": 1788530394,
-                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.2.1.4%2Frev75%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.2.1.4%2Frev75%2Famd64"
                }
             ],
             "commits": null,
@@ -279,15 +279,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 79,
-                     "timestamp": 1789756062,
+                     "revision": 81,
+                     "timestamp": 1790352200,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 79,
-                     "timestamp": 1789749413,
+                     "revision": 81,
+                     "timestamp": 1790350493,
                      "base": "core22"
                   },
                   {
@@ -4202,7 +4202,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 207,
+            "newCommits": 208,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
@@ -4322,8 +4322,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1691,
-                     "timestamp": 1789708564,
+                     "revision": 1695,
+                     "timestamp": 1790350639,
                      "base": "core24"
                   }
                ],
@@ -4838,10 +4838,26 @@
          },
          {
             "name": "sublime-text",
-            "newCommits": 16,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/sublime-text",
             "releases": null,
             "tags": [
+               {
+                  "name": "4215/rev252/arm64",
+                  "sha": "709229410f871d1bf13cebe3a0dedb777500c92e",
+                  "body": "<p>chore: bump sublime-text to version 4215</p>\n",
+                  "timestamp": 1790348775,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4215%2Frev252%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4215%2Frev252%2Farm64"
+               },
+               {
+                  "name": "4215/rev251/amd64",
+                  "sha": "709229410f871d1bf13cebe3a0dedb777500c92e",
+                  "body": "<p>chore: bump sublime-text to version 4215</p>\n",
+                  "timestamp": 1790348775,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4215%2Frev251%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4215%2Frev251%2Famd64"
+               },
                {
                   "name": "4214/rev250/amd64",
                   "sha": "585f7703df0903479cf6785b9bea8ad050059177",
@@ -4849,22 +4865,6 @@
                   "timestamp": 1790175010,
                   "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4214%2Frev250%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4214%2Frev250%2Famd64"
-               },
-               {
-                  "name": "4214/rev249/arm64",
-                  "sha": "585f7703df0903479cf6785b9bea8ad050059177",
-                  "body": "<p>chore: bump sublime-text to version 4214</p>\n",
-                  "timestamp": 1790175010,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4214%2Frev249%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4214%2Frev249%2Farm64"
-               },
-               {
-                  "name": "4213/rev246/arm64",
-                  "sha": "94deb953a4370a9804b9cd948ec27d03688b3a09",
-                  "body": "<p>chore: bump sublime-text to version 4213</p>\n",
-                  "timestamp": 1790007726,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4213%2Frev246%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4213%2Frev246%2Farm64"
                }
             ],
             "commits": null,
@@ -4881,29 +4881,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 245,
-                     "timestamp": 1790011918,
+                     "revision": 251,
+                     "timestamp": 1790352285,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 246,
-                     "timestamp": 1790011922,
+                     "revision": 252,
+                     "timestamp": 1790352289,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 245,
-                     "timestamp": 1790008940,
+                     "revision": 251,
+                     "timestamp": 1790349886,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 246,
-                     "timestamp": 1790010508,
+                     "revision": 252,
+                     "timestamp": 1790351767,
                      "base": "core24"
                   },
                   {
