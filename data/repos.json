@@ -162,7 +162,7 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
@@ -236,7 +236,7 @@
          },
          {
             "name": "android-studio-canary",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio-canary",
             "releases": null,
             "tags": [
@@ -1259,6 +1259,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.0.160/rev311/amd64",
+                  "sha": "8ad0a3c77f24847709f9fc840aa947c4ebbeda1e",
+                  "body": "<p>chore: bump discord dependencies</p>\n",
+                  "timestamp": 1790873283,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.160%2Frev311%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.160%2Frev311%2Famd64"
+               },
+               {
                   "name": "1.0.160/rev310/amd64",
                   "sha": "28bc4421b3a0a572fb11785813ef0dfc6250bf08",
                   "body": "<p>chore: bump discord to version 1.0.160</p>\n",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1790086566,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.159%2Frev309%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.159%2Frev309%2Famd64"
-               },
-               {
-                  "name": "1.0.158/rev308/amd64",
-                  "sha": "1d21b1105b0d8fda3b8a9ce7df4b97afeae178b4",
-                  "body": "<p>chore: bump discord to version 1.0.158</p>\n",
-                  "timestamp": 1789482812,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.158%2Frev308%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.158%2Frev308%2Famd64"
                }
             ],
             "commits": null,
@@ -1304,8 +1304,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 310,
-                     "timestamp": 1790743519,
+                     "revision": 311,
+                     "timestamp": 1790876804,
                      "base": "core22"
                   }
                ],
@@ -3653,33 +3653,33 @@
          },
          {
             "name": "pyradio",
-            "newCommits": 18,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/pyradio",
             "releases": null,
             "tags": [
                {
-                  "name": "null/rev1100/armhf",
-                  "sha": "07f0da242ad0c2f3c407a1ff64fa27736c9e7481",
+                  "name": "null/rev1251/arm64",
+                  "sha": "a40df47d84299fadadda1479e21b6c1420987326",
                   "body": "<p>chore: bump pyradio to version null</p>\n",
-                  "timestamp": 1705313561,
-                  "url": "https://github.com/snapcrafters/pyradio/releases/tag/null%2Frev1100%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/pyradio/compare/candidate...null%2Frev1100%2Farmhf"
+                  "timestamp": 1790873701,
+                  "url": "https://github.com/snapcrafters/pyradio/releases/tag/null%2Frev1251%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/pyradio/compare/candidate...null%2Frev1251%2Farm64"
                },
                {
-                  "name": "null/rev1099/arm64",
-                  "sha": "07f0da242ad0c2f3c407a1ff64fa27736c9e7481",
+                  "name": "null/rev1250/amd64",
+                  "sha": "a40df47d84299fadadda1479e21b6c1420987326",
                   "body": "<p>chore: bump pyradio to version null</p>\n",
-                  "timestamp": 1705313561,
-                  "url": "https://github.com/snapcrafters/pyradio/releases/tag/null%2Frev1099%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/pyradio/compare/candidate...null%2Frev1099%2Farm64"
+                  "timestamp": 1790873701,
+                  "url": "https://github.com/snapcrafters/pyradio/releases/tag/null%2Frev1250%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/pyradio/compare/candidate...null%2Frev1250%2Famd64"
                },
                {
-                  "name": "null/rev1097/amd64",
-                  "sha": "07f0da242ad0c2f3c407a1ff64fa27736c9e7481",
+                  "name": "null/rev1249/armhf",
+                  "sha": "a40df47d84299fadadda1479e21b6c1420987326",
                   "body": "<p>chore: bump pyradio to version null</p>\n",
-                  "timestamp": 1705313561,
-                  "url": "https://github.com/snapcrafters/pyradio/releases/tag/null%2Frev1097%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/pyradio/compare/candidate...null%2Frev1097%2Famd64"
+                  "timestamp": 1790873701,
+                  "url": "https://github.com/snapcrafters/pyradio/releases/tag/null%2Frev1249%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/pyradio/compare/candidate...null%2Frev1249%2Farmhf"
                }
             ],
             "commits": null,
@@ -3738,22 +3738,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1240,
-                     "timestamp": 1780756851,
+                     "revision": 1250,
+                     "timestamp": 1790875577,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1242,
-                     "timestamp": 1780757067,
+                     "revision": 1251,
+                     "timestamp": 1790876600,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1241,
-                     "timestamp": 1780756989,
+                     "revision": 1249,
+                     "timestamp": 1790875275,
                      "base": "core24"
                   },
                   {
