@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2026.2.1.8-rabbit1/rev247/amd64",
+                  "sha": "f14273caefbba7f19ab4e415ea3b5bcb5ef2acad",
+                  "body": "<p>chore: bump android-studio to version 2026.2.1.8-rabbit1</p>\n",
+                  "timestamp": 1790873182,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.2.1.8-rabbit1%2Frev247%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.2.1.8-rabbit1%2Frev247%2Famd64"
+               },
                {
                   "name": "2026.1.4.8-quail4-patch1/rev244/amd64",
                   "sha": "56d390409bfeeaf09a5c21b7df7c90c84973248e",
@@ -181,14 +189,6 @@
                   "timestamp": 1788272556,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.4.7-quail4%2Frev242%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.4.7-quail4%2Frev242%2Famd64"
-               },
-               {
-                  "name": "2026.1.3.8-quail3-patch1/rev241/amd64",
-                  "sha": "6ac6300529acc9cd7b831c6a6e8e952ac4d2fc6e",
-                  "body": "<p>chore: bump android-studio to version 2026.1.3.8-quail3-patch1</p>\n",
-                  "timestamp": 1786444837,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.3.8-quail3-patch1%2Frev241%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.3.8-quail3-patch1%2Frev241%2Famd64"
                }
             ],
             "commits": null,
@@ -212,15 +212,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 244,
-                     "timestamp": 1789826364,
+                     "revision": 247,
+                     "timestamp": 1790932147,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 245,
-                     "timestamp": 1789884926,
+                     "revision": 246,
+                     "timestamp": 1790921536,
                      "base": "core22"
                   }
                ],
@@ -279,8 +279,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 81,
-                     "timestamp": 1790352200,
+                     "revision": 83,
+                     "timestamp": 1790926248,
                      "base": "core22"
                   },
                   {
@@ -293,8 +293,8 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 82,
-                     "timestamp": 1790405483,
+                     "revision": 84,
+                     "timestamp": 1790924649,
                      "base": "core22"
                   }
                ],
@@ -2103,6 +2103,62 @@
                      "revision": 544,
                      "timestamp": 1790845730,
                      "base": "core24"
+                  },
+                  {
+                     "track": "3",
+                     "channel": "stable",
+                     "revision": 550,
+                     "timestamp": 1790923834,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "3",
+                     "channel": "stable",
+                     "revision": 548,
+                     "timestamp": 1790923837,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "3",
+                     "channel": "stable",
+                     "revision": 549,
+                     "timestamp": 1790923839,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "3",
+                     "channel": "stable",
+                     "revision": 551,
+                     "timestamp": 1790923841,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "3",
+                     "channel": "candidate",
+                     "revision": 550,
+                     "timestamp": 1790922678,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "3",
+                     "channel": "candidate",
+                     "revision": 548,
+                     "timestamp": 1790922484,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "3",
+                     "channel": "candidate",
+                     "revision": 549,
+                     "timestamp": 1790922489,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "3",
+                     "channel": "candidate",
+                     "revision": 551,
+                     "timestamp": 1790922778,
+                     "base": "core24"
                   }
                ],
                "channels": [
@@ -2110,7 +2166,8 @@
                   "candidate"
                ],
                "tracks": [
-                  "latest"
+                  "latest",
+                  "3"
                ]
             }
          },
@@ -3696,22 +3753,22 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1240,
-                     "timestamp": 1780763443,
+                     "revision": 1250,
+                     "timestamp": 1790926266,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1242,
-                     "timestamp": 1780763446,
+                     "revision": 1251,
+                     "timestamp": 1790926269,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1241,
-                     "timestamp": 1780763449,
+                     "revision": 1249,
+                     "timestamp": 1790926272,
                      "base": "core24"
                   },
                   {
@@ -3801,22 +3858,22 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 1246,
-                     "timestamp": 1781156603,
+                     "revision": 1252,
+                     "timestamp": 1790920362,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 1247,
-                     "timestamp": 1781156813,
+                     "revision": 1253,
+                     "timestamp": 1790920518,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 1248,
-                     "timestamp": 1781156862,
+                     "revision": 1254,
+                     "timestamp": 1790920583,
                      "base": "core24"
                   },
                   {
