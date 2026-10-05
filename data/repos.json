@@ -1259,6 +1259,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.0.160/rev312/amd64",
+                  "sha": "aae1a9c4dfb1ec824402b347179306d5cc79de4a",
+                  "body": "<p>fix: handle Discord camera model reads and codec path (<a target=\"_blank\" href=\"https://github.com/snapcrafters/discord/pull/379\">#379</a>)</p>\n",
+                  "timestamp": 1791196845,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.160%2Frev312%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.160%2Frev312%2Famd64"
+               },
+               {
                   "name": "1.0.160/rev311/amd64",
                   "sha": "8ad0a3c77f24847709f9fc840aa947c4ebbeda1e",
                   "body": "<p>chore: bump discord dependencies</p>\n",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1790698551,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.160%2Frev310%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.160%2Frev310%2Famd64"
-               },
-               {
-                  "name": "1.0.159/rev309/amd64",
-                  "sha": "3f2298157f59f88e282ca76021716ccb1787a0fd",
-                  "body": "<p>chore: bump discord to version 1.0.159</p>\n",
-                  "timestamp": 1790086566,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.159%2Frev309%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.159%2Frev309%2Famd64"
                }
             ],
             "commits": null,
@@ -1304,8 +1304,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 311,
-                     "timestamp": 1790876804,
+                     "revision": 312,
+                     "timestamp": 1791199949,
                      "base": "core22"
                   }
                ],
@@ -3954,15 +3954,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1696,
-                     "timestamp": 1790581203,
+                     "revision": 1700,
+                     "timestamp": 1791209254,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1697,
-                     "timestamp": 1790581206,
+                     "revision": 1702,
+                     "timestamp": 1791209253,
                      "base": "core24"
                   },
                   {
@@ -3975,8 +3975,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1698,
-                     "timestamp": 1790581208,
+                     "revision": 1703,
+                     "timestamp": 1791209252,
                      "base": "core24"
                   },
                   {
@@ -3989,8 +3989,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 1695,
-                     "timestamp": 1790581213,
+                     "revision": 1701,
+                     "timestamp": 1791209255,
                      "base": "core24"
                   },
                   {
@@ -4182,7 +4182,7 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 0,
+            "newCommits": 2,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
