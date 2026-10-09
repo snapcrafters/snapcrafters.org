@@ -279,8 +279,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 83,
-                     "timestamp": 1790926248,
+                     "revision": 85,
+                     "timestamp": 1791534564,
                      "base": "core22"
                   },
                   {
@@ -293,8 +293,8 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 84,
-                     "timestamp": 1790924649,
+                     "revision": 86,
+                     "timestamp": 1791534183,
                      "base": "core22"
                   }
                ],
@@ -4182,10 +4182,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 3,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.30.0/rev958/amd64",
+                  "sha": "3d84fffca1c3d573a5dba284a9de7d67fbcd26c2",
+                  "body": "<p>chore: bump signal-desktop to version 8.30.0</p>\n",
+                  "timestamp": 1791479035,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.30.0%2Frev958%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.30.0%2Frev958%2Famd64"
+               },
+               {
+                  "name": "8.30.0/rev957/arm64",
+                  "sha": "3d84fffca1c3d573a5dba284a9de7d67fbcd26c2",
+                  "body": "<p>chore: bump signal-desktop to version 8.30.0</p>\n",
+                  "timestamp": 1791479035,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.30.0%2Frev957%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.30.0%2Frev957%2Farm64"
+               },
                {
                   "name": "8.29.0/rev952/arm64",
                   "sha": "57f05f85dce22715e8bcaa0078528fdaaa6133f1",
@@ -4193,22 +4209,6 @@
                   "timestamp": 1791129120,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.29.0%2Frev952%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.29.0%2Frev952%2Farm64"
-               },
-               {
-                  "name": "8.29.0/rev951/amd64",
-                  "sha": "57f05f85dce22715e8bcaa0078528fdaaa6133f1",
-                  "body": "<p>fix: revert unrelated Signal snap build adjustments (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/483\">#483</a>)</p>\n",
-                  "timestamp": 1791129120,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.29.0%2Frev951%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.29.0%2Frev951%2Famd64"
-               },
-               {
-                  "name": "8.29.0/rev950/arm64",
-                  "sha": "7d185d660fbafe179a2a90093c180fef842ff8b5",
-                  "body": "<p>fix(build): repair snap build (<a target=\"_blank\" href=\"https://github.com/snapcrafters/signal-desktop/pull/481\">#481</a>)</p>\n",
-                  "timestamp": 1791120924,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.29.0%2Frev950%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.29.0%2Frev950%2Farm64"
                }
             ],
             "commits": null,
@@ -4225,29 +4225,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 951,
-                     "timestamp": 1791137643,
+                     "revision": 958,
+                     "timestamp": 1791538762,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 952,
-                     "timestamp": 1791137646,
+                     "revision": 957,
+                     "timestamp": 1791538765,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 951,
-                     "timestamp": 1791130817,
+                     "revision": 958,
+                     "timestamp": 1791538027,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 952,
-                     "timestamp": 1791131389,
+                     "revision": 957,
+                     "timestamp": 1791537840,
                      "base": "core24"
                   }
                ],
