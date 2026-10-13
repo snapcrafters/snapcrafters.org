@@ -1569,103 +1569,7 @@
                "https://github.com/snapcrafters/ffmpeg-sdk/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "ffmpeg-2404-sdk",
-               "url": "https://snapcraft.io/ffmpeg-2404-sdk",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 195,
-                     "timestamp": 1788951791,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 196,
-                     "timestamp": 1788951795,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 197,
-                     "timestamp": 1788951798,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 198,
-                     "timestamp": 1788951802,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 200,
-                     "timestamp": 1788951808,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 199,
-                     "timestamp": 1788951815,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 195,
-                     "timestamp": 1788510096,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 196,
-                     "timestamp": 1788511964,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 197,
-                     "timestamp": 1788512017,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 198,
-                     "timestamp": 1788523931,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 200,
-                     "timestamp": 1788812809,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 199,
-                     "timestamp": 1788524144,
-                     "base": "core24"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "fkill",
@@ -2244,28 +2148,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2.586/rev5107/armhf",
+                  "sha": "8642c51839b3b16f7b382eb7a44491f8185c8a1f",
+                  "body": "<p>chore: bump jenkins to version 2.586</p>\n",
+                  "timestamp": 1791912364,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.586%2Frev5107%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.586%2Frev5107%2Farmhf"
+               },
+               {
+                  "name": "2.586/rev5106/arm64",
+                  "sha": "8642c51839b3b16f7b382eb7a44491f8185c8a1f",
+                  "body": "<p>chore: bump jenkins to version 2.586</p>\n",
+                  "timestamp": 1791912364,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.586%2Frev5106%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.586%2Frev5106%2Farm64"
+               },
+               {
                   "name": "2.585/rev5105/amd64",
                   "sha": "9f912814cd6cc6fbb60e98350ac5f98480f51b59",
                   "body": "<p>chore: bump jenkins to version 2.585</p>\n",
                   "timestamp": 1791304527,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.585%2Frev5105%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.585%2Frev5105%2Famd64"
-               },
-               {
-                  "name": "2.585/rev5104/arm64",
-                  "sha": "9f912814cd6cc6fbb60e98350ac5f98480f51b59",
-                  "body": "<p>chore: bump jenkins to version 2.585</p>\n",
-                  "timestamp": 1791304527,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.585%2Frev5104%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.585%2Frev5104%2Farm64"
-               },
-               {
-                  "name": "2.585/rev5103/armhf",
-                  "sha": "9f912814cd6cc6fbb60e98350ac5f98480f51b59",
-                  "body": "<p>chore: bump jenkins to version 2.585</p>\n",
-                  "timestamp": 1791304527,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.585%2Frev5103%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.585%2Frev5103%2Farmhf"
                }
             ],
             "commits": null,
@@ -2317,15 +2221,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5104,
-                     "timestamp": 1791308581,
+                     "revision": 5106,
+                     "timestamp": 1791913470,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5103,
-                     "timestamp": 1791308317,
+                     "revision": 5107,
+                     "timestamp": 1791913521,
                      "base": "core22"
                   },
                   {
