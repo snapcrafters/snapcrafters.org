@@ -279,8 +279,8 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 85,
-                     "timestamp": 1791534564,
+                     "revision": 87,
+                     "timestamp": 1792165458,
                      "base": "core22"
                   },
                   {
@@ -1941,6 +1941,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "0.4.1/rev20/amd64",
+                  "sha": "b8568d195ef10c4012f94e3d16a833cbe759accc",
+                  "body": "<p>fix: restore Ubuntu 26.04 networking and native screenshots (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ghvmctl/pull/23\">#23</a>)</p>\n",
+                  "timestamp": 1792166649,
+                  "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.1%2Frev20%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.1%2Frev20%2Famd64"
+               },
+               {
                   "name": "0.4.1/rev19/amd64",
                   "sha": "7b4f456eecb67a4fa3f6eb545edbb3d0bb1a45c6",
                   "body": "<p>fix: tolerate absent GNOME initial setup files</p>\n",
@@ -1955,14 +1963,6 @@
                   "timestamp": 1792139407,
                   "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.1%2Frev18%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.1%2Frev18%2Famd64"
-               },
-               {
-                  "name": "0.4.1/rev17/amd64",
-                  "sha": "6150c50646550024648331f570702998c245fbdc",
-                  "body": "<p>fix: install each requested snap once (<a target=\"_blank\" href=\"https://github.com/snapcrafters/ghvmctl/pull/18\">#18</a>)</p>\n",
-                  "timestamp": 1788517615,
-                  "url": "https://github.com/snapcrafters/ghvmctl/releases/tag/0.4.1%2Frev17%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/ghvmctl/compare/candidate...0.4.1%2Frev17%2Famd64"
                }
             ],
             "commits": null,
@@ -1978,15 +1978,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 17,
-                     "timestamp": 1792159619,
+                     "revision": 20,
+                     "timestamp": 1792171115,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 19,
-                     "timestamp": 1792157034,
+                     "revision": 20,
+                     "timestamp": 1792168873,
                      "base": "core22"
                   }
                ],
