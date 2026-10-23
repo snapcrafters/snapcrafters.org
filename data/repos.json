@@ -241,6 +241,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2026.2.3.1/rev89/amd64",
+                  "sha": "6ed14e9eb43090350ed0a3bd5928af92a8050599",
+                  "body": "<p>chore: bump android-studio-canary to version 2026.2.3.1</p>\n",
+                  "timestamp": 1792766376,
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.2.3.1%2Frev89%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.2.3.1%2Frev89%2Famd64"
+               },
+               {
                   "name": "2026.2.2.5/rev87/amd64",
                   "sha": "89572e513b34baeb28bbe9c0bd0a6caf1c2921ad",
                   "body": "<p>chore: bump android-studio-canary to version 2026.2.2.5</p>\n",
@@ -255,14 +263,6 @@
                   "timestamp": 1791479481,
                   "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.2.2.4%2Frev85%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.2.2.4%2Frev85%2Famd64"
-               },
-               {
-                  "name": "2026.2.2.3/rev83/amd64",
-                  "sha": "c607ccb35227a2e67787544a8c2a78eb2052a9cd",
-                  "body": "<p>chore: bump android-studio-canary to version 2026.2.2.3</p>\n",
-                  "timestamp": 1790873550,
-                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.2.2.3%2Frev83%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.2.2.3%2Frev83%2Famd64"
                }
             ],
             "commits": null,
@@ -286,8 +286,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 87,
-                     "timestamp": 1792099285,
+                     "revision": 89,
+                     "timestamp": 1792769446,
                      "base": "core22"
                   },
                   {
@@ -1259,6 +1259,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.0.166/rev317/amd64",
+                  "sha": "25189abf93e31749b2e43d940c8bfe472b5aa863",
+                  "body": "<p>chore: bump discord to version 1.0.166</p>\n",
+                  "timestamp": 1792765969,
+                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.166%2Frev317%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.166%2Frev317%2Famd64"
+               },
+               {
                   "name": "1.0.165/rev316/amd64",
                   "sha": "f849babd0a6b1e7ada57105338dbd910f229db3f",
                   "body": "<p>chore: bump discord to version 1.0.165</p>\n",
@@ -1273,14 +1281,6 @@
                   "timestamp": 1792506875,
                   "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.164%2Frev315%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.164%2Frev315%2Famd64"
-               },
-               {
-                  "name": "1.0.162/rev314/amd64",
-                  "sha": "2303241b5bf43a0608000ecfc59132bbce8dd6f6",
-                  "body": "<p>chore: bump discord to version 1.0.162</p>\n",
-                  "timestamp": 1791989249,
-                  "url": "https://github.com/snapcrafters/discord/releases/tag/1.0.162%2Frev314%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/discord/compare/candidate...1.0.162%2Frev314%2Famd64"
                }
             ],
             "commits": null,
@@ -1297,15 +1297,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 316,
-                     "timestamp": 1792683725,
+                     "revision": 317,
+                     "timestamp": 1792769977,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 316,
-                     "timestamp": 1792682939,
+                     "revision": 317,
+                     "timestamp": 1792768326,
                      "base": "core22"
                   }
                ],
@@ -3911,7 +3911,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 211,
+            "newCommits": 212,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
@@ -3996,8 +3996,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1713,
-                     "timestamp": 1792162553,
+                     "revision": 1718,
+                     "timestamp": 1792768110,
                      "base": "core24"
                   },
                   {
@@ -4017,8 +4017,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1715,
-                     "timestamp": 1792162884,
+                     "revision": 1720,
+                     "timestamp": 1792769048,
                      "base": "core24"
                   },
                   {
@@ -4031,8 +4031,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1714,
-                     "timestamp": 1792162647,
+                     "revision": 1719,
+                     "timestamp": 1792768650,
                      "base": "core24"
                   }
                ],
@@ -4408,10 +4408,26 @@
          },
          {
             "name": "sublime-merge",
-            "newCommits": 0,
+            "newCommits": 20,
             "url": "https://github.com/snapcrafters/sublime-merge",
             "releases": null,
             "tags": [
+               {
+                  "name": "2134/rev164/arm64",
+                  "sha": "1923a4126f88f9d840e73b20fb3a99bdf9bccc58",
+                  "body": "<p>chore: bump sublime-merge to version 2134</p>\n",
+                  "timestamp": 1792766661,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2134%2Frev164%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2134%2Frev164%2Farm64"
+               },
+               {
+                  "name": "2134/rev163/amd64",
+                  "sha": "1923a4126f88f9d840e73b20fb3a99bdf9bccc58",
+                  "body": "<p>chore: bump sublime-merge to version 2134</p>\n",
+                  "timestamp": 1792766661,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2134%2Frev163%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2134%2Frev163%2Famd64"
+               },
                {
                   "name": "2132/rev160/arm64",
                   "sha": "617f95088887bf26be1dddc56f1be9d76ba3aaa0",
@@ -4419,22 +4435,6 @@
                   "timestamp": 1789806242,
                   "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2132%2Frev160%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2132%2Frev160%2Farm64"
-               },
-               {
-                  "name": "2132/rev157/amd64",
-                  "sha": "617f95088887bf26be1dddc56f1be9d76ba3aaa0",
-                  "body": "<p>fix: preserve Gallium OpenGL runtime (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-merge/pull/80\">#80</a>)</p>\n",
-                  "timestamp": 1789806242,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2132%2Frev157%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2132%2Frev157%2Famd64"
-               },
-               {
-                  "name": "2132/rev156/arm64",
-                  "sha": "94a9da4b3c88ef43b2d8c7d3508132061600567a",
-                  "body": "<p>chore: bump sublime-merge to version 2132</p>\n",
-                  "timestamp": 1789740788,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2132%2Frev156%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2132%2Frev156%2Farm64"
                }
             ],
             "commits": null,
@@ -4507,29 +4507,29 @@
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 158,
-                     "timestamp": 1789809138,
+                     "revision": 163,
+                     "timestamp": 1792770001,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 159,
-                     "timestamp": 1789809142,
+                     "revision": 164,
+                     "timestamp": 1792770005,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 158,
-                     "timestamp": 1789807059,
+                     "revision": 163,
+                     "timestamp": 1792768265,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 159,
-                     "timestamp": 1789807271,
+                     "revision": 164,
+                     "timestamp": 1792768853,
                      "base": "core24"
                   }
                ],
@@ -4902,36 +4902,36 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 105,
-                     "timestamp": 1790018731,
+                     "revision": 110,
+                     "timestamp": 1792765286,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 107,
-                     "timestamp": 1790018734,
+                     "revision": 112,
+                     "timestamp": 1792765289,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 108,
-                     "timestamp": 1790018738,
+                     "revision": 113,
+                     "timestamp": 1792765292,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 109,
-                     "timestamp": 1790018741,
+                     "revision": 114,
+                     "timestamp": 1792765295,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 106,
-                     "timestamp": 1790018744,
+                     "revision": 111,
+                     "timestamp": 1792765297,
                      "base": "core24"
                   },
                   {
@@ -5080,7 +5080,7 @@
          },
          {
             "name": "webkitgtk-sdk",
-            "newCommits": 1,
+            "newCommits": 3,
             "url": "https://github.com/snapcrafters/webkitgtk-sdk",
             "releases": null,
             "tags": [
