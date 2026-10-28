@@ -167,6 +167,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2026.2.2.8-rabbit2/rev248/amd64",
+                  "sha": "c16b82119af4a1c02725ef9ebb5f9baacc6f697c",
+                  "body": "<p>chore: bump android-studio to version 2026.2.2.8-rabbit2</p>\n",
+                  "timestamp": 1793204382,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.2.2.8-rabbit2%2Frev248%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.2.2.8-rabbit2%2Frev248%2Famd64"
+               },
+               {
                   "name": "2026.2.1.8-rabbit1/rev247/amd64",
                   "sha": "f14273caefbba7f19ab4e415ea3b5bcb5ef2acad",
                   "body": "<p>chore: bump android-studio to version 2026.2.1.8-rabbit1</p>\n",
@@ -181,14 +189,6 @@
                   "timestamp": 1789824794,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.4.8-quail4-patch1%2Frev244%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.4.8-quail4-patch1%2Frev244%2Famd64"
-               },
-               {
-                  "name": "2026.1.4.7-quail4/rev242/amd64",
-                  "sha": "d3b7f671c96d8af5992b9a4d920b41d09abf8c3b",
-                  "body": "<p>chore: bump android-studio to version 2026.1.4.7-quail4</p>\n",
-                  "timestamp": 1788272556,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.4.7-quail4%2Frev242%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.4.7-quail4%2Frev242%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 247,
-                     "timestamp": 1790932147,
+                     "revision": 248,
+                     "timestamp": 1793206036,
                      "base": "core22"
                   },
                   {
@@ -236,7 +236,7 @@
          },
          {
             "name": "android-studio-canary",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio-canary",
             "releases": null,
             "tags": [
@@ -2239,7 +2239,7 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
