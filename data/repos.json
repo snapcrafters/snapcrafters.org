@@ -4182,10 +4182,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.33.0/rev964/arm64",
+                  "sha": "3279a8f234acdb6f551db0a684eb654fbec2d786",
+                  "body": "<p>chore: bump signal-desktop to version 8.33.0</p>\n",
+                  "timestamp": 1793291380,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.33.0%2Frev964%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.33.0%2Frev964%2Farm64"
+               },
+               {
+                  "name": "8.33.0/rev963/amd64",
+                  "sha": "3279a8f234acdb6f551db0a684eb654fbec2d786",
+                  "body": "<p>chore: bump signal-desktop to version 8.33.0</p>\n",
+                  "timestamp": 1793291380,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.33.0%2Frev963%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.33.0%2Frev963%2Famd64"
+               },
                {
                   "name": "8.32.0/rev962/arm64",
                   "sha": "047fe7befd5a825c1e6a26e72f2a56f5e8cce971",
@@ -4193,22 +4209,6 @@
                   "timestamp": 1792593875,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.32.0%2Frev962%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.32.0%2Frev962%2Farm64"
-               },
-               {
-                  "name": "8.32.0/rev961/amd64",
-                  "sha": "047fe7befd5a825c1e6a26e72f2a56f5e8cce971",
-                  "body": "<p>chore: bump signal-desktop to version 8.32.0</p>\n",
-                  "timestamp": 1792593875,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.32.0%2Frev961%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.32.0%2Frev961%2Famd64"
-               },
-               {
-                  "name": "8.31.0/rev960/arm64",
-                  "sha": "1269fa98f88e23733e9058ba42828de1fdba4159",
-                  "body": "<p>chore: bump signal-desktop to version 8.31.0</p>\n",
-                  "timestamp": 1792074692,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.31.0%2Frev960%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.31.0%2Frev960%2Farm64"
                }
             ],
             "commits": null,
@@ -4225,29 +4225,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 961,
-                     "timestamp": 1792598216,
+                     "revision": 963,
+                     "timestamp": 1793368796,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 962,
-                     "timestamp": 1792598219,
+                     "revision": 964,
+                     "timestamp": 1793368799,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 961,
-                     "timestamp": 1792595627,
+                     "revision": 963,
+                     "timestamp": 1793368099,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 962,
-                     "timestamp": 1792595873,
+                     "revision": 964,
+                     "timestamp": 1793368206,
                      "base": "core24"
                   }
                ],
@@ -4737,33 +4737,33 @@
          },
          {
             "name": "terraform",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/terraform",
             "releases": null,
             "tags": [
                {
-                  "name": "1.16.7/rev962/arm64",
-                  "sha": "ab3733bf8d7511f6d837f541c9ac7803fc186a45",
-                  "body": "<p>chore: bump terraform to version 1.16.7</p>\n",
-                  "timestamp": 1792680721,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.7%2Frev962%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.7%2Frev962%2Farm64"
+                  "name": "1.17.1/rev967/ppc64el",
+                  "sha": "1d532f68276b14cd92e03d0b8a7c0f6887d4a557",
+                  "body": "<p>chore: bump terraform to version 1.17.1</p>\n",
+                  "timestamp": 1793291663,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.17.1%2Frev967%2Fppc64el",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.17.1%2Frev967%2Fppc64el"
                },
                {
-                  "name": "1.16.7/rev961/ppc64el",
-                  "sha": "ab3733bf8d7511f6d837f541c9ac7803fc186a45",
-                  "body": "<p>chore: bump terraform to version 1.16.7</p>\n",
-                  "timestamp": 1792680721,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.7%2Frev961%2Fppc64el",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.7%2Frev961%2Fppc64el"
+                  "name": "1.17.1/rev966/armhf",
+                  "sha": "1d532f68276b14cd92e03d0b8a7c0f6887d4a557",
+                  "body": "<p>chore: bump terraform to version 1.17.1</p>\n",
+                  "timestamp": 1793291663,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.17.1%2Frev966%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.17.1%2Frev966%2Farmhf"
                },
                {
-                  "name": "1.16.7/rev960/amd64",
-                  "sha": "ab3733bf8d7511f6d837f541c9ac7803fc186a45",
-                  "body": "<p>chore: bump terraform to version 1.16.7</p>\n",
-                  "timestamp": 1792680721,
-                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.16.7%2Frev960%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.16.7%2Frev960%2Famd64"
+                  "name": "1.17.1/rev965/arm64",
+                  "sha": "1d532f68276b14cd92e03d0b8a7c0f6887d4a557",
+                  "body": "<p>chore: bump terraform to version 1.17.1</p>\n",
+                  "timestamp": 1793291663,
+                  "url": "https://github.com/snapcrafters/terraform/releases/tag/1.17.1%2Frev965%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/terraform/compare/candidate...1.17.1%2Frev965%2Farm64"
                }
             ],
             "commits": null,
@@ -4780,71 +4780,71 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 960,
-                     "timestamp": 1792683664,
+                     "revision": 964,
+                     "timestamp": 1793368814,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 962,
-                     "timestamp": 1792683668,
+                     "revision": 965,
+                     "timestamp": 1793368819,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 959,
-                     "timestamp": 1792683671,
+                     "revision": 966,
+                     "timestamp": 1793368824,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 961,
-                     "timestamp": 1792683675,
+                     "revision": 967,
+                     "timestamp": 1793368828,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 958,
-                     "timestamp": 1792683679,
+                     "revision": 963,
+                     "timestamp": 1793368833,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 960,
-                     "timestamp": 1792682241,
+                     "revision": 964,
+                     "timestamp": 1793367989,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 962,
-                     "timestamp": 1792683252,
+                     "revision": 965,
+                     "timestamp": 1793368108,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 959,
-                     "timestamp": 1792682135,
+                     "revision": 966,
+                     "timestamp": 1793368171,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 961,
-                     "timestamp": 1792682333,
+                     "revision": 967,
+                     "timestamp": 1793368212,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 958,
-                     "timestamp": 1792681941,
+                     "revision": 963,
+                     "timestamp": 1793367874,
                      "base": "core24"
                   }
                ],
