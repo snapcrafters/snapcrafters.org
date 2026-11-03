@@ -1530,7 +1530,7 @@
          },
          {
             "name": "ffmpeg-2404-sdk",
-            "newCommits": 10,
+            "newCommits": 11,
             "url": "https://github.com/snapcrafters/ffmpeg-2404-sdk",
             "releases": null,
             "tags": [
@@ -1618,29 +1618,29 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 195,
-                     "timestamp": 1788510096,
+                     "revision": 204,
+                     "timestamp": 1793654376,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 196,
-                     "timestamp": 1788511964,
+                     "revision": 202,
+                     "timestamp": 1793651508,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 197,
-                     "timestamp": 1788512017,
+                     "revision": 205,
+                     "timestamp": 1793655108,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 198,
-                     "timestamp": 1788523931,
+                     "revision": 203,
+                     "timestamp": 1793651578,
                      "base": "core24"
                   },
                   {
@@ -1653,8 +1653,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 199,
-                     "timestamp": 1788524144,
+                     "revision": 201,
+                     "timestamp": 1793651180,
                      "base": "core24"
                   }
                ],
@@ -2239,10 +2239,18 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
+               {
+                  "name": "2.588/rev5114/arm64",
+                  "sha": "2bae1bafe7448442367277bb1e4f09fb52ae7944",
+                  "body": "<p>chore: bump jenkins to version 2.588</p>\n",
+                  "timestamp": 1793204955,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.588%2Frev5114%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.588%2Frev5114%2Farm64"
+               },
                {
                   "name": "2.587/rev5111/armhf",
                   "sha": "6deac0297d6754e8d5edfb7b370cb79712078915",
@@ -2258,14 +2266,6 @@
                   "timestamp": 1792507821,
                   "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.587%2Frev5110%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.587%2Frev5110%2Farm64"
-               },
-               {
-                  "name": "2.587/rev5109/amd64",
-                  "sha": "6deac0297d6754e8d5edfb7b370cb79712078915",
-                  "body": "<p>chore: bump jenkins to version 2.587</p>\n",
-                  "timestamp": 1792507821,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.587%2Frev5109%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.587%2Frev5109%2Famd64"
                }
             ],
             "commits": null,
@@ -2317,8 +2317,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5110,
-                     "timestamp": 1792518180,
+                     "revision": 5114,
+                     "timestamp": 1793650084,
                      "base": "core22"
                   },
                   {
@@ -2359,22 +2359,22 @@
                   {
                      "track": "lts",
                      "channel": "candidate",
-                     "revision": 5100,
-                     "timestamp": 1790786573,
+                     "revision": 5112,
+                     "timestamp": 1793649992,
                      "base": "core22"
                   },
                   {
                      "track": "lts",
                      "channel": "candidate",
-                     "revision": 5102,
-                     "timestamp": 1790787184,
+                     "revision": 5115,
+                     "timestamp": 1793650176,
                      "base": "core22"
                   },
                   {
                      "track": "lts",
                      "channel": "candidate",
-                     "revision": 5101,
-                     "timestamp": 1790786617,
+                     "revision": 5113,
+                     "timestamp": 1793650025,
                      "base": "core22"
                   }
                ],
@@ -2655,28 +2655,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "6.3.2/rev854/arm64",
+                  "sha": "81155e332124c941bbf7502077750ef2e1cb3da3",
+                  "body": "<p>chore: bump mattermost-desktop to version 6.3.2</p>\n",
+                  "timestamp": 1793649411,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.2%2Frev854%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.2%2Frev854%2Farm64"
+               },
+               {
+                  "name": "6.3.2/rev853/amd64",
+                  "sha": "81155e332124c941bbf7502077750ef2e1cb3da3",
+                  "body": "<p>chore: bump mattermost-desktop to version 6.3.2</p>\n",
+                  "timestamp": 1793649411,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.2%2Frev853%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.2%2Frev853%2Famd64"
+               },
+               {
                   "name": "6.3.1/rev852/amd64",
                   "sha": "9db90fff94cc3a1858f7262b0feafbec2e54aad8",
                   "body": "<p>chore: bump mattermost-desktop to version 6.3.1</p>\n",
                   "timestamp": 1792075065,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.1%2Frev852%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.1%2Frev852%2Famd64"
-               },
-               {
-                  "name": "6.3.1/rev851/arm64",
-                  "sha": "9db90fff94cc3a1858f7262b0feafbec2e54aad8",
-                  "body": "<p>chore: bump mattermost-desktop to version 6.3.1</p>\n",
-                  "timestamp": 1792075065,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.1%2Frev851%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.1%2Frev851%2Farm64"
-               },
-               {
-                  "name": "6.3.0/rev850/amd64",
-                  "sha": "01c334153efd250a1db49accb57d3199d3d5c6a6",
-                  "body": "<p>chore: remove redundant gpu cleanup part (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/179\">#179</a>)</p>\n\n<p>Snapcraft&rsquo;s GNOME extension now supplies the gpu-2404 wrapper, content plug, mount target, and Mesa cleanup after all application parts. Remove the duplicate dump part and its accidentally primed helper files.</p>\n",
-                  "timestamp": 1788357144,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.0%2Frev850%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.0%2Frev850%2Famd64"
                }
             ],
             "commits": null,
@@ -2693,15 +2693,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 852,
-                     "timestamp": 1792088178,
+                     "revision": 853,
+                     "timestamp": 1793656392,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 851,
-                     "timestamp": 1792088183,
+                     "revision": 854,
+                     "timestamp": 1793656396,
                      "base": "core24"
                   },
                   {
@@ -2714,15 +2714,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 852,
-                     "timestamp": 1792085572,
+                     "revision": 853,
+                     "timestamp": 1793650888,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 851,
-                     "timestamp": 1792085004,
+                     "revision": 854,
+                     "timestamp": 1793650965,
                      "base": "core24"
                   },
                   {
@@ -3996,8 +3996,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1718,
-                     "timestamp": 1792768110,
+                     "revision": 1722,
+                     "timestamp": 1793649959,
                      "base": "core24"
                   },
                   {
