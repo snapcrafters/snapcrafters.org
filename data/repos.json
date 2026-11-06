@@ -162,10 +162,18 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
+               {
+                  "name": "2026.2.2.9-rabbit2-patch1/rev250/amd64",
+                  "sha": "d44717be34ac6aed8de0f9a29b889091a2cfe617",
+                  "body": "<p>chore: bump android-studio to version 2026.2.2.9-rabbit2-patch1</p>\n",
+                  "timestamp": 1793900657,
+                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.2.2.9-rabbit2-patch1%2Frev250%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.2.2.9-rabbit2-patch1%2Frev250%2Famd64"
+               },
                {
                   "name": "2026.2.2.8-rabbit2/rev248/amd64",
                   "sha": "c16b82119af4a1c02725ef9ebb5f9baacc6f697c",
@@ -181,14 +189,6 @@
                   "timestamp": 1790873182,
                   "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.2.1.8-rabbit1%2Frev247%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.2.1.8-rabbit1%2Frev247%2Famd64"
-               },
-               {
-                  "name": "2026.1.4.8-quail4-patch1/rev244/amd64",
-                  "sha": "56d390409bfeeaf09a5c21b7df7c90c84973248e",
-                  "body": "<p>chore: bump android-studio to version 2026.1.4.8-quail4-patch1</p>\n",
-                  "timestamp": 1789824794,
-                  "url": "https://github.com/snapcrafters/android-studio/releases/tag/2026.1.4.8-quail4-patch1%2Frev244%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio/compare/candidate...2026.1.4.8-quail4-patch1%2Frev244%2Famd64"
                }
             ],
             "commits": null,
@@ -212,8 +212,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 248,
-                     "timestamp": 1793206036,
+                     "revision": 250,
+                     "timestamp": 1793916434,
                      "base": "core22"
                   },
                   {
@@ -1646,8 +1646,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 200,
-                     "timestamp": 1788812809,
+                     "revision": 206,
+                     "timestamp": 1793925767,
                      "base": "core24"
                   },
                   {
@@ -4182,10 +4182,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.34.0/rev966/arm64",
+                  "sha": "2e78c30ea691906c91228538969f87df08f4eee3",
+                  "body": "<p>chore: bump signal-desktop to version 8.34.0</p>\n",
+                  "timestamp": 1793900654,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.34.0%2Frev966%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.34.0%2Frev966%2Farm64"
+               },
+               {
+                  "name": "8.34.0/rev965/amd64",
+                  "sha": "2e78c30ea691906c91228538969f87df08f4eee3",
+                  "body": "<p>chore: bump signal-desktop to version 8.34.0</p>\n",
+                  "timestamp": 1793900654,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.34.0%2Frev965%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.34.0%2Frev965%2Famd64"
+               },
                {
                   "name": "8.33.0/rev964/arm64",
                   "sha": "3279a8f234acdb6f551db0a684eb654fbec2d786",
@@ -4193,22 +4209,6 @@
                   "timestamp": 1793291380,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.33.0%2Frev964%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.33.0%2Frev964%2Farm64"
-               },
-               {
-                  "name": "8.33.0/rev963/amd64",
-                  "sha": "3279a8f234acdb6f551db0a684eb654fbec2d786",
-                  "body": "<p>chore: bump signal-desktop to version 8.33.0</p>\n",
-                  "timestamp": 1793291380,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.33.0%2Frev963%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.33.0%2Frev963%2Famd64"
-               },
-               {
-                  "name": "8.32.0/rev962/arm64",
-                  "sha": "047fe7befd5a825c1e6a26e72f2a56f5e8cce971",
-                  "body": "<p>chore: bump signal-desktop to version 8.32.0</p>\n",
-                  "timestamp": 1792593875,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.32.0%2Frev962%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.32.0%2Frev962%2Farm64"
                }
             ],
             "commits": null,
@@ -4239,15 +4239,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 963,
-                     "timestamp": 1793368099,
+                     "revision": 965,
+                     "timestamp": 1793915895,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 964,
-                     "timestamp": 1793368206,
+                     "revision": 966,
+                     "timestamp": 1793916795,
                      "base": "core24"
                   }
                ],
@@ -4413,28 +4413,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2135/rev166/amd64",
+                  "sha": "2020f62b3cb1de6ca339ef5e1234de864f13bac8",
+                  "body": "<p>chore: bump sublime-merge to version 2135</p>\n",
+                  "timestamp": 1793901237,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2135%2Frev166%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2135%2Frev166%2Famd64"
+               },
+               {
+                  "name": "2135/rev165/arm64",
+                  "sha": "2020f62b3cb1de6ca339ef5e1234de864f13bac8",
+                  "body": "<p>chore: bump sublime-merge to version 2135</p>\n",
+                  "timestamp": 1793901237,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2135%2Frev165%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2135%2Frev165%2Farm64"
+               },
+               {
                   "name": "2134/rev164/arm64",
                   "sha": "1923a4126f88f9d840e73b20fb3a99bdf9bccc58",
                   "body": "<p>chore: bump sublime-merge to version 2134</p>\n",
                   "timestamp": 1792766661,
                   "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2134%2Frev164%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2134%2Frev164%2Farm64"
-               },
-               {
-                  "name": "2134/rev163/amd64",
-                  "sha": "1923a4126f88f9d840e73b20fb3a99bdf9bccc58",
-                  "body": "<p>chore: bump sublime-merge to version 2134</p>\n",
-                  "timestamp": 1792766661,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2134%2Frev163%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2134%2Frev163%2Famd64"
-               },
-               {
-                  "name": "2132/rev160/arm64",
-                  "sha": "617f95088887bf26be1dddc56f1be9d76ba3aaa0",
-                  "body": "<p>fix: preserve Gallium OpenGL runtime (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-merge/pull/80\">#80</a>)</p>\n",
-                  "timestamp": 1789806242,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2132%2Frev160%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2132%2Frev160%2Farm64"
                }
             ],
             "commits": null,
@@ -4521,15 +4521,15 @@
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 163,
-                     "timestamp": 1792768265,
+                     "revision": 166,
+                     "timestamp": 1793916433,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 164,
-                     "timestamp": 1792768853,
+                     "revision": 165,
+                     "timestamp": 1793915899,
                      "base": "core24"
                   }
                ],
