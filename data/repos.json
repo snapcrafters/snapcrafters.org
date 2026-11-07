@@ -236,10 +236,18 @@
          },
          {
             "name": "android-studio-canary",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/android-studio-canary",
             "releases": null,
             "tags": [
+               {
+                  "name": "2026.2.3.3/rev93/amd64",
+                  "sha": "cfff06b3728f54126aef4dc263a285bf674468ea",
+                  "body": "<p>chore: bump android-studio-canary to version 2026.2.3.3</p>\n",
+                  "timestamp": 1793985002,
+                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.2.3.3%2Frev93%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.2.3.3%2Frev93%2Famd64"
+               },
                {
                   "name": "2026.2.3.2/rev91/amd64",
                   "sha": "870d9c689bb390f23132c328c10e7e5301ee3583",
@@ -255,14 +263,6 @@
                   "timestamp": 1792766376,
                   "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.2.3.1%2Frev89%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.2.3.1%2Frev89%2Famd64"
-               },
-               {
-                  "name": "2026.2.2.5/rev87/amd64",
-                  "sha": "89572e513b34baeb28bbe9c0bd0a6caf1c2921ad",
-                  "body": "<p>chore: bump android-studio-canary to version 2026.2.2.5</p>\n",
-                  "timestamp": 1792075164,
-                  "url": "https://github.com/snapcrafters/android-studio-canary/releases/tag/2026.2.2.5%2Frev87%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/android-studio-canary/compare/candidate...2026.2.2.5%2Frev87%2Famd64"
                }
             ],
             "commits": null,
@@ -286,15 +286,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 91,
-                     "timestamp": 1793207060,
+                     "revision": 93,
+                     "timestamp": 1794022044,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 92,
-                     "timestamp": 1793257062,
+                     "revision": 94,
+                     "timestamp": 1794035266,
                      "base": "core22"
                   }
                ],
@@ -2957,6 +2957,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "1.5.939/rev1800/amd64",
+                  "sha": "7c34193ccc5569e7813f802425f6edc8c18ee658",
+                  "body": "<p>build: revive Mumble on core24 with shared Snapcrafters CI</p>\n",
+                  "timestamp": 1793988278,
+                  "url": "https://github.com/snapcrafters/mumble/releases/tag/1.5.939%2Frev1800%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mumble/compare/candidate...1.5.939%2Frev1800%2Famd64"
+               },
+               {
                   "name": "1.5.939/rev1799/arm64",
                   "sha": "7c34193ccc5569e7813f802425f6edc8c18ee658",
                   "body": "<p>build: revive Mumble on core24 with shared Snapcrafters CI</p>\n",
@@ -2993,6 +3001,13 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
+                     "revision": 1800,
+                     "timestamp": 1794023518,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
                      "revision": 1799,
                      "timestamp": 1793993477,
                      "base": "core24"
@@ -3000,16 +3015,16 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 1797,
-                     "timestamp": 1711602835,
-                     "base": "core22"
+                     "revision": 1801,
+                     "timestamp": 1794029131,
+                     "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 1798,
-                     "timestamp": 1711602989,
-                     "base": "core22"
+                     "revision": 1802,
+                     "timestamp": 1794029746,
+                     "base": "core24"
                   }
                ],
                "channels": [
@@ -4617,8 +4632,8 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 253,
-                     "timestamp": 1790402738,
+                     "revision": 257,
+                     "timestamp": 1794031532,
                      "base": "core24"
                   },
                   {
