@@ -316,25 +316,25 @@
             "tags": null,
             "commits": [
                {
-                  "sha": "bbe53009af8f4efa98cc13d3be6f3842013e77e5",
-                  "author": "Dani Llewellyn",
-                  "timestamp": 1670536919,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/arduino/pull/31\">#31</a> from merlijn-sebrechts/other-arch</p>\n\n<p>remove blacklist for other arches too</p>\n",
-                  "url": "https://github.com/snapcrafters/arduino/commit/bbe53009af8f4efa98cc13d3be6f3842013e77e5"
+                  "sha": "0270ba41b4fb7cbcabfd390f7c520f401dcb2582",
+                  "author": "clwsgruk",
+                  "timestamp": 1794383186,
+                  "message": "<p>fix: permit legacy GTK look-and-feel reflection explicitly</p>\n",
+                  "url": "https://github.com/snapcrafters/arduino/commit/0270ba41b4fb7cbcabfd390f7c520f401dcb2582"
                },
                {
-                  "sha": "779dc0aef8d146c7bf6803ecd577cf5deacc67a7",
-                  "author": "Merlijn Sebrechts",
-                  "timestamp": 1670084647,
-                  "message": "<p>remove blacklist for other arches too</p>\n",
-                  "url": "https://github.com/snapcrafters/arduino/commit/779dc0aef8d146c7bf6803ecd577cf5deacc67a7"
+                  "sha": "d8f9d33d2a6ebbb75887e8d3ac488537c342be0a",
+                  "author": "clwsgruk",
+                  "timestamp": 1794354645,
+                  "message": "<p>fix: standardise optional interface onboarding</p>\n",
+                  "url": "https://github.com/snapcrafters/arduino/commit/d8f9d33d2a6ebbb75887e8d3ac488537c342be0a"
                },
                {
-                  "sha": "d0d21aa1e607279a9e89034f84ef30f7b49ae974",
-                  "author": "Merlijn Sebrechts",
-                  "timestamp": 1667931514,
-                  "message": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/arduino/pull/29\">#29</a> from galgalesh/adafruit-nrfutil</p>\n\n<p>Add .local to the path so adafruit-nrfutil plugin works</p>\n",
-                  "url": "https://github.com/snapcrafters/arduino/commit/d0d21aa1e607279a9e89034f84ef30f7b49ae974"
+                  "sha": "7a271a9f71f986fcf82da24bcf2641aec0d14540",
+                  "author": "clwsgruk",
+                  "timestamp": 1794352673,
+                  "message": "<p>ci: build candidate pull requests with shared workflow</p>\n",
+                  "url": "https://github.com/snapcrafters/arduino/commit/7a271a9f71f986fcf82da24bcf2641aec0d14540"
                }
             ],
             "ciActions": [],
@@ -1015,7 +1015,41 @@
                "https://github.com/snapcrafters/cumulonimbus/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "cumulonimbus",
+               "url": "https://snapcraft.io/cumulonimbus",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 96,
+                     "timestamp": 1784650493,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 96,
+                     "timestamp": 1784642899,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 95,
+                     "timestamp": 1784229428,
+                     "base": "core24"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "ddgr",
@@ -4391,106 +4425,7 @@
                "https://github.com/snapcrafters/sublime-merge/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "sublime-merge",
-               "url": "https://snapcraft.io/sublime-merge",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 178,
-                     "timestamp": 1794347525,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 177,
-                     "timestamp": 1794347527,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 178,
-                     "timestamp": 1794345112,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 177,
-                     "timestamp": 1794341567,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 38,
-                     "timestamp": 1697038915,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "beta",
-                     "revision": 39,
-                     "timestamp": 1697038916,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 176,
-                     "timestamp": 1794310787,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 175,
-                     "timestamp": 1794307705,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "stable",
-                     "revision": 180,
-                     "timestamp": 1794353484,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "stable",
-                     "revision": 179,
-                     "timestamp": 1794353487,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "candidate",
-                     "revision": 180,
-                     "timestamp": 1794352908,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "dev",
-                     "channel": "candidate",
-                     "revision": 179,
-                     "timestamp": 1794351539,
-                     "base": "core24"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "beta",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest",
-                  "dev"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "sublime-text",
