@@ -2037,169 +2037,40 @@
                "https://github.com/snapcrafters/helm/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "helm",
-               "url": "https://snapcraft.io/helm",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 555,
-                     "timestamp": 1792088170,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 554,
-                     "timestamp": 1792088174,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 552,
-                     "timestamp": 1792088179,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 373,
-                     "timestamp": 1676749918,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 553,
-                     "timestamp": 1792088183,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 555,
-                     "timestamp": 1792084849,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 554,
-                     "timestamp": 1792084815,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 552,
-                     "timestamp": 1792084725,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 553,
-                     "timestamp": 1792084764,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "3",
-                     "channel": "stable",
-                     "revision": 556,
-                     "timestamp": 1792162395,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "3",
-                     "channel": "stable",
-                     "revision": 559,
-                     "timestamp": 1792162398,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "3",
-                     "channel": "stable",
-                     "revision": 558,
-                     "timestamp": 1792162401,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "3",
-                     "channel": "stable",
-                     "revision": 557,
-                     "timestamp": 1792162404,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "3",
-                     "channel": "candidate",
-                     "revision": 556,
-                     "timestamp": 1792161838,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "3",
-                     "channel": "candidate",
-                     "revision": 559,
-                     "timestamp": 1792161981,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "3",
-                     "channel": "candidate",
-                     "revision": 558,
-                     "timestamp": 1792161864,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "3",
-                     "channel": "candidate",
-                     "revision": 557,
-                     "timestamp": 1792161848,
-                     "base": "core24"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest",
-                  "3"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "inadyn",
             "newCommits": 0,
             "url": "https://github.com/snapcrafters/inadyn",
             "releases": null,
-            "tags": null,
-            "commits": [
+            "tags": [
                {
+                  "name": "2.13.0/rev800/amd64",
                   "sha": "d9732f4f5ad3869987dbe1d08ca76cf1a1eb2a7c",
-                  "author": "clwsgruk",
+                  "body": "<p>build: remove obsolete snapcraft-preload workaround</p>\n\n<p>Preload was added for chown-to-self failures. Upstream removed the cache and PID directory chown calls in v2.8; v2.13.0 no longer needs it.</p>\n\n<p>Remove the launcher chains, preload part, multilib build dependencies and 32-bit runtime. Strict snap library resolution already works without PatchELF.</p>\n",
                   "timestamp": 1794333269,
-                  "message": "<p>build: remove obsolete snapcraft-preload workaround</p>\n\n<p>Preload was added for chown-to-self failures. Upstream removed the cache and PID directory chown calls in v2.8; v2.13.0 no longer needs it.</p>\n\n<p>Remove the launcher chains, preload part, multilib build dependencies and 32-bit runtime. Strict snap library resolution already works without PatchELF.</p>\n",
-                  "url": "https://github.com/snapcrafters/inadyn/commit/d9732f4f5ad3869987dbe1d08ca76cf1a1eb2a7c"
+                  "url": "https://github.com/snapcrafters/inadyn/releases/tag/2.13.0%2Frev800%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/inadyn/compare/candidate...2.13.0%2Frev800%2Famd64"
                },
                {
-                  "sha": "b92d0442cd00c1f18bb6a6d91fad0ccf900ed489",
-                  "author": "clwsgruk",
-                  "timestamp": 1794332342,
-                  "message": "<p>build: drop ppc64el and s390x platforms</p>\n\n<p>Remove these platforms because the maintainer reports no daily active users on either architecture.</p>\n",
-                  "url": "https://github.com/snapcrafters/inadyn/commit/b92d0442cd00c1f18bb6a6d91fad0ccf900ed489"
+                  "name": "2.13.0/rev799/arm64",
+                  "sha": "d9732f4f5ad3869987dbe1d08ca76cf1a1eb2a7c",
+                  "body": "<p>build: remove obsolete snapcraft-preload workaround</p>\n\n<p>Preload was added for chown-to-self failures. Upstream removed the cache and PID directory chown calls in v2.8; v2.13.0 no longer needs it.</p>\n\n<p>Remove the launcher chains, preload part, multilib build dependencies and 32-bit runtime. Strict snap library resolution already works without PatchELF.</p>\n",
+                  "timestamp": 1794333269,
+                  "url": "https://github.com/snapcrafters/inadyn/releases/tag/2.13.0%2Frev799%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/inadyn/compare/candidate...2.13.0%2Frev799%2Farm64"
                },
                {
-                  "sha": "0d023757a47baa3ea064ceaad3087cd48ab85081",
-                  "author": "clwsgruk",
-                  "timestamp": 1794330797,
-                  "message": "<p>build: migrate inadyn to core26</p>\n",
-                  "url": "https://github.com/snapcrafters/inadyn/commit/0d023757a47baa3ea064ceaad3087cd48ab85081"
+                  "name": "2.13.0/rev798/armhf",
+                  "sha": "d9732f4f5ad3869987dbe1d08ca76cf1a1eb2a7c",
+                  "body": "<p>build: remove obsolete snapcraft-preload workaround</p>\n\n<p>Preload was added for chown-to-self failures. Upstream removed the cache and PID directory chown calls in v2.8; v2.13.0 no longer needs it.</p>\n\n<p>Remove the launcher chains, preload part, multilib build dependencies and 32-bit runtime. Strict snap library resolution already works without PatchELF.</p>\n",
+                  "timestamp": 1794333269,
+                  "url": "https://github.com/snapcrafters/inadyn/releases/tag/2.13.0%2Frev798%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/inadyn/compare/candidate...2.13.0%2Frev798%2Farmhf"
                }
             ],
+            "commits": null,
             "ciActions": [],
             "charm": null,
             "snap": null
@@ -2239,33 +2110,33 @@
          },
          {
             "name": "jenkins",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/jenkins",
             "releases": null,
             "tags": [
                {
-                  "name": "2.588/rev5117/armhf",
-                  "sha": "2bae1bafe7448442367277bb1e4f09fb52ae7944",
-                  "body": "<p>chore: bump jenkins to version 2.588</p>\n",
-                  "timestamp": 1793204955,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.588%2Frev5117%2Farmhf",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.588%2Frev5117%2Farmhf"
+                  "name": "2.590/rev5120/amd64",
+                  "sha": "7537339bb577b87d0bd95b711565c25abcb56aa7",
+                  "body": "<p>chore: bump jenkins to version 2.590</p>\n",
+                  "timestamp": 1794332058,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.590%2Frev5120%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.590%2Frev5120%2Famd64"
                },
                {
-                  "name": "2.588/rev5116/amd64",
-                  "sha": "2bae1bafe7448442367277bb1e4f09fb52ae7944",
-                  "body": "<p>chore: bump jenkins to version 2.588</p>\n",
-                  "timestamp": 1793204955,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.588%2Frev5116%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.588%2Frev5116%2Famd64"
+                  "name": "2.590/rev5119/arm64",
+                  "sha": "7537339bb577b87d0bd95b711565c25abcb56aa7",
+                  "body": "<p>chore: bump jenkins to version 2.590</p>\n",
+                  "timestamp": 1794332058,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.590%2Frev5119%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.590%2Frev5119%2Farm64"
                },
                {
-                  "name": "2.588/rev5114/arm64",
-                  "sha": "2bae1bafe7448442367277bb1e4f09fb52ae7944",
-                  "body": "<p>chore: bump jenkins to version 2.588</p>\n",
-                  "timestamp": 1793204955,
-                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.588%2Frev5114%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.588%2Frev5114%2Farm64"
+                  "name": "2.590/rev5118/armhf",
+                  "sha": "7537339bb577b87d0bd95b711565c25abcb56aa7",
+                  "body": "<p>chore: bump jenkins to version 2.590</p>\n",
+                  "timestamp": 1794332058,
+                  "url": "https://github.com/snapcrafters/jenkins/releases/tag/2.590%2Frev5118%2Farmhf",
+                  "compareUrl": "https://github.com/snapcrafters/jenkins/compare/candidate...2.590%2Frev5118%2Farmhf"
                }
             ],
             "commits": null,
@@ -2282,22 +2153,22 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 5116,
-                     "timestamp": 1793972429,
+                     "revision": 5120,
+                     "timestamp": 1794347271,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 5114,
-                     "timestamp": 1793972434,
+                     "revision": 5119,
+                     "timestamp": 1794347276,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 5117,
-                     "timestamp": 1793972439,
+                     "revision": 5118,
+                     "timestamp": 1794347280,
                      "base": "core22"
                   },
                   {
@@ -2310,22 +2181,22 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5116,
-                     "timestamp": 1793966895,
+                     "revision": 5120,
+                     "timestamp": 1794347060,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5114,
-                     "timestamp": 1793650084,
+                     "revision": 5119,
+                     "timestamp": 1794343065,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 5117,
-                     "timestamp": 1793966980,
+                     "revision": 5118,
+                     "timestamp": 1794342997,
                      "base": "core22"
                   },
                   {
@@ -2686,61 +2557,7 @@
                "https://github.com/snapcrafters/mattermost-desktop/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "mattermost-desktop",
-               "url": "https://snapcraft.io/mattermost-desktop",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 853,
-                     "timestamp": 1793656392,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 854,
-                     "timestamp": 1793656396,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 426,
-                     "timestamp": 1657611201,
-                     "base": "core18"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 853,
-                     "timestamp": 1793650888,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 854,
-                     "timestamp": 1793650965,
-                     "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 426,
-                     "timestamp": 1656360600,
-                     "base": "core18"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "mdl",
@@ -4010,8 +3827,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 1722,
-                     "timestamp": 1793649959,
+                     "revision": 1726,
+                     "timestamp": 1794350890,
                      "base": "core24"
                   },
                   {
@@ -4391,6 +4208,14 @@
             "releases": null,
             "tags": [
                {
+                  "name": "2136/rev178/amd64",
+                  "sha": "f296075aa104cab3a983bc52b5e2ca3c4c91d11b",
+                  "body": "<p>fix: disable upstream update checks by default</p>\n\n<p>Set update_check to false in the packaged preferences while preserving\nuser overrides, since updates are managed by the Snap Store.</p>\n\n<p>Closes <a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-merge/pull/47\">#47</a></p>\n",
+                  "timestamp": 1794329360,
+                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2136%2Frev178%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2136%2Frev178%2Famd64"
+               },
+               {
                   "name": "2136/rev177/arm64",
                   "sha": "f296075aa104cab3a983bc52b5e2ca3c4c91d11b",
                   "body": "<p>fix: disable upstream update checks by default</p>\n\n<p>Set update_check to false in the packaged preferences while preserving\nuser overrides, since updates are managed by the Snap Store.</p>\n\n<p>Closes <a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-merge/pull/47\">#47</a></p>\n",
@@ -4405,14 +4230,6 @@
                   "timestamp": 1794256255,
                   "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2136%2Frev174%2Famd64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2136%2Frev174%2Famd64"
-               },
-               {
-                  "name": "2136/rev173/arm64",
-                  "sha": "3d26154fb5291e23fc14c2689bc82ed46592a622",
-                  "body": "<p>chore: bump sublime-merge to version 2136</p>\n",
-                  "timestamp": 1794256255,
-                  "url": "https://github.com/snapcrafters/sublime-merge/releases/tag/2136%2Frev173%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-merge/compare/candidate...2136%2Frev173%2Farm64"
                }
             ],
             "commits": null,
@@ -4429,22 +4246,22 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 174,
-                     "timestamp": 1794296854,
+                     "revision": 178,
+                     "timestamp": 1794347525,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 173,
-                     "timestamp": 1794296857,
+                     "revision": 177,
+                     "timestamp": 1794347527,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 174,
-                     "timestamp": 1794265599,
+                     "revision": 178,
+                     "timestamp": 1794345112,
                      "base": "core24"
                   },
                   {
@@ -4485,29 +4302,29 @@
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 168,
-                     "timestamp": 1794064286,
+                     "revision": 180,
+                     "timestamp": 1794353484,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 169,
-                     "timestamp": 1794064289,
+                     "revision": 179,
+                     "timestamp": 1794353487,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 168,
-                     "timestamp": 1794042592,
+                     "revision": 180,
+                     "timestamp": 1794352908,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 169,
-                     "timestamp": 1794042820,
+                     "revision": 179,
+                     "timestamp": 1794351539,
                      "base": "core24"
                   }
                ],
@@ -4530,28 +4347,28 @@
             "releases": null,
             "tags": [
                {
+                  "name": "4215/rev262/amd64",
+                  "sha": "32e493f1c78f98619d5d491f0800076e1c4049d6",
+                  "body": "<p>fix: disable upstream update checks by default (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-text/pull/118\">#118</a>)</p>\n",
+                  "timestamp": 1794347519,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4215%2Frev262%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4215%2Frev262%2Famd64"
+               },
+               {
+                  "name": "4215/rev261/arm64",
+                  "sha": "32e493f1c78f98619d5d491f0800076e1c4049d6",
+                  "body": "<p>fix: disable upstream update checks by default (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-text/pull/118\">#118</a>)</p>\n",
+                  "timestamp": 1794347519,
+                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4215%2Frev261%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4215%2Frev261%2Farm64"
+               },
+               {
                   "name": "4215/rev256/arm64",
                   "sha": "99d1253f66c82885981c1110a6f2960f74ff935f",
                   "body": "<p>fix: bundle matching GTK input method modules (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-text/pull/113\">#113</a>)</p>\n\n<ul>\n<li>fix: bundle matching GTK input method modules</li>\n<li>chore: remove launcher test harness from PR</li>\n<li>refactor: simplify GTK input module launcher</li>\n<li>perf: reuse GTK input module cache within each revision</li>\n</ul>\n",
                   "timestamp": 1793965656,
                   "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4215%2Frev256%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4215%2Frev256%2Farm64"
-               },
-               {
-                  "name": "4215/rev255/amd64",
-                  "sha": "99d1253f66c82885981c1110a6f2960f74ff935f",
-                  "body": "<p>fix: bundle matching GTK input method modules (<a target=\"_blank\" href=\"https://github.com/snapcrafters/sublime-text/pull/113\">#113</a>)</p>\n\n<ul>\n<li>fix: bundle matching GTK input method modules</li>\n<li>chore: remove launcher test harness from PR</li>\n<li>refactor: simplify GTK input module launcher</li>\n<li>perf: reuse GTK input module cache within each revision</li>\n</ul>\n",
-                  "timestamp": 1793965656,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4215%2Frev255%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4215%2Frev255%2Famd64"
-               },
-               {
-                  "name": "4215/rev252/arm64",
-                  "sha": "709229410f871d1bf13cebe3a0dedb777500c92e",
-                  "body": "<p>chore: bump sublime-text to version 4215</p>\n",
-                  "timestamp": 1790348775,
-                  "url": "https://github.com/snapcrafters/sublime-text/releases/tag/4215%2Frev252%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/sublime-text/compare/candidate...4215%2Frev252%2Farm64"
                }
             ],
             "commits": null,
@@ -4568,29 +4385,29 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 255,
-                     "timestamp": 1794041791,
+                     "revision": 262,
+                     "timestamp": 1794353512,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 256,
-                     "timestamp": 1794041795,
+                     "revision": 261,
+                     "timestamp": 1794353516,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 255,
-                     "timestamp": 1793966963,
+                     "revision": 262,
+                     "timestamp": 1794352728,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 256,
-                     "timestamp": 1793967063,
+                     "revision": 261,
+                     "timestamp": 1794351606,
                      "base": "core24"
                   },
                   {
@@ -4610,29 +4427,29 @@
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 258,
-                     "timestamp": 1794064313,
+                     "revision": 263,
+                     "timestamp": 1794353503,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "stable",
-                     "revision": 259,
-                     "timestamp": 1794064317,
+                     "revision": 260,
+                     "timestamp": 1794353507,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 258,
-                     "timestamp": 1794042583,
+                     "revision": 263,
+                     "timestamp": 1794352769,
                      "base": "core24"
                   },
                   {
                      "track": "dev",
                      "channel": "candidate",
-                     "revision": 259,
-                     "timestamp": 1794042850,
+                     "revision": 260,
+                     "timestamp": 1794351530,
                      "base": "core24"
                   }
                ],
