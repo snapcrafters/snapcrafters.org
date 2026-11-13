@@ -4,10 +4,18 @@
       "repos": [
          {
             "name": "alacritty",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/alacritty",
             "releases": null,
             "tags": [
+               {
+                  "name": "0.17.0/rev185/amd64",
+                  "sha": "8c8da25bb94bd1568631b67b58228f4349dc568a",
+                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/57\">#57</a> from clwsgruk/fix/host-cache-home</p>\n\n<p>fix: restore host cache directory for child applications</p>\n",
+                  "timestamp": 1794520935,
+                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.17.0%2Frev185%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.17.0%2Frev185%2Famd64"
+               },
                {
                   "name": "0.17.0/rev184/armhf",
                   "sha": "52e68c94a1ad11eb68f09bba0b187adbea4f46d0",
@@ -23,14 +31,6 @@
                   "timestamp": 1792594161,
                   "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.17.0%2Frev183%2Fppc64el",
                   "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.17.0%2Frev183%2Fppc64el"
-               },
-               {
-                  "name": "0.17.0/rev182/arm64",
-                  "sha": "52e68c94a1ad11eb68f09bba0b187adbea4f46d0",
-                  "body": "<p>Merge pull request <a target=\"_blank\" href=\"https://github.com/snapcrafters/alacritty/pull/54\">#54</a> from clwsgruk/fix/host-fontconfig</p>\n",
-                  "timestamp": 1792594161,
-                  "url": "https://github.com/snapcrafters/alacritty/releases/tag/0.17.0%2Frev182%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/alacritty/compare/candidate...0.17.0%2Frev182%2Farm64"
                }
             ],
             "commits": null,
@@ -897,7 +897,7 @@
          },
          {
             "name": "helm",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/helm",
             "releases": null,
             "tags": [
@@ -1751,7 +1751,7 @@
          },
          {
             "name": "ruff",
-            "newCommits": 214,
+            "newCommits": 215,
             "url": "https://github.com/snapcrafters/ruff",
             "releases": null,
             "tags": [
@@ -1894,10 +1894,26 @@
          },
          {
             "name": "signal-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/signal-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "8.35.0/rev968/arm64",
+                  "sha": "614b194137ce123896b1085ffbd409074b44e09a",
+                  "body": "<p>chore: bump signal-desktop to version 8.35.0</p>\n",
+                  "timestamp": 1794505615,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.35.0%2Frev968%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.35.0%2Frev968%2Farm64"
+               },
+               {
+                  "name": "8.35.0/rev967/amd64",
+                  "sha": "614b194137ce123896b1085ffbd409074b44e09a",
+                  "body": "<p>chore: bump signal-desktop to version 8.35.0</p>\n",
+                  "timestamp": 1794505615,
+                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.35.0%2Frev967%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.35.0%2Frev967%2Famd64"
+               },
                {
                   "name": "8.34.0/rev966/arm64",
                   "sha": "2e78c30ea691906c91228538969f87df08f4eee3",
@@ -1905,22 +1921,6 @@
                   "timestamp": 1793900654,
                   "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.34.0%2Frev966%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.34.0%2Frev966%2Farm64"
-               },
-               {
-                  "name": "8.34.0/rev965/amd64",
-                  "sha": "2e78c30ea691906c91228538969f87df08f4eee3",
-                  "body": "<p>chore: bump signal-desktop to version 8.34.0</p>\n",
-                  "timestamp": 1793900654,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.34.0%2Frev965%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.34.0%2Frev965%2Famd64"
-               },
-               {
-                  "name": "8.33.0/rev964/arm64",
-                  "sha": "3279a8f234acdb6f551db0a684eb654fbec2d786",
-                  "body": "<p>chore: bump signal-desktop to version 8.33.0</p>\n",
-                  "timestamp": 1793291380,
-                  "url": "https://github.com/snapcrafters/signal-desktop/releases/tag/8.33.0%2Frev964%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/signal-desktop/compare/candidate...8.33.0%2Frev964%2Farm64"
                }
             ],
             "commits": null,
