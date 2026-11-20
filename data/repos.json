@@ -272,41 +272,7 @@
                "https://github.com/snapcrafters/android-studio-canary/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "android-studio-canary",
-               "url": "https://snapcraft.io/android-studio-canary",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 95,
-                     "timestamp": 1794914758,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 95,
-                     "timestamp": 1794866751,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 96,
-                     "timestamp": 1794899915,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate",
-                  "edge"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "arduino",
@@ -449,7 +415,7 @@
          },
          {
             "name": "audacity",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/audacity",
             "releases": null,
             "tags": [
@@ -532,41 +498,27 @@
                      "base": "core24"
                   },
                   {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1241,
-                     "timestamp": 1788689311,
+                     "track": "3",
+                     "channel": "stable",
+                     "revision": 1239,
+                     "timestamp": 1795166515,
                      "base": "core24"
                   },
                   {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1242,
-                     "timestamp": 1788689944,
+                     "track": "3",
+                     "channel": "stable",
+                     "revision": 1240,
+                     "timestamp": 1795166517,
                      "base": "core24"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 1176,
-                     "timestamp": 1676959286,
-                     "base": "core20"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "edge",
-                     "revision": 906,
-                     "timestamp": 1625636983,
-                     "base": "core18"
                   }
                ],
                "channels": [
                   "stable",
-                  "candidate",
-                  "edge"
+                  "candidate"
                ],
                "tracks": [
-                  "latest"
+                  "latest",
+                  "3"
                ]
             }
          },
@@ -1307,22 +1259,22 @@
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 873,
-                     "timestamp": 1791888148,
+                     "revision": 877,
+                     "timestamp": 1795154645,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 871,
-                     "timestamp": 1791884438,
+                     "revision": 879,
+                     "timestamp": 1795154656,
                      "base": "core22"
                   },
                   {
                      "track": "latest",
                      "channel": "edge",
-                     "revision": 872,
-                     "timestamp": 1791884444,
+                     "revision": 878,
+                     "timestamp": 1795154650,
                      "base": "core22"
                   },
                   {
