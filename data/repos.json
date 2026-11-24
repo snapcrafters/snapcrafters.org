@@ -198,7 +198,41 @@
                "https://github.com/snapcrafters/android-studio/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "android-studio",
+               "url": "https://snapcraft.io/android-studio",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 252,
+                     "timestamp": 1795425129,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 252,
+                     "timestamp": 1795201613,
+                     "base": "core22"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "edge",
+                     "revision": 253,
+                     "timestamp": 1795241502,
+                     "base": "core22"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate",
+                  "edge"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "android-studio-canary",
@@ -2051,33 +2085,7 @@
                "https://github.com/snapcrafters/ghvmctl/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": {
-               "name": "ghvmctl",
-               "url": "https://snapcraft.io/ghvmctl",
-               "releases": [
-                  {
-                     "track": "latest",
-                     "channel": "stable",
-                     "revision": 20,
-                     "timestamp": 1792171115,
-                     "base": "core22"
-                  },
-                  {
-                     "track": "latest",
-                     "channel": "candidate",
-                     "revision": 20,
-                     "timestamp": 1792168873,
-                     "base": "core22"
-                  }
-               ],
-               "channels": [
-                  "stable",
-                  "candidate"
-               ],
-               "tracks": [
-                  "latest"
-               ]
-            }
+            "snap": null
          },
          {
             "name": "helm",
@@ -2769,7 +2777,61 @@
                "https://github.com/snapcrafters/mattermost-desktop/actions/workflows/promote-to-stable.yml"
             ],
             "charm": null,
-            "snap": null
+            "snap": {
+               "name": "mattermost-desktop",
+               "url": "https://snapcraft.io/mattermost-desktop",
+               "releases": [
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 855,
+                     "timestamp": 1794929715,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 856,
+                     "timestamp": 1794929719,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "stable",
+                     "revision": 426,
+                     "timestamp": 1657611201,
+                     "base": "core18"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 855,
+                     "timestamp": 1794918990,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 856,
+                     "timestamp": 1794919068,
+                     "base": "core24"
+                  },
+                  {
+                     "track": "latest",
+                     "channel": "candidate",
+                     "revision": 426,
+                     "timestamp": 1656360600,
+                     "base": "core18"
+                  }
+               ],
+               "channels": [
+                  "stable",
+                  "candidate"
+               ],
+               "tracks": [
+                  "latest"
+               ]
+            }
          },
          {
             "name": "mdl",
