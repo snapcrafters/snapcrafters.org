@@ -162,7 +162,7 @@
          },
          {
             "name": "android-studio",
-            "newCommits": 0,
+            "newCommits": 1,
             "url": "https://github.com/snapcrafters/android-studio",
             "releases": null,
             "tags": [
@@ -1760,8 +1760,8 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 206,
-                     "timestamp": 1793925767,
+                     "revision": 212,
+                     "timestamp": 1795600280,
                      "base": "core24"
                   },
                   {
@@ -2767,10 +2767,26 @@
          },
          {
             "name": "mattermost-desktop",
-            "newCommits": 1,
+            "newCommits": 0,
             "url": "https://github.com/snapcrafters/mattermost-desktop",
             "releases": null,
             "tags": [
+               {
+                  "name": "6.4.0/rev858/arm64",
+                  "sha": "ba0c34e8c30fdfd014005ea1e2e983016f2c5e20",
+                  "body": "<p>fix: correct typo in Snap summary (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/186\">#186</a>)</p>\n",
+                  "timestamp": 1795598332,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.4.0%2Frev858%2Farm64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.4.0%2Frev858%2Farm64"
+               },
+               {
+                  "name": "6.4.0/rev857/amd64",
+                  "sha": "ba0c34e8c30fdfd014005ea1e2e983016f2c5e20",
+                  "body": "<p>fix: correct typo in Snap summary (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/186\">#186</a>)</p>\n",
+                  "timestamp": 1795598332,
+                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.4.0%2Frev857%2Famd64",
+                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.4.0%2Frev857%2Famd64"
+               },
                {
                   "name": "6.4.0/rev856/arm64",
                   "sha": "c83c64745a90b4d46c2aa647fa524e15b60b2b4d",
@@ -2778,22 +2794,6 @@
                   "timestamp": 1794916047,
                   "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.4.0%2Frev856%2Farm64",
                   "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.4.0%2Frev856%2Farm64"
-               },
-               {
-                  "name": "6.4.0/rev855/amd64",
-                  "sha": "c83c64745a90b4d46c2aa647fa524e15b60b2b4d",
-                  "body": "<p>fix: use renamed Mattermost 6.4 desktop files (<a target=\"_blank\" href=\"https://github.com/snapcrafters/mattermost-desktop/pull/183\">#183</a>)</p>\n",
-                  "timestamp": 1794916047,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.4.0%2Frev855%2Famd64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.4.0%2Frev855%2Famd64"
-               },
-               {
-                  "name": "6.3.2/rev854/arm64",
-                  "sha": "81155e332124c941bbf7502077750ef2e1cb3da3",
-                  "body": "<p>chore: bump mattermost-desktop to version 6.3.2</p>\n",
-                  "timestamp": 1793649411,
-                  "url": "https://github.com/snapcrafters/mattermost-desktop/releases/tag/6.3.2%2Frev854%2Farm64",
-                  "compareUrl": "https://github.com/snapcrafters/mattermost-desktop/compare/candidate...6.3.2%2Frev854%2Farm64"
                }
             ],
             "commits": null,
@@ -2810,15 +2810,15 @@
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 855,
-                     "timestamp": 1794929715,
+                     "revision": 857,
+                     "timestamp": 1795605392,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "stable",
-                     "revision": 856,
-                     "timestamp": 1794929719,
+                     "revision": 858,
+                     "timestamp": 1795605397,
                      "base": "core24"
                   },
                   {
@@ -2831,15 +2831,15 @@
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 855,
-                     "timestamp": 1794918990,
+                     "revision": 857,
+                     "timestamp": 1795603671,
                      "base": "core24"
                   },
                   {
                      "track": "latest",
                      "channel": "candidate",
-                     "revision": 856,
-                     "timestamp": 1794919068,
+                     "revision": 858,
+                     "timestamp": 1795604178,
                      "base": "core24"
                   },
                   {
